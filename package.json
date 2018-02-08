@@ -1,0 +1,27 @@
+{
+  "name": "vscode-markdown-tm-grammar",
+  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mjbvz/vscode-markdown-tm-grammar.git"
+  },
+  "keywords": [],
+  "author": "Microsoft",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mjbvz/vscode-markdown-tm-grammar/issues"
+  },
+  "homepage": "https://github.com/mjbvz/vscode-markdown-tm-grammar#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-replace": "^0.6.1",
+    "gulp-util": "^3.0.8"
+  }
+}
