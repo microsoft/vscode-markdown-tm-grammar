@@ -5,7 +5,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "gulp"
+    "build": "gulp",
+    "postinstall": "node ./node_modules/vscode/bin/install"
+  },
+  "activationEvents": [],
+  "engines": {
+    "vscode": "^1.20.0"
   },
   "repository": {
     "type": "git",
@@ -13,15 +18,26 @@
   },
   "keywords": [],
   "author": "Microsoft",
+  "publisher": "Microsoft",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/mjbvz/vscode-markdown-tm-grammar/issues"
+  },
+  "contributes": {
+    "grammars": [
+      {
+        "language": "markdown",
+        "scopeName": "text.html.markdown",
+        "path": "./syntaxes/markdown.tmLanguage",
+      }
+    ]
   },
   "homepage": "https://github.com/mjbvz/vscode-markdown-tm-grammar#readme",
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-rename": "^1.2.2",
     "gulp-replace": "^0.6.1",
-    "gulp-util": "^3.0.8"
+    "gulp-util": "^3.0.8",
+    "vscode": "^1.1.10"
   }
 }

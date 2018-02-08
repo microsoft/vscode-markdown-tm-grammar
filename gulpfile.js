@@ -151,7 +151,7 @@ gulp.task('default', function () {
 	gulp.src(['markdown.tmLanguage.base'])
 		.pipe(replace('{{languageIncludes}}', indent(4, fencedCodeBlockIncludes())))
 		.pipe(replace('{{languageDefinitions}}', indent(4, fencedCodeBlockDefinitions())))
-		.pipe(rename('./grammars/markdown.tmLanguage'))
+		.pipe(rename('./syntaxes/markdown.tmLanguage'))
 		.pipe(gulp.dest('.'));
 });
 

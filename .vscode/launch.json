@@ -1,0 +1,19 @@
+{
+    "version": "0.1.0",
+    "configurations": [
+        {
+            "type": "extensionHost",
+            "request": "launch",
+            "name": "VS Code Tokenizer Tests",
+            "runtimeExecutable": "${execPath}",
+            "args": [
+                "${workspaceFolder}/test",
+                "--extensionDevelopmentPath=${workspaceFolder}",
+                "--extensionTestsPath=${workspaceFolder}/test"
+            ],
+            "outFiles": [
+                "${workspaceFolder}/test/*.js"
+            ]
+        }
+    ]
+}
