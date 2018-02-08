@@ -279,7 +279,7 @@ repository:
       italic:
         begin: >
           (?x)
-          \b(\*|_)(?=\S)								# Open
+          (\*\b|\b_)(?=\S)								# Open
             (?=
               (
                 <[^>]*+>							# HTML tags
@@ -321,7 +321,7 @@ repository:
             )
         captures:
           '1': {name: punctuation.definition.italic.markdown}
-        end: (?<=\S)(\1)((?!\1)|(?=\1\1))\b
+        end: (?<=\S)(\1)((?!\1)|(?=\1\1))
         name: markup.italic.markdown
         patterns:
         - applyEndPatternLast: 1
