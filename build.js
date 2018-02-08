@@ -1,9 +1,9 @@
 // @ts-check
 
-var gulp = require('gulp');
-var util = require("gulp-util");
-var replace = require('gulp-replace');
-var rename = require('gulp-rename');
+const fs = require('fs');
+const path = require('path');
+const yaml = require('js-yaml');
+const plist = require('plist');
 
 const languages = [
 	{ name: 'css', language: 'css', identifiers: ['css', 'css.erb'], source: 'source.css' },
@@ -65,80 +65,42 @@ const fencedCodeBlockDefinition = (name, identifiers, sourceScope, language) => 
 	language = language || name
 
 	const scopes = sourceScope.map(scope =>
-		`<dict>
-	<key>include</key>
-	<string>${scope}</string>
-</dict>`).join('\n');
+		`- { include: '${scope}' }`).join('\n');
 
-	return `<key>fenced_code_block_${name}</key>
-<dict>
-	<key>begin</key>
-	<string>(^|\\G)(\\s*)(\`{3,}|~{3,})\\s*(?i:(${identifiers.join('|')})(\\s+[^\`~]*)?$)</string>
-	<key>name</key>
-	<string>markup.fenced_code.block.markdown</string>
-	<key>end</key>
-	<string>(^|\\G)(\\2|\\s{0,3})(\\3)\\s*$</string>
-	<key>beginCaptures</key>
-	<dict>
-		<key>3</key>
-		<dict>
-			<key>name</key>
-			<string>punctuation.definition.markdown</string>
-		</dict>
-		<key>5</key>
-		<dict>
-			<key>name</key>
-			<string>fenced_code.block.language</string>
-		</dict>
-		<key>6</key>
-		<dict>
-			<key>name</key>
-			<string>fenced_code.block.language.attributes</string>
-		</dict>
-	</dict>
-	<key>endCaptures</key>
-	<dict>
-		<key>3</key>
-		<dict>
-			<key>name</key>
-			<string>punctuation.definition.markdown</string>
-		</dict>
-	</dict>
-	<key>patterns</key>
-	<array>
-		<dict>
-			<key>begin</key>
-			<string>(^|\\G)(\\s*)(.*)</string>
-			<key>while</key>
-			<string>(^|\\G)(?!\\s*([\`~]{3,})\\s*$)</string>
-			<key>contentName</key>
-			<string>meta.embedded.block.${language}</string>
-			<key>patterns</key>
-			<array>
+	return `fenced_code_block_${name}:
+  begin:
+    (^|\\G)(\\s*)(\`{3,}|~{3,})\\s*(?i:(${identifiers.join('|')})(\\s+[^\`~]*)?$)
+  name:
+    markup.fenced_code.block.markdown
+  end:
+    (^|\\G)(\\2|\\s{0,3})(\\3)\\s*$
+  beginCaptures:
+    '3': {name: 'punctuation.definition.markdown'}
+    '5': {name: 'fenced_code.block.language'}
+    '6': {name: 'fenced_code.block.language.attributes'}
+  endCaptures:
+    '3': {name: 'punctuation.definition.markdown'}
+  patterns:
+    - begin: (^|\\G)(\\s*)(.*)
+      while: (^|\\G)(?!\\s*([\`~]{3,})\\s*$)
+      contentName: meta.embedded.block.${language}
+      patterns:
 ${indent(4, scopes)}
-			</array>
-		</dict>
-	</array>
-</dict>`;
+`;
 };
 
 const indent = (count, text) => {
-	const indent = new Array(count + 1).join('\t');
+	const indent = new Array(count + 1).join('  ');
 	return text.replace(/^/gm, indent);
 };
 
 const fencedCodeBlockInclude = (name) =>
-	`<dict>
-	<key>include</key>
-	<string>#fenced_code_block_${name}</string>
-</dict>`;
-
+	`- { include: '#fenced_code_block_${name}' }`;
 
 const fencedCodeBlockDefinitions = () =>
 	languages
 		.map(language => fencedCodeBlockDefinition(language.name, language.identifiers, language.source, language.language))
 		.join('\n');
-
 
 
 const fencedCodeBlockIncludes = () =>
@@ -147,18 +109,17 @@ const fencedCodeBlockIncludes = () =>
 		.join('\n');
 
 
-gulp.task('default', function () {
-	gulp.src(['markdown.tmLanguage.base'])
-		.pipe(replace('{{languageIncludes}}', indent(4, fencedCodeBlockIncludes())))
-		.pipe(replace('{{languageDefinitions}}', indent(4, fencedCodeBlockDefinitions())))
-		.pipe(rename('./syntaxes/markdown.tmLanguage'))
-		.pipe(gulp.dest('.'));
-});
+const buildGrammar = () => {
+	let text = fs.readFileSync(path.join(__dirname, 'markdown.tmLanguage.base.yaml'), "utf8");
+	text = text.replace(/\s*\{\{languageIncludes\}\}/, '\n' + indent(2, fencedCodeBlockIncludes()))
+	text = text.replace(/\s*\{\{languageDefinitions\}\}/, '\n' + indent(3, fencedCodeBlockDefinitions()))
+	console.log(text)
+	const grammar = yaml.safeLoad(text);
 
-gulp.task('embedded', function () {
-	const out = {}
-	for (const lang of languages.filter(x => x.language)) {
-		out['meta.embedded.block.' +lang.language] = lang.language;
-	}
-	util.log(JSON.stringify(out, undefined, 4));
-});
+	const out = plist.build(grammar);
+	fs.writeFileSync(path.join(__dirname, 'syntaxes', 'markdown.tmLanguage'), out);
+
+}
+
+
+buildGrammar();

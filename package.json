@@ -5,7 +5,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "gulp",
+    "build": "node build",
     "postinstall": "node ./node_modules/vscode/bin/install",
     "test": "node ./node_modules/vscode/bin/test test"
   },
@@ -35,10 +35,8 @@
   },
   "homepage": "https://github.com/mjbvz/vscode-markdown-tm-grammar#readme",
   "devDependencies": {
-    "gulp": "^3.9.1",
-    "gulp-rename": "^1.2.2",
-    "gulp-replace": "^0.6.1",
-    "gulp-util": "^3.0.8",
+    "js-yaml": "^3.10.0",
+    "plist": "^2.1.0",
     "vscode": "^1.1.10"
   }
 }
