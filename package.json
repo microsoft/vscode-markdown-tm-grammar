@@ -6,7 +6,8 @@
   "main": "index.js",
   "scripts": {
     "build": "gulp",
-    "postinstall": "node ./node_modules/vscode/bin/install"
+    "postinstall": "node ./node_modules/vscode/bin/install",
+    "test": "node ./node_modules/vscode/bin/test test"
   },
   "activationEvents": [],
   "engines": {
@@ -28,7 +29,7 @@
       {
         "language": "markdown",
         "scopeName": "text.html.markdown",
-        "path": "./syntaxes/markdown.tmLanguage",
+        "path": "./syntaxes/markdown.tmLanguage"
       }
     ]
   },

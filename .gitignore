@@ -14,3 +14,4 @@ build/node_modules
 coverage/
 test_data/
 yarn-error.log
+.vscode-test
