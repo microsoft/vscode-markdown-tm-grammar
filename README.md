@@ -3,7 +3,7 @@
 VS Code markdown extension's Textmate grammar.
 
 # Contributing
-The main grammar is stored in `syntaxes/markdown.tmLanguage`. This file is generated from `markdown.tmLanguage.base`:
+The main grammar is stored in `syntaxes/markdown.tmLanguage`. This file is generated from `markdown.tmLanguage.base.yaml`:
 
 ## Building
 To generate the main grammar:
