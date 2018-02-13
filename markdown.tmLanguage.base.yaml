@@ -223,6 +223,7 @@ repository:
         - {include: '#ampersand'}
         - {include: '#bracket'}
         - {include: '#raw'}
+        - {include: '#bold'}
         - {include: '#italic'}
         - {include: '#image-inline'}
         - {include: '#link-inline'}

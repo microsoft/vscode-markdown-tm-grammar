@@ -3145,6 +3145,10 @@
               </dict>
               <dict>
                 <key>include</key>
+                <string>#bold</string>
+              </dict>
+              <dict>
+                <key>include</key>
                 <string>#italic</string>
               </dict>
               <dict>
