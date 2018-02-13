@@ -797,7 +797,7 @@
                   </dict>
                   <dict>
                     <key>include</key>
-                    <string>text.html.php#language</string>
+                    <string>source.php</string>
                   </dict>
                 </array>
               </dict>
