@@ -2826,16 +2826,16 @@
             </dict>
             <key>match</key>
             <string>^(?x:
-  \s*						# Leading whitespace
-  (\[)(.+?)(\])(:)		# Reference name
-  [ \t]*					# Optional whitespace
-  (&lt;?)(\S+?)(&gt;?)			# The url
-  [ \t]*					# Optional whitespace
+  \s*            # Leading whitespace
+  (\[)(.+?)(\])(:)    # Reference name
+  [ \t]*          # Optional whitespace
+  (&lt;?)(\S+?)(&gt;?)      # The url
+  [ \t]*          # Optional whitespace
   (?:
-      ((\().+?(\)))		# Match title in quotes…
-    | ((").+?("))		# or in parens.
-  )?						# Title is optional
-  \s*						# Optional whitespace
+      ((\().+?(\)))    # Match title in quotes…
+    | ((").+?("))    # or in parens.
+  )?            # Title is optional
+  \s*            # Optional whitespace
   $
 )
 </string>
@@ -3058,32 +3058,32 @@
           <dict>
             <key>begin</key>
             <string>(?x)
- (\*\*|__)(?=\S)								# Open
+ (\*\*|__)(?=\S)                # Open
  (?=
    (
-     &lt;[^&gt;]*+&gt;							# HTML tags
+     &lt;[^&gt;]*+&gt;              # HTML tags
      | (?&lt;raw&gt;`+)([^`]|(?!(?&lt;!`)\k&lt;raw&gt;(?!`))`)*+\k&lt;raw&gt;
                        # Raw
-     | \\[\\`*_{}\[\]()#.!+\-&gt;]?+			# Escapes
+     | \\[\\`*_{}\[\]()#.!+\-&gt;]?+      # Escapes
      | \[
      (
-         (?&lt;square&gt;					# Named group
-           [^\[\]\\]				# Match most chars
-           | \\.						# Escaped chars
-           | \[ \g&lt;square&gt;*+ \]		# Nested brackets
+         (?&lt;square&gt;          # Named group
+           [^\[\]\\]        # Match most chars
+           | \\.            # Escaped chars
+           | \[ \g&lt;square&gt;*+ \]    # Nested brackets
          )*+
        \]
        (
-         (							# Reference Link
-           [ ]?					# Optional space
-           \[[^\]]*+\]				# Ref name
+         (              # Reference Link
+           [ ]?          # Optional space
+           \[[^\]]*+\]        # Ref name
          )
-         | (							# Inline Link
-           \(						# Opening paren
-             [ \t]*+				# Optional whitespace
-             &lt;?(.*?)&gt;?			# URL
-             [ \t]*+				# Optional whitespace
-             (					# Optional Title
+         | (              # Inline Link
+           \(            # Opening paren
+             [ \t]*+        # Optional whitespace
+             &lt;?(.*?)&gt;?      # URL
+             [ \t]*+        # Optional whitespace
+             (          # Optional Title
                (?&lt;title&gt;['"])
                (.*?)
                \k&lt;title&gt;
@@ -3092,10 +3092,10 @@
          )
        )
      )
-     | (?!(?&lt;=\S)\1).						# Everything besides
+     | (?!(?&lt;=\S)\1).            # Everything besides
                        # style closer
    )++
-   (?&lt;=\S)\1								# Close
+   (?&lt;=\S)\1                # Close
  )
 </string>
             <key>captures</key>
@@ -3276,14 +3276,14 @@
             <string>(?x:
   (\!\[)((?&lt;square&gt;[^\[\]\\]|\\.|\[\g&lt;square&gt;*+\])*+)(\])
                 # Match the link text.
-  (\()						# Opening paren for url
-    (&lt;?)(\S+?)(&gt;?)			# The url
-    [ \t]*					# Optional whitespace
+  (\()            # Opening paren for url
+    (&lt;?)(\S+?)(&gt;?)      # The url
+    [ \t]*          # Optional whitespace
     (?:
-        ((\().+?(\)))		# Match title in parens…
-      | ((").+?("))		# or in quotes.
-    )?						# Title is optional
-    \s*						# Optional whitespace
+        ((\().+?(\)))    # Match title in parens…
+      | ((").+?("))    # or in quotes.
+    )?            # Title is optional
+    \s*            # Optional whitespace
   (\))
 )
 </string>
@@ -3333,32 +3333,32 @@
           <key>italic</key>
           <dict>
             <key>begin</key>
-            <string>(?x) (\*\b|\b_)(?=\S)								# Open
+            <string>(?x) (\*\b|\b_)(?=\S)                # Open
   (?=
     (
-      &lt;[^&gt;]*+&gt;							# HTML tags
+      &lt;[^&gt;]*+&gt;              # HTML tags
       | (?&lt;raw&gt;`+)([^`]|(?!(?&lt;!`)\k&lt;raw&gt;(?!`))`)*+\k&lt;raw&gt;
                         # Raw
-      | \\[\\`*_{}\[\]()#.!+\-&gt;]?+			# Escapes
+      | \\[\\`*_{}\[\]()#.!+\-&gt;]?+      # Escapes
       | \[
       (
-          (?&lt;square&gt;					# Named group
-            [^\[\]\\]				# Match most chars
-            | \\.						# Escaped chars
-            | \[ \g&lt;square&gt;*+ \]		# Nested brackets
+          (?&lt;square&gt;          # Named group
+            [^\[\]\\]        # Match most chars
+            | \\.            # Escaped chars
+            | \[ \g&lt;square&gt;*+ \]    # Nested brackets
           )*+
         \]
         (
-          (							# Reference Link
-            [ ]?					# Optional space
-            \[[^\]]*+\]				# Ref name
+          (              # Reference Link
+            [ ]?          # Optional space
+            \[[^\]]*+\]        # Ref name
           )
-          | (							# Inline Link
-            \(						# Opening paren
-              [ \t]*+				# Optional whtiespace
-              &lt;?(.*?)&gt;?			# URL
-              [ \t]*+				# Optional whtiespace
-              (					# Optional Title
+          | (              # Inline Link
+            \(            # Opening paren
+              [ \t]*+        # Optional whtiespace
+              &lt;?(.*?)&gt;?      # URL
+              [ \t]*+        # Optional whtiespace
+              (          # Optional Title
                 (?&lt;title&gt;['"])
                 (.*?)
                 \k&lt;title&gt;
@@ -3367,11 +3367,11 @@
           )
         )
       )
-      | \1\1								# Must be bold closer
-      | (?!(?&lt;=\S)\1).						# Everything besides
+      | \1\1                # Must be bold closer
+      | (?!(?&lt;=\S)\1).            # Everything besides
                         # style closer
     )++
-    (?&lt;=\S)\1								# Close
+    (?&lt;=\S)\1                # Close
   )
 </string>
             <key>captures</key>
@@ -3582,14 +3582,14 @@
             <string>(?x:
     (\[)((?&lt;square&gt;[^\[\]\\]|\\.|\[\g&lt;square&gt;*+\])*+)(\])
                   # Match the link text.
-    (\()						# Opening paren for url
-      (&lt;?)(.*?)(&gt;?)			# The url
-      [ \t]*					# Optional whitespace
+    (\()            # Opening paren for url
+      (&lt;?)(.*?)(&gt;?)      # The url
+      [ \t]*          # Optional whitespace
       (?:
-          ((\().+?(\)))		# Match title in parens…
-        | ((").+?("))		# or in quotes.
-      )?						# Title is optional
-      \s*						# Optional whitespace
+          ((\().+?(\)))    # Match title in parens…
+        | ((").+?("))    # or in quotes.
+      )?            # Title is optional
+      \s*            # Optional whitespace
     (\))
   )
 </string>
