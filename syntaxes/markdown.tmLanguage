@@ -2825,7 +2825,7 @@
               </dict>
             </dict>
             <key>match</key>
-            <string>^(?x:
+            <string>(?x)
   \s*            # Leading whitespace
   (\[)(.+?)(\])(:)    # Reference name
   [ \t]*          # Optional whitespace
@@ -2837,7 +2837,6 @@
   )?            # Title is optional
   \s*            # Optional whitespace
   $
-)
 </string>
             <key>name</key>
             <string>meta.link.reference.def.markdown</string>
@@ -3273,7 +3272,7 @@
               </dict>
             </dict>
             <key>match</key>
-            <string>(?x:
+            <string>(?x)
   (\!\[)((?&lt;square&gt;[^\[\]\\]|\\.|\[\g&lt;square&gt;*+\])*+)(\])
                 # Match the link text.
   (\()            # Opening paren for url
@@ -3285,7 +3284,6 @@
     )?            # Title is optional
     \s*            # Optional whitespace
   (\))
-)
 </string>
             <key>name</key>
             <string>meta.image.inline.markdown</string>
@@ -3579,19 +3577,18 @@
               </dict>
             </dict>
             <key>match</key>
-            <string>(?x:
-    (\[)((?&lt;square&gt;[^\[\]\\]|\\.|\[\g&lt;square&gt;*+\])*+)(\])
-                  # Match the link text.
-    (\()            # Opening paren for url
-      (&lt;?)(.*?)(&gt;?)      # The url
-      [ \t]*          # Optional whitespace
-      (?:
-          ((\().+?(\)))    # Match title in parens…
-        | ((").+?("))    # or in quotes.
-      )?            # Title is optional
-      \s*            # Optional whitespace
-    (\))
-  )
+            <string>(?x)
+  (\[)((?&lt;square&gt;[^\[\]\\]|\\.|\[\g&lt;square&gt;*+\])*+)(\])
+                # Match the link text.
+  (\()            # Opening paren for url
+    (&lt;?)(.*?)(&gt;?)      # The url
+    [ \t]*          # Optional whitespace
+    (?:
+        ((\().+?(\)))    # Match title in parens…
+      | ((").+?("))    # or in quotes.
+    )?            # Title is optional
+    \s*            # Optional whitespace
+  (\))
 </string>
             <key>name</key>
             <string>meta.link.inline.markdown</string>

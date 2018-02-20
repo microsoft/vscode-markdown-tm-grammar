@@ -88,7 +88,7 @@ repository:
           '8': {name: string.other.link.description.title.markdown}
           '9': {name: punctuation.definition.string.begin.markdown}
         match: >
-          ^(?x:
+          (?x)
             \s*            # Leading whitespace
             (\[)(.+?)(\])(:)    # Reference name
             [ \t]*          # Optional whitespace
@@ -100,7 +100,6 @@ repository:
             )?            # Title is optional
             \s*            # Optional whitespace
             $
-          )
         name: meta.link.reference.def.markdown
       list_paragraph:
         begin: (^|\G)(?=\S)(?![*+->]\s|[0-9]+\.\s)
@@ -254,7 +253,7 @@ repository:
           '8': {name: punctuation.definition.link.markdown}
           '9': {name: string.other.link.description.title.markdown}
         match: >
-          (?x:
+          (?x)
             (\!\[)((?<square>[^\[\]\\]|\\.|\[\g<square>*+\])*+)(\])
                           # Match the link text.
             (\()            # Opening paren for url
@@ -266,7 +265,6 @@ repository:
               )?            # Title is optional
               \s*            # Optional whitespace
             (\))
-          )
         name: meta.image.inline.markdown
       image-ref:
         captures:
@@ -360,12 +358,6 @@ repository:
       link-inline:
         captures:
           '1': {name: punctuation.definition.string.begin.markdown}
-          '10': {name: punctuation.definition.string.begin.markdown}
-          '11': {name: punctuation.definition.string.end.markdown}
-          '12': {name: string.other.link.description.title.markdown}
-          '13': {name: punctuation.definition.string.begin.markdown}
-          '14': {name: punctuation.definition.string.end.markdown}
-          '15': {name: punctuation.definition.metadata.markdown}
           '2': {name: string.other.link.title.markdown}
           '4': {name: punctuation.definition.string.end.markdown}
           '5': {name: punctuation.definition.metadata.markdown}
@@ -373,20 +365,25 @@ repository:
           '7': {name: markup.underline.link.markdown}
           '8': {name: punctuation.definition.link.markdown}
           '9': {name: string.other.link.description.title.markdown}
+          '10': {name: punctuation.definition.string.begin.markdown}
+          '11': {name: punctuation.definition.string.end.markdown}
+          '12': {name: string.other.link.description.title.markdown}
+          '13': {name: punctuation.definition.string.begin.markdown}
+          '14': {name: punctuation.definition.string.end.markdown}
+          '15': {name: punctuation.definition.metadata.markdown}
         match: >
-          (?x:
-              (\[)((?<square>[^\[\]\\]|\\.|\[\g<square>*+\])*+)(\])
-                            # Match the link text.
-              (\()            # Opening paren for url
-                (<?)(.*?)(>?)      # The url
-                [ \t]*          # Optional whitespace
-                (?:
-                    ((\().+?(\)))    # Match title in parens…
-                  | ((").+?("))    # or in quotes.
-                )?            # Title is optional
-                \s*            # Optional whitespace
-              (\))
-            )
+          (?x)
+            (\[)((?<square>[^\[\]\\]|\\.|\[\g<square>*+\])*+)(\])
+                          # Match the link text.
+            (\()            # Opening paren for url
+              (<?)(.*?)(>?)      # The url
+              [ \t]*          # Optional whitespace
+              (?:
+                  ((\().+?(\)))    # Match title in parens…
+                | ((").+?("))    # or in quotes.
+              )?            # Title is optional
+              \s*            # Optional whitespace
+            (\))
         name: meta.link.inline.markdown
       link-ref:
         captures:
