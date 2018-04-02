@@ -3057,7 +3057,7 @@
           <dict>
             <key>begin</key>
             <string>(?x)
- (\*\*|__)(?=\S)                # Open
+ ((?&lt;!\w)\*\*\b|\b__)(?=\S)                # Open
  (?=
    (
      &lt;[^&gt;]*+&gt;              # HTML tags

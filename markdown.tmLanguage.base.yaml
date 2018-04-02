@@ -169,7 +169,7 @@ repository:
       bold:
         begin: >
            (?x)
-            (\*\*|__)(?=\S)                # Open
+            ((?<!\w)\*\*\b|\b__)(?=\S)                # Open
             (?=
               (
                 <[^>]*+>              # HTML tags
