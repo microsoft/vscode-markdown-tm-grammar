@@ -3510,7 +3510,7 @@
       | (?!(?&lt;=\S)\1).            # Everything besides
                         # style closer
     )++
-    (?&lt;=\S)\1                # Close
+    (?&lt;=\w)\1                # Close
   )
 </string>
             <key>captures</key>

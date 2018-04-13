@@ -352,7 +352,7 @@ repository:
                 | (?!(?<=\S)\1).            # Everything besides
                                   # style closer
               )++
-              (?<=\S)\1                # Close
+              (?<=\w)\1                # Close
             )
         captures:
           '1': {name: punctuation.definition.italic.markdown}
