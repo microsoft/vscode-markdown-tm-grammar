@@ -1,0 +1,200 @@
+[
+	{
+		"c": "Hello ",
+		"t": "text.html.markdown meta.paragraph.markdown",
+		"r": {
+			"dark_plus": "default: #D4D4D4",
+			"light_plus": "default: #000000",
+			"dark_vs": "default: #D4D4D4",
+			"light_vs": "default: #000000",
+			"hc_black": "default: #FFFFFF"
+		}
+	},
+	{
+		"c": "**",
+		"t": "text.html.markdown meta.paragraph.markdown markup.bold.markdown punctuation.definition.bold.markdown",
+		"r": {
+			"dark_plus": "markup.bold: #569CD6",
+			"light_plus": "markup.bold: #000080",
+			"dark_vs": "markup.bold: #569CD6",
+			"light_vs": "markup.bold: #000080",
+			"hc_black": "default: #FFFFFF"
+		}
+	},
+	{
+		"c": "foor",
+		"t": "text.html.markdown meta.paragraph.markdown markup.bold.markdown",
+		"r": {
+			"dark_plus": "markup.bold: #569CD6",
+			"light_plus": "markup.bold: #000080",
+			"dark_vs": "markup.bold: #569CD6",
+			"light_vs": "markup.bold: #000080",
+			"hc_black": "default: #FFFFFF"
+		}
+	},
+	{
+		"c": "**",
+		"t": "text.html.markdown meta.paragraph.markdown markup.bold.markdown punctuation.definition.bold.markdown",
+		"r": {
+			"dark_plus": "markup.bold: #569CD6",
+			"light_plus": "markup.bold: #000080",
+			"dark_vs": "markup.bold: #569CD6",
+			"light_vs": "markup.bold: #000080",
+			"hc_black": "default: #FFFFFF"
+		}
+	},
+	{
+		"c": " and ",
+		"t": "text.html.markdown meta.paragraph.markdown",
+		"r": {
+			"dark_plus": "default: #D4D4D4",
+			"light_plus": "default: #000000",
+			"dark_vs": "default: #D4D4D4",
+			"light_vs": "default: #000000",
+			"hc_black": "default: #FFFFFF"
+		}
+	},
+	{
+		"c": "**",
+		"t": "text.html.markdown meta.paragraph.markdown markup.bold.markdown punctuation.definition.bold.markdown",
+		"r": {
+			"dark_plus": "markup.bold: #569CD6",
+			"light_plus": "markup.bold: #000080",
+			"dark_vs": "markup.bold: #569CD6",
+			"light_vs": "markup.bold: #000080",
+			"hc_black": "default: #FFFFFF"
+		}
+	},
+	{
+		"c": "bar",
+		"t": "text.html.markdown meta.paragraph.markdown markup.bold.markdown",
+		"r": {
+			"dark_plus": "markup.bold: #569CD6",
+			"light_plus": "markup.bold: #000080",
+			"dark_vs": "markup.bold: #569CD6",
+			"light_vs": "markup.bold: #000080",
+			"hc_black": "default: #FFFFFF"
+		}
+	},
+	{
+		"c": "**",
+		"t": "text.html.markdown meta.paragraph.markdown markup.bold.markdown punctuation.definition.bold.markdown",
+		"r": {
+			"dark_plus": "markup.bold: #569CD6",
+			"light_plus": "markup.bold: #000080",
+			"dark_vs": "markup.bold: #569CD6",
+			"light_vs": "markup.bold: #000080",
+			"hc_black": "default: #FFFFFF"
+		}
+	},
+	{
+		"c": ", how are you ?",
+		"t": "text.html.markdown meta.paragraph.markdown",
+		"r": {
+			"dark_plus": "default: #D4D4D4",
+			"light_plus": "default: #000000",
+			"dark_vs": "default: #D4D4D4",
+			"light_vs": "default: #000000",
+			"hc_black": "default: #FFFFFF"
+		}
+	},
+	{
+		"c": ".",
+		"t": "text.html.markdown meta.paragraph.markdown",
+		"r": {
+			"dark_plus": "default: #D4D4D4",
+			"light_plus": "default: #000000",
+			"dark_vs": "default: #D4D4D4",
+			"light_vs": "default: #000000",
+			"hc_black": "default: #FFFFFF"
+		}
+	},
+	{
+		"c": "**",
+		"t": "text.html.markdown meta.paragraph.markdown markup.bold.markdown punctuation.definition.bold.markdown",
+		"r": {
+			"dark_plus": "markup.bold: #569CD6",
+			"light_plus": "markup.bold: #000080",
+			"dark_vs": "markup.bold: #569CD6",
+			"light_vs": "markup.bold: #000080",
+			"hc_black": "default: #FFFFFF"
+		}
+	},
+	{
+		"c": "a_b",
+		"t": "text.html.markdown meta.paragraph.markdown markup.bold.markdown",
+		"r": {
+			"dark_plus": "markup.bold: #569CD6",
+			"light_plus": "markup.bold: #000080",
+			"dark_vs": "markup.bold: #569CD6",
+			"light_vs": "markup.bold: #000080",
+			"hc_black": "default: #FFFFFF"
+		}
+	},
+	{
+		"c": "**",
+		"t": "text.html.markdown meta.paragraph.markdown markup.bold.markdown punctuation.definition.bold.markdown",
+		"r": {
+			"dark_plus": "markup.bold: #569CD6",
+			"light_plus": "markup.bold: #000080",
+			"dark_vs": "markup.bold: #569CD6",
+			"light_vs": "markup.bold: #000080",
+			"hc_black": "default: #FFFFFF"
+		}
+	},
+	{
+		"c": " c ",
+		"t": "text.html.markdown meta.paragraph.markdown",
+		"r": {
+			"dark_plus": "default: #D4D4D4",
+			"light_plus": "default: #000000",
+			"dark_vs": "default: #D4D4D4",
+			"light_vs": "default: #000000",
+			"hc_black": "default: #FFFFFF"
+		}
+	},
+	{
+		"c": "**",
+		"t": "text.html.markdown meta.paragraph.markdown markup.bold.markdown punctuation.definition.bold.markdown",
+		"r": {
+			"dark_plus": "markup.bold: #569CD6",
+			"light_plus": "markup.bold: #000080",
+			"dark_vs": "markup.bold: #569CD6",
+			"light_vs": "markup.bold: #000080",
+			"hc_black": "default: #FFFFFF"
+		}
+	},
+	{
+		"c": "d_e",
+		"t": "text.html.markdown meta.paragraph.markdown markup.bold.markdown",
+		"r": {
+			"dark_plus": "markup.bold: #569CD6",
+			"light_plus": "markup.bold: #000080",
+			"dark_vs": "markup.bold: #569CD6",
+			"light_vs": "markup.bold: #000080",
+			"hc_black": "default: #FFFFFF"
+		}
+	},
+	{
+		"c": "**",
+		"t": "text.html.markdown meta.paragraph.markdown markup.bold.markdown punctuation.definition.bold.markdown",
+		"r": {
+			"dark_plus": "markup.bold: #569CD6",
+			"light_plus": "markup.bold: #000080",
+			"dark_vs": "markup.bold: #569CD6",
+			"light_vs": "markup.bold: #000080",
+			"hc_black": "default: #FFFFFF"
+		}
+	},
+	{
+		"c": " f",
+		"t": "text.html.markdown meta.paragraph.markdown",
+		"r": {
+			"dark_plus": "default: #D4D4D4",
+			"light_plus": "default: #000000",
+			"dark_vs": "default: #D4D4D4",
+			"light_vs": "default: #000000",
+			"hc_black": "default: #FFFFFF"
+		}
+	}
+]

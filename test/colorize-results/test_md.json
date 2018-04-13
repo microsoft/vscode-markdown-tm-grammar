@@ -2244,7 +2244,7 @@
 		}
 	},
 	{
-		"c": "|  Cell  |  Cell  |   $10  |",
+		"c": "|  Cell  |  Cell  |",
 		"t": "text.html.markdown meta.paragraph.markdown",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
@@ -2255,13 +2255,57 @@
 		}
 	},
 	{
-		"c": "|  Cell  |  Cell  |   $20  |",
+		"c": "   $",
+		"t": "text.html.markdown meta.paragraph.markdown inline-dollars",
+		"r": {
+			"dark_plus": "default: #D4D4D4",
+			"light_plus": "default: #000000",
+			"dark_vs": "default: #D4D4D4",
+			"light_vs": "default: #000000",
+			"hc_black": "default: #FFFFFF"
+		}
+	},
+	{
+		"c": "10  |",
+		"t": "text.html.markdown meta.paragraph.markdown inline-dollars markup.inline.raw",
+		"r": {
+			"dark_plus": "markup.inline.raw: #CE9178",
+			"light_plus": "markup.inline.raw: #800000",
+			"dark_vs": "markup.inline.raw: #CE9178",
+			"light_vs": "markup.inline.raw: #800000",
+			"hc_black": "default: #FFFFFF"
+		}
+	},
+	{
+		"c": "|  Cell  |  Cell  |",
 		"t": "text.html.markdown meta.paragraph.markdown",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
 			"dark_vs": "default: #D4D4D4",
 			"light_vs": "default: #000000",
+			"hc_black": "default: #FFFFFF"
+		}
+	},
+	{
+		"c": "   $",
+		"t": "text.html.markdown meta.paragraph.markdown inline-dollars",
+		"r": {
+			"dark_plus": "default: #D4D4D4",
+			"light_plus": "default: #000000",
+			"dark_vs": "default: #D4D4D4",
+			"light_vs": "default: #000000",
+			"hc_black": "default: #FFFFFF"
+		}
+	},
+	{
+		"c": "20  |",
+		"t": "text.html.markdown meta.paragraph.markdown inline-dollars markup.inline.raw",
+		"r": {
+			"dark_plus": "markup.inline.raw: #CE9178",
+			"light_plus": "markup.inline.raw: #800000",
+			"dark_vs": "markup.inline.raw: #CE9178",
+			"light_vs": "markup.inline.raw: #800000",
 			"hc_black": "default: #FFFFFF"
 		}
 	},
@@ -2387,7 +2431,7 @@
 		}
 	},
 	{
-		"c": ": $ 1.25",
+		"c": ":",
 		"t": "text.html.markdown meta.paragraph.markdown",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
@@ -2398,13 +2442,57 @@
 		}
 	},
 	{
-		"c": ": $ 1.55 (Large)",
+		"c": " $",
+		"t": "text.html.markdown meta.paragraph.markdown inline-dollars",
+		"r": {
+			"dark_plus": "default: #D4D4D4",
+			"light_plus": "default: #000000",
+			"dark_vs": "default: #D4D4D4",
+			"light_vs": "default: #000000",
+			"hc_black": "default: #FFFFFF"
+		}
+	},
+	{
+		"c": " 1.25",
+		"t": "text.html.markdown meta.paragraph.markdown inline-dollars markup.inline.raw",
+		"r": {
+			"dark_plus": "markup.inline.raw: #CE9178",
+			"light_plus": "markup.inline.raw: #800000",
+			"dark_vs": "markup.inline.raw: #CE9178",
+			"light_vs": "markup.inline.raw: #800000",
+			"hc_black": "default: #FFFFFF"
+		}
+	},
+	{
+		"c": ":",
 		"t": "text.html.markdown meta.paragraph.markdown",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
 			"dark_vs": "default: #D4D4D4",
 			"light_vs": "default: #000000",
+			"hc_black": "default: #FFFFFF"
+		}
+	},
+	{
+		"c": " $",
+		"t": "text.html.markdown meta.paragraph.markdown inline-dollars",
+		"r": {
+			"dark_plus": "default: #D4D4D4",
+			"light_plus": "default: #000000",
+			"dark_vs": "default: #D4D4D4",
+			"light_vs": "default: #000000",
+			"hc_black": "default: #FFFFFF"
+		}
+	},
+	{
+		"c": " 1.55 (Large)",
+		"t": "text.html.markdown meta.paragraph.markdown inline-dollars markup.inline.raw",
+		"r": {
+			"dark_plus": "markup.inline.raw: #CE9178",
+			"light_plus": "markup.inline.raw: #800000",
+			"dark_vs": "markup.inline.raw: #CE9178",
+			"light_vs": "markup.inline.raw: #800000",
 			"hc_black": "default: #FFFFFF"
 		}
 	},
@@ -2431,13 +2519,35 @@
 		}
 	},
 	{
-		"c": ": $ 1.75",
+		"c": ":",
 		"t": "text.html.markdown meta.paragraph.markdown",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
 			"dark_vs": "default: #D4D4D4",
 			"light_vs": "default: #000000",
+			"hc_black": "default: #FFFFFF"
+		}
+	},
+	{
+		"c": " $",
+		"t": "text.html.markdown meta.paragraph.markdown inline-dollars",
+		"r": {
+			"dark_plus": "default: #D4D4D4",
+			"light_plus": "default: #000000",
+			"dark_vs": "default: #D4D4D4",
+			"light_vs": "default: #000000",
+			"hc_black": "default: #FFFFFF"
+		}
+	},
+	{
+		"c": " 1.75",
+		"t": "text.html.markdown meta.paragraph.markdown inline-dollars markup.inline.raw",
+		"r": {
+			"dark_plus": "markup.inline.raw: #CE9178",
+			"light_plus": "markup.inline.raw: #800000",
+			"dark_vs": "markup.inline.raw: #CE9178",
+			"light_vs": "markup.inline.raw: #800000",
 			"hc_black": "default: #FFFFFF"
 		}
 	},
