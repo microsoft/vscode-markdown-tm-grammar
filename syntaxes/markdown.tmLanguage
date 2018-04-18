@@ -3235,7 +3235,7 @@
      | (?!(?&lt;=\S)\1).            # Everything besides
                        # style closer
    )++
-   (?&lt;=\S)\1                # Close
+   (?&lt;=\S)(?=__\b|\*\*)\1                # Close
  )
 </string>
             <key>captures</key>
@@ -3510,7 +3510,7 @@
       | (?!(?&lt;=\S)\1).            # Everything besides
                         # style closer
     )++
-    (?&lt;=\w)\1                # Close
+    (?&lt;=\S)(?=_\b|\*)\1                # Close
   )
 </string>
             <key>captures</key>

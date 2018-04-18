@@ -241,7 +241,7 @@ repository:
                 | (?!(?<=\S)\1).            # Everything besides
                                   # style closer
               )++
-              (?<=\S)\1                # Close
+              (?<=\S)(?=__\b|\*\*)\1                # Close
             )
         captures:
           '1': {name: punctuation.definition.bold.markdown}
@@ -352,7 +352,7 @@ repository:
                 | (?!(?<=\S)\1).            # Everything besides
                                   # style closer
               )++
-              (?<=\w)\1                # Close
+              (?<=\S)(?=_\b|\*)\1                # Close
             )
         captures:
           '1': {name: punctuation.definition.italic.markdown}
