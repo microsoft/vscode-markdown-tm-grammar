@@ -55,6 +55,7 @@ const languages = [
 	{ name: 'tsx', language: 'typescriptreact', identifiers: ['tsx'], source: 'source.tsx' },
 	{ name: 'csharp', language: 'csharp', identifiers: ['cs', 'csharp', 'c#'], source: 'source.cs' },
 	{ name: 'fsharp', language: 'fsharp', identifiers: ['fs', 'fsharp', 'f#'], source: 'source.fsharp' },
+	{ name: 'dart', language: 'dart', identifiers: ['dart'], source: 'source.dart' },
 ];
 
 const fencedCodeBlockDefinition = (name, identifiers, sourceScope, language) => {
