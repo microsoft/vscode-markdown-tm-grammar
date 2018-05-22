@@ -152,7 +152,7 @@
           </dict>
           <dict>
             <key>include</key>
-            <string>#fenced_code_block_jade</string>
+            <string>#fenced_code_block_pug</string>
           </dict>
           <dict>
             <key>include</key>
@@ -1655,7 +1655,7 @@
               </dict>
             </array>
           </dict>
-          <key>fenced_code_block_jade</key>
+          <key>fenced_code_block_pug</key>
           <dict>
             <key>begin</key>
             <string>(^|\G)(\s*)(`{3,}|~{3,})\s*(?i:(jade|pug)(\s+[^`~]*)?$)</string>
@@ -1697,12 +1697,12 @@
                 <key>while</key>
                 <string>(^|\G)(?!\s*([`~]{3,})\s*$)</string>
                 <key>contentName</key>
-                <string>meta.embedded.block.jade</string>
+                <string>meta.embedded.block.pug</string>
                 <key>patterns</key>
                 <array>
                   <dict>
                     <key>include</key>
-                    <string>text.jade</string>
+                    <string>text.pug</string>
                   </dict>
                 </array>
               </dict>
