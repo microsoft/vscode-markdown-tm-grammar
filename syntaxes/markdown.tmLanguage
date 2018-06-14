@@ -3161,7 +3161,7 @@
           <key>separator</key>
           <dict>
             <key>match</key>
-            <string>(^|\G)[ ]{0,3}([*-_])([ ]{0,2}\2){2,}[ \t]*$\n?</string>
+            <string>(^|\G)[ ]{0,3}([\*\-\_])([ ]{0,2}\2){2,}[ \t]*$\n?</string>
             <key>name</key>
             <string>meta.separator.markdown</string>
           </dict>
