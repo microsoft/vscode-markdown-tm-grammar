@@ -1119,7 +1119,7 @@
                 <array>
                   <dict>
                     <key>include</key>
-                    <string>source.dosbatch</string>
+                    <string>source.batchfile</string>
                   </dict>
                 </array>
               </dict>
