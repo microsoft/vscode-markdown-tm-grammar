@@ -2713,7 +2713,7 @@
                 <array>
                   <dict>
                     <key>include</key>
-                    <string>source.handlebars</string>
+                    <string>text.html.handlebars</string>
                   </dict>
                 </array>
               </dict>
