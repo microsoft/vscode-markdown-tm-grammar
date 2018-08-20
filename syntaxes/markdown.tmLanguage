@@ -3312,7 +3312,7 @@
           <dict>
             <key>begin</key>
             <string>(?x)
- (\*\*\b|(?&lt;!\w)\b__)(?=\S)                # Open
+ (\*\*(?=\w)|(?&lt;!\w)\*\*|(?&lt;!\w)\b__)(?=\S)                # Open
  (?=
    (
      &lt;[^&gt;]*+&gt;              # HTML tags
@@ -3586,7 +3586,7 @@
           <key>italic</key>
           <dict>
             <key>begin</key>
-            <string>(?x) (\*\b|(?&lt;!\w)\b_)(?=\S)                # Open
+            <string>(?x) (\*(?=\w)|(?&lt;!\w)\*|(?&lt;!\w)\b_)(?=\S)                # Open
   (?=
     (
       &lt;[^&gt;]*+&gt;              # HTML tags

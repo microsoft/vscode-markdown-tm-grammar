@@ -204,7 +204,7 @@ repository:
       bold:
         begin: >
            (?x)
-            (\*\*\b|(?<!\w)\b__)(?=\S)                # Open
+            (\*\*(?=\w)|(?<!\w)\*\*|(?<!\w)\b__)(?=\S)                # Open
             (?=
               (
                 <[^>]*+>              # HTML tags
@@ -314,7 +314,7 @@ repository:
       italic:
         begin: >
           (?x)
-          (\*\b|(?<!\w)\b_)(?=\S)                # Open
+          (\*(?=\w)|(?<!\w)\*|(?<!\w)\b_)(?=\S)                # Open
             (?=
               (
                 <[^>]*+>              # HTML tags
