@@ -262,7 +262,7 @@
               <key>2</key>
               <dict>
                 <key>name</key>
-                <string>beginning.punctuation.definition.quote.markdown</string>
+                <string>punctuation.definition.quote.begin.markdown</string>
               </dict>
             </dict>
             <key>name</key>
@@ -3132,7 +3132,7 @@
                   <key>3</key>
                   <dict>
                     <key>name</key>
-                    <string>beginning.punctuation.definition.list.markdown</string>
+                    <string>punctuation.definition.list.begin.markdown</string>
                   </dict>
                 </dict>
                 <key>comment</key>
@@ -3161,7 +3161,7 @@
                   <key>3</key>
                   <dict>
                     <key>name</key>
-                    <string>beginning.punctuation.definition.list.markdown</string>
+                    <string>punctuation.definition.list.begin.markdown</string>
                   </dict>
                 </dict>
                 <key>name</key>
