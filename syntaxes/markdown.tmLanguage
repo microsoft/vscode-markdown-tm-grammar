@@ -228,6 +228,10 @@
           </dict>
           <dict>
             <key>include</key>
+            <string>#fenced_code_block_handlebars</string>
+          </dict>
+          <dict>
+            <key>include</key>
             <string>#fenced_code_block_unknown</string>
           </dict>
           <dict>
@@ -2662,6 +2666,59 @@
               </dict>
             </array>
           </dict>
+          <key>fenced_code_block_handlebars</key>
+          <dict>
+            <key>begin</key>
+            <string>(^|\G)(\s*)(`{3,}|~{3,})\s*(?i:(handlebars|hbs)(\s+[^`~]*)?$)</string>
+            <key>name</key>
+            <string>markup.fenced_code.block.markdown</string>
+            <key>end</key>
+            <string>(^|\G)(\2|\s{0,3})(\3)\s*$</string>
+            <key>beginCaptures</key>
+            <dict>
+              <key>3</key>
+              <dict>
+                <key>name</key>
+                <string>punctuation.definition.markdown</string>
+              </dict>
+              <key>5</key>
+              <dict>
+                <key>name</key>
+                <string>fenced_code.block.language</string>
+              </dict>
+              <key>6</key>
+              <dict>
+                <key>name</key>
+                <string>fenced_code.block.language.attributes</string>
+              </dict>
+            </dict>
+            <key>endCaptures</key>
+            <dict>
+              <key>3</key>
+              <dict>
+                <key>name</key>
+                <string>punctuation.definition.markdown</string>
+              </dict>
+            </dict>
+            <key>patterns</key>
+            <array>
+              <dict>
+                <key>begin</key>
+                <string>(^|\G)(\s*)(.*)</string>
+                <key>while</key>
+                <string>(^|\G)(?!\s*([`~]{3,})\s*$)</string>
+                <key>contentName</key>
+                <string>meta.embedded.block.handlebars</string>
+                <key>patterns</key>
+                <array>
+                  <dict>
+                    <key>include</key>
+                    <string>source.handlebars</string>
+                  </dict>
+                </array>
+              </dict>
+            </array>
+          </dict>
           <key>fenced_code_block_unknown</key>
           <dict>
             <key>begin</key>
@@ -3161,7 +3218,7 @@
           <key>separator</key>
           <dict>
             <key>match</key>
-            <string>(^|\G)[ ]{0,3}([\*\-\_])([ ]{0,2}\2){2,}[ \t]*$\n?</string>
+            <string>(^|\G)[ ]{0,3}([*-_])([ ]{0,2}\2){2,}[ \t]*$\n?</string>
             <key>name</key>
             <string>meta.separator.markdown</string>
           </dict>
