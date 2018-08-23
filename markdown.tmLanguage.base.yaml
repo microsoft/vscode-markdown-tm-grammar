@@ -398,20 +398,20 @@ repository:
           '5': {name: punctuation.definition.metadata.markdown}
           '6': {name: punctuation.definition.link.markdown}
           '7': {name: markup.underline.link.markdown}
-          '8': {name: punctuation.definition.link.markdown}
-          '9': {name: string.other.link.description.title.markdown}
-          '10': {name: punctuation.definition.string.begin.markdown}
-          '11': {name: punctuation.definition.string.end.markdown}
-          '12': {name: string.other.link.description.title.markdown}
-          '13': {name: punctuation.definition.string.begin.markdown}
-          '14': {name: punctuation.definition.string.end.markdown}
-          '15': {name: punctuation.definition.metadata.markdown}
+          '9': {name: punctuation.definition.link.markdown}
+          '10': {name: string.other.link.description.title.markdown}
+          '11': {name: punctuation.definition.string.begin.markdown}
+          '12': {name: punctuation.definition.string.end.markdown}
+          '13': {name: string.other.link.description.title.markdown}
+          '14': {name: punctuation.definition.string.begin.markdown}
+          '15': {name: punctuation.definition.string.end.markdown}
+          '16': {name: punctuation.definition.metadata.markdown}
         match: >
           (?x)
             (\[)((?<square>[^\[\]\\]|\\.|\[\g<square>*+\])*+)(\])
                           # Match the link text.
             (\()            # Opening paren for url
-              (<?)(.*?)(>?)      # The url
+              (<?)((?<url>[^\s()]+|\(\g<url>*\))*)(>?)      # The url
               [ \t]*          # Optional whitespace
               (?:
                   ((\().+?(\)))    # Match title in parens…
