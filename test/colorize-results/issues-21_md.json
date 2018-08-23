@@ -1,0 +1,299 @@
+[
+	{
+		"c": "```",
+		"t": "text.html.markdown markup.fenced_code.block.markdown punctuation.definition.markdown",
+		"r": {
+			"dark_plus": "default: #D4D4D4",
+			"light_plus": "default: #000000",
+			"dark_vs": "default: #D4D4D4",
+			"light_vs": "default: #000000",
+			"hc_black": "default: #FFFFFF"
+		}
+	},
+	{
+		"c": "python",
+		"t": "text.html.markdown markup.fenced_code.block.markdown",
+		"r": {
+			"dark_plus": "default: #D4D4D4",
+			"light_plus": "default: #000000",
+			"dark_vs": "default: #D4D4D4",
+			"light_vs": "default: #000000",
+			"hc_black": "default: #FFFFFF"
+		}
+	},
+	{
+		"c": "def",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.python meta.function.python storage.type.function.python",
+		"r": {
+			"dark_plus": "storage.type: #569CD6",
+			"light_plus": "storage.type: #0000FF",
+			"dark_vs": "storage.type: #569CD6",
+			"light_vs": "storage.type: #0000FF",
+			"hc_black": "storage.type: #569CD6"
+		}
+	},
+	{
+		"c": " ",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.python meta.function.python",
+		"r": {
+			"dark_plus": "meta.embedded: #D4D4D4",
+			"light_plus": "meta.embedded: #000000",
+			"dark_vs": "meta.embedded: #D4D4D4",
+			"light_vs": "meta.embedded: #000000",
+			"hc_black": "meta.embedded: #FFFFFF"
+		}
+	},
+	{
+		"c": "f",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.python meta.function.python entity.name.function.python",
+		"r": {
+			"dark_plus": "entity.name.function: #DCDCAA",
+			"light_plus": "entity.name.function: #795E26",
+			"dark_vs": "meta.embedded: #D4D4D4",
+			"light_vs": "meta.embedded: #000000",
+			"hc_black": "entity.name.function: #DCDCAA"
+		}
+	},
+	{
+		"c": "(",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.python meta.function.python meta.function.parameters.python punctuation.definition.parameters.begin.python",
+		"r": {
+			"dark_plus": "meta.embedded: #D4D4D4",
+			"light_plus": "meta.embedded: #000000",
+			"dark_vs": "meta.embedded: #D4D4D4",
+			"light_vs": "meta.embedded: #000000",
+			"hc_black": "meta.embedded: #FFFFFF"
+		}
+	},
+	{
+		"c": ")",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.python meta.function.python meta.function.parameters.python punctuation.definition.parameters.end.python",
+		"r": {
+			"dark_plus": "meta.embedded: #D4D4D4",
+			"light_plus": "meta.embedded: #000000",
+			"dark_vs": "meta.embedded: #D4D4D4",
+			"light_vs": "meta.embedded: #000000",
+			"hc_black": "meta.embedded: #FFFFFF"
+		}
+	},
+	{
+		"c": ":",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.python meta.function.python punctuation.section.function.begin.python",
+		"r": {
+			"dark_plus": "meta.embedded: #D4D4D4",
+			"light_plus": "meta.embedded: #000000",
+			"dark_vs": "meta.embedded: #D4D4D4",
+			"light_vs": "meta.embedded: #000000",
+			"hc_black": "meta.embedded: #FFFFFF"
+		}
+	},
+	{
+		"c": "    ",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.python",
+		"r": {
+			"dark_plus": "meta.embedded: #D4D4D4",
+			"light_plus": "meta.embedded: #000000",
+			"dark_vs": "meta.embedded: #D4D4D4",
+			"light_vs": "meta.embedded: #000000",
+			"hc_black": "meta.embedded: #FFFFFF"
+		}
+	},
+	{
+		"c": "pass",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.python keyword.control.flow.python",
+		"r": {
+			"dark_plus": "keyword.control: #C586C0",
+			"light_plus": "keyword.control: #AF00DB",
+			"dark_vs": "keyword.control: #569CD6",
+			"light_vs": "keyword.control: #0000FF",
+			"hc_black": "keyword.control: #C586C0"
+		}
+	},
+	{
+		"c": "```",
+		"t": "text.html.markdown markup.fenced_code.block.markdown punctuation.definition.markdown",
+		"r": {
+			"dark_plus": "default: #D4D4D4",
+			"light_plus": "default: #000000",
+			"dark_vs": "default: #D4D4D4",
+			"light_vs": "default: #000000",
+			"hc_black": "default: #FFFFFF"
+		}
+	},
+	{
+		"c": "1.",
+		"t": "text.html.markdown markup.list.numbered.markdown punctuation.definition.list.begin.markdown",
+		"r": {
+			"dark_plus": "default: #D4D4D4",
+			"light_plus": "default: #000000",
+			"dark_vs": "default: #D4D4D4",
+			"light_vs": "default: #000000",
+			"hc_black": "default: #FFFFFF"
+		}
+	},
+	{
+		"c": " ",
+		"t": "text.html.markdown markup.list.numbered.markdown",
+		"r": {
+			"dark_plus": "default: #D4D4D4",
+			"light_plus": "default: #000000",
+			"dark_vs": "default: #D4D4D4",
+			"light_vs": "default: #000000",
+			"hc_black": "default: #FFFFFF"
+		}
+	},
+	{
+		"c": "```",
+		"t": "text.html.markdown markup.list.numbered.markdown markup.fenced_code.block.markdown punctuation.definition.markdown",
+		"r": {
+			"dark_plus": "default: #D4D4D4",
+			"light_plus": "default: #000000",
+			"dark_vs": "default: #D4D4D4",
+			"light_vs": "default: #000000",
+			"hc_black": "default: #FFFFFF"
+		}
+	},
+	{
+		"c": "python",
+		"t": "text.html.markdown markup.list.numbered.markdown markup.fenced_code.block.markdown",
+		"r": {
+			"dark_plus": "default: #D4D4D4",
+			"light_plus": "default: #000000",
+			"dark_vs": "default: #D4D4D4",
+			"light_vs": "default: #000000",
+			"hc_black": "default: #FFFFFF"
+		}
+	},
+	{
+		"c": "   ",
+		"t": "text.html.markdown markup.list.numbered.markdown",
+		"r": {
+			"dark_plus": "default: #D4D4D4",
+			"light_plus": "default: #000000",
+			"dark_vs": "default: #D4D4D4",
+			"light_vs": "default: #000000",
+			"hc_black": "default: #FFFFFF"
+		}
+	},
+	{
+		"c": "def",
+		"t": "text.html.markdown markup.list.numbered.markdown markup.fenced_code.block.markdown meta.embedded.block.python meta.function.python storage.type.function.python",
+		"r": {
+			"dark_plus": "storage.type: #569CD6",
+			"light_plus": "storage.type: #0000FF",
+			"dark_vs": "storage.type: #569CD6",
+			"light_vs": "storage.type: #0000FF",
+			"hc_black": "storage.type: #569CD6"
+		}
+	},
+	{
+		"c": " ",
+		"t": "text.html.markdown markup.list.numbered.markdown markup.fenced_code.block.markdown meta.embedded.block.python meta.function.python",
+		"r": {
+			"dark_plus": "meta.embedded: #D4D4D4",
+			"light_plus": "meta.embedded: #000000",
+			"dark_vs": "meta.embedded: #D4D4D4",
+			"light_vs": "meta.embedded: #000000",
+			"hc_black": "meta.embedded: #FFFFFF"
+		}
+	},
+	{
+		"c": "f",
+		"t": "text.html.markdown markup.list.numbered.markdown markup.fenced_code.block.markdown meta.embedded.block.python meta.function.python entity.name.function.python",
+		"r": {
+			"dark_plus": "entity.name.function: #DCDCAA",
+			"light_plus": "entity.name.function: #795E26",
+			"dark_vs": "meta.embedded: #D4D4D4",
+			"light_vs": "meta.embedded: #000000",
+			"hc_black": "entity.name.function: #DCDCAA"
+		}
+	},
+	{
+		"c": "(",
+		"t": "text.html.markdown markup.list.numbered.markdown markup.fenced_code.block.markdown meta.embedded.block.python meta.function.python meta.function.parameters.python punctuation.definition.parameters.begin.python",
+		"r": {
+			"dark_plus": "meta.embedded: #D4D4D4",
+			"light_plus": "meta.embedded: #000000",
+			"dark_vs": "meta.embedded: #D4D4D4",
+			"light_vs": "meta.embedded: #000000",
+			"hc_black": "meta.embedded: #FFFFFF"
+		}
+	},
+	{
+		"c": ")",
+		"t": "text.html.markdown markup.list.numbered.markdown markup.fenced_code.block.markdown meta.embedded.block.python meta.function.python meta.function.parameters.python punctuation.definition.parameters.end.python",
+		"r": {
+			"dark_plus": "meta.embedded: #D4D4D4",
+			"light_plus": "meta.embedded: #000000",
+			"dark_vs": "meta.embedded: #D4D4D4",
+			"light_vs": "meta.embedded: #000000",
+			"hc_black": "meta.embedded: #FFFFFF"
+		}
+	},
+	{
+		"c": ":",
+		"t": "text.html.markdown markup.list.numbered.markdown markup.fenced_code.block.markdown meta.embedded.block.python meta.function.python punctuation.section.function.begin.python",
+		"r": {
+			"dark_plus": "meta.embedded: #D4D4D4",
+			"light_plus": "meta.embedded: #000000",
+			"dark_vs": "meta.embedded: #D4D4D4",
+			"light_vs": "meta.embedded: #000000",
+			"hc_black": "meta.embedded: #FFFFFF"
+		}
+	},
+	{
+		"c": "    ",
+		"t": "text.html.markdown markup.list.numbered.markdown",
+		"r": {
+			"dark_plus": "default: #D4D4D4",
+			"light_plus": "default: #000000",
+			"dark_vs": "default: #D4D4D4",
+			"light_vs": "default: #000000",
+			"hc_black": "default: #FFFFFF"
+		}
+	},
+	{
+		"c": "   ",
+		"t": "text.html.markdown markup.list.numbered.markdown markup.fenced_code.block.markdown meta.embedded.block.python",
+		"r": {
+			"dark_plus": "meta.embedded: #D4D4D4",
+			"light_plus": "meta.embedded: #000000",
+			"dark_vs": "meta.embedded: #D4D4D4",
+			"light_vs": "meta.embedded: #000000",
+			"hc_black": "meta.embedded: #FFFFFF"
+		}
+	},
+	{
+		"c": "pass",
+		"t": "text.html.markdown markup.list.numbered.markdown markup.fenced_code.block.markdown meta.embedded.block.python keyword.control.flow.python",
+		"r": {
+			"dark_plus": "keyword.control: #C586C0",
+			"light_plus": "keyword.control: #AF00DB",
+			"dark_vs": "keyword.control: #569CD6",
+			"light_vs": "keyword.control: #0000FF",
+			"hc_black": "keyword.control: #C586C0"
+		}
+	},
+	{
+		"c": "   ",
+		"t": "text.html.markdown markup.list.numbered.markdown",
+		"r": {
+			"dark_plus": "default: #D4D4D4",
+			"light_plus": "default: #000000",
+			"dark_vs": "default: #D4D4D4",
+			"light_vs": "default: #000000",
+			"hc_black": "default: #FFFFFF"
+		}
+	},
+	{
+		"c": "```",
+		"t": "text.html.markdown markup.list.numbered.markdown markup.fenced_code.block.markdown punctuation.definition.markdown",
+		"r": {
+			"dark_plus": "default: #D4D4D4",
+			"light_plus": "default: #000000",
+			"dark_vs": "default: #D4D4D4",
+			"light_vs": "default: #000000",
+			"hc_black": "default: #FFFFFF"
+		}
+	}
+]
