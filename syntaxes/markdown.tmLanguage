@@ -3082,7 +3082,7 @@
             <key>match</key>
             <string>(?x)
   \s*            # Leading whitespace
-  (\[)(.+?)(\])(:)    # Reference name
+  (\[)([\w ]+?)(\])(:)    # Reference name
   [ \t]*          # Optional whitespace
   (&lt;?)(\S+?)(&gt;?)      # The url
   [ \t]*          # Optional whitespace
@@ -3296,6 +3296,10 @@
             <key>include</key>
             <string>#link-ref-literal</string>
           </dict>
+          <dict>
+            <key>include</key>
+            <string>#link-ref-shortcut</string>
+          </dict>
         </array>
         <key>repository</key>
         <dict>
@@ -3432,6 +3436,10 @@
               <dict>
                 <key>include</key>
                 <string>#link-ref</string>
+              </dict>
+              <dict>
+                <key>include</key>
+                <string>#link-ref-shortcut</string>
               </dict>
             </array>
           </dict>
@@ -3704,6 +3712,10 @@
                 <key>include</key>
                 <string>#link-ref</string>
               </dict>
+              <dict>
+                <key>include</key>
+                <string>#link-ref-shortcut</string>
+              </dict>
             </array>
           </dict>
           <key>link-email</key>
@@ -3922,6 +3934,31 @@
             <string>(\[)((?&lt;square&gt;[^\[\]\\]|\\.|\[\g&lt;square&gt;*+\])*+)(\])[ ]?(\[)(\])</string>
             <key>name</key>
             <string>meta.link.reference.literal.markdown</string>
+          </dict>
+          <key>link-ref-shortcut</key>
+          <dict>
+            <key>captures</key>
+            <dict>
+              <key>1</key>
+              <dict>
+                <key>name</key>
+                <string>punctuation.definition.string.begin.markdown</string>
+              </dict>
+              <key>2</key>
+              <dict>
+                <key>name</key>
+                <string>string.other.link.title.markdown</string>
+              </dict>
+              <key>4</key>
+              <dict>
+                <key>name</key>
+                <string>punctuation.definition.string.end.markdown</string>
+              </dict>
+            </dict>
+            <key>match</key>
+            <string>(\[)(\S+?)(\])</string>
+            <key>name</key>
+            <string>meta.link.reference.markdown</string>
           </dict>
           <key>raw</key>
           <dict>

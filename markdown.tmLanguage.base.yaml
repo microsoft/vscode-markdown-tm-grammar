@@ -125,7 +125,7 @@ repository:
         match: >
           (?x)
             \s*            # Leading whitespace
-            (\[)(.+?)(\])(:)    # Reference name
+            (\[)([\w ]+?)(\])(:)    # Reference name
             [ \t]*          # Optional whitespace
             (<?)(\S+?)(>?)      # The url
             [ \t]*          # Optional whitespace
@@ -196,6 +196,7 @@ repository:
     - {include: '#link-inline'}
     - {include: '#link-ref'}
     - {include: '#link-ref-literal'}
+    - {include: '#link-ref-shortcut'}
     repository:
       ampersand:
         comment: "Markdown will convert this for us. We match it so that the HTML grammar will not mark it up as invalid."
@@ -266,6 +267,7 @@ repository:
         - {include: '#image-ref'}
         - {include: '#link-ref-literal'}
         - {include: '#link-ref'}
+        - {include: '#link-ref-shortcut'}
       bracket:
         comment: "Markdown will convert this for us. We match it so that the HTML grammar will not mark it up as invalid."
         match: '<(?![a-z/?\$!])'
@@ -376,6 +378,7 @@ repository:
         - {include: '#image-ref'}
         - {include: '#link-ref-literal'}
         - {include: '#link-ref'}
+        - {include: '#link-ref-shortcut'}
       link-email:
         captures:
           '1': {name: punctuation.definition.link.markdown}
@@ -439,6 +442,13 @@ repository:
           '6': {name: punctuation.definition.constant.end.markdown}
         match: (\[)((?<square>[^\[\]\\]|\\.|\[\g<square>*+\])*+)(\])[ ]?(\[)(\])
         name: meta.link.reference.literal.markdown
+      link-ref-shortcut:
+        captures:
+          '1': {name: punctuation.definition.string.begin.markdown}
+          '2': {name: string.other.link.title.markdown}
+          '4': {name: punctuation.definition.string.end.markdown}
+        match: (\[)(\S+?)(\])
+        name: meta.link.reference.markdown
       raw:
         captures:
           '1': {name: punctuation.definition.raw.markdown}
