@@ -3848,7 +3848,7 @@
   (\[)((?&lt;square&gt;[^\[\]\\]|\\.|\[\g&lt;square&gt;*+\])*+)(\])
                 # Match the link text.
   (\()            # Opening paren for url
-    (&lt;?)((?&lt;url&gt;[^\s()]+|\(\g&lt;url&gt;*\))*)(&gt;?)      # The url
+    (&lt;?)((?&lt;url&gt;(?&gt;[^\s()]+)|\(\g&lt;url&gt;*\))*)(&gt;?)      # The url
     [ \t]*          # Optional whitespace
     (?:
         ((\().+?(\)))    # Match title in parens…

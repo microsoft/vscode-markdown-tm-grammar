@@ -414,7 +414,7 @@ repository:
             (\[)((?<square>[^\[\]\\]|\\.|\[\g<square>*+\])*+)(\])
                           # Match the link text.
             (\()            # Opening paren for url
-              (<?)((?<url>[^\s()]+|\(\g<url>*\))*)(>?)      # The url
+              (<?)((?<url>(?>[^\s()]+)|\(\g<url>*\))*)(>?)      # The url
               [ \t]*          # Optional whitespace
               (?:
                   ((\().+?(\)))    # Match title in parens…
