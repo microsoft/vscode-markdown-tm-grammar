@@ -57,6 +57,7 @@ const languages = [
 	{ name: 'fsharp', language: 'fsharp', identifiers: ['fs', 'fsharp', 'f#'], source: 'source.fsharp' },
 	{ name: 'dart', language: 'dart', identifiers: ['dart'], source: 'source.dart' },
 	{ name: 'handlebars', language: 'handlebars', identifiers: ['handlebars', 'hbs'], source: 'text.html.handlebars' },
+	{ name: 'markdown', language: 'markdown', identifiers: ['markdown', 'md'], source: 'text.html.markdown' },
 ];
 
 const fencedCodeBlockDefinition = (name, identifiers, sourceScope, language) => {
