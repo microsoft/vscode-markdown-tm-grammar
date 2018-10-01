@@ -12,7 +12,7 @@
 	},
 	{
 		"c": "AAA",
-		"t": "text.html.markdown meta.separator.markdown",
+		"t": "text.html.markdown meta.paragraph.markdown",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
