@@ -39,7 +39,7 @@ const languages = [
 
 	{ name: 'js', language: 'javascript', identifiers: ['js', 'jsx', 'javascript', 'es6', 'mjs'], source: 'source.js' },
 	{ name: 'js_regexp', identifiers: ['regexp'], source: 'source.js.regexp' },
-	{ name: 'json', language: 'json', identifiers: ['json', 'sublime-settings', 'sublime-menu', 'sublime-keymap', 'sublime-mousemap', 'sublime-theme', 'sublime-build', 'sublime-project', 'sublime-completions'], source: 'source.json' },
+	{ name: 'json', language: 'json', identifiers: ['json', 'json5', 'sublime-settings', 'sublime-menu', 'sublime-keymap', 'sublime-mousemap', 'sublime-theme', 'sublime-build', 'sublime-project', 'sublime-completions'], source: 'source.json' },
 	{ name: 'less', language: 'less', identifiers: ['less'], source: 'source.css.less' },
 	{ name: 'objc', language: 'objc', identifiers: ['objectivec', 'objective-c', 'mm', 'objc', 'obj-c', 'm', 'h'], source: 'source.objc' },
 	{ name: 'scss', language: 'scss', identifiers: ['scss'], source: 'source.css.scss' },
