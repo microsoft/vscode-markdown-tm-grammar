@@ -3294,8 +3294,8 @@
             <string>source.yaml</string>
           </dict>
         </array>
-        <key>while</key>
-        <string>^(?!(-{3}|\.{3})\s*$)</string>
+        <key>end</key>
+        <string>(^|\G)-{3}|\.{3}\s*$"</string>
       </dict>
       <key>inline</key>
       <dict>
