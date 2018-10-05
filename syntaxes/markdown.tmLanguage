@@ -1825,7 +1825,7 @@
           <key>fenced_code_block_json</key>
           <dict>
             <key>begin</key>
-            <string>(^|\G)(\s*)(`{3,}|~{3,})\s*(?i:(json|sublime-settings|sublime-menu|sublime-keymap|sublime-mousemap|sublime-theme|sublime-build|sublime-project|sublime-completions)(\s+[^`~]*)?$)</string>
+            <string>(^|\G)(\s*)(`{3,}|~{3,})\s*(?i:(json|json5|sublime-settings|sublime-menu|sublime-keymap|sublime-mousemap|sublime-theme|sublime-build|sublime-project|sublime-completions)(\s+[^`~]*)?$)</string>
             <key>name</key>
             <string>markup.fenced_code.block.markdown</string>
             <key>end</key>
