@@ -180,7 +180,7 @@ repository:
     contentName: meta.embedded.block.frontmatter
     patterns:
     - {include: source.yaml}
-    while: ^(?!(-{3}|\.{3})\s*$)
+    end: (^|\G)-{3}|\.{3}\s*$"
   inline:
     patterns:
     - {include: '#ampersand'}
