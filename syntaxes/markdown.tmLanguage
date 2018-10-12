@@ -4006,7 +4006,7 @@
                 <key>name</key>
                 <string>string.other.link.title.markdown</string>
               </dict>
-              <key>4</key>
+              <key>3</key>
               <dict>
                 <key>name</key>
                 <string>punctuation.definition.string.end.markdown</string>
