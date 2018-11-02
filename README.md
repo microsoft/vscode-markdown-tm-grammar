@@ -19,3 +19,5 @@ To run the grammar tests:
 ```bash
 $ npm run test
 ```
+
+To test the grammar in VS Code, select the `Launch Extension` configuration in the VS Code debugger and run.
