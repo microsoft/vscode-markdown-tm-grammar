@@ -20,9 +20,6 @@
                 "${workspaceFolder}/test",
                 "--extensionDevelopmentPath=${workspaceFolder}",
                 "--extensionTestsPath=${workspaceFolder}/test"
-            ],
-            "outFiles": [
-                "${workspaceFolder}/test/*.js"
             ]
         }
     ]
