@@ -1,5 +1,7 @@
 # VS Code Markdown Grammar
 
+[![Build Status](https://travis-ci.org/Microsoft/vscode-markdown-tm-grammar.svg?branch=master)](https://travis-ci.org/Microsoft/vscode-markdown-tm-grammar)
+
 VS Code markdown extension's Textmate grammar.
 
 # Contributing
