@@ -3196,7 +3196,7 @@
             <key>match</key>
             <string>(?x)
   \s*            # Leading whitespace
-  (\[)([\w ]+?)(\])(:)    # Reference name
+  (\[)([^]]+?)(\])(:)    # Reference name
   [ \t]*          # Optional whitespace
   (&lt;?)(\S+?)(&gt;?)      # The url
   [ \t]*          # Optional whitespace
