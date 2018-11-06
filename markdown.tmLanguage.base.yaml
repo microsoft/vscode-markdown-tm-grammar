@@ -125,7 +125,7 @@ repository:
         match: >
           (?x)
             \s*            # Leading whitespace
-            (\[)([\w ]+?)(\])(:)    # Reference name
+            (\[)([^]]+?)(\])(:)    # Reference name
             [ \t]*          # Optional whitespace
             (<?)(\S+?)(>?)      # The url
             [ \t]*          # Optional whitespace
