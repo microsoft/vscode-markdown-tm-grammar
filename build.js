@@ -43,6 +43,7 @@ const languages = [
 	{ name: 'jsonc', language: 'jsonc', identifiers: ['jsonc'], source: 'source.json.comments' },
 	{ name: 'less', language: 'less', identifiers: ['less'], source: 'source.css.less' },
 	{ name: 'objc', language: 'objc', identifiers: ['objectivec', 'objective-c', 'mm', 'objc', 'obj-c', 'm', 'h'], source: 'source.objc' },
+	{ name: 'swift', language: 'swift', identifiers: ['swift'], source: 'source.swift' },
 	{ name: 'scss', language: 'scss', identifiers: ['scss'], source: 'source.css.scss' },
 
 	{ name: 'perl6', language: 'perl6', identifiers: ['perl6', 'p6', 'pl6', 'pm6', 'nqp'], source: 'source.perl.6' },
