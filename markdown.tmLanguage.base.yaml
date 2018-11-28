@@ -11,8 +11,7 @@ repository:
     - {include: '#heading'}
     - {include: '#blockquote'}
     - {include: '#lists'}
-    {{languageIncludes}}
-    - {include: '#fenced_code_block_unknown'}
+    - {include: '#fenced_code_block'}
     - {include: '#raw_block'}
     - {include: '#link-def'}
     - {include: '#html'}
@@ -27,6 +26,10 @@ repository:
         - {include: '#block'}
         while: (^|\G)\s*(>) ?
 {{languageDefinitions}}
+      fenced_code_block:
+        patterns:
+        {{languageIncludes}}
+        - {include: '#fenced_code_block_unknown'}
       fenced_code_block_unknown:
         begin: (^|\G)(\s*)(`{3,}|~{3,})\s*(?=([^`~]*)?$)
         beginCaptures:
