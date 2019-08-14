@@ -3143,7 +3143,40 @@
             <key>begin</key>
             <string>(?i)(^|\G)\s*(?=&lt;(script|style|pre)(\s|$|&gt;)(?!.*?&lt;/(script|style|pre)&gt;))</string>
             <key>end</key>
-            <string>(?i)(?=.*&lt;/(script|style|pre)&gt;)</string>
+            <string>(?i)(.*)((&lt;/)(script|style|pre)(&gt;))</string>
+            <key>endCaptures</key>
+            <dict>
+              <key>1</key>
+              <dict>
+                <key>patterns</key>
+                <array>
+                  <dict>
+                    <key>include</key>
+                    <string>text.html.basic</string>
+                  </dict>
+                </array>
+              </dict>
+              <key>2</key>
+              <dict>
+                <key>name</key>
+                <string>meta.tag.structure.$4.end.html</string>
+              </dict>
+              <key>3</key>
+              <dict>
+                <key>name</key>
+                <string>punctuation.definition.tag.begin.html</string>
+              </dict>
+              <key>4</key>
+              <dict>
+                <key>name</key>
+                <string>entity.name.tag.html</string>
+              </dict>
+              <key>5</key>
+              <dict>
+                <key>name</key>
+                <string>punctuation.definition.tag.end.html</string>
+              </dict>
+            </dict>
             <key>patterns</key>
             <array>
               <dict>
@@ -3157,7 +3190,7 @@
                   </dict>
                 </array>
                 <key>while</key>
-                <string>^(?!.*&lt;/(script|style|pre)&gt;)</string>
+                <string>(?i)^(?!.*&lt;/(script|style|pre)&gt;)</string>
               </dict>
             </array>
           </dict>
