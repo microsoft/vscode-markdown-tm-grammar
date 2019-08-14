@@ -95,7 +95,7 @@ repository:
       end: (-->)
       name: comment.block.html
     - begin: (?i)(^|\G)\s*(?=<(script|style|pre)(\s|$|>)(?!.*?</(script|style|pre)>))
-      end: (?=.*</(script|style|pre)>)
+      end: (?i)(?=.*</(script|style|pre)>)
       patterns:
       - begin: (\s*|$)
         patterns:

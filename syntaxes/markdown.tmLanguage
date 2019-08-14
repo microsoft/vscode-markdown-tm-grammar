@@ -3143,7 +3143,7 @@
             <key>begin</key>
             <string>(?i)(^|\G)\s*(?=&lt;(script|style|pre)(\s|$|&gt;)(?!.*?&lt;/(script|style|pre)&gt;))</string>
             <key>end</key>
-            <string>(?=.*&lt;/(script|style|pre)&gt;)</string>
+            <string>(?i)(?=.*&lt;/(script|style|pre)&gt;)</string>
             <key>patterns</key>
             <array>
               <dict>
