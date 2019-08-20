@@ -97,7 +97,7 @@ repository:
     - begin: (?i)(^|\G)\s*(?=<(script|style|pre)(\s|$|>)(?!.*?</(script|style|pre)>))
       end: (?i)(.*)((</)(script|style|pre)(>))
       endCaptures:
-        '1': { patterns: [ {include: text.html.basic} ]}
+        '1': { patterns: [ {include: text.html.derivative} ]}
         '2': {name: meta.tag.structure.$4.end.html}
         '3': {name: punctuation.definition.tag.begin.html}
         '4': {name: entity.name.tag.html}
@@ -105,15 +105,15 @@ repository:
       patterns:
       - begin: (\s*|$)
         patterns:
-        - {include: text.html.basic}
+        - {include: text.html.derivative}
         while: (?i)^(?!.*</(script|style|pre)>)
-    - begin: (?i)(^|\G)\s*(?=</?(address|article|aside|base|basefont|blockquote|body|caption|center|col|colgroup|dd|details|dialog|dir|div|dl|dt|fieldset|figcaption|figure|footer|form|frame|frameset|h1|head|header|hr|html|iframe|legend|li|link|main|menu|menuitem|meta|nav|noframes|ol|optgroup|option|p|param|section|source|summary|table|tbody|td|tfoot|th|thead|title|tr|track|ul)(\s|$|/?>))
+    - begin: (?i)(^|\G)\s*(?=</?[a-zA-Z]+[^\s/&gt;]*(\s|$|/?>))
       patterns:
-      - {include: text.html.basic}
+      - {include: text.html.derivative}
       while: ^(?!\s*$)
     - begin: (^|\G)\s*(?=(<[a-zA-Z0-9\-](/?>|\s.*?>)|</[a-zA-Z0-9\-]>)\s*$)
       patterns:
-      - {include: text.html.basic}
+      - {include: text.html.derivative}
       while: ^(?!\s*$)
   link-def:
     captures:
@@ -149,7 +149,7 @@ repository:
     name: meta.paragraph.markdown
     patterns:
     - {include: '#inline'}
-    - {include: text.html.basic}
+    - {include: text.html.derivative}
     - {include: '#heading-setext'}
     while: (^|\G)(?!\s*$|#|[ ]{0,3}([-*_>][ ]{2,}){3,}[ \t]*$\n?|[ ]{0,3}[*+->]|[
       ]{0,3}[0-9]+\.)
@@ -177,7 +177,7 @@ repository:
     name: meta.paragraph.markdown
     patterns:
     - {include: '#inline'}
-    - {include: text.html.basic}
+    - {include: text.html.derivative}
     - {include: '#heading-setext'}
     while: (^|\G)((?=\s*[-=]{3,}\s*$)|[ ]{4,}(?=\S))
   raw_block: {begin: '(^|\G)([ ]{4}|\t)', name: markup.raw.block.markdown, while: '(^|\G)([
@@ -260,7 +260,7 @@ repository:
       begin: (?=<[^>]*?>)
       end: (?<=>)
       patterns:
-      - {include: text.html.basic}
+      - {include: text.html.derivative}
     - {include: '#escape'}
     - {include: '#ampersand'}
     - {include: '#bracket'}
@@ -372,7 +372,7 @@ repository:
       begin: (?=<[^>]*?>)
       end: (?<=>)
       patterns:
-      - {include: text.html.basic}
+      - {include: text.html.derivative}
     - {include: '#escape'}
     - {include: '#ampersand'}
     - {include: '#bracket'}
