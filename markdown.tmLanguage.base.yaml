@@ -39,41 +39,41 @@ repository:
       '3': {name: punctuation.definition.markdown}
     name: markup.fenced_code.block.markdown
   heading:
-    match: (?:^|\G)[ ]{0,3}((#{1,6})\s*(?=[\S[^#]]).*?\s*(#{1,6})?)$\n?
+    match: (?:^|\G)[ ]{0,3}((#{1,6})\s+(?=[\S[^#]]).*?\s*(#{1,6})?)$\n?
     captures:
       '1':
         patterns:
-        - match: (#{6})\s*(?=[\S[^#]])(.*?)\s*(\s+#+)?$\n?
+        - match: (#{6})\s+(?=[\S[^#]])(.*?)\s*(\s+#+)?$\n?
           name: 'heading.6.markdown'
           captures:
             '1': {name: punctuation.definition.heading.markdown}
             '2': {name: entity.name.section.markdown}
             '3': {name: punctuation.definition.heading.markdown}
-        - match: (#{5})\s*(?=[\S[^#]])(.*?)\s*(\s+#+)?$\n?
+        - match: (#{5})\s+(?=[\S[^#]])(.*?)\s*(\s+#+)?$\n?
           name: 'heading.5.markdown'
           captures:
             '1': {name: punctuation.definition.heading.markdown}
             '2': {name: entity.name.section.markdown}
             '3': {name: punctuation.definition.heading.markdown}
-        - match: (#{4})\s*(?=[\S[^#]])(.*?)\s*(\s+#+)?$\n?
+        - match: (#{4})\s+(?=[\S[^#]])(.*?)\s*(\s+#+)?$\n?
           name: 'heading.4.markdown'
           captures:
             '1': {name: punctuation.definition.heading.markdown}
             '2': {name: entity.name.section.markdown}
             '3': {name: punctuation.definition.heading.markdown}
-        - match: (#{3})\s*(?=[\S[^#]])(.*?)\s*(\s+#+)?$\n?
+        - match: (#{3})\s+(?=[\S[^#]])(.*?)\s*(\s+#+)?$\n?
           name: 'heading.3.markdown'
           captures:
             '1': {name: punctuation.definition.heading.markdown}
             '2': {name: entity.name.section.markdown}
             '3': {name: punctuation.definition.heading.markdown}
-        - match: (#{2})\s*(?=[\S[^#]])(.*?)\s*(\s+#+)?$\n?
+        - match: (#{2})\s+(?=[\S[^#]])(.*?)\s*(\s+#+)?$\n?
           name: 'heading.2.markdown'
           captures:
             '1': {name: punctuation.definition.heading.markdown}
             '2': {name: entity.name.section.markdown}
             '3': {name: punctuation.definition.heading.markdown}
-        - match: (#{1})\s*(?=[\S[^#]])(.*?)\s*(\s+#+)?$\n?
+        - match: (#{1})\s+(?=[\S[^#]])(.*?)\s*(\s+#+)?$\n?
           name: 'heading.1.markdown'
           captures:
             '1': {name: punctuation.definition.heading.markdown}
