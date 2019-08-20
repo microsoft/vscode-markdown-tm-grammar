@@ -192,7 +192,7 @@
             <array>
               <dict>
                 <key>include</key>
-                <string>text.html.derivative</string>
+                <string>text.html.basic</string>
               </dict>
             </array>
           </dict>
@@ -616,7 +616,7 @@
             <array>
               <dict>
                 <key>include</key>
-                <string>text.html.derivative</string>
+                <string>text.html.basic</string>
               </dict>
               <dict>
                 <key>include</key>
@@ -3196,7 +3196,7 @@
           </dict>
           <dict>
             <key>begin</key>
-            <string>(?i)(^|\G)\s*(?=&lt;/?[a-zA-Z]+[^\s/&gt;]*(\s|$|/?&gt;))</string>
+            <string>(?i)(^|\G)\s*(?=&lt;/?[a-zA-Z]+[^\s/&amp;gt;]*(\s|$|/?&gt;))</string>
             <key>patterns</key>
             <array>
               <dict>
