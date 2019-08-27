@@ -1145,7 +1145,7 @@
             <key>while</key>
             <string>(^|\G)(?!\s*([`~]{3,})\s*$)</string>
             <key>contentName</key>
-            <string>meta.embedded.block.cpp</string>
+            <string>meta.embedded.block.cpp source.cpp</string>
             <key>patterns</key>
             <array>
               <dict>
