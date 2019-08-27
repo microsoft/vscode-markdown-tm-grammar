@@ -28,7 +28,7 @@ const languages = [
 	{ name: 'clojure', language: 'clojure', identifiers: ['clj', 'cljs', 'clojure'], source: 'source.clojure' },
 	{ name: 'coffee', language: 'coffee', identifiers: ['coffee', 'Cakefile', 'coffee.erb'], source: 'source.coffee' },
 	{ name: 'c', language: 'c', identifiers: ['c', 'h'], source: 'source.c' },
-	{ name: 'cpp', language: 'cpp', identifiers: ['cpp', 'c\\+\\+', 'cxx'], source: 'source.cpp' },
+	{ name: 'cpp', language: 'cpp', identifiers: ['cpp', 'c\\+\\+', 'cxx'], source: 'source.cpp', additionalContentName: ['source.cpp'] },
 	{ name: 'diff', language: 'diff', identifiers: ['patch', 'diff', 'rej'], source: 'source.diff' },
 	{ name: 'dockerfile', language: 'dockerfile', identifiers: ['dockerfile', 'Dockerfile'], source: 'source.dockerfile' },
 	{ name: 'git_commit', identifiers: ['COMMIT_EDITMSG', 'MERGE_MSG'], source: 'text.git-commit' },
@@ -62,7 +62,7 @@ const languages = [
 	{ name: 'markdown', language: 'markdown', identifiers: ['markdown', 'md'], source: 'text.html.markdown' },
 ];
 
-const fencedCodeBlockDefinition = (name, identifiers, sourceScope, language) => {
+const fencedCodeBlockDefinition = (name, identifiers, sourceScope, language, additionalContentName) => {
 	if (!Array.isArray(sourceScope)) {
 		sourceScope = [sourceScope];
 	}
@@ -71,6 +71,11 @@ const fencedCodeBlockDefinition = (name, identifiers, sourceScope, language) => 
 
 	const scopes = sourceScope.map(scope =>
 		`- { include: '${scope}' }`).join('\n');
+
+	let contentName = `meta.embedded.block.${language}`;
+	if (additionalContentName) {
+		contentName += ` ${additionalContentName.join(' ')}`;
+	}
 
 	return `fenced_code_block_${name}:
   begin:
@@ -88,7 +93,7 @@ const fencedCodeBlockDefinition = (name, identifiers, sourceScope, language) => 
   patterns:
     - begin: (^|\\G)(\\s*)(.*)
       while: (^|\\G)(?!\\s*([\`~]{3,})\\s*$)
-      contentName: meta.embedded.block.${language}
+      contentName: ${contentName}
       patterns:
 ${indent(4, scopes)}
 `;
@@ -104,7 +109,7 @@ const fencedCodeBlockInclude = (name) =>
 
 const fencedCodeBlockDefinitions = () =>
 	languages
-		.map(language => fencedCodeBlockDefinition(language.name, language.identifiers, language.source, language.language))
+		.map(language => fencedCodeBlockDefinition(language.name, language.identifiers, language.source, language.language, language.additionalContentName))
 		.join('\n');
 
 
