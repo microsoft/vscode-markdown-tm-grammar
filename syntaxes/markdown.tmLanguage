@@ -466,7 +466,7 @@
       <key>fenced_code_block_r</key>
       <dict>
         <key>begin</key>
-        <string>(^|\G)(\s*)(`{3,}|~{3,})\s*(?i:(R|r|s|S|Rprofile)(\s+[^`~]*)?$)</string>
+        <string>(^|\G)(\s*)(`{3,}|~{3,})\s*(?i:(R|r|s|S|Rprofile|\{\.r.+?(\}))(\s+[^`~]*)?$)</string>
         <key>name</key>
         <string>markup.fenced_code.block.markdown</string>
         <key>end</key>
@@ -1530,7 +1530,7 @@
       <key>fenced_code_block_js</key>
       <dict>
         <key>begin</key>
-        <string>(^|\G)(\s*)(`{3,}|~{3,})\s*(?i:(js|jsx|javascript|es6|mjs)(\s+[^`~]*)?$)</string>
+        <string>(^|\G)(\s*)(`{3,}|~{3,})\s*(?i:(js|jsx|javascript|es6|mjs|\{\.js.+?(\}))(\s+[^`~]*)?$)</string>
         <key>name</key>
         <string>markup.fenced_code.block.markdown</string>
         <key>end</key>
@@ -2166,7 +2166,7 @@
       <key>fenced_code_block_rust</key>
       <dict>
         <key>begin</key>
-        <string>(^|\G)(\s*)(`{3,}|~{3,})\s*(?i:(rust|rs)(\s+[^`~]*)?$)</string>
+        <string>(^|\G)(\s*)(`{3,}|~{3,})\s*(?i:(rust|rs|\{\.rust.+?(\}))(\s+[^`~]*)?$)</string>
         <key>name</key>
         <string>markup.fenced_code.block.markdown</string>
         <key>end</key>
@@ -2272,7 +2272,7 @@
       <key>fenced_code_block_shell</key>
       <dict>
         <key>begin</key>
-        <string>(^|\G)(\s*)(`{3,}|~{3,})\s*(?i:(shell|sh|bash|zsh|bashrc|bash_profile|bash_login|profile|bash_logout|.textmate_init)(\s+[^`~]*)?$)</string>
+        <string>(^|\G)(\s*)(`{3,}|~{3,})\s*(?i:(shell|sh|bash|zsh|bashrc|bash_profile|bash_login|profile|bash_logout|.textmate_init|\{\.bash.+?(\}))(\s+[^`~]*)?$)</string>
         <key>name</key>
         <string>markup.fenced_code.block.markdown</string>
         <key>end</key>
