@@ -107,15 +107,15 @@
             <key>name</key>
             <string>punctuation.definition.markdown</string>
           </dict>
+          <key>4</key>
+          <dict>
+            <key>name</key>
+            <string>fenced_code.block.language.markdown</string>
+          </dict>
           <key>5</key>
           <dict>
             <key>name</key>
-            <string>fenced_code.block.language</string>
-          </dict>
-          <key>6</key>
-          <dict>
-            <key>name</key>
-            <string>fenced_code.block.language.attributes</string>
+            <string>fenced_code.block.language.attributes.markdown</string>
           </dict>
         </dict>
         <key>endCaptures</key>
@@ -160,15 +160,15 @@
             <key>name</key>
             <string>punctuation.definition.markdown</string>
           </dict>
+          <key>4</key>
+          <dict>
+            <key>name</key>
+            <string>fenced_code.block.language.markdown</string>
+          </dict>
           <key>5</key>
           <dict>
             <key>name</key>
-            <string>fenced_code.block.language</string>
-          </dict>
-          <key>6</key>
-          <dict>
-            <key>name</key>
-            <string>fenced_code.block.language.attributes</string>
+            <string>fenced_code.block.language.attributes.markdown</string>
           </dict>
         </dict>
         <key>endCaptures</key>
@@ -213,15 +213,15 @@
             <key>name</key>
             <string>punctuation.definition.markdown</string>
           </dict>
+          <key>4</key>
+          <dict>
+            <key>name</key>
+            <string>fenced_code.block.language.markdown</string>
+          </dict>
           <key>5</key>
           <dict>
             <key>name</key>
-            <string>fenced_code.block.language</string>
-          </dict>
-          <key>6</key>
-          <dict>
-            <key>name</key>
-            <string>fenced_code.block.language.attributes</string>
+            <string>fenced_code.block.language.attributes.markdown</string>
           </dict>
         </dict>
         <key>endCaptures</key>
@@ -266,15 +266,15 @@
             <key>name</key>
             <string>punctuation.definition.markdown</string>
           </dict>
+          <key>4</key>
+          <dict>
+            <key>name</key>
+            <string>fenced_code.block.language.markdown</string>
+          </dict>
           <key>5</key>
           <dict>
             <key>name</key>
-            <string>fenced_code.block.language</string>
-          </dict>
-          <key>6</key>
-          <dict>
-            <key>name</key>
-            <string>fenced_code.block.language.attributes</string>
+            <string>fenced_code.block.language.attributes.markdown</string>
           </dict>
         </dict>
         <key>endCaptures</key>
@@ -319,15 +319,15 @@
             <key>name</key>
             <string>punctuation.definition.markdown</string>
           </dict>
+          <key>4</key>
+          <dict>
+            <key>name</key>
+            <string>fenced_code.block.language.markdown</string>
+          </dict>
           <key>5</key>
           <dict>
             <key>name</key>
-            <string>fenced_code.block.language</string>
-          </dict>
-          <key>6</key>
-          <dict>
-            <key>name</key>
-            <string>fenced_code.block.language.attributes</string>
+            <string>fenced_code.block.language.attributes.markdown</string>
           </dict>
         </dict>
         <key>endCaptures</key>
@@ -372,15 +372,15 @@
             <key>name</key>
             <string>punctuation.definition.markdown</string>
           </dict>
+          <key>4</key>
+          <dict>
+            <key>name</key>
+            <string>fenced_code.block.language.markdown</string>
+          </dict>
           <key>5</key>
           <dict>
             <key>name</key>
-            <string>fenced_code.block.language</string>
-          </dict>
-          <key>6</key>
-          <dict>
-            <key>name</key>
-            <string>fenced_code.block.language.attributes</string>
+            <string>fenced_code.block.language.attributes.markdown</string>
           </dict>
         </dict>
         <key>endCaptures</key>
@@ -425,15 +425,15 @@
             <key>name</key>
             <string>punctuation.definition.markdown</string>
           </dict>
+          <key>4</key>
+          <dict>
+            <key>name</key>
+            <string>fenced_code.block.language.markdown</string>
+          </dict>
           <key>5</key>
           <dict>
             <key>name</key>
-            <string>fenced_code.block.language</string>
-          </dict>
-          <key>6</key>
-          <dict>
-            <key>name</key>
-            <string>fenced_code.block.language.attributes</string>
+            <string>fenced_code.block.language.attributes.markdown</string>
           </dict>
         </dict>
         <key>endCaptures</key>
@@ -478,15 +478,15 @@
             <key>name</key>
             <string>punctuation.definition.markdown</string>
           </dict>
+          <key>4</key>
+          <dict>
+            <key>name</key>
+            <string>fenced_code.block.language.markdown</string>
+          </dict>
           <key>5</key>
           <dict>
             <key>name</key>
-            <string>fenced_code.block.language</string>
-          </dict>
-          <key>6</key>
-          <dict>
-            <key>name</key>
-            <string>fenced_code.block.language.attributes</string>
+            <string>fenced_code.block.language.attributes.markdown</string>
           </dict>
         </dict>
         <key>endCaptures</key>
@@ -531,15 +531,15 @@
             <key>name</key>
             <string>punctuation.definition.markdown</string>
           </dict>
+          <key>4</key>
+          <dict>
+            <key>name</key>
+            <string>fenced_code.block.language.markdown</string>
+          </dict>
           <key>5</key>
           <dict>
             <key>name</key>
-            <string>fenced_code.block.language</string>
-          </dict>
-          <key>6</key>
-          <dict>
-            <key>name</key>
-            <string>fenced_code.block.language.attributes</string>
+            <string>fenced_code.block.language.attributes.markdown</string>
           </dict>
         </dict>
         <key>endCaptures</key>
@@ -584,15 +584,15 @@
             <key>name</key>
             <string>punctuation.definition.markdown</string>
           </dict>
+          <key>4</key>
+          <dict>
+            <key>name</key>
+            <string>fenced_code.block.language.markdown</string>
+          </dict>
           <key>5</key>
           <dict>
             <key>name</key>
-            <string>fenced_code.block.language</string>
-          </dict>
-          <key>6</key>
-          <dict>
-            <key>name</key>
-            <string>fenced_code.block.language.attributes</string>
+            <string>fenced_code.block.language.attributes.markdown</string>
           </dict>
         </dict>
         <key>endCaptures</key>
@@ -641,15 +641,15 @@
             <key>name</key>
             <string>punctuation.definition.markdown</string>
           </dict>
+          <key>4</key>
+          <dict>
+            <key>name</key>
+            <string>fenced_code.block.language.markdown</string>
+          </dict>
           <key>5</key>
           <dict>
             <key>name</key>
-            <string>fenced_code.block.language</string>
-          </dict>
-          <key>6</key>
-          <dict>
-            <key>name</key>
-            <string>fenced_code.block.language.attributes</string>
+            <string>fenced_code.block.language.attributes.markdown</string>
           </dict>
         </dict>
         <key>endCaptures</key>
@@ -694,15 +694,15 @@
             <key>name</key>
             <string>punctuation.definition.markdown</string>
           </dict>
+          <key>4</key>
+          <dict>
+            <key>name</key>
+            <string>fenced_code.block.language.markdown</string>
+          </dict>
           <key>5</key>
           <dict>
             <key>name</key>
-            <string>fenced_code.block.language</string>
-          </dict>
-          <key>6</key>
-          <dict>
-            <key>name</key>
-            <string>fenced_code.block.language.attributes</string>
+            <string>fenced_code.block.language.attributes.markdown</string>
           </dict>
         </dict>
         <key>endCaptures</key>
@@ -747,15 +747,15 @@
             <key>name</key>
             <string>punctuation.definition.markdown</string>
           </dict>
+          <key>4</key>
+          <dict>
+            <key>name</key>
+            <string>fenced_code.block.language.markdown</string>
+          </dict>
           <key>5</key>
           <dict>
             <key>name</key>
-            <string>fenced_code.block.language</string>
-          </dict>
-          <key>6</key>
-          <dict>
-            <key>name</key>
-            <string>fenced_code.block.language.attributes</string>
+            <string>fenced_code.block.language.attributes.markdown</string>
           </dict>
         </dict>
         <key>endCaptures</key>
@@ -800,15 +800,15 @@
             <key>name</key>
             <string>punctuation.definition.markdown</string>
           </dict>
+          <key>4</key>
+          <dict>
+            <key>name</key>
+            <string>fenced_code.block.language.markdown</string>
+          </dict>
           <key>5</key>
           <dict>
             <key>name</key>
-            <string>fenced_code.block.language</string>
-          </dict>
-          <key>6</key>
-          <dict>
-            <key>name</key>
-            <string>fenced_code.block.language.attributes</string>
+            <string>fenced_code.block.language.attributes.markdown</string>
           </dict>
         </dict>
         <key>endCaptures</key>
@@ -853,15 +853,15 @@
             <key>name</key>
             <string>punctuation.definition.markdown</string>
           </dict>
+          <key>4</key>
+          <dict>
+            <key>name</key>
+            <string>fenced_code.block.language.markdown</string>
+          </dict>
           <key>5</key>
           <dict>
             <key>name</key>
-            <string>fenced_code.block.language</string>
-          </dict>
-          <key>6</key>
-          <dict>
-            <key>name</key>
-            <string>fenced_code.block.language.attributes</string>
+            <string>fenced_code.block.language.attributes.markdown</string>
           </dict>
         </dict>
         <key>endCaptures</key>
@@ -906,15 +906,15 @@
             <key>name</key>
             <string>punctuation.definition.markdown</string>
           </dict>
+          <key>4</key>
+          <dict>
+            <key>name</key>
+            <string>fenced_code.block.language.markdown</string>
+          </dict>
           <key>5</key>
           <dict>
             <key>name</key>
-            <string>fenced_code.block.language</string>
-          </dict>
-          <key>6</key>
-          <dict>
-            <key>name</key>
-            <string>fenced_code.block.language.attributes</string>
+            <string>fenced_code.block.language.attributes.markdown</string>
           </dict>
         </dict>
         <key>endCaptures</key>
@@ -959,15 +959,15 @@
             <key>name</key>
             <string>punctuation.definition.markdown</string>
           </dict>
+          <key>4</key>
+          <dict>
+            <key>name</key>
+            <string>fenced_code.block.language.markdown</string>
+          </dict>
           <key>5</key>
           <dict>
             <key>name</key>
-            <string>fenced_code.block.language</string>
-          </dict>
-          <key>6</key>
-          <dict>
-            <key>name</key>
-            <string>fenced_code.block.language.attributes</string>
+            <string>fenced_code.block.language.attributes.markdown</string>
           </dict>
         </dict>
         <key>endCaptures</key>
@@ -1012,15 +1012,15 @@
             <key>name</key>
             <string>punctuation.definition.markdown</string>
           </dict>
+          <key>4</key>
+          <dict>
+            <key>name</key>
+            <string>fenced_code.block.language.markdown</string>
+          </dict>
           <key>5</key>
           <dict>
             <key>name</key>
-            <string>fenced_code.block.language</string>
-          </dict>
-          <key>6</key>
-          <dict>
-            <key>name</key>
-            <string>fenced_code.block.language.attributes</string>
+            <string>fenced_code.block.language.attributes.markdown</string>
           </dict>
         </dict>
         <key>endCaptures</key>
@@ -1065,15 +1065,15 @@
             <key>name</key>
             <string>punctuation.definition.markdown</string>
           </dict>
+          <key>4</key>
+          <dict>
+            <key>name</key>
+            <string>fenced_code.block.language.markdown</string>
+          </dict>
           <key>5</key>
           <dict>
             <key>name</key>
-            <string>fenced_code.block.language</string>
-          </dict>
-          <key>6</key>
-          <dict>
-            <key>name</key>
-            <string>fenced_code.block.language.attributes</string>
+            <string>fenced_code.block.language.attributes.markdown</string>
           </dict>
         </dict>
         <key>endCaptures</key>
@@ -1118,15 +1118,15 @@
             <key>name</key>
             <string>punctuation.definition.markdown</string>
           </dict>
+          <key>4</key>
+          <dict>
+            <key>name</key>
+            <string>fenced_code.block.language.markdown</string>
+          </dict>
           <key>5</key>
           <dict>
             <key>name</key>
-            <string>fenced_code.block.language</string>
-          </dict>
-          <key>6</key>
-          <dict>
-            <key>name</key>
-            <string>fenced_code.block.language.attributes</string>
+            <string>fenced_code.block.language.attributes.markdown</string>
           </dict>
         </dict>
         <key>endCaptures</key>
@@ -1171,15 +1171,15 @@
             <key>name</key>
             <string>punctuation.definition.markdown</string>
           </dict>
+          <key>4</key>
+          <dict>
+            <key>name</key>
+            <string>fenced_code.block.language.markdown</string>
+          </dict>
           <key>5</key>
           <dict>
             <key>name</key>
-            <string>fenced_code.block.language</string>
-          </dict>
-          <key>6</key>
-          <dict>
-            <key>name</key>
-            <string>fenced_code.block.language.attributes</string>
+            <string>fenced_code.block.language.attributes.markdown</string>
           </dict>
         </dict>
         <key>endCaptures</key>
@@ -1224,15 +1224,15 @@
             <key>name</key>
             <string>punctuation.definition.markdown</string>
           </dict>
+          <key>4</key>
+          <dict>
+            <key>name</key>
+            <string>fenced_code.block.language.markdown</string>
+          </dict>
           <key>5</key>
           <dict>
             <key>name</key>
-            <string>fenced_code.block.language</string>
-          </dict>
-          <key>6</key>
-          <dict>
-            <key>name</key>
-            <string>fenced_code.block.language.attributes</string>
+            <string>fenced_code.block.language.attributes.markdown</string>
           </dict>
         </dict>
         <key>endCaptures</key>
@@ -1277,15 +1277,15 @@
             <key>name</key>
             <string>punctuation.definition.markdown</string>
           </dict>
+          <key>4</key>
+          <dict>
+            <key>name</key>
+            <string>fenced_code.block.language.markdown</string>
+          </dict>
           <key>5</key>
           <dict>
             <key>name</key>
-            <string>fenced_code.block.language</string>
-          </dict>
-          <key>6</key>
-          <dict>
-            <key>name</key>
-            <string>fenced_code.block.language.attributes</string>
+            <string>fenced_code.block.language.attributes.markdown</string>
           </dict>
         </dict>
         <key>endCaptures</key>
@@ -1330,15 +1330,15 @@
             <key>name</key>
             <string>punctuation.definition.markdown</string>
           </dict>
+          <key>4</key>
+          <dict>
+            <key>name</key>
+            <string>fenced_code.block.language.markdown</string>
+          </dict>
           <key>5</key>
           <dict>
             <key>name</key>
-            <string>fenced_code.block.language</string>
-          </dict>
-          <key>6</key>
-          <dict>
-            <key>name</key>
-            <string>fenced_code.block.language.attributes</string>
+            <string>fenced_code.block.language.attributes.markdown</string>
           </dict>
         </dict>
         <key>endCaptures</key>
@@ -1383,15 +1383,15 @@
             <key>name</key>
             <string>punctuation.definition.markdown</string>
           </dict>
+          <key>4</key>
+          <dict>
+            <key>name</key>
+            <string>fenced_code.block.language.markdown</string>
+          </dict>
           <key>5</key>
           <dict>
             <key>name</key>
-            <string>fenced_code.block.language</string>
-          </dict>
-          <key>6</key>
-          <dict>
-            <key>name</key>
-            <string>fenced_code.block.language.attributes</string>
+            <string>fenced_code.block.language.attributes.markdown</string>
           </dict>
         </dict>
         <key>endCaptures</key>
@@ -1436,15 +1436,15 @@
             <key>name</key>
             <string>punctuation.definition.markdown</string>
           </dict>
+          <key>4</key>
+          <dict>
+            <key>name</key>
+            <string>fenced_code.block.language.markdown</string>
+          </dict>
           <key>5</key>
           <dict>
             <key>name</key>
-            <string>fenced_code.block.language</string>
-          </dict>
-          <key>6</key>
-          <dict>
-            <key>name</key>
-            <string>fenced_code.block.language.attributes</string>
+            <string>fenced_code.block.language.attributes.markdown</string>
           </dict>
         </dict>
         <key>endCaptures</key>
@@ -1489,15 +1489,15 @@
             <key>name</key>
             <string>punctuation.definition.markdown</string>
           </dict>
+          <key>4</key>
+          <dict>
+            <key>name</key>
+            <string>fenced_code.block.language.markdown</string>
+          </dict>
           <key>5</key>
           <dict>
             <key>name</key>
-            <string>fenced_code.block.language</string>
-          </dict>
-          <key>6</key>
-          <dict>
-            <key>name</key>
-            <string>fenced_code.block.language.attributes</string>
+            <string>fenced_code.block.language.attributes.markdown</string>
           </dict>
         </dict>
         <key>endCaptures</key>
@@ -1542,15 +1542,15 @@
             <key>name</key>
             <string>punctuation.definition.markdown</string>
           </dict>
+          <key>4</key>
+          <dict>
+            <key>name</key>
+            <string>fenced_code.block.language.markdown</string>
+          </dict>
           <key>5</key>
           <dict>
             <key>name</key>
-            <string>fenced_code.block.language</string>
-          </dict>
-          <key>6</key>
-          <dict>
-            <key>name</key>
-            <string>fenced_code.block.language.attributes</string>
+            <string>fenced_code.block.language.attributes.markdown</string>
           </dict>
         </dict>
         <key>endCaptures</key>
@@ -1595,15 +1595,15 @@
             <key>name</key>
             <string>punctuation.definition.markdown</string>
           </dict>
+          <key>4</key>
+          <dict>
+            <key>name</key>
+            <string>fenced_code.block.language.markdown</string>
+          </dict>
           <key>5</key>
           <dict>
             <key>name</key>
-            <string>fenced_code.block.language</string>
-          </dict>
-          <key>6</key>
-          <dict>
-            <key>name</key>
-            <string>fenced_code.block.language.attributes</string>
+            <string>fenced_code.block.language.attributes.markdown</string>
           </dict>
         </dict>
         <key>endCaptures</key>
@@ -1648,15 +1648,15 @@
             <key>name</key>
             <string>punctuation.definition.markdown</string>
           </dict>
+          <key>4</key>
+          <dict>
+            <key>name</key>
+            <string>fenced_code.block.language.markdown</string>
+          </dict>
           <key>5</key>
           <dict>
             <key>name</key>
-            <string>fenced_code.block.language</string>
-          </dict>
-          <key>6</key>
-          <dict>
-            <key>name</key>
-            <string>fenced_code.block.language.attributes</string>
+            <string>fenced_code.block.language.attributes.markdown</string>
           </dict>
         </dict>
         <key>endCaptures</key>
@@ -1701,15 +1701,15 @@
             <key>name</key>
             <string>punctuation.definition.markdown</string>
           </dict>
+          <key>4</key>
+          <dict>
+            <key>name</key>
+            <string>fenced_code.block.language.markdown</string>
+          </dict>
           <key>5</key>
           <dict>
             <key>name</key>
-            <string>fenced_code.block.language</string>
-          </dict>
-          <key>6</key>
-          <dict>
-            <key>name</key>
-            <string>fenced_code.block.language.attributes</string>
+            <string>fenced_code.block.language.attributes.markdown</string>
           </dict>
         </dict>
         <key>endCaptures</key>
@@ -1754,15 +1754,15 @@
             <key>name</key>
             <string>punctuation.definition.markdown</string>
           </dict>
+          <key>4</key>
+          <dict>
+            <key>name</key>
+            <string>fenced_code.block.language.markdown</string>
+          </dict>
           <key>5</key>
           <dict>
             <key>name</key>
-            <string>fenced_code.block.language</string>
-          </dict>
-          <key>6</key>
-          <dict>
-            <key>name</key>
-            <string>fenced_code.block.language.attributes</string>
+            <string>fenced_code.block.language.attributes.markdown</string>
           </dict>
         </dict>
         <key>endCaptures</key>
@@ -1807,15 +1807,15 @@
             <key>name</key>
             <string>punctuation.definition.markdown</string>
           </dict>
+          <key>4</key>
+          <dict>
+            <key>name</key>
+            <string>fenced_code.block.language.markdown</string>
+          </dict>
           <key>5</key>
           <dict>
             <key>name</key>
-            <string>fenced_code.block.language</string>
-          </dict>
-          <key>6</key>
-          <dict>
-            <key>name</key>
-            <string>fenced_code.block.language.attributes</string>
+            <string>fenced_code.block.language.attributes.markdown</string>
           </dict>
         </dict>
         <key>endCaptures</key>
@@ -1860,15 +1860,15 @@
             <key>name</key>
             <string>punctuation.definition.markdown</string>
           </dict>
+          <key>4</key>
+          <dict>
+            <key>name</key>
+            <string>fenced_code.block.language.markdown</string>
+          </dict>
           <key>5</key>
           <dict>
             <key>name</key>
-            <string>fenced_code.block.language</string>
-          </dict>
-          <key>6</key>
-          <dict>
-            <key>name</key>
-            <string>fenced_code.block.language.attributes</string>
+            <string>fenced_code.block.language.attributes.markdown</string>
           </dict>
         </dict>
         <key>endCaptures</key>
@@ -1913,15 +1913,15 @@
             <key>name</key>
             <string>punctuation.definition.markdown</string>
           </dict>
+          <key>4</key>
+          <dict>
+            <key>name</key>
+            <string>fenced_code.block.language.markdown</string>
+          </dict>
           <key>5</key>
           <dict>
             <key>name</key>
-            <string>fenced_code.block.language</string>
-          </dict>
-          <key>6</key>
-          <dict>
-            <key>name</key>
-            <string>fenced_code.block.language.attributes</string>
+            <string>fenced_code.block.language.attributes.markdown</string>
           </dict>
         </dict>
         <key>endCaptures</key>
@@ -1966,15 +1966,15 @@
             <key>name</key>
             <string>punctuation.definition.markdown</string>
           </dict>
+          <key>4</key>
+          <dict>
+            <key>name</key>
+            <string>fenced_code.block.language.markdown</string>
+          </dict>
           <key>5</key>
           <dict>
             <key>name</key>
-            <string>fenced_code.block.language</string>
-          </dict>
-          <key>6</key>
-          <dict>
-            <key>name</key>
-            <string>fenced_code.block.language.attributes</string>
+            <string>fenced_code.block.language.attributes.markdown</string>
           </dict>
         </dict>
         <key>endCaptures</key>
@@ -2019,15 +2019,15 @@
             <key>name</key>
             <string>punctuation.definition.markdown</string>
           </dict>
+          <key>4</key>
+          <dict>
+            <key>name</key>
+            <string>fenced_code.block.language.markdown</string>
+          </dict>
           <key>5</key>
           <dict>
             <key>name</key>
-            <string>fenced_code.block.language</string>
-          </dict>
-          <key>6</key>
-          <dict>
-            <key>name</key>
-            <string>fenced_code.block.language.attributes</string>
+            <string>fenced_code.block.language.attributes.markdown</string>
           </dict>
         </dict>
         <key>endCaptures</key>
@@ -2072,15 +2072,15 @@
             <key>name</key>
             <string>punctuation.definition.markdown</string>
           </dict>
+          <key>4</key>
+          <dict>
+            <key>name</key>
+            <string>fenced_code.block.language.markdown</string>
+          </dict>
           <key>5</key>
           <dict>
             <key>name</key>
-            <string>fenced_code.block.language</string>
-          </dict>
-          <key>6</key>
-          <dict>
-            <key>name</key>
-            <string>fenced_code.block.language.attributes</string>
+            <string>fenced_code.block.language.attributes.markdown</string>
           </dict>
         </dict>
         <key>endCaptures</key>
@@ -2125,15 +2125,15 @@
             <key>name</key>
             <string>punctuation.definition.markdown</string>
           </dict>
+          <key>4</key>
+          <dict>
+            <key>name</key>
+            <string>fenced_code.block.language.markdown</string>
+          </dict>
           <key>5</key>
           <dict>
             <key>name</key>
-            <string>fenced_code.block.language</string>
-          </dict>
-          <key>6</key>
-          <dict>
-            <key>name</key>
-            <string>fenced_code.block.language.attributes</string>
+            <string>fenced_code.block.language.attributes.markdown</string>
           </dict>
         </dict>
         <key>endCaptures</key>
@@ -2178,15 +2178,15 @@
             <key>name</key>
             <string>punctuation.definition.markdown</string>
           </dict>
+          <key>4</key>
+          <dict>
+            <key>name</key>
+            <string>fenced_code.block.language.markdown</string>
+          </dict>
           <key>5</key>
           <dict>
             <key>name</key>
-            <string>fenced_code.block.language</string>
-          </dict>
-          <key>6</key>
-          <dict>
-            <key>name</key>
-            <string>fenced_code.block.language.attributes</string>
+            <string>fenced_code.block.language.attributes.markdown</string>
           </dict>
         </dict>
         <key>endCaptures</key>
@@ -2231,15 +2231,15 @@
             <key>name</key>
             <string>punctuation.definition.markdown</string>
           </dict>
+          <key>4</key>
+          <dict>
+            <key>name</key>
+            <string>fenced_code.block.language.markdown</string>
+          </dict>
           <key>5</key>
           <dict>
             <key>name</key>
-            <string>fenced_code.block.language</string>
-          </dict>
-          <key>6</key>
-          <dict>
-            <key>name</key>
-            <string>fenced_code.block.language.attributes</string>
+            <string>fenced_code.block.language.attributes.markdown</string>
           </dict>
         </dict>
         <key>endCaptures</key>
@@ -2284,15 +2284,15 @@
             <key>name</key>
             <string>punctuation.definition.markdown</string>
           </dict>
+          <key>4</key>
+          <dict>
+            <key>name</key>
+            <string>fenced_code.block.language.markdown</string>
+          </dict>
           <key>5</key>
           <dict>
             <key>name</key>
-            <string>fenced_code.block.language</string>
-          </dict>
-          <key>6</key>
-          <dict>
-            <key>name</key>
-            <string>fenced_code.block.language.attributes</string>
+            <string>fenced_code.block.language.attributes.markdown</string>
           </dict>
         </dict>
         <key>endCaptures</key>
@@ -2337,15 +2337,15 @@
             <key>name</key>
             <string>punctuation.definition.markdown</string>
           </dict>
+          <key>4</key>
+          <dict>
+            <key>name</key>
+            <string>fenced_code.block.language.markdown</string>
+          </dict>
           <key>5</key>
           <dict>
             <key>name</key>
-            <string>fenced_code.block.language</string>
-          </dict>
-          <key>6</key>
-          <dict>
-            <key>name</key>
-            <string>fenced_code.block.language.attributes</string>
+            <string>fenced_code.block.language.attributes.markdown</string>
           </dict>
         </dict>
         <key>endCaptures</key>
@@ -2390,15 +2390,15 @@
             <key>name</key>
             <string>punctuation.definition.markdown</string>
           </dict>
+          <key>4</key>
+          <dict>
+            <key>name</key>
+            <string>fenced_code.block.language.markdown</string>
+          </dict>
           <key>5</key>
           <dict>
             <key>name</key>
-            <string>fenced_code.block.language</string>
-          </dict>
-          <key>6</key>
-          <dict>
-            <key>name</key>
-            <string>fenced_code.block.language.attributes</string>
+            <string>fenced_code.block.language.attributes.markdown</string>
           </dict>
         </dict>
         <key>endCaptures</key>
@@ -2443,15 +2443,15 @@
             <key>name</key>
             <string>punctuation.definition.markdown</string>
           </dict>
+          <key>4</key>
+          <dict>
+            <key>name</key>
+            <string>fenced_code.block.language.markdown</string>
+          </dict>
           <key>5</key>
           <dict>
             <key>name</key>
-            <string>fenced_code.block.language</string>
-          </dict>
-          <key>6</key>
-          <dict>
-            <key>name</key>
-            <string>fenced_code.block.language.attributes</string>
+            <string>fenced_code.block.language.attributes.markdown</string>
           </dict>
         </dict>
         <key>endCaptures</key>
@@ -2496,15 +2496,15 @@
             <key>name</key>
             <string>punctuation.definition.markdown</string>
           </dict>
+          <key>4</key>
+          <dict>
+            <key>name</key>
+            <string>fenced_code.block.language.markdown</string>
+          </dict>
           <key>5</key>
           <dict>
             <key>name</key>
-            <string>fenced_code.block.language</string>
-          </dict>
-          <key>6</key>
-          <dict>
-            <key>name</key>
-            <string>fenced_code.block.language.attributes</string>
+            <string>fenced_code.block.language.attributes.markdown</string>
           </dict>
         </dict>
         <key>endCaptures</key>
@@ -2549,15 +2549,15 @@
             <key>name</key>
             <string>punctuation.definition.markdown</string>
           </dict>
+          <key>4</key>
+          <dict>
+            <key>name</key>
+            <string>fenced_code.block.language.markdown</string>
+          </dict>
           <key>5</key>
           <dict>
             <key>name</key>
-            <string>fenced_code.block.language</string>
-          </dict>
-          <key>6</key>
-          <dict>
-            <key>name</key>
-            <string>fenced_code.block.language.attributes</string>
+            <string>fenced_code.block.language.attributes.markdown</string>
           </dict>
         </dict>
         <key>endCaptures</key>
@@ -2602,15 +2602,15 @@
             <key>name</key>
             <string>punctuation.definition.markdown</string>
           </dict>
+          <key>4</key>
+          <dict>
+            <key>name</key>
+            <string>fenced_code.block.language.markdown</string>
+          </dict>
           <key>5</key>
           <dict>
             <key>name</key>
-            <string>fenced_code.block.language</string>
-          </dict>
-          <key>6</key>
-          <dict>
-            <key>name</key>
-            <string>fenced_code.block.language.attributes</string>
+            <string>fenced_code.block.language.attributes.markdown</string>
           </dict>
         </dict>
         <key>endCaptures</key>
@@ -2655,15 +2655,15 @@
             <key>name</key>
             <string>punctuation.definition.markdown</string>
           </dict>
+          <key>4</key>
+          <dict>
+            <key>name</key>
+            <string>fenced_code.block.language.markdown</string>
+          </dict>
           <key>5</key>
           <dict>
             <key>name</key>
-            <string>fenced_code.block.language</string>
-          </dict>
-          <key>6</key>
-          <dict>
-            <key>name</key>
-            <string>fenced_code.block.language.attributes</string>
+            <string>fenced_code.block.language.attributes.markdown</string>
           </dict>
         </dict>
         <key>endCaptures</key>

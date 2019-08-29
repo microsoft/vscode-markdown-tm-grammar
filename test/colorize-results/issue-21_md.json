@@ -12,7 +12,7 @@
 	},
 	{
 		"c": "python",
-		"t": "text.html.markdown markup.fenced_code.block.markdown",
+		"t": "text.html.markdown markup.fenced_code.block.markdown fenced_code.block.language.markdown",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -155,7 +155,7 @@
 	},
 	{
 		"c": "python",
-		"t": "text.html.markdown markup.list.numbered.markdown markup.fenced_code.block.markdown",
+		"t": "text.html.markdown markup.list.numbered.markdown markup.fenced_code.block.markdown fenced_code.block.language.markdown",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",

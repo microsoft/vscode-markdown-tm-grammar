@@ -86,8 +86,8 @@ const fencedCodeBlockDefinition = (name, identifiers, sourceScope, language, add
     (^|\\G)(\\2|\\s{0,3})(\\3)\\s*$
   beginCaptures:
     '3': {name: 'punctuation.definition.markdown'}
-    '5': {name: 'fenced_code.block.language'}
-    '6': {name: 'fenced_code.block.language.attributes'}
+    '4': {name: 'fenced_code.block.language.markdown'}
+    '5': {name: 'fenced_code.block.language.attributes.markdown'}
   endCaptures:
     '3': {name: 'punctuation.definition.markdown'}
   patterns:
