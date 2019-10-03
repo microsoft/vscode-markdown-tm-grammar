@@ -1,0 +1,1872 @@
+[
+	{
+		"c": "```",
+		"t": "text.html.markdown markup.fenced_code.block.markdown punctuation.definition.markdown",
+		"r": {
+			"dark_plus": "default: #D4D4D4",
+			"light_plus": "default: #000000",
+			"dark_vs": "default: #D4D4D4",
+			"light_vs": "default: #000000",
+			"hc_black": "default: #FFFFFF"
+		}
+	},
+	{
+		"c": "log",
+		"t": "text.html.markdown markup.fenced_code.block.markdown fenced_code.block.language.markdown",
+		"r": {
+			"dark_plus": "default: #D4D4D4",
+			"light_plus": "default: #000000",
+			"dark_vs": "default: #D4D4D4",
+			"light_vs": "default: #000000",
+			"hc_black": "default: #FFFFFF"
+		}
+	},
+	{
+		"c": "2015-12-09",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.log comment log.date",
+		"r": {
+			"dark_plus": "comment: #6A9955",
+			"light_plus": "comment: #008000",
+			"dark_vs": "comment: #6A9955",
+			"light_vs": "comment: #008000",
+			"hc_black": "comment: #7CA668"
+		}
+	},
+	{
+		"c": " [",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.log",
+		"r": {
+			"dark_plus": "meta.embedded: #D4D4D4",
+			"light_plus": "meta.embedded: #000000",
+			"dark_vs": "meta.embedded: #D4D4D4",
+			"light_vs": "meta.embedded: #000000",
+			"hc_black": "meta.embedded: #FFFFFF"
+		}
+	},
+	{
+		"c": "2600",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.log constant.language log.constant",
+		"r": {
+			"dark_plus": "constant.language: #569CD6",
+			"light_plus": "constant.language: #0000FF",
+			"dark_vs": "constant.language: #569CD6",
+			"light_vs": "constant.language: #0000FF",
+			"hc_black": "constant.language: #569CD6"
+		}
+	},
+	{
+		"c": "] ",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.log",
+		"r": {
+			"dark_plus": "meta.embedded: #D4D4D4",
+			"light_plus": "meta.embedded: #000000",
+			"dark_vs": "meta.embedded: #D4D4D4",
+			"light_vs": "meta.embedded: #000000",
+			"hc_black": "meta.embedded: #FFFFFF"
+		}
+	},
+	{
+		"c": "INFO",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.log markup.inserted log.info",
+		"r": {
+			"dark_plus": "markup.inserted: #B5CEA8",
+			"light_plus": "markup.inserted: #09885A",
+			"dark_vs": "markup.inserted: #B5CEA8",
+			"light_vs": "markup.inserted: #09885A",
+			"hc_black": "markup.inserted: #B5CEA8"
+		}
+	},
+	{
+		"c": "  [main]: Hello world, testing log line stacktrace highlighting",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.log",
+		"r": {
+			"dark_plus": "meta.embedded: #D4D4D4",
+			"light_plus": "meta.embedded: #000000",
+			"dark_vs": "meta.embedded: #D4D4D4",
+			"light_vs": "meta.embedded: #000000",
+			"hc_black": "meta.embedded: #FFFFFF"
+		}
+	},
+	{
+		"c": "System.NullReferenceException",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.log string.regexp, emphasis log.exceptiontype",
+		"r": {
+			"dark_plus": "string: #CE9178",
+			"light_plus": "string: #A31515",
+			"dark_vs": "string: #CE9178",
+			"light_vs": "string: #A31515",
+			"hc_black": "string: #CE9178"
+		}
+	},
+	{
+		"c": ": Object reference not set to an instance of an object.",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.log",
+		"r": {
+			"dark_plus": "meta.embedded: #D4D4D4",
+			"light_plus": "meta.embedded: #000000",
+			"dark_vs": "meta.embedded: #D4D4D4",
+			"light_vs": "meta.embedded: #000000",
+			"hc_black": "meta.embedded: #FFFFFF"
+		}
+	},
+	{
+		"c": "    at MyClass.DoSomethingElse(string foo)",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.log string.key, emphasis log.exception",
+		"r": {
+			"dark_plus": "string: #CE9178",
+			"light_plus": "string: #A31515",
+			"dark_vs": "string: #CE9178",
+			"light_vs": "string: #A31515",
+			"hc_black": "string: #CE9178"
+		}
+	},
+	{
+		"c": "    at MyClass.DoSomething()",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.log string.key, emphasis log.exception",
+		"r": {
+			"dark_plus": "string: #CE9178",
+			"light_plus": "string: #A31515",
+			"dark_vs": "string: #CE9178",
+			"light_vs": "string: #A31515",
+			"hc_black": "string: #CE9178"
+		}
+	},
+	{
+		"c": "2015-12-09",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.log comment log.date",
+		"r": {
+			"dark_plus": "comment: #6A9955",
+			"light_plus": "comment: #008000",
+			"dark_vs": "comment: #6A9955",
+			"light_vs": "comment: #008000",
+			"hc_black": "comment: #7CA668"
+		}
+	},
+	{
+		"c": " [",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.log",
+		"r": {
+			"dark_plus": "meta.embedded: #D4D4D4",
+			"light_plus": "meta.embedded: #000000",
+			"dark_vs": "meta.embedded: #D4D4D4",
+			"light_vs": "meta.embedded: #000000",
+			"hc_black": "meta.embedded: #FFFFFF"
+		}
+	},
+	{
+		"c": "2600",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.log constant.language log.constant",
+		"r": {
+			"dark_plus": "constant.language: #569CD6",
+			"light_plus": "constant.language: #0000FF",
+			"dark_vs": "constant.language: #569CD6",
+			"light_vs": "constant.language: #0000FF",
+			"hc_black": "constant.language: #569CD6"
+		}
+	},
+	{
+		"c": "] ",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.log",
+		"r": {
+			"dark_plus": "meta.embedded: #D4D4D4",
+			"light_plus": "meta.embedded: #000000",
+			"dark_vs": "meta.embedded: #D4D4D4",
+			"light_vs": "meta.embedded: #000000",
+			"hc_black": "meta.embedded: #FFFFFF"
+		}
+	},
+	{
+		"c": "INFO",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.log markup.inserted log.info",
+		"r": {
+			"dark_plus": "markup.inserted: #B5CEA8",
+			"light_plus": "markup.inserted: #09885A",
+			"dark_vs": "markup.inserted: #B5CEA8",
+			"light_vs": "markup.inserted: #09885A",
+			"hc_black": "markup.inserted: #B5CEA8"
+		}
+	},
+	{
+		"c": "  [main]: Hello world, testing log line URL highlighting, ",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.log",
+		"r": {
+			"dark_plus": "meta.embedded: #D4D4D4",
+			"light_plus": "meta.embedded: #000000",
+			"dark_vs": "meta.embedded: #D4D4D4",
+			"light_vs": "meta.embedded: #000000",
+			"hc_black": "meta.embedded: #FFFFFF"
+		}
+	},
+	{
+		"c": "https://code.visualstudio.com/",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.log constant.language log.constant",
+		"r": {
+			"dark_plus": "constant.language: #569CD6",
+			"light_plus": "constant.language: #0000FF",
+			"dark_vs": "constant.language: #569CD6",
+			"light_vs": "constant.language: #0000FF",
+			"hc_black": "constant.language: #569CD6"
+		}
+	},
+	{
+		"c": "2015-12-09",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.log comment log.date",
+		"r": {
+			"dark_plus": "comment: #6A9955",
+			"light_plus": "comment: #008000",
+			"dark_vs": "comment: #6A9955",
+			"light_vs": "comment: #008000",
+			"hc_black": "comment: #7CA668"
+		}
+	},
+	{
+		"c": " [",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.log",
+		"r": {
+			"dark_plus": "meta.embedded: #D4D4D4",
+			"light_plus": "meta.embedded: #000000",
+			"dark_vs": "meta.embedded: #D4D4D4",
+			"light_vs": "meta.embedded: #000000",
+			"hc_black": "meta.embedded: #FFFFFF"
+		}
+	},
+	{
+		"c": "2600",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.log constant.language log.constant",
+		"r": {
+			"dark_plus": "constant.language: #569CD6",
+			"light_plus": "constant.language: #0000FF",
+			"dark_vs": "constant.language: #569CD6",
+			"light_vs": "constant.language: #0000FF",
+			"hc_black": "constant.language: #569CD6"
+		}
+	},
+	{
+		"c": "] ",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.log",
+		"r": {
+			"dark_plus": "meta.embedded: #D4D4D4",
+			"light_plus": "meta.embedded: #000000",
+			"dark_vs": "meta.embedded: #D4D4D4",
+			"light_vs": "meta.embedded: #000000",
+			"hc_black": "meta.embedded: #FFFFFF"
+		}
+	},
+	{
+		"c": "INFO",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.log markup.inserted log.info",
+		"r": {
+			"dark_plus": "markup.inserted: #B5CEA8",
+			"light_plus": "markup.inserted: #09885A",
+			"dark_vs": "markup.inserted: #B5CEA8",
+			"light_vs": "markup.inserted: #09885A",
+			"hc_black": "markup.inserted: #B5CEA8"
+		}
+	},
+	{
+		"c": "  [main]: Hello world, testing log line namespace highlighting, ",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.log",
+		"r": {
+			"dark_plus": "meta.embedded: #D4D4D4",
+			"light_plus": "meta.embedded: #000000",
+			"dark_vs": "meta.embedded: #D4D4D4",
+			"light_vs": "meta.embedded: #000000",
+			"hc_black": "meta.embedded: #FFFFFF"
+		}
+	},
+	{
+		"c": "MyApp.MyNameSpace.MyClass",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.log constant.language log.constant",
+		"r": {
+			"dark_plus": "constant.language: #569CD6",
+			"light_plus": "constant.language: #0000FF",
+			"dark_vs": "constant.language: #569CD6",
+			"light_vs": "constant.language: #0000FF",
+			"hc_black": "constant.language: #569CD6"
+		}
+	},
+	{
+		"c": "2015-12-09",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.log comment log.date",
+		"r": {
+			"dark_plus": "comment: #6A9955",
+			"light_plus": "comment: #008000",
+			"dark_vs": "comment: #6A9955",
+			"light_vs": "comment: #008000",
+			"hc_black": "comment: #7CA668"
+		}
+	},
+	{
+		"c": " [",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.log",
+		"r": {
+			"dark_plus": "meta.embedded: #D4D4D4",
+			"light_plus": "meta.embedded: #000000",
+			"dark_vs": "meta.embedded: #D4D4D4",
+			"light_vs": "meta.embedded: #000000",
+			"hc_black": "meta.embedded: #FFFFFF"
+		}
+	},
+	{
+		"c": "2600",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.log constant.language log.constant",
+		"r": {
+			"dark_plus": "constant.language: #569CD6",
+			"light_plus": "constant.language: #0000FF",
+			"dark_vs": "constant.language: #569CD6",
+			"light_vs": "constant.language: #0000FF",
+			"hc_black": "constant.language: #569CD6"
+		}
+	},
+	{
+		"c": "] ",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.log",
+		"r": {
+			"dark_plus": "meta.embedded: #D4D4D4",
+			"light_plus": "meta.embedded: #000000",
+			"dark_vs": "meta.embedded: #D4D4D4",
+			"light_vs": "meta.embedded: #000000",
+			"hc_black": "meta.embedded: #FFFFFF"
+		}
+	},
+	{
+		"c": "INFO",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.log markup.inserted log.info",
+		"r": {
+			"dark_plus": "markup.inserted: #B5CEA8",
+			"light_plus": "markup.inserted: #09885A",
+			"dark_vs": "markup.inserted: #B5CEA8",
+			"light_vs": "markup.inserted: #09885A",
+			"hc_black": "markup.inserted: #B5CEA8"
+		}
+	},
+	{
+		"c": "  [main]: Hello world, testing log line GUID highlighting, ",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.log",
+		"r": {
+			"dark_plus": "meta.embedded: #D4D4D4",
+			"light_plus": "meta.embedded: #000000",
+			"dark_vs": "meta.embedded: #D4D4D4",
+			"light_vs": "meta.embedded: #000000",
+			"hc_black": "meta.embedded: #FFFFFF"
+		}
+	},
+	{
+		"c": "FEDCBA09-1234-ABCD-0987-1234567890AB",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.log constant.language log.constant",
+		"r": {
+			"dark_plus": "constant.language: #569CD6",
+			"light_plus": "constant.language: #0000FF",
+			"dark_vs": "constant.language: #569CD6",
+			"light_vs": "constant.language: #0000FF",
+			"hc_black": "constant.language: #569CD6"
+		}
+	},
+	{
+		"c": "2015-12-09",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.log comment log.date",
+		"r": {
+			"dark_plus": "comment: #6A9955",
+			"light_plus": "comment: #008000",
+			"dark_vs": "comment: #6A9955",
+			"light_vs": "comment: #008000",
+			"hc_black": "comment: #7CA668"
+		}
+	},
+	{
+		"c": " [",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.log",
+		"r": {
+			"dark_plus": "meta.embedded: #D4D4D4",
+			"light_plus": "meta.embedded: #000000",
+			"dark_vs": "meta.embedded: #D4D4D4",
+			"light_vs": "meta.embedded: #000000",
+			"hc_black": "meta.embedded: #FFFFFF"
+		}
+	},
+	{
+		"c": "2600",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.log constant.language log.constant",
+		"r": {
+			"dark_plus": "constant.language: #569CD6",
+			"light_plus": "constant.language: #0000FF",
+			"dark_vs": "constant.language: #569CD6",
+			"light_vs": "constant.language: #0000FF",
+			"hc_black": "constant.language: #569CD6"
+		}
+	},
+	{
+		"c": "] ",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.log",
+		"r": {
+			"dark_plus": "meta.embedded: #D4D4D4",
+			"light_plus": "meta.embedded: #000000",
+			"dark_vs": "meta.embedded: #D4D4D4",
+			"light_vs": "meta.embedded: #000000",
+			"hc_black": "meta.embedded: #FFFFFF"
+		}
+	},
+	{
+		"c": "INFO",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.log markup.inserted log.info",
+		"r": {
+			"dark_plus": "markup.inserted: #B5CEA8",
+			"light_plus": "markup.inserted: #09885A",
+			"dark_vs": "markup.inserted: #B5CEA8",
+			"light_vs": "markup.inserted: #09885A",
+			"hc_black": "markup.inserted: #B5CEA8"
+		}
+	},
+	{
+		"c": "  [main]: Hello world, testing log line bracketed GUID highlighting, {",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.log",
+		"r": {
+			"dark_plus": "meta.embedded: #D4D4D4",
+			"light_plus": "meta.embedded: #000000",
+			"dark_vs": "meta.embedded: #D4D4D4",
+			"light_vs": "meta.embedded: #000000",
+			"hc_black": "meta.embedded: #FFFFFF"
+		}
+	},
+	{
+		"c": "FEDCBA09-1234-ABCD-0987-1234567890AB",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.log constant.language log.constant",
+		"r": {
+			"dark_plus": "constant.language: #569CD6",
+			"light_plus": "constant.language: #0000FF",
+			"dark_vs": "constant.language: #569CD6",
+			"light_vs": "constant.language: #0000FF",
+			"hc_black": "constant.language: #569CD6"
+		}
+	},
+	{
+		"c": "}",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.log",
+		"r": {
+			"dark_plus": "meta.embedded: #D4D4D4",
+			"light_plus": "meta.embedded: #000000",
+			"dark_vs": "meta.embedded: #D4D4D4",
+			"light_vs": "meta.embedded: #000000",
+			"hc_black": "meta.embedded: #FFFFFF"
+		}
+	},
+	{
+		"c": "2015-12-09",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.log comment log.date",
+		"r": {
+			"dark_plus": "comment: #6A9955",
+			"light_plus": "comment: #008000",
+			"dark_vs": "comment: #6A9955",
+			"light_vs": "comment: #008000",
+			"hc_black": "comment: #7CA668"
+		}
+	},
+	{
+		"c": " [",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.log",
+		"r": {
+			"dark_plus": "meta.embedded: #D4D4D4",
+			"light_plus": "meta.embedded: #000000",
+			"dark_vs": "meta.embedded: #D4D4D4",
+			"light_vs": "meta.embedded: #000000",
+			"hc_black": "meta.embedded: #FFFFFF"
+		}
+	},
+	{
+		"c": "2600",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.log constant.language log.constant",
+		"r": {
+			"dark_plus": "constant.language: #569CD6",
+			"light_plus": "constant.language: #0000FF",
+			"dark_vs": "constant.language: #569CD6",
+			"light_vs": "constant.language: #0000FF",
+			"hc_black": "constant.language: #569CD6"
+		}
+	},
+	{
+		"c": "] ",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.log",
+		"r": {
+			"dark_plus": "meta.embedded: #D4D4D4",
+			"light_plus": "meta.embedded: #000000",
+			"dark_vs": "meta.embedded: #D4D4D4",
+			"light_vs": "meta.embedded: #000000",
+			"hc_black": "meta.embedded: #FFFFFF"
+		}
+	},
+	{
+		"c": "INFO",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.log markup.inserted log.info",
+		"r": {
+			"dark_plus": "markup.inserted: #B5CEA8",
+			"light_plus": "markup.inserted: #09885A",
+			"dark_vs": "markup.inserted: #B5CEA8",
+			"light_vs": "markup.inserted: #09885A",
+			"hc_black": "markup.inserted: #B5CEA8"
+		}
+	},
+	{
+		"c": "  [main]: Hello world, testing log line ",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.log",
+		"r": {
+			"dark_plus": "meta.embedded: #D4D4D4",
+			"light_plus": "meta.embedded: #000000",
+			"dark_vs": "meta.embedded: #D4D4D4",
+			"light_vs": "meta.embedded: #000000",
+			"hc_black": "meta.embedded: #FFFFFF"
+		}
+	},
+	{
+		"c": "\"quoted text\"",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.log string log.string",
+		"r": {
+			"dark_plus": "string: #CE9178",
+			"light_plus": "string: #A31515",
+			"dark_vs": "string: #CE9178",
+			"light_vs": "string: #A31515",
+			"hc_black": "string: #CE9178"
+		}
+	},
+	{
+		"c": " highlighting",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.log",
+		"r": {
+			"dark_plus": "meta.embedded: #D4D4D4",
+			"light_plus": "meta.embedded: #000000",
+			"dark_vs": "meta.embedded: #D4D4D4",
+			"light_vs": "meta.embedded: #000000",
+			"hc_black": "meta.embedded: #FFFFFF"
+		}
+	},
+	{
+		"c": "2015-12-09",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.log comment log.date",
+		"r": {
+			"dark_plus": "comment: #6A9955",
+			"light_plus": "comment: #008000",
+			"dark_vs": "comment: #6A9955",
+			"light_vs": "comment: #008000",
+			"hc_black": "comment: #7CA668"
+		}
+	},
+	{
+		"c": " [",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.log",
+		"r": {
+			"dark_plus": "meta.embedded: #D4D4D4",
+			"light_plus": "meta.embedded: #000000",
+			"dark_vs": "meta.embedded: #D4D4D4",
+			"light_vs": "meta.embedded: #000000",
+			"hc_black": "meta.embedded: #FFFFFF"
+		}
+	},
+	{
+		"c": "2600",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.log constant.language log.constant",
+		"r": {
+			"dark_plus": "constant.language: #569CD6",
+			"light_plus": "constant.language: #0000FF",
+			"dark_vs": "constant.language: #569CD6",
+			"light_vs": "constant.language: #0000FF",
+			"hc_black": "constant.language: #569CD6"
+		}
+	},
+	{
+		"c": "] ",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.log",
+		"r": {
+			"dark_plus": "meta.embedded: #D4D4D4",
+			"light_plus": "meta.embedded: #000000",
+			"dark_vs": "meta.embedded: #D4D4D4",
+			"light_vs": "meta.embedded: #000000",
+			"hc_black": "meta.embedded: #FFFFFF"
+		}
+	},
+	{
+		"c": "INFO",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.log markup.inserted log.info",
+		"r": {
+			"dark_plus": "markup.inserted: #B5CEA8",
+			"light_plus": "markup.inserted: #09885A",
+			"dark_vs": "markup.inserted: #B5CEA8",
+			"light_vs": "markup.inserted: #09885A",
+			"hc_black": "markup.inserted: #B5CEA8"
+		}
+	},
+	{
+		"c": "  [main]: Hello world, testing log line numeric constant highlighting, ",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.log",
+		"r": {
+			"dark_plus": "meta.embedded: #D4D4D4",
+			"light_plus": "meta.embedded: #000000",
+			"dark_vs": "meta.embedded: #D4D4D4",
+			"light_vs": "meta.embedded: #000000",
+			"hc_black": "meta.embedded: #FFFFFF"
+		}
+	},
+	{
+		"c": "1234",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.log constant.language log.constant",
+		"r": {
+			"dark_plus": "constant.language: #569CD6",
+			"light_plus": "constant.language: #0000FF",
+			"dark_vs": "constant.language: #569CD6",
+			"light_vs": "constant.language: #0000FF",
+			"hc_black": "constant.language: #569CD6"
+		}
+	},
+	{
+		"c": "2015-12-09",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.log comment log.date",
+		"r": {
+			"dark_plus": "comment: #6A9955",
+			"light_plus": "comment: #008000",
+			"dark_vs": "comment: #6A9955",
+			"light_vs": "comment: #008000",
+			"hc_black": "comment: #7CA668"
+		}
+	},
+	{
+		"c": " [",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.log",
+		"r": {
+			"dark_plus": "meta.embedded: #D4D4D4",
+			"light_plus": "meta.embedded: #000000",
+			"dark_vs": "meta.embedded: #D4D4D4",
+			"light_vs": "meta.embedded: #000000",
+			"hc_black": "meta.embedded: #FFFFFF"
+		}
+	},
+	{
+		"c": "2600",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.log constant.language log.constant",
+		"r": {
+			"dark_plus": "constant.language: #569CD6",
+			"light_plus": "constant.language: #0000FF",
+			"dark_vs": "constant.language: #569CD6",
+			"light_vs": "constant.language: #0000FF",
+			"hc_black": "constant.language: #569CD6"
+		}
+	},
+	{
+		"c": "] ",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.log",
+		"r": {
+			"dark_plus": "meta.embedded: #D4D4D4",
+			"light_plus": "meta.embedded: #000000",
+			"dark_vs": "meta.embedded: #D4D4D4",
+			"light_vs": "meta.embedded: #000000",
+			"hc_black": "meta.embedded: #FFFFFF"
+		}
+	},
+	{
+		"c": "INFO",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.log markup.inserted log.info",
+		"r": {
+			"dark_plus": "markup.inserted: #B5CEA8",
+			"light_plus": "markup.inserted: #09885A",
+			"dark_vs": "markup.inserted: #B5CEA8",
+			"light_vs": "markup.inserted: #09885A",
+			"hc_black": "markup.inserted: #B5CEA8"
+		}
+	},
+	{
+		"c": "  [main]: Hello world, testing log line basic constant highlighting, ",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.log",
+		"r": {
+			"dark_plus": "meta.embedded: #D4D4D4",
+			"light_plus": "meta.embedded: #000000",
+			"dark_vs": "meta.embedded: #D4D4D4",
+			"light_vs": "meta.embedded: #000000",
+			"hc_black": "meta.embedded: #FFFFFF"
+		}
+	},
+	{
+		"c": "true",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.log constant.language log.constant",
+		"r": {
+			"dark_plus": "constant.language: #569CD6",
+			"light_plus": "constant.language: #0000FF",
+			"dark_vs": "constant.language: #569CD6",
+			"light_vs": "constant.language: #0000FF",
+			"hc_black": "constant.language: #569CD6"
+		}
+	},
+	{
+		"c": ", ",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.log",
+		"r": {
+			"dark_plus": "meta.embedded: #D4D4D4",
+			"light_plus": "meta.embedded: #000000",
+			"dark_vs": "meta.embedded: #D4D4D4",
+			"light_vs": "meta.embedded: #000000",
+			"hc_black": "meta.embedded: #FFFFFF"
+		}
+	},
+	{
+		"c": "false",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.log constant.language log.constant",
+		"r": {
+			"dark_plus": "constant.language: #569CD6",
+			"light_plus": "constant.language: #0000FF",
+			"dark_vs": "constant.language: #569CD6",
+			"light_vs": "constant.language: #0000FF",
+			"hc_black": "constant.language: #569CD6"
+		}
+	},
+	{
+		"c": ", ",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.log",
+		"r": {
+			"dark_plus": "meta.embedded: #D4D4D4",
+			"light_plus": "meta.embedded: #000000",
+			"dark_vs": "meta.embedded: #D4D4D4",
+			"light_vs": "meta.embedded: #000000",
+			"hc_black": "meta.embedded: #FFFFFF"
+		}
+	},
+	{
+		"c": "null",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.log constant.language log.constant",
+		"r": {
+			"dark_plus": "constant.language: #569CD6",
+			"light_plus": "constant.language: #0000FF",
+			"dark_vs": "constant.language: #569CD6",
+			"light_vs": "constant.language: #0000FF",
+			"hc_black": "constant.language: #569CD6"
+		}
+	},
+	{
+		"c": "2015-12-09",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.log comment log.date",
+		"r": {
+			"dark_plus": "comment: #6A9955",
+			"light_plus": "comment: #008000",
+			"dark_vs": "comment: #6A9955",
+			"light_vs": "comment: #008000",
+			"hc_black": "comment: #7CA668"
+		}
+	},
+	{
+		"c": " [",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.log",
+		"r": {
+			"dark_plus": "meta.embedded: #D4D4D4",
+			"light_plus": "meta.embedded: #000000",
+			"dark_vs": "meta.embedded: #D4D4D4",
+			"light_vs": "meta.embedded: #000000",
+			"hc_black": "meta.embedded: #FFFFFF"
+		}
+	},
+	{
+		"c": "2600",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.log constant.language log.constant",
+		"r": {
+			"dark_plus": "constant.language: #569CD6",
+			"light_plus": "constant.language: #0000FF",
+			"dark_vs": "constant.language: #569CD6",
+			"light_vs": "constant.language: #0000FF",
+			"hc_black": "constant.language: #569CD6"
+		}
+	},
+	{
+		"c": "] ",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.log",
+		"r": {
+			"dark_plus": "meta.embedded: #D4D4D4",
+			"light_plus": "meta.embedded: #000000",
+			"dark_vs": "meta.embedded: #D4D4D4",
+			"light_vs": "meta.embedded: #000000",
+			"hc_black": "meta.embedded: #FFFFFF"
+		}
+	},
+	{
+		"c": "INFO",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.log markup.inserted log.info",
+		"r": {
+			"dark_plus": "markup.inserted: #B5CEA8",
+			"light_plus": "markup.inserted: #09885A",
+			"dark_vs": "markup.inserted: #B5CEA8",
+			"light_vs": "markup.inserted: #09885A",
+			"hc_black": "markup.inserted: #B5CEA8"
+		}
+	},
+	{
+		"c": "  [main]: Hello world, testing log line level highlighting",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.log",
+		"r": {
+			"dark_plus": "meta.embedded: #D4D4D4",
+			"light_plus": "meta.embedded: #000000",
+			"dark_vs": "meta.embedded: #D4D4D4",
+			"light_vs": "meta.embedded: #000000",
+			"hc_black": "meta.embedded: #FFFFFF"
+		}
+	},
+	{
+		"c": "2015-12-09",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.log comment log.date",
+		"r": {
+			"dark_plus": "comment: #6A9955",
+			"light_plus": "comment: #008000",
+			"dark_vs": "comment: #6A9955",
+			"light_vs": "comment: #008000",
+			"hc_black": "comment: #7CA668"
+		}
+	},
+	{
+		"c": " [",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.log",
+		"r": {
+			"dark_plus": "meta.embedded: #D4D4D4",
+			"light_plus": "meta.embedded: #000000",
+			"dark_vs": "meta.embedded: #D4D4D4",
+			"light_vs": "meta.embedded: #000000",
+			"hc_black": "meta.embedded: #FFFFFF"
+		}
+	},
+	{
+		"c": "2600",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.log constant.language log.constant",
+		"r": {
+			"dark_plus": "constant.language: #569CD6",
+			"light_plus": "constant.language: #0000FF",
+			"dark_vs": "constant.language: #569CD6",
+			"light_vs": "constant.language: #0000FF",
+			"hc_black": "constant.language: #569CD6"
+		}
+	},
+	{
+		"c": "] ",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.log",
+		"r": {
+			"dark_plus": "meta.embedded: #D4D4D4",
+			"light_plus": "meta.embedded: #000000",
+			"dark_vs": "meta.embedded: #D4D4D4",
+			"light_vs": "meta.embedded: #000000",
+			"hc_black": "meta.embedded: #FFFFFF"
+		}
+	},
+	{
+		"c": "INFORMATION",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.log markup.inserted log.info",
+		"r": {
+			"dark_plus": "markup.inserted: #B5CEA8",
+			"light_plus": "markup.inserted: #09885A",
+			"dark_vs": "markup.inserted: #B5CEA8",
+			"light_vs": "markup.inserted: #09885A",
+			"hc_black": "markup.inserted: #B5CEA8"
+		}
+	},
+	{
+		"c": " [main]: Hello world, testing log line level highlighting",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.log",
+		"r": {
+			"dark_plus": "meta.embedded: #D4D4D4",
+			"light_plus": "meta.embedded: #000000",
+			"dark_vs": "meta.embedded: #D4D4D4",
+			"light_vs": "meta.embedded: #000000",
+			"hc_black": "meta.embedded: #FFFFFF"
+		}
+	},
+	{
+		"c": "2015-12-09",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.log comment log.date",
+		"r": {
+			"dark_plus": "comment: #6A9955",
+			"light_plus": "comment: #008000",
+			"dark_vs": "comment: #6A9955",
+			"light_vs": "comment: #008000",
+			"hc_black": "comment: #7CA668"
+		}
+	},
+	{
+		"c": " [",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.log",
+		"r": {
+			"dark_plus": "meta.embedded: #D4D4D4",
+			"light_plus": "meta.embedded: #000000",
+			"dark_vs": "meta.embedded: #D4D4D4",
+			"light_vs": "meta.embedded: #000000",
+			"hc_black": "meta.embedded: #FFFFFF"
+		}
+	},
+	{
+		"c": "2600",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.log constant.language log.constant",
+		"r": {
+			"dark_plus": "constant.language: #569CD6",
+			"light_plus": "constant.language: #0000FF",
+			"dark_vs": "constant.language: #569CD6",
+			"light_vs": "constant.language: #0000FF",
+			"hc_black": "constant.language: #569CD6"
+		}
+	},
+	{
+		"c": "] ",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.log",
+		"r": {
+			"dark_plus": "meta.embedded: #D4D4D4",
+			"light_plus": "meta.embedded: #000000",
+			"dark_vs": "meta.embedded: #D4D4D4",
+			"light_vs": "meta.embedded: #000000",
+			"hc_black": "meta.embedded: #FFFFFF"
+		}
+	},
+	{
+		"c": "WARN",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.log markup.deleted log.warning",
+		"r": {
+			"dark_plus": "markup.deleted: #CE9178",
+			"light_plus": "markup.deleted: #A31515",
+			"dark_vs": "markup.deleted: #CE9178",
+			"light_vs": "markup.deleted: #A31515",
+			"hc_black": "markup.deleted: #CE9178"
+		}
+	},
+	{
+		"c": "  [main]: Hello world, testing log line level highlighting",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.log",
+		"r": {
+			"dark_plus": "meta.embedded: #D4D4D4",
+			"light_plus": "meta.embedded: #000000",
+			"dark_vs": "meta.embedded: #D4D4D4",
+			"light_vs": "meta.embedded: #000000",
+			"hc_black": "meta.embedded: #FFFFFF"
+		}
+	},
+	{
+		"c": "2015-12-09",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.log comment log.date",
+		"r": {
+			"dark_plus": "comment: #6A9955",
+			"light_plus": "comment: #008000",
+			"dark_vs": "comment: #6A9955",
+			"light_vs": "comment: #008000",
+			"hc_black": "comment: #7CA668"
+		}
+	},
+	{
+		"c": " [",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.log",
+		"r": {
+			"dark_plus": "meta.embedded: #D4D4D4",
+			"light_plus": "meta.embedded: #000000",
+			"dark_vs": "meta.embedded: #D4D4D4",
+			"light_vs": "meta.embedded: #000000",
+			"hc_black": "meta.embedded: #FFFFFF"
+		}
+	},
+	{
+		"c": "2600",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.log constant.language log.constant",
+		"r": {
+			"dark_plus": "constant.language: #569CD6",
+			"light_plus": "constant.language: #0000FF",
+			"dark_vs": "constant.language: #569CD6",
+			"light_vs": "constant.language: #0000FF",
+			"hc_black": "constant.language: #569CD6"
+		}
+	},
+	{
+		"c": "] ",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.log",
+		"r": {
+			"dark_plus": "meta.embedded: #D4D4D4",
+			"light_plus": "meta.embedded: #000000",
+			"dark_vs": "meta.embedded: #D4D4D4",
+			"light_vs": "meta.embedded: #000000",
+			"hc_black": "meta.embedded: #FFFFFF"
+		}
+	},
+	{
+		"c": "WARNING",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.log markup.deleted log.warning",
+		"r": {
+			"dark_plus": "markup.deleted: #CE9178",
+			"light_plus": "markup.deleted: #A31515",
+			"dark_vs": "markup.deleted: #CE9178",
+			"light_vs": "markup.deleted: #A31515",
+			"hc_black": "markup.deleted: #CE9178"
+		}
+	},
+	{
+		"c": " [main]: Hello world, testing log line level highlighting",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.log",
+		"r": {
+			"dark_plus": "meta.embedded: #D4D4D4",
+			"light_plus": "meta.embedded: #000000",
+			"dark_vs": "meta.embedded: #D4D4D4",
+			"light_vs": "meta.embedded: #000000",
+			"hc_black": "meta.embedded: #FFFFFF"
+		}
+	},
+	{
+		"c": "2015-12-09",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.log comment log.date",
+		"r": {
+			"dark_plus": "comment: #6A9955",
+			"light_plus": "comment: #008000",
+			"dark_vs": "comment: #6A9955",
+			"light_vs": "comment: #008000",
+			"hc_black": "comment: #7CA668"
+		}
+	},
+	{
+		"c": " [",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.log",
+		"r": {
+			"dark_plus": "meta.embedded: #D4D4D4",
+			"light_plus": "meta.embedded: #000000",
+			"dark_vs": "meta.embedded: #D4D4D4",
+			"light_vs": "meta.embedded: #000000",
+			"hc_black": "meta.embedded: #FFFFFF"
+		}
+	},
+	{
+		"c": "2600",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.log constant.language log.constant",
+		"r": {
+			"dark_plus": "constant.language: #569CD6",
+			"light_plus": "constant.language: #0000FF",
+			"dark_vs": "constant.language: #569CD6",
+			"light_vs": "constant.language: #0000FF",
+			"hc_black": "constant.language: #569CD6"
+		}
+	},
+	{
+		"c": "] ",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.log",
+		"r": {
+			"dark_plus": "meta.embedded: #D4D4D4",
+			"light_plus": "meta.embedded: #000000",
+			"dark_vs": "meta.embedded: #D4D4D4",
+			"light_vs": "meta.embedded: #000000",
+			"hc_black": "meta.embedded: #FFFFFF"
+		}
+	},
+	{
+		"c": "ERROR",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.log string.regexp, strong log.error",
+		"r": {
+			"dark_plus": "string: #CE9178",
+			"light_plus": "string: #A31515",
+			"dark_vs": "string: #CE9178",
+			"light_vs": "string: #A31515",
+			"hc_black": "string: #CE9178"
+		}
+	},
+	{
+		"c": " [main]: Hello world, testing log line level highlighting",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.log",
+		"r": {
+			"dark_plus": "meta.embedded: #D4D4D4",
+			"light_plus": "meta.embedded: #000000",
+			"dark_vs": "meta.embedded: #D4D4D4",
+			"light_vs": "meta.embedded: #000000",
+			"hc_black": "meta.embedded: #FFFFFF"
+		}
+	},
+	{
+		"c": "2015-12-09",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.log comment log.date",
+		"r": {
+			"dark_plus": "comment: #6A9955",
+			"light_plus": "comment: #008000",
+			"dark_vs": "comment: #6A9955",
+			"light_vs": "comment: #008000",
+			"hc_black": "comment: #7CA668"
+		}
+	},
+	{
+		"c": " [",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.log",
+		"r": {
+			"dark_plus": "meta.embedded: #D4D4D4",
+			"light_plus": "meta.embedded: #000000",
+			"dark_vs": "meta.embedded: #D4D4D4",
+			"light_vs": "meta.embedded: #000000",
+			"hc_black": "meta.embedded: #FFFFFF"
+		}
+	},
+	{
+		"c": "2600",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.log constant.language log.constant",
+		"r": {
+			"dark_plus": "constant.language: #569CD6",
+			"light_plus": "constant.language: #0000FF",
+			"dark_vs": "constant.language: #569CD6",
+			"light_vs": "constant.language: #0000FF",
+			"hc_black": "constant.language: #569CD6"
+		}
+	},
+	{
+		"c": "] ",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.log",
+		"r": {
+			"dark_plus": "meta.embedded: #D4D4D4",
+			"light_plus": "meta.embedded: #000000",
+			"dark_vs": "meta.embedded: #D4D4D4",
+			"light_vs": "meta.embedded: #000000",
+			"hc_black": "meta.embedded: #FFFFFF"
+		}
+	},
+	{
+		"c": "FAIL",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.log string.regexp, strong log.error",
+		"r": {
+			"dark_plus": "string: #CE9178",
+			"light_plus": "string: #A31515",
+			"dark_vs": "string: #CE9178",
+			"light_vs": "string: #A31515",
+			"hc_black": "string: #CE9178"
+		}
+	},
+	{
+		"c": "  [main]: Hello world, testing log line level highlighting",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.log",
+		"r": {
+			"dark_plus": "meta.embedded: #D4D4D4",
+			"light_plus": "meta.embedded: #000000",
+			"dark_vs": "meta.embedded: #D4D4D4",
+			"light_vs": "meta.embedded: #000000",
+			"hc_black": "meta.embedded: #FFFFFF"
+		}
+	},
+	{
+		"c": "2015-12-09",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.log comment log.date",
+		"r": {
+			"dark_plus": "comment: #6A9955",
+			"light_plus": "comment: #008000",
+			"dark_vs": "comment: #6A9955",
+			"light_vs": "comment: #008000",
+			"hc_black": "comment: #7CA668"
+		}
+	},
+	{
+		"c": " [",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.log",
+		"r": {
+			"dark_plus": "meta.embedded: #D4D4D4",
+			"light_plus": "meta.embedded: #000000",
+			"dark_vs": "meta.embedded: #D4D4D4",
+			"light_vs": "meta.embedded: #000000",
+			"hc_black": "meta.embedded: #FFFFFF"
+		}
+	},
+	{
+		"c": "2600",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.log constant.language log.constant",
+		"r": {
+			"dark_plus": "constant.language: #569CD6",
+			"light_plus": "constant.language: #0000FF",
+			"dark_vs": "constant.language: #569CD6",
+			"light_vs": "constant.language: #0000FF",
+			"hc_black": "constant.language: #569CD6"
+		}
+	},
+	{
+		"c": "] ",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.log",
+		"r": {
+			"dark_plus": "meta.embedded: #D4D4D4",
+			"light_plus": "meta.embedded: #000000",
+			"dark_vs": "meta.embedded: #D4D4D4",
+			"light_vs": "meta.embedded: #000000",
+			"hc_black": "meta.embedded: #FFFFFF"
+		}
+	},
+	{
+		"c": "FAILURE",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.log string.regexp, strong log.error",
+		"r": {
+			"dark_plus": "string: #CE9178",
+			"light_plus": "string: #A31515",
+			"dark_vs": "string: #CE9178",
+			"light_vs": "string: #A31515",
+			"hc_black": "string: #CE9178"
+		}
+	},
+	{
+		"c": " [main]: Hello world, testing log line level highlighting",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.log",
+		"r": {
+			"dark_plus": "meta.embedded: #D4D4D4",
+			"light_plus": "meta.embedded: #000000",
+			"dark_vs": "meta.embedded: #D4D4D4",
+			"light_vs": "meta.embedded: #000000",
+			"hc_black": "meta.embedded: #FFFFFF"
+		}
+	},
+	{
+		"c": "2015-12-09",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.log comment log.date",
+		"r": {
+			"dark_plus": "comment: #6A9955",
+			"light_plus": "comment: #008000",
+			"dark_vs": "comment: #6A9955",
+			"light_vs": "comment: #008000",
+			"hc_black": "comment: #7CA668"
+		}
+	},
+	{
+		"c": " [",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.log",
+		"r": {
+			"dark_plus": "meta.embedded: #D4D4D4",
+			"light_plus": "meta.embedded: #000000",
+			"dark_vs": "meta.embedded: #D4D4D4",
+			"light_vs": "meta.embedded: #000000",
+			"hc_black": "meta.embedded: #FFFFFF"
+		}
+	},
+	{
+		"c": "2600",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.log constant.language log.constant",
+		"r": {
+			"dark_plus": "constant.language: #569CD6",
+			"light_plus": "constant.language: #0000FF",
+			"dark_vs": "constant.language: #569CD6",
+			"light_vs": "constant.language: #0000FF",
+			"hc_black": "constant.language: #569CD6"
+		}
+	},
+	{
+		"c": "] ",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.log",
+		"r": {
+			"dark_plus": "meta.embedded: #D4D4D4",
+			"light_plus": "meta.embedded: #000000",
+			"dark_vs": "meta.embedded: #D4D4D4",
+			"light_vs": "meta.embedded: #000000",
+			"hc_black": "meta.embedded: #FFFFFF"
+		}
+	},
+	{
+		"c": "DEBUG",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.log markup.changed log.debug",
+		"r": {
+			"dark_plus": "markup.changed: #569CD6",
+			"light_plus": "markup.changed: #0451A5",
+			"dark_vs": "markup.changed: #569CD6",
+			"light_vs": "markup.changed: #0451A5",
+			"hc_black": "markup.changed: #569CD6"
+		}
+	},
+	{
+		"c": " [main]: Hello world, testing log line level highlighting",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.log",
+		"r": {
+			"dark_plus": "meta.embedded: #D4D4D4",
+			"light_plus": "meta.embedded: #000000",
+			"dark_vs": "meta.embedded: #D4D4D4",
+			"light_vs": "meta.embedded: #000000",
+			"hc_black": "meta.embedded: #FFFFFF"
+		}
+	},
+	{
+		"c": "2015-12-09",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.log comment log.date",
+		"r": {
+			"dark_plus": "comment: #6A9955",
+			"light_plus": "comment: #008000",
+			"dark_vs": "comment: #6A9955",
+			"light_vs": "comment: #008000",
+			"hc_black": "comment: #7CA668"
+		}
+	},
+	{
+		"c": " [",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.log",
+		"r": {
+			"dark_plus": "meta.embedded: #D4D4D4",
+			"light_plus": "meta.embedded: #000000",
+			"dark_vs": "meta.embedded: #D4D4D4",
+			"light_vs": "meta.embedded: #000000",
+			"hc_black": "meta.embedded: #FFFFFF"
+		}
+	},
+	{
+		"c": "2600",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.log constant.language log.constant",
+		"r": {
+			"dark_plus": "constant.language: #569CD6",
+			"light_plus": "constant.language: #0000FF",
+			"dark_vs": "constant.language: #569CD6",
+			"light_vs": "constant.language: #0000FF",
+			"hc_black": "constant.language: #569CD6"
+		}
+	},
+	{
+		"c": "] TRACE [main]: Hello world, testing log line level highlighting",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.log",
+		"r": {
+			"dark_plus": "meta.embedded: #D4D4D4",
+			"light_plus": "meta.embedded: #000000",
+			"dark_vs": "meta.embedded: #D4D4D4",
+			"light_vs": "meta.embedded: #000000",
+			"hc_black": "meta.embedded: #FFFFFF"
+		}
+	},
+	{
+		"c": "2015-12-09",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.log comment log.date",
+		"r": {
+			"dark_plus": "comment: #6A9955",
+			"light_plus": "comment: #008000",
+			"dark_vs": "comment: #6A9955",
+			"light_vs": "comment: #008000",
+			"hc_black": "comment: #7CA668"
+		}
+	},
+	{
+		"c": " ",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.log",
+		"r": {
+			"dark_plus": "meta.embedded: #D4D4D4",
+			"light_plus": "meta.embedded: #000000",
+			"dark_vs": "meta.embedded: #D4D4D4",
+			"light_vs": "meta.embedded: #000000",
+			"hc_black": "meta.embedded: #FFFFFF"
+		}
+	},
+	{
+		"c": "09:29",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.log comment log.date",
+		"r": {
+			"dark_plus": "comment: #6A9955",
+			"light_plus": "comment: #008000",
+			"dark_vs": "comment: #6A9955",
+			"light_vs": "comment: #008000",
+			"hc_black": "comment: #7CA668"
+		}
+	},
+	{
+		"c": " [",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.log",
+		"r": {
+			"dark_plus": "meta.embedded: #D4D4D4",
+			"light_plus": "meta.embedded: #000000",
+			"dark_vs": "meta.embedded: #D4D4D4",
+			"light_vs": "meta.embedded: #000000",
+			"hc_black": "meta.embedded: #FFFFFF"
+		}
+	},
+	{
+		"c": "2600",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.log constant.language log.constant",
+		"r": {
+			"dark_plus": "constant.language: #569CD6",
+			"light_plus": "constant.language: #0000FF",
+			"dark_vs": "constant.language: #569CD6",
+			"light_vs": "constant.language: #0000FF",
+			"hc_black": "constant.language: #569CD6"
+		}
+	},
+	{
+		"c": "] ",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.log",
+		"r": {
+			"dark_plus": "meta.embedded: #D4D4D4",
+			"light_plus": "meta.embedded: #000000",
+			"dark_vs": "meta.embedded: #D4D4D4",
+			"light_vs": "meta.embedded: #000000",
+			"hc_black": "meta.embedded: #FFFFFF"
+		}
+	},
+	{
+		"c": "INFO",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.log markup.inserted log.info",
+		"r": {
+			"dark_plus": "markup.inserted: #B5CEA8",
+			"light_plus": "markup.inserted: #09885A",
+			"dark_vs": "markup.inserted: #B5CEA8",
+			"light_vs": "markup.inserted: #09885A",
+			"hc_black": "markup.inserted: #B5CEA8"
+		}
+	},
+	{
+		"c": "  [main]: Hello world, testing log line datestamp variation highlighting",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.log",
+		"r": {
+			"dark_plus": "meta.embedded: #D4D4D4",
+			"light_plus": "meta.embedded: #000000",
+			"dark_vs": "meta.embedded: #D4D4D4",
+			"light_vs": "meta.embedded: #000000",
+			"hc_black": "meta.embedded: #FFFFFF"
+		}
+	},
+	{
+		"c": "2015-12-09",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.log comment log.date",
+		"r": {
+			"dark_plus": "comment: #6A9955",
+			"light_plus": "comment: #008000",
+			"dark_vs": "comment: #6A9955",
+			"light_vs": "comment: #008000",
+			"hc_black": "comment: #7CA668"
+		}
+	},
+	{
+		"c": " ",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.log",
+		"r": {
+			"dark_plus": "meta.embedded: #D4D4D4",
+			"light_plus": "meta.embedded: #000000",
+			"dark_vs": "meta.embedded: #D4D4D4",
+			"light_vs": "meta.embedded: #000000",
+			"hc_black": "meta.embedded: #FFFFFF"
+		}
+	},
+	{
+		"c": "09:29:02.258",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.log comment log.date",
+		"r": {
+			"dark_plus": "comment: #6A9955",
+			"light_plus": "comment: #008000",
+			"dark_vs": "comment: #6A9955",
+			"light_vs": "comment: #008000",
+			"hc_black": "comment: #7CA668"
+		}
+	},
+	{
+		"c": " [",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.log",
+		"r": {
+			"dark_plus": "meta.embedded: #D4D4D4",
+			"light_plus": "meta.embedded: #000000",
+			"dark_vs": "meta.embedded: #D4D4D4",
+			"light_vs": "meta.embedded: #000000",
+			"hc_black": "meta.embedded: #FFFFFF"
+		}
+	},
+	{
+		"c": "2600",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.log constant.language log.constant",
+		"r": {
+			"dark_plus": "constant.language: #569CD6",
+			"light_plus": "constant.language: #0000FF",
+			"dark_vs": "constant.language: #569CD6",
+			"light_vs": "constant.language: #0000FF",
+			"hc_black": "constant.language: #569CD6"
+		}
+	},
+	{
+		"c": "] ",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.log",
+		"r": {
+			"dark_plus": "meta.embedded: #D4D4D4",
+			"light_plus": "meta.embedded: #000000",
+			"dark_vs": "meta.embedded: #D4D4D4",
+			"light_vs": "meta.embedded: #000000",
+			"hc_black": "meta.embedded: #FFFFFF"
+		}
+	},
+	{
+		"c": "INFO",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.log markup.inserted log.info",
+		"r": {
+			"dark_plus": "markup.inserted: #B5CEA8",
+			"light_plus": "markup.inserted: #09885A",
+			"dark_vs": "markup.inserted: #B5CEA8",
+			"light_vs": "markup.inserted: #09885A",
+			"hc_black": "markup.inserted: #B5CEA8"
+		}
+	},
+	{
+		"c": "  [main]: Hello world, testing log datestamp variation highlighting",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.log",
+		"r": {
+			"dark_plus": "meta.embedded: #D4D4D4",
+			"light_plus": "meta.embedded: #000000",
+			"dark_vs": "meta.embedded: #D4D4D4",
+			"light_vs": "meta.embedded: #000000",
+			"hc_black": "meta.embedded: #FFFFFF"
+		}
+	},
+	{
+		"c": "12/09/2016",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.log comment log.date",
+		"r": {
+			"dark_plus": "comment: #6A9955",
+			"light_plus": "comment: #008000",
+			"dark_vs": "comment: #6A9955",
+			"light_vs": "comment: #008000",
+			"hc_black": "comment: #7CA668"
+		}
+	},
+	{
+		"c": " [",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.log",
+		"r": {
+			"dark_plus": "meta.embedded: #D4D4D4",
+			"light_plus": "meta.embedded: #000000",
+			"dark_vs": "meta.embedded: #D4D4D4",
+			"light_vs": "meta.embedded: #000000",
+			"hc_black": "meta.embedded: #FFFFFF"
+		}
+	},
+	{
+		"c": "2600",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.log constant.language log.constant",
+		"r": {
+			"dark_plus": "constant.language: #569CD6",
+			"light_plus": "constant.language: #0000FF",
+			"dark_vs": "constant.language: #569CD6",
+			"light_vs": "constant.language: #0000FF",
+			"hc_black": "constant.language: #569CD6"
+		}
+	},
+	{
+		"c": "] ",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.log",
+		"r": {
+			"dark_plus": "meta.embedded: #D4D4D4",
+			"light_plus": "meta.embedded: #000000",
+			"dark_vs": "meta.embedded: #D4D4D4",
+			"light_vs": "meta.embedded: #000000",
+			"hc_black": "meta.embedded: #FFFFFF"
+		}
+	},
+	{
+		"c": "INFO",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.log markup.inserted log.info",
+		"r": {
+			"dark_plus": "markup.inserted: #B5CEA8",
+			"light_plus": "markup.inserted: #09885A",
+			"dark_vs": "markup.inserted: #B5CEA8",
+			"light_vs": "markup.inserted: #09885A",
+			"hc_black": "markup.inserted: #B5CEA8"
+		}
+	},
+	{
+		"c": "  [main]: Hello world, testing log line datestamp variation highlighting",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.log",
+		"r": {
+			"dark_plus": "meta.embedded: #D4D4D4",
+			"light_plus": "meta.embedded: #000000",
+			"dark_vs": "meta.embedded: #D4D4D4",
+			"light_vs": "meta.embedded: #000000",
+			"hc_black": "meta.embedded: #FFFFFF"
+		}
+	},
+	{
+		"c": "12.09.2016",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.log comment log.date",
+		"r": {
+			"dark_plus": "comment: #6A9955",
+			"light_plus": "comment: #008000",
+			"dark_vs": "comment: #6A9955",
+			"light_vs": "comment: #008000",
+			"hc_black": "comment: #7CA668"
+		}
+	},
+	{
+		"c": " [",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.log",
+		"r": {
+			"dark_plus": "meta.embedded: #D4D4D4",
+			"light_plus": "meta.embedded: #000000",
+			"dark_vs": "meta.embedded: #D4D4D4",
+			"light_vs": "meta.embedded: #000000",
+			"hc_black": "meta.embedded: #FFFFFF"
+		}
+	},
+	{
+		"c": "2600",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.log constant.language log.constant",
+		"r": {
+			"dark_plus": "constant.language: #569CD6",
+			"light_plus": "constant.language: #0000FF",
+			"dark_vs": "constant.language: #569CD6",
+			"light_vs": "constant.language: #0000FF",
+			"hc_black": "constant.language: #569CD6"
+		}
+	},
+	{
+		"c": "] ",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.log",
+		"r": {
+			"dark_plus": "meta.embedded: #D4D4D4",
+			"light_plus": "meta.embedded: #000000",
+			"dark_vs": "meta.embedded: #D4D4D4",
+			"light_vs": "meta.embedded: #000000",
+			"hc_black": "meta.embedded: #FFFFFF"
+		}
+	},
+	{
+		"c": "INFO",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.log markup.inserted log.info",
+		"r": {
+			"dark_plus": "markup.inserted: #B5CEA8",
+			"light_plus": "markup.inserted: #09885A",
+			"dark_vs": "markup.inserted: #B5CEA8",
+			"light_vs": "markup.inserted: #09885A",
+			"hc_black": "markup.inserted: #B5CEA8"
+		}
+	},
+	{
+		"c": "  [main]: Hello world, testing log line datestamp variation highlighting",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.log",
+		"r": {
+			"dark_plus": "meta.embedded: #D4D4D4",
+			"light_plus": "meta.embedded: #000000",
+			"dark_vs": "meta.embedded: #D4D4D4",
+			"light_vs": "meta.embedded: #000000",
+			"hc_black": "meta.embedded: #FFFFFF"
+		}
+	},
+	{
+		"c": "12-09-2016",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.log comment log.date",
+		"r": {
+			"dark_plus": "comment: #6A9955",
+			"light_plus": "comment: #008000",
+			"dark_vs": "comment: #6A9955",
+			"light_vs": "comment: #008000",
+			"hc_black": "comment: #7CA668"
+		}
+	},
+	{
+		"c": " [",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.log",
+		"r": {
+			"dark_plus": "meta.embedded: #D4D4D4",
+			"light_plus": "meta.embedded: #000000",
+			"dark_vs": "meta.embedded: #D4D4D4",
+			"light_vs": "meta.embedded: #000000",
+			"hc_black": "meta.embedded: #FFFFFF"
+		}
+	},
+	{
+		"c": "2600",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.log constant.language log.constant",
+		"r": {
+			"dark_plus": "constant.language: #569CD6",
+			"light_plus": "constant.language: #0000FF",
+			"dark_vs": "constant.language: #569CD6",
+			"light_vs": "constant.language: #0000FF",
+			"hc_black": "constant.language: #569CD6"
+		}
+	},
+	{
+		"c": "] ",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.log",
+		"r": {
+			"dark_plus": "meta.embedded: #D4D4D4",
+			"light_plus": "meta.embedded: #000000",
+			"dark_vs": "meta.embedded: #D4D4D4",
+			"light_vs": "meta.embedded: #000000",
+			"hc_black": "meta.embedded: #FFFFFF"
+		}
+	},
+	{
+		"c": "INFO",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.log markup.inserted log.info",
+		"r": {
+			"dark_plus": "markup.inserted: #B5CEA8",
+			"light_plus": "markup.inserted: #09885A",
+			"dark_vs": "markup.inserted: #B5CEA8",
+			"light_vs": "markup.inserted: #09885A",
+			"hc_black": "markup.inserted: #B5CEA8"
+		}
+	},
+	{
+		"c": "  [main]: Hello world, testing log line datestamp variation highlighting",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.log",
+		"r": {
+			"dark_plus": "meta.embedded: #D4D4D4",
+			"light_plus": "meta.embedded: #000000",
+			"dark_vs": "meta.embedded: #D4D4D4",
+			"light_vs": "meta.embedded: #000000",
+			"hc_black": "meta.embedded: #FFFFFF"
+		}
+	},
+	{
+		"c": "12-09-2015",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.log comment log.date",
+		"r": {
+			"dark_plus": "comment: #6A9955",
+			"light_plus": "comment: #008000",
+			"dark_vs": "comment: #6A9955",
+			"light_vs": "comment: #008000",
+			"hc_black": "comment: #7CA668"
+		}
+	},
+	{
+		"c": " ",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.log",
+		"r": {
+			"dark_plus": "meta.embedded: #D4D4D4",
+			"light_plus": "meta.embedded: #000000",
+			"dark_vs": "meta.embedded: #D4D4D4",
+			"light_vs": "meta.embedded: #000000",
+			"hc_black": "meta.embedded: #FFFFFF"
+		}
+	},
+	{
+		"c": "09:29",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.log comment log.date",
+		"r": {
+			"dark_plus": "comment: #6A9955",
+			"light_plus": "comment: #008000",
+			"dark_vs": "comment: #6A9955",
+			"light_vs": "comment: #008000",
+			"hc_black": "comment: #7CA668"
+		}
+	},
+	{
+		"c": " [",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.log",
+		"r": {
+			"dark_plus": "meta.embedded: #D4D4D4",
+			"light_plus": "meta.embedded: #000000",
+			"dark_vs": "meta.embedded: #D4D4D4",
+			"light_vs": "meta.embedded: #000000",
+			"hc_black": "meta.embedded: #FFFFFF"
+		}
+	},
+	{
+		"c": "2600",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.log constant.language log.constant",
+		"r": {
+			"dark_plus": "constant.language: #569CD6",
+			"light_plus": "constant.language: #0000FF",
+			"dark_vs": "constant.language: #569CD6",
+			"light_vs": "constant.language: #0000FF",
+			"hc_black": "constant.language: #569CD6"
+		}
+	},
+	{
+		"c": "] ",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.log",
+		"r": {
+			"dark_plus": "meta.embedded: #D4D4D4",
+			"light_plus": "meta.embedded: #000000",
+			"dark_vs": "meta.embedded: #D4D4D4",
+			"light_vs": "meta.embedded: #000000",
+			"hc_black": "meta.embedded: #FFFFFF"
+		}
+	},
+	{
+		"c": "INFO",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.log markup.inserted log.info",
+		"r": {
+			"dark_plus": "markup.inserted: #B5CEA8",
+			"light_plus": "markup.inserted: #09885A",
+			"dark_vs": "markup.inserted: #B5CEA8",
+			"light_vs": "markup.inserted: #09885A",
+			"hc_black": "markup.inserted: #B5CEA8"
+		}
+	},
+	{
+		"c": "  [main]: Hello world, testing log line datestamp variation highlighting",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.log",
+		"r": {
+			"dark_plus": "meta.embedded: #D4D4D4",
+			"light_plus": "meta.embedded: #000000",
+			"dark_vs": "meta.embedded: #D4D4D4",
+			"light_vs": "meta.embedded: #000000",
+			"hc_black": "meta.embedded: #FFFFFF"
+		}
+	},
+	{
+		"c": "12-09-2015",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.log comment log.date",
+		"r": {
+			"dark_plus": "comment: #6A9955",
+			"light_plus": "comment: #008000",
+			"dark_vs": "comment: #6A9955",
+			"light_vs": "comment: #008000",
+			"hc_black": "comment: #7CA668"
+		}
+	},
+	{
+		"c": " ",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.log",
+		"r": {
+			"dark_plus": "meta.embedded: #D4D4D4",
+			"light_plus": "meta.embedded: #000000",
+			"dark_vs": "meta.embedded: #D4D4D4",
+			"light_vs": "meta.embedded: #000000",
+			"hc_black": "meta.embedded: #FFFFFF"
+		}
+	},
+	{
+		"c": "09:29:02,258",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.log comment log.date",
+		"r": {
+			"dark_plus": "comment: #6A9955",
+			"light_plus": "comment: #008000",
+			"dark_vs": "comment: #6A9955",
+			"light_vs": "comment: #008000",
+			"hc_black": "comment: #7CA668"
+		}
+	},
+	{
+		"c": " [",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.log",
+		"r": {
+			"dark_plus": "meta.embedded: #D4D4D4",
+			"light_plus": "meta.embedded: #000000",
+			"dark_vs": "meta.embedded: #D4D4D4",
+			"light_vs": "meta.embedded: #000000",
+			"hc_black": "meta.embedded: #FFFFFF"
+		}
+	},
+	{
+		"c": "2600",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.log constant.language log.constant",
+		"r": {
+			"dark_plus": "constant.language: #569CD6",
+			"light_plus": "constant.language: #0000FF",
+			"dark_vs": "constant.language: #569CD6",
+			"light_vs": "constant.language: #0000FF",
+			"hc_black": "constant.language: #569CD6"
+		}
+	},
+	{
+		"c": "] ",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.log",
+		"r": {
+			"dark_plus": "meta.embedded: #D4D4D4",
+			"light_plus": "meta.embedded: #000000",
+			"dark_vs": "meta.embedded: #D4D4D4",
+			"light_vs": "meta.embedded: #000000",
+			"hc_black": "meta.embedded: #FFFFFF"
+		}
+	},
+	{
+		"c": "INFO",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.log markup.inserted log.info",
+		"r": {
+			"dark_plus": "markup.inserted: #B5CEA8",
+			"light_plus": "markup.inserted: #09885A",
+			"dark_vs": "markup.inserted: #B5CEA8",
+			"light_vs": "markup.inserted: #09885A",
+			"hc_black": "markup.inserted: #B5CEA8"
+		}
+	},
+	{
+		"c": "  [main]: Hello world, testing log datestamp variation line highlighting",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.log",
+		"r": {
+			"dark_plus": "meta.embedded: #D4D4D4",
+			"light_plus": "meta.embedded: #000000",
+			"dark_vs": "meta.embedded: #D4D4D4",
+			"light_vs": "meta.embedded: #000000",
+			"hc_black": "meta.embedded: #FFFFFF"
+		}
+	},
+	{
+		"c": "```",
+		"t": "text.html.markdown markup.fenced_code.block.markdown punctuation.definition.markdown",
+		"r": {
+			"dark_plus": "default: #D4D4D4",
+			"light_plus": "default: #000000",
+			"dark_vs": "default: #D4D4D4",
+			"light_vs": "default: #000000",
+			"hc_black": "default: #FFFFFF"
+		}
+	}
+]
