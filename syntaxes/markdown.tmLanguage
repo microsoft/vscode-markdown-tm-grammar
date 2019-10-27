@@ -3006,7 +3006,7 @@
                   <key>1</key>
                   <dict>
                     <key>name</key>
-                    <string>punctuation.definition.heading.markdown</string>
+                    <string>punctuation.definition.heading.6.markdown</string>
                   </dict>
                   <key>2</key>
                   <dict>
@@ -3016,7 +3016,7 @@
                   <key>3</key>
                   <dict>
                     <key>name</key>
-                    <string>punctuation.definition.heading.markdown</string>
+                    <string>punctuation.definition.heading.6.markdown</string>
                   </dict>
                 </dict>
               </dict>
@@ -3030,7 +3030,7 @@
                   <key>1</key>
                   <dict>
                     <key>name</key>
-                    <string>punctuation.definition.heading.markdown</string>
+                    <string>punctuation.definition.heading.5.markdown</string>
                   </dict>
                   <key>2</key>
                   <dict>
@@ -3040,7 +3040,7 @@
                   <key>3</key>
                   <dict>
                     <key>name</key>
-                    <string>punctuation.definition.heading.markdown</string>
+                    <string>punctuation.definition.heading.5.markdown</string>
                   </dict>
                 </dict>
               </dict>
@@ -3054,7 +3054,7 @@
                   <key>1</key>
                   <dict>
                     <key>name</key>
-                    <string>punctuation.definition.heading.markdown</string>
+                    <string>punctuation.definition.heading.4.markdown</string>
                   </dict>
                   <key>2</key>
                   <dict>
@@ -3064,7 +3064,7 @@
                   <key>3</key>
                   <dict>
                     <key>name</key>
-                    <string>punctuation.definition.heading.markdown</string>
+                    <string>punctuation.definition.heading.4.markdown</string>
                   </dict>
                 </dict>
               </dict>
@@ -3078,7 +3078,7 @@
                   <key>1</key>
                   <dict>
                     <key>name</key>
-                    <string>punctuation.definition.heading.markdown</string>
+                    <string>punctuation.definition.heading.3.markdown</string>
                   </dict>
                   <key>2</key>
                   <dict>
@@ -3088,7 +3088,7 @@
                   <key>3</key>
                   <dict>
                     <key>name</key>
-                    <string>punctuation.definition.heading.markdown</string>
+                    <string>punctuation.definition.heading.3.markdown</string>
                   </dict>
                 </dict>
               </dict>
@@ -3102,7 +3102,7 @@
                   <key>1</key>
                   <dict>
                     <key>name</key>
-                    <string>punctuation.definition.heading.markdown</string>
+                    <string>punctuation.definition.heading.2.markdown</string>
                   </dict>
                   <key>2</key>
                   <dict>
@@ -3112,7 +3112,7 @@
                   <key>3</key>
                   <dict>
                     <key>name</key>
-                    <string>punctuation.definition.heading.markdown</string>
+                    <string>punctuation.definition.heading.2.markdown</string>
                   </dict>
                 </dict>
               </dict>
@@ -3126,7 +3126,7 @@
                   <key>1</key>
                   <dict>
                     <key>name</key>
-                    <string>punctuation.definition.heading.markdown</string>
+                    <string>punctuation.definition.heading.1.markdown</string>
                   </dict>
                   <key>2</key>
                   <dict>
@@ -3136,7 +3136,7 @@
                   <key>3</key>
                   <dict>
                     <key>name</key>
-                    <string>punctuation.definition.heading.markdown</string>
+                    <string>punctuation.definition.heading.1.markdown</string>
                   </dict>
                 </dict>
               </dict>
