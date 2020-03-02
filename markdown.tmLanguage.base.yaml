@@ -212,7 +212,7 @@ repository:
   bold:
     begin: >
       (?x)
-      (\*\*(?=\w)|(?<!\w)\*\*|(?<!\w)\b__)(?=\S)
+      (?<open>(\*\*(?=\w)|(?<!\w)\*\*|(?<!\w)\b__))(?=\S)
       (?=
         (
           <[^>]*+>              # HTML tags
@@ -246,10 +246,10 @@ repository:
               )
             )
           )
-          | (?!(?<=\S)\1).            # Everything besides
+          | (?!(?<=\S)\k<open>).            # Everything besides
                             # style closer
         )++
-        (?<=\S)(?=__\b|\*\*)\1                # Close
+        (?<=\S)(?=__\b|\*\*)\k<open>                # Close
       )
     captures:
       '1': {name: punctuation.definition.bold.markdown}
@@ -323,7 +323,7 @@ repository:
   italic:
     begin: >
       (?x)
-      (\*(?=\w)|(?<!\w)\*|(?<!\w)\b_)(?=\S)                # Open
+      (?<open>(\*(?=\w)|(?<!\w)\*|(?<!\w)\b_))(?=\S)                # Open
         (?=
           (
             <[^>]*+>              # HTML tags
@@ -357,11 +357,11 @@ repository:
                 )
               )
             )
-            | \1\1                # Must be bold closer
-            | (?!(?<=\S)\1).            # Everything besides
+            | \k<open>\k<open>                # Must be bold closer
+            | (?!(?<=\S)\k<open>).            # Everything besides
                               # style closer
           )++
-          (?<=\S)(?=_\b|\*)\1                # Close
+          (?<=\S)(?=_\b|\*)\k<open>                # Close
         )
     captures:
       '1': {name: punctuation.definition.italic.markdown}

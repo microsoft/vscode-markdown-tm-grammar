@@ -3582,7 +3582,7 @@
       <key>bold</key>
       <dict>
         <key>begin</key>
-        <string>(?x) (\*\*(?=\w)|(?&lt;!\w)\*\*|(?&lt;!\w)\b__)(?=\S) (?=
+        <string>(?x) (?&lt;open&gt;(\*\*(?=\w)|(?&lt;!\w)\*\*|(?&lt;!\w)\b__))(?=\S) (?=
   (
     &lt;[^&gt;]*+&gt;              # HTML tags
     | (?&lt;raw&gt;`+)([^`]|(?!(?&lt;!`)\k&lt;raw&gt;(?!`))`)*+\k&lt;raw&gt;
@@ -3615,10 +3615,10 @@
         )
       )
     )
-    | (?!(?&lt;=\S)\1).            # Everything besides
+    | (?!(?&lt;=\S)\k&lt;open&gt;).            # Everything besides
                       # style closer
   )++
-  (?&lt;=\S)(?=__\b|\*\*)\1                # Close
+  (?&lt;=\S)(?=__\b|\*\*)\k&lt;open&gt;                # Close
 )
 </string>
         <key>captures</key>
@@ -3859,7 +3859,7 @@
       <key>italic</key>
       <dict>
         <key>begin</key>
-        <string>(?x) (\*(?=\w)|(?&lt;!\w)\*|(?&lt;!\w)\b_)(?=\S)                # Open
+        <string>(?x) (?&lt;open&gt;(\*(?=\w)|(?&lt;!\w)\*|(?&lt;!\w)\b_))(?=\S)                # Open
   (?=
     (
       &lt;[^&gt;]*+&gt;              # HTML tags
@@ -3893,11 +3893,11 @@
           )
         )
       )
-      | \1\1                # Must be bold closer
-      | (?!(?&lt;=\S)\1).            # Everything besides
+      | \k&lt;open&gt;\k&lt;open&gt;                # Must be bold closer
+      | (?!(?&lt;=\S)\k&lt;open&gt;).            # Everything besides
                         # style closer
     )++
-    (?&lt;=\S)(?=_\b|\*)\1                # Close
+    (?&lt;=\S)(?=_\b|\*)\k&lt;open&gt;                # Close
   )
 </string>
         <key>captures</key>
