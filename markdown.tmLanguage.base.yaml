@@ -108,9 +108,9 @@ repository:
         - {include: text.html.derivative}
         while: (?i)^(?!.*</(script|style|pre)>)
     - begin: (?i)(^|\G)\s*(?=</?[a-zA-Z]+[^\s/&gt;]*(\s|$|/?>))
+      end: ^(?=\s*$)
       patterns:
       - {include: text.html.derivative}
-      while: ^(?!\s*$)
     - begin: (^|\G)\s*(?=(<[a-zA-Z0-9\-](/?>|\s.*?>)|</[a-zA-Z0-9\-]>)\s*$)
       patterns:
       - {include: text.html.derivative}

@@ -3254,6 +3254,8 @@
           <dict>
             <key>begin</key>
             <string>(?i)(^|\G)\s*(?=&lt;/?[a-zA-Z]+[^\s/&amp;gt;]*(\s|$|/?&gt;))</string>
+            <key>end</key>
+            <string>^(?=\s*$)</string>
             <key>patterns</key>
             <array>
               <dict>
@@ -3261,8 +3263,6 @@
                 <string>text.html.derivative</string>
               </dict>
             </array>
-            <key>while</key>
-            <string>^(?!\s*$)</string>
           </dict>
           <dict>
             <key>begin</key>
