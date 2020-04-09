@@ -121,7 +121,18 @@
 		}
 	},
 	{
-		"c": "swift 4.0",
+		"c": "swift",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.swift meta.attribute.available.swift keyword.other.platform.os.swift",
+		"r": {
+			"dark_plus": "keyword: #569CD6",
+			"light_plus": "keyword: #0000FF",
+			"dark_vs": "keyword: #569CD6",
+			"light_vs": "keyword: #0000FF",
+			"hc_black": "keyword: #569CD6"
+		}
+	},
+	{
+		"c": " ",
 		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.swift meta.attribute.available.swift",
 		"r": {
 			"dark_plus": "meta.embedded: #D4D4D4",
@@ -129,6 +140,17 @@
 			"dark_vs": "meta.embedded: #D4D4D4",
 			"light_vs": "meta.embedded: #000000",
 			"hc_black": "meta.embedded: #FFFFFF"
+		}
+	},
+	{
+		"c": "4.0",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.swift meta.attribute.available.swift constant.numeric.swift",
+		"r": {
+			"dark_plus": "constant.numeric: #B5CEA8",
+			"light_plus": "constant.numeric: #098658",
+			"dark_vs": "constant.numeric: #B5CEA8",
+			"light_vs": "constant.numeric: #098658",
+			"hc_black": "constant.numeric: #B5CEA8"
 		}
 	},
 	{
@@ -796,9 +818,9 @@
 		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.swift meta.subscript-expression.swift constant.numeric.integer.decimal.swift",
 		"r": {
 			"dark_plus": "constant.numeric: #B5CEA8",
-			"light_plus": "constant.numeric: #09885A",
+			"light_plus": "constant.numeric: #098658",
 			"dark_vs": "constant.numeric: #B5CEA8",
-			"light_vs": "constant.numeric: #09885A",
+			"light_vs": "constant.numeric: #098658",
 			"hc_black": "constant.numeric: #B5CEA8"
 		}
 	},
@@ -851,9 +873,9 @@
 		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.swift constant.numeric.integer.decimal.swift",
 		"r": {
 			"dark_plus": "constant.numeric: #B5CEA8",
-			"light_plus": "constant.numeric: #09885A",
+			"light_plus": "constant.numeric: #098658",
 			"dark_vs": "constant.numeric: #B5CEA8",
-			"light_vs": "constant.numeric: #09885A",
+			"light_vs": "constant.numeric: #098658",
 			"hc_black": "constant.numeric: #B5CEA8"
 		}
 	},
