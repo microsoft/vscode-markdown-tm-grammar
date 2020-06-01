@@ -60,7 +60,9 @@ const languages = [
 	{ name: 'dart', language: 'dart', identifiers: ['dart'], source: 'source.dart' },
 	{ name: 'handlebars', language: 'handlebars', identifiers: ['handlebars', 'hbs'], source: 'text.html.handlebars' },
 	{ name: 'markdown', language: 'markdown', identifiers: ['markdown', 'md'], source: 'text.html.markdown' },
-	{ name: 'log', language: 'log', identifiers: ['log'], source: 'text.log' }
+	{ name: 'log', language: 'log', identifiers: ['log'], source: 'text.log' },
+	{ name: 'erlang', language: 'erlang', identifiers: ['erlang'], source: 'source.erlang' },
+	{ name: 'elixir', language: 'elixir', identifiers: ['elixir'], source: 'source.elixir' }
 ];
 
 const fencedCodeBlockDefinition = (name, identifiers, sourceScope, language, additionalContentName) => {
