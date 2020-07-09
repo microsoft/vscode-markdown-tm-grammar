@@ -256,8 +256,8 @@
 		"c": "var",
 		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.javascript meta.var.expr.js meta.var-single-variable.expr.js meta.definition.variable.js variable.other.constant.js",
 		"r": {
-			"dark_plus": "variable.other.constant: #51B6C4",
-			"light_plus": "variable.other.constant: #328267",
+			"dark_plus": "variable.other.constant: #4FC1FF",
+			"light_plus": "variable.other.constant: #0070C1",
 			"dark_vs": "meta.embedded: #D4D4D4",
 			"light_vs": "meta.embedded: #000000",
 			"hc_black": "variable: #9CDCFE"
