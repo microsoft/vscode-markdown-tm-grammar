@@ -3103,7 +3103,7 @@
       <key>heading</key>
       <dict>
         <key>match</key>
-        <string>(?:^|\G)[ ]{0,3}((#{1,6})\s+(.*?)(\s+#{1,6})?)\s*$</string>
+        <string>(?:^|\G)[ ]{0,3}(#{1,6}\s+(.*?)(\s+#{1,6})?\s*)$</string>
         <key>captures</key>
         <dict>
           <key>1</key>
@@ -3112,7 +3112,7 @@
             <array>
               <dict>
                 <key>match</key>
-                <string>(#{6})\s+(.*?)(\s+#+)?\s*$</string>
+                <string>(#{6})\s+(.*?)(?:\s+(#+))?\s*$</string>
                 <key>name</key>
                 <string>heading.6.markdown</string>
                 <key>captures</key>
@@ -3136,7 +3136,7 @@
               </dict>
               <dict>
                 <key>match</key>
-                <string>(#{5})\s+(.*?)(\s+#+)?\s*$</string>
+                <string>(#{5})\s+(.*?)(?:\s+(#+))?\s*$</string>
                 <key>name</key>
                 <string>heading.5.markdown</string>
                 <key>captures</key>
@@ -3160,7 +3160,7 @@
               </dict>
               <dict>
                 <key>match</key>
-                <string>(#{4})\s+(.*?)(\s+#+)?\s*$</string>
+                <string>(#{4})\s+(.*?)(?:\s+(#+))?\s*$</string>
                 <key>name</key>
                 <string>heading.4.markdown</string>
                 <key>captures</key>
@@ -3184,7 +3184,7 @@
               </dict>
               <dict>
                 <key>match</key>
-                <string>(#{3})\s+(.*?)(\s+#+)?\s*$</string>
+                <string>(#{3})\s+(.*?)(?:\s+(#+))?\s*$</string>
                 <key>name</key>
                 <string>heading.3.markdown</string>
                 <key>captures</key>
@@ -3208,7 +3208,7 @@
               </dict>
               <dict>
                 <key>match</key>
-                <string>(#{2})\s+(.*?)(\s+#+)?\s*$</string>
+                <string>(#{2})\s+(.*?)(?:\s+(#+))?\s*$</string>
                 <key>name</key>
                 <string>heading.2.markdown</string>
                 <key>captures</key>
@@ -3232,7 +3232,7 @@
               </dict>
               <dict>
                 <key>match</key>
-                <string>(#{1})\s+(.*?)(\s+#+)?\s*$</string>
+                <string>(#{1})\s+(.*?)(?:\s+(#+))?\s*$</string>
                 <key>name</key>
                 <string>heading.1.markdown</string>
                 <key>captures</key>
