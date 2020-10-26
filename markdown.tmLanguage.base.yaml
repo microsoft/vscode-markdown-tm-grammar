@@ -139,7 +139,7 @@ repository:
         [ \t]*          # Optional whitespace
         (?:
             ((\().+?(\)))    # Match title in parens…
-          | ((").+?("))    # or in quotes.
+          | ((["']).+?(["']))    # or in quotes.
         )?            # Title is optional
         \s*            # Optional whitespace
         $
