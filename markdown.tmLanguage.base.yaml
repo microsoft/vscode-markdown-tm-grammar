@@ -138,8 +138,8 @@ repository:
         (<?)(\S+?)(>?)      # The url
         [ \t]*          # Optional whitespace
         (?:
-            ((\().+?(\)))    # Match title in quotes…
-          | ((").+?("))    # or in parens.
+            ((\().+?(\)))    # Match title in parens…
+          | ((").+?("))    # or in quotes.
         )?            # Title is optional
         \s*            # Optional whitespace
         $
