@@ -3462,6 +3462,21 @@
             <key>name</key>
             <string>punctuation.definition.string.end.markdown</string>
           </dict>
+          <key>14</key>
+          <dict>
+            <key>name</key>
+            <string>string.other.link.description.title.markdown</string>
+          </dict>
+          <key>15</key>
+          <dict>
+            <key>name</key>
+            <string>punctuation.definition.string.begin.markdown</string>
+          </dict>
+          <key>16</key>
+          <dict>
+            <key>name</key>
+            <string>punctuation.definition.string.end.markdown</string>
+          </dict>
         </dict>
         <key>match</key>
         <string>(?x)
@@ -3471,8 +3486,9 @@
   (&lt;?)(\S+?)(&gt;?)      # The url
   [ \t]*          # Optional whitespace
   (?:
-      ((\().+?(\)))    # Match title in quotes…
-    | ((").+?("))    # or in parens.
+      ((\().+?(\)))    # Match title in parens…
+    | ((").+?("))    # or in double quotes…
+    | ((').+?('))    # or in single quotes.
   )?            # Title is optional
   \s*            # Optional whitespace
   $
@@ -3910,6 +3926,21 @@
           <key>15</key>
           <dict>
             <key>name</key>
+            <string>string.other.link.description.title.markdown</string>
+          </dict>
+          <key>16</key>
+          <dict>
+            <key>name</key>
+            <string>punctuation.definition.string.markdown</string>
+          </dict>
+          <key>17</key>
+          <dict>
+            <key>name</key>
+            <string>punctuation.definition.string.markdown</string>
+          </dict>
+          <key>18</key>
+          <dict>
+            <key>name</key>
             <string>punctuation.definition.metadata.markdown</string>
           </dict>
         </dict>
@@ -3922,7 +3953,8 @@
     [ \t]*          # Optional whitespace
     (?:
         ((\().+?(\)))    # Match title in parens…
-      | ((").+?("))    # or in quotes.
+      | ((").+?("))    # or in double quotes…
+      | ((').+?('))    # or in single quotes.
     )?            # Title is optional
     \s*            # Optional whitespace
   (\))
@@ -4219,6 +4251,21 @@
           <key>16</key>
           <dict>
             <key>name</key>
+            <string>string.other.link.description.title.markdown</string>
+          </dict>
+          <key>17</key>
+          <dict>
+            <key>name</key>
+            <string>punctuation.definition.string.begin.markdown</string>
+          </dict>
+          <key>18</key>
+          <dict>
+            <key>name</key>
+            <string>punctuation.definition.string.end.markdown</string>
+          </dict>
+          <key>19</key>
+          <dict>
+            <key>name</key>
             <string>punctuation.definition.metadata.markdown</string>
           </dict>
         </dict>
@@ -4231,7 +4278,8 @@
     [ \t]*          # Optional whitespace
     (?:
         ((\().+?(\)))    # Match title in parens…
-      | ((").+?("))    # or in quotes.
+      | ((").+?("))    # or in double quotes…
+      | ((').+?('))    # or in single quotes.
     )?            # Title is optional
     \s*            # Optional whitespace
   (\))

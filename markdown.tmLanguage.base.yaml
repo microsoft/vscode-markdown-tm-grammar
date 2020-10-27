@@ -122,6 +122,9 @@ repository:
       '11': {name: string.other.link.description.title.markdown}
       '12': {name: punctuation.definition.string.begin.markdown}
       '13': {name: punctuation.definition.string.end.markdown}
+      '14': {name: string.other.link.description.title.markdown}
+      '15': {name: punctuation.definition.string.begin.markdown}
+      '16': {name: punctuation.definition.string.end.markdown}
       '2': {name: constant.other.reference.link.markdown}
       '3': {name: punctuation.definition.constant.markdown}
       '4': {name: punctuation.separator.key-value.markdown}
@@ -138,8 +141,9 @@ repository:
         (<?)(\S+?)(>?)      # The url
         [ \t]*          # Optional whitespace
         (?:
-            ((\().+?(\)))    # Match title in quotes…
-          | ((").+?("))    # or in parens.
+            ((\().+?(\)))    # Match title in parens…
+          | ((").+?("))    # or in double quotes…
+          | ((').+?('))    # or in single quotes.
         )?            # Title is optional
         \s*            # Optional whitespace
         $
@@ -288,7 +292,10 @@ repository:
       '12': {name: string.other.link.description.title.markdown}
       '13': {name: punctuation.definition.string.markdown}
       '14': {name: punctuation.definition.string.markdown}
-      '15': {name: punctuation.definition.metadata.markdown}
+      '15': {name: string.other.link.description.title.markdown}
+      '16': {name: punctuation.definition.string.markdown}
+      '17': {name: punctuation.definition.string.markdown}
+      '18': {name: punctuation.definition.metadata.markdown}
       '2': {name: string.other.link.description.markdown}
       '4': {name: punctuation.definition.string.end.markdown}
       '5': {name: punctuation.definition.metadata.markdown}
@@ -305,7 +312,8 @@ repository:
           [ \t]*          # Optional whitespace
           (?:
               ((\().+?(\)))    # Match title in parens…
-            | ((").+?("))    # or in quotes.
+            | ((").+?("))    # or in double quotes…
+            | ((').+?('))    # or in single quotes.
           )?            # Title is optional
           \s*            # Optional whitespace
         (\))
@@ -415,7 +423,10 @@ repository:
       '13': {name: string.other.link.description.title.markdown}
       '14': {name: punctuation.definition.string.begin.markdown}
       '15': {name: punctuation.definition.string.end.markdown}
-      '16': {name: punctuation.definition.metadata.markdown}
+      '16': {name: string.other.link.description.title.markdown}
+      '17': {name: punctuation.definition.string.begin.markdown}
+      '18': {name: punctuation.definition.string.end.markdown}
+      '19': {name: punctuation.definition.metadata.markdown}
     match: >
       (?x)
         (\[)((?<square>[^\[\]\\]|\\.|\[\g<square>*+\])*+)(\])
@@ -425,7 +436,8 @@ repository:
           [ \t]*          # Optional whitespace
           (?:
               ((\().+?(\)))    # Match title in parens…
-            | ((").+?("))    # or in quotes.
+            | ((").+?("))    # or in double quotes…
+            | ((').+?('))    # or in single quotes.
           )?            # Title is optional
           \s*            # Optional whitespace
         (\))
