@@ -399,7 +399,7 @@ repository:
       '1': {name: punctuation.definition.link.markdown}
       '2': {name: markup.underline.link.markdown}
       '4': {name: punctuation.definition.link.markdown}
-    match: (<)((?:mailto:)?[-.\w]+@[-a-z0-9]+(\.[-a-z0-9]+)*\.[a-z]+)(>)
+    match: (<)((?:mailto:)?[-.\w]+@[-a-zA-Z0-9]+(\.[-a-z0-9]+)*\.[a-z]+)(>)
     name: meta.link.email.lt-gt.markdown
   link-inet:
     captures:
