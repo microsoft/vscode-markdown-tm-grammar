@@ -6,8 +6,7 @@
   "main": "index.js",
   "scripts": {
     "build": "node build",
-    "postinstall": "node ./node_modules/vscode/bin/install",
-    "test": "node ./node_modules/vscode/bin/test ./test"
+    "test": "node ./test/runTest.js"
   },
   "activationEvents": [],
   "engines": {
@@ -36,7 +35,8 @@
   "homepage": "https://github.com/mjbvz/vscode-markdown-tm-grammar#readme",
   "devDependencies": {
     "js-yaml": "^3.13.1",
+    "mocha": "^8.3.0",
     "plist": "^3.0.1",
-    "vscode": "^1.1.36"
+    "vscode-test": "^1.5.1"
   }
 }

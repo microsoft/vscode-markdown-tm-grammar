@@ -550,7 +550,7 @@
 		}
 	},
 	{
-		"c": " counts",
+		"c": " counts: ",
 		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.swift",
 		"r": {
 			"dark_plus": "meta.embedded: #D4D4D4",
@@ -561,18 +561,18 @@
 		}
 	},
 	{
-		"c": ":",
-		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.swift keyword.operator.ternary.swift",
+		"c": "[",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.swift punctuation.section.collection-type.begin.swift",
 		"r": {
-			"dark_plus": "keyword.operator: #D4D4D4",
-			"light_plus": "keyword.operator: #000000",
-			"dark_vs": "keyword.operator: #D4D4D4",
-			"light_vs": "keyword.operator: #000000",
-			"hc_black": "keyword.operator: #D4D4D4"
+			"dark_plus": "meta.embedded: #D4D4D4",
+			"light_plus": "meta.embedded: #000000",
+			"dark_vs": "meta.embedded: #D4D4D4",
+			"light_vs": "meta.embedded: #000000",
+			"hc_black": "meta.embedded: #FFFFFF"
 		}
 	},
 	{
-		"c": " [S.",
+		"c": "S.",
 		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.swift",
 		"r": {
 			"dark_plus": "meta.embedded: #D4D4D4",
@@ -595,13 +595,13 @@
 	},
 	{
 		"c": ":",
-		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.swift keyword.operator.ternary.swift",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.swift punctuation.separator.key-value.swift",
 		"r": {
-			"dark_plus": "keyword.operator: #D4D4D4",
-			"light_plus": "keyword.operator: #000000",
-			"dark_vs": "keyword.operator: #D4D4D4",
-			"light_vs": "keyword.operator: #000000",
-			"hc_black": "keyword.operator: #D4D4D4"
+			"dark_plus": "meta.embedded: #D4D4D4",
+			"light_plus": "meta.embedded: #000000",
+			"dark_vs": "meta.embedded: #D4D4D4",
+			"light_vs": "meta.embedded: #000000",
+			"hc_black": "meta.embedded: #FFFFFF"
 		}
 	},
 	{
@@ -627,7 +627,18 @@
 		}
 	},
 	{
-		"c": "] ",
+		"c": "]",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.swift punctuation.section.collection-type.end.swift",
+		"r": {
+			"dark_plus": "meta.embedded: #D4D4D4",
+			"light_plus": "meta.embedded: #000000",
+			"dark_vs": "meta.embedded: #D4D4D4",
+			"light_vs": "meta.embedded: #000000",
+			"hc_black": "meta.embedded: #FFFFFF"
+		}
+	},
+	{
+		"c": " ",
 		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.swift",
 		"r": {
 			"dark_plus": "meta.embedded: #D4D4D4",
