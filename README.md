@@ -1,6 +1,6 @@
 # VS Code Markdown Grammar
 
-[![Build Status](https://travis-ci.org/Microsoft/vscode-markdown-tm-grammar.svg?branch=master)](https://travis-ci.org/Microsoft/vscode-markdown-tm-grammar)
+[![Build Status](https://dev.azure.com/monacotools/Monaco/_apis/build/status/Extensions/microsoft.vscode-markdown-tm-grammar?branchName=main)](https://dev.azure.com/monacotools/Monaco/_build/latest?definitionId=203&branchName=main)
 
 VS Code markdown extension's Textmate grammar.
 
