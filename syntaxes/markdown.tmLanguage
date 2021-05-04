@@ -3126,6 +3126,17 @@
                   <dict>
                     <key>name</key>
                     <string>entity.name.section.markdown</string>
+                    <key>patterns</key>
+                    <array>
+                      <dict>
+                        <key>include</key>
+                        <string>#inline</string>
+                      </dict>
+                      <dict>
+                        <key>include</key>
+                        <string>text.html.derivative</string>
+                      </dict>
+                    </array>
                   </dict>
                   <key>3</key>
                   <dict>
@@ -3150,6 +3161,17 @@
                   <dict>
                     <key>name</key>
                     <string>entity.name.section.markdown</string>
+                    <key>patterns</key>
+                    <array>
+                      <dict>
+                        <key>include</key>
+                        <string>#inline</string>
+                      </dict>
+                      <dict>
+                        <key>include</key>
+                        <string>text.html.derivative</string>
+                      </dict>
+                    </array>
                   </dict>
                   <key>3</key>
                   <dict>
@@ -3174,6 +3196,17 @@
                   <dict>
                     <key>name</key>
                     <string>entity.name.section.markdown</string>
+                    <key>patterns</key>
+                    <array>
+                      <dict>
+                        <key>include</key>
+                        <string>#inline</string>
+                      </dict>
+                      <dict>
+                        <key>include</key>
+                        <string>text.html.derivative</string>
+                      </dict>
+                    </array>
                   </dict>
                   <key>3</key>
                   <dict>
@@ -3198,6 +3231,17 @@
                   <dict>
                     <key>name</key>
                     <string>entity.name.section.markdown</string>
+                    <key>patterns</key>
+                    <array>
+                      <dict>
+                        <key>include</key>
+                        <string>#inline</string>
+                      </dict>
+                      <dict>
+                        <key>include</key>
+                        <string>text.html.derivative</string>
+                      </dict>
+                    </array>
                   </dict>
                   <key>3</key>
                   <dict>
@@ -3222,6 +3266,17 @@
                   <dict>
                     <key>name</key>
                     <string>entity.name.section.markdown</string>
+                    <key>patterns</key>
+                    <array>
+                      <dict>
+                        <key>include</key>
+                        <string>#inline</string>
+                      </dict>
+                      <dict>
+                        <key>include</key>
+                        <string>text.html.derivative</string>
+                      </dict>
+                    </array>
                   </dict>
                   <key>3</key>
                   <dict>
@@ -3246,6 +3301,17 @@
                   <dict>
                     <key>name</key>
                     <string>entity.name.section.markdown</string>
+                    <key>patterns</key>
+                    <array>
+                      <dict>
+                        <key>include</key>
+                        <string>#inline</string>
+                      </dict>
+                      <dict>
+                        <key>include</key>
+                        <string>text.html.derivative</string>
+                      </dict>
+                    </array>
                   </dict>
                   <key>3</key>
                   <dict>
