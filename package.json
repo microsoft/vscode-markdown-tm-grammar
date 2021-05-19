@@ -10,7 +10,7 @@
   },
   "activationEvents": [],
   "engines": {
-    "vscode": "^1.37.0"
+    "vscode": "^1.55.0"
   },
   "repository": {
     "type": "git",
