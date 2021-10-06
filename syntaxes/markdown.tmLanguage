@@ -4105,7 +4105,7 @@
           )
         )
       )
-      | \k&lt;open&gt;\k&lt;open&gt;                # Must be bold closer
+      | (?=__\b|\*\*)                # Must be bold closer
       | (?!(?&lt;=\S)\k&lt;open&gt;).            # Everything besides
                         # style closer
     )++

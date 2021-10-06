@@ -377,7 +377,7 @@ repository:
                 )
               )
             )
-            | \k<open>\k<open>                # Must be bold closer
+            | (?=__\b|\*\*)                   # Must be bold closer
             | (?!(?<=\S)\k<open>).            # Everything besides
                               # style closer
           )++
