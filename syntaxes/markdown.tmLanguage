@@ -3764,6 +3764,10 @@
             <key>include</key>
             <string>#link-ref-shortcut</string>
           </dict>
+          <dict>
+            <key>include</key>
+            <string>#link-html</string>
+          </dict>
         </array>
       </dict>
       <key>ampersand</key>
@@ -3901,6 +3905,10 @@
           <dict>
             <key>include</key>
             <string>#link-ref-shortcut</string>
+          </dict>
+          <dict>
+            <key>include</key>
+            <string>#link-html</string>
           </dict>
         </array>
       </dict>
@@ -4193,6 +4201,10 @@
             <key>include</key>
             <string>#link-ref-shortcut</string>
           </dict>
+          <dict>
+            <key>include</key>
+            <string>#link-html</string>
+          </dict>
         </array>
       </dict>
       <key>link-email</key>
@@ -4452,6 +4464,31 @@
         <string>(\[)(\S+?)(\])</string>
         <key>name</key>
         <string>meta.link.reference.markdown</string>
+      </dict>
+      <key>link-html</key>
+      <dict>
+        <key>captures</key>
+        <dict>
+          <key>1</key>
+          <dict>
+            <key>name</key>
+            <string>punctuation.definition.link.markdown</string>
+          </dict>
+          <key>2</key>
+          <dict>
+            <key>name</key>
+            <string>markup.underline.link.markdown</string>
+          </dict>
+          <key>3</key>
+          <dict>
+            <key>name</key>
+            <string>punctuation.definition.link.markdown</string>
+          </dict>
+        </dict>
+        <key>match</key>
+        <string>(?&lt;=\[.*\]\()(\&lt;)(.*?)(\&gt;)</string>
+        <key>name</key>
+        <string>meta.link.inline.markdown</string>
       </dict>
       <key>raw</key>
       <dict>
