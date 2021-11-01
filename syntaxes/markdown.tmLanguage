@@ -3501,44 +3501,49 @@
           <key>8</key>
           <dict>
             <key>name</key>
-            <string>string.other.link.description.title.markdown</string>
+            <string>markup.underline.link.markdown</string>
           </dict>
           <key>9</key>
           <dict>
             <key>name</key>
-            <string>punctuation.definition.string.begin.markdown</string>
+            <string>string.other.link.description.title.markdown</string>
           </dict>
           <key>10</key>
           <dict>
             <key>name</key>
-            <string>punctuation.definition.string.end.markdown</string>
+            <string>punctuation.definition.string.begin.markdown</string>
           </dict>
           <key>11</key>
           <dict>
             <key>name</key>
-            <string>string.other.link.description.title.markdown</string>
+            <string>punctuation.definition.string.end.markdown</string>
           </dict>
           <key>12</key>
           <dict>
             <key>name</key>
-            <string>punctuation.definition.string.begin.markdown</string>
+            <string>string.other.link.description.title.markdown</string>
           </dict>
           <key>13</key>
           <dict>
             <key>name</key>
-            <string>punctuation.definition.string.end.markdown</string>
+            <string>punctuation.definition.string.begin.markdown</string>
           </dict>
           <key>14</key>
           <dict>
             <key>name</key>
-            <string>string.other.link.description.title.markdown</string>
+            <string>punctuation.definition.string.end.markdown</string>
           </dict>
           <key>15</key>
           <dict>
             <key>name</key>
-            <string>punctuation.definition.string.begin.markdown</string>
+            <string>string.other.link.description.title.markdown</string>
           </dict>
           <key>16</key>
+          <dict>
+            <key>name</key>
+            <string>punctuation.definition.string.begin.markdown</string>
+          </dict>
+          <key>17</key>
           <dict>
             <key>name</key>
             <string>punctuation.definition.string.end.markdown</string>
@@ -3549,7 +3554,7 @@
   \s*            # Leading whitespace
   (\[)([^]]+?)(\])(:)    # Reference name
   [ \t]*          # Optional whitespace
-  (&lt;?)(\S+?)(&gt;?)      # The url
+  (?:(&lt;)([^\&gt;]+?)(&gt;)|(\S+?))      # The url
   [ \t]*          # Optional whitespace
   (?:
       ((\().+?(\)))    # Match title in parens…

@@ -130,27 +130,28 @@ repository:
   link-def:
     captures:
       '1': {name: punctuation.definition.constant.markdown}
-      '10': {name: punctuation.definition.string.end.markdown}
-      '11': {name: string.other.link.description.title.markdown}
-      '12': {name: punctuation.definition.string.begin.markdown}
-      '13': {name: punctuation.definition.string.end.markdown}
-      '14': {name: string.other.link.description.title.markdown}
-      '15': {name: punctuation.definition.string.begin.markdown}
-      '16': {name: punctuation.definition.string.end.markdown}
       '2': {name: constant.other.reference.link.markdown}
       '3': {name: punctuation.definition.constant.markdown}
       '4': {name: punctuation.separator.key-value.markdown}
       '5': {name: punctuation.definition.link.markdown}
       '6': {name: markup.underline.link.markdown}
       '7': {name: punctuation.definition.link.markdown}
-      '8': {name: string.other.link.description.title.markdown}
-      '9': {name: punctuation.definition.string.begin.markdown}
+      '8': {name: markup.underline.link.markdown}
+      '9': {name: string.other.link.description.title.markdown}
+      '10': {name: punctuation.definition.string.begin.markdown}
+      '11': {name: punctuation.definition.string.end.markdown}
+      '12': {name: string.other.link.description.title.markdown}
+      '13': {name: punctuation.definition.string.begin.markdown}
+      '14': {name: punctuation.definition.string.end.markdown}
+      '15': {name: string.other.link.description.title.markdown}
+      '16': {name: punctuation.definition.string.begin.markdown}
+      '17': {name: punctuation.definition.string.end.markdown}
     match: >
       (?x)
         \s*            # Leading whitespace
         (\[)([^]]+?)(\])(:)    # Reference name
         [ \t]*          # Optional whitespace
-        (<?)(\S+?)(>?)      # The url
+        (?:(<)([^\>]+?)(>)|(\S+?))      # The url
         [ \t]*          # Optional whitespace
         (?:
             ((\().+?(\)))    # Match title in parens…
