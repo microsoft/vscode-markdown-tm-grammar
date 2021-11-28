@@ -2852,6 +2852,112 @@
           </dict>
         </array>
       </dict>
+      <key>fenced_code_block_latex</key>
+      <dict>
+        <key>begin</key>
+        <string>(^|\G)(\s*)(`{3,}|~{3,})\s*(?i:(latex|tex)((\s+|:|,|\{|\?)[^`~]*)?$)</string>
+        <key>name</key>
+        <string>markup.fenced_code.block.markdown</string>
+        <key>end</key>
+        <string>(^|\G)(\2|\s{0,3})(\3)\s*$</string>
+        <key>beginCaptures</key>
+        <dict>
+          <key>3</key>
+          <dict>
+            <key>name</key>
+            <string>punctuation.definition.markdown</string>
+          </dict>
+          <key>4</key>
+          <dict>
+            <key>name</key>
+            <string>fenced_code.block.language.markdown</string>
+          </dict>
+          <key>5</key>
+          <dict>
+            <key>name</key>
+            <string>fenced_code.block.language.attributes.markdown</string>
+          </dict>
+        </dict>
+        <key>endCaptures</key>
+        <dict>
+          <key>3</key>
+          <dict>
+            <key>name</key>
+            <string>punctuation.definition.markdown</string>
+          </dict>
+        </dict>
+        <key>patterns</key>
+        <array>
+          <dict>
+            <key>begin</key>
+            <string>(^|\G)(\s*)(.*)</string>
+            <key>while</key>
+            <string>(^|\G)(?!\s*([`~]{3,})\s*$)</string>
+            <key>contentName</key>
+            <string>meta.embedded.block.latex</string>
+            <key>patterns</key>
+            <array>
+              <dict>
+                <key>include</key>
+                <string>text.tex.latex</string>
+              </dict>
+            </array>
+          </dict>
+        </array>
+      </dict>
+      <key>fenced_code_block_bibtex</key>
+      <dict>
+        <key>begin</key>
+        <string>(^|\G)(\s*)(`{3,}|~{3,})\s*(?i:(bibtex)((\s+|:|,|\{|\?)[^`~]*)?$)</string>
+        <key>name</key>
+        <string>markup.fenced_code.block.markdown</string>
+        <key>end</key>
+        <string>(^|\G)(\2|\s{0,3})(\3)\s*$</string>
+        <key>beginCaptures</key>
+        <dict>
+          <key>3</key>
+          <dict>
+            <key>name</key>
+            <string>punctuation.definition.markdown</string>
+          </dict>
+          <key>4</key>
+          <dict>
+            <key>name</key>
+            <string>fenced_code.block.language.markdown</string>
+          </dict>
+          <key>5</key>
+          <dict>
+            <key>name</key>
+            <string>fenced_code.block.language.attributes.markdown</string>
+          </dict>
+        </dict>
+        <key>endCaptures</key>
+        <dict>
+          <key>3</key>
+          <dict>
+            <key>name</key>
+            <string>punctuation.definition.markdown</string>
+          </dict>
+        </dict>
+        <key>patterns</key>
+        <array>
+          <dict>
+            <key>begin</key>
+            <string>(^|\G)(\s*)(.*)</string>
+            <key>while</key>
+            <string>(^|\G)(?!\s*([`~]{3,})\s*$)</string>
+            <key>contentName</key>
+            <string>meta.embedded.block.bibtex</string>
+            <key>patterns</key>
+            <array>
+              <dict>
+                <key>include</key>
+                <string>text.bibtex</string>
+              </dict>
+            </array>
+          </dict>
+        </array>
+      </dict>
       <key>fenced_code_block</key>
       <dict>
         <key>patterns</key>
@@ -3063,6 +3169,14 @@
           <dict>
             <key>include</key>
             <string>#fenced_code_block_elixir</string>
+          </dict>
+          <dict>
+            <key>include</key>
+            <string>#fenced_code_block_latex</string>
+          </dict>
+          <dict>
+            <key>include</key>
+            <string>#fenced_code_block_bibtex</string>
           </dict>
           <dict>
             <key>include</key>
