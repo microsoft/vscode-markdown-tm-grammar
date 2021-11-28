@@ -62,7 +62,9 @@ const languages = [
 	{ name: 'markdown', language: 'markdown', identifiers: ['markdown', 'md'], source: 'text.html.markdown' },
 	{ name: 'log', language: 'log', identifiers: ['log'], source: 'text.log' },
 	{ name: 'erlang', language: 'erlang', identifiers: ['erlang'], source: 'source.erlang' },
-	{ name: 'elixir', language: 'elixir', identifiers: ['elixir'], source: 'source.elixir' }
+	{ name: 'elixir', language: 'elixir', identifiers: ['elixir'], source: 'source.elixir' },
+	{ name: 'latex', language: 'latex', identifiers: ['latex', 'tex'], source: 'text.tex.latex' },
+	{ name: 'bibtex', language: 'bibtex', identifiers: ['bibtex'], source: 'text.bibtex' }
 ];
 
 const fencedCodeBlockDefinition = (name, identifiers, sourceScope, language, additionalContentName) => {
