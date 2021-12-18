@@ -488,7 +488,7 @@ repository:
     captures:
       '1': {name: punctuation.definition.raw.markdown}
       '3': {name: punctuation.definition.raw.markdown}
-    match: (`+)(([^`]|(?!(?<!`)\1(?!`))`)*+)(\1)
+    match: (`+)((?:[^`]|(?!(?<!`)\1(?!`))`)*+)(\1)
     name: markup.inline.raw.string.markdown
   strikethrough:
     captures:
