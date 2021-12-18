@@ -222,6 +222,7 @@ repository:
     - {include: '#link-ref'}
     - {include: '#link-ref-literal'}
     - {include: '#link-ref-shortcut'}
+    - {include: '#link-html'}
   ampersand:
     comment: "Markdown will convert this for us. We match it so that the HTML grammar will not mark it up as invalid."
     match: '&(?!([a-zA-Z0-9]+|#[0-9]+|#x[0-9a-fA-F]+);)'
@@ -292,6 +293,7 @@ repository:
     - {include: '#link-ref-literal'}
     - {include: '#link-ref'}
     - {include: '#link-ref-shortcut'}
+    - {include: '#link-html'}
   bracket:
     comment: "Markdown will convert this for us. We match it so that the HTML grammar will not mark it up as invalid."
     match: '<(?![a-zA-Z/?\$!])'
@@ -407,6 +409,7 @@ repository:
     - {include: '#link-ref-literal'}
     - {include: '#link-ref'}
     - {include: '#link-ref-shortcut'}
+    - {include: '#link-html'}
   link-email:
     captures:
       '1': {name: punctuation.definition.link.markdown}
@@ -481,6 +484,13 @@ repository:
       '3': {name: punctuation.definition.string.end.markdown}
     match: (\[)(\S+?)(\])
     name: meta.link.reference.markdown
+  link-html:
+    captures:
+      '1': {name: punctuation.definition.link.markdown}
+      '2': {name: markup.underline.link.markdown}
+      '3': {name: punctuation.definition.link.markdown}
+    match: (?<=\[.*\]\()(\<)(.*?)(\>)
+    name: meta.link.inline.markdown
   raw:
     captures:
       '1': {name: punctuation.definition.raw.markdown}
