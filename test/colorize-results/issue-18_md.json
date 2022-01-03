@@ -1,7 +1,7 @@
 [
 	{
 		"c": "[",
-		"t": "text.html.markdown meta.paragraph.markdown meta.link.inline.markdown punctuation.definition.string.begin.markdown",
+		"t": "text.html.markdown meta.paragraph.markdown meta.link.inline.markdown punctuation.definition.link.title.begin.markdown",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -23,7 +23,7 @@
 	},
 	{
 		"c": "]",
-		"t": "text.html.markdown meta.paragraph.markdown meta.link.inline.markdown punctuation.definition.string.end.markdown",
+		"t": "text.html.markdown meta.paragraph.markdown meta.link.inline.markdown punctuation.definition.link.title.end.markdown",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -67,7 +67,7 @@
 	},
 	{
 		"c": "[",
-		"t": "text.html.markdown meta.paragraph.markdown meta.link.inline.markdown punctuation.definition.string.begin.markdown",
+		"t": "text.html.markdown meta.paragraph.markdown meta.link.inline.markdown punctuation.definition.link.title.begin.markdown",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -89,7 +89,7 @@
 	},
 	{
 		"c": "]",
-		"t": "text.html.markdown meta.paragraph.markdown meta.link.inline.markdown punctuation.definition.string.end.markdown",
+		"t": "text.html.markdown meta.paragraph.markdown meta.link.inline.markdown punctuation.definition.link.title.end.markdown",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",

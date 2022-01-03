@@ -299,9 +299,9 @@ repository:
   escape: {match: '\\[-`*_#+.!(){}\[\]\\>]', name: constant.character.escape.markdown}
   image-inline:
     captures:
-      '1': {name: punctuation.definition.string.begin.markdown}
+      '1': {name: punctuation.definition.link.description.begin.markdown}
       '2': {name: string.other.link.description.markdown}
-      '4': {name: punctuation.definition.string.end.markdown}
+      '4': {name: punctuation.definition.link.description.end.markdown}
       '5': {name: punctuation.definition.metadata.markdown}
       '6': {name: punctuation.definition.link.markdown}
       '7': {name: markup.underline.link.image.markdown}
@@ -333,9 +333,9 @@ repository:
     name: meta.image.inline.markdown
   image-ref:
     captures:
-      '1': {name: punctuation.definition.string.begin.markdown}
+      '1': {name: punctuation.definition.link.description.begin.markdown}
       '2': {name: string.other.link.description.markdown}
-      '4': {name: punctuation.definition.string.begin.markdown}
+      '4': {name: punctuation.definition.link.description.end.markdown}
       '5': {name: punctuation.definition.constant.markdown}
       '6': {name: constant.other.reference.link.markdown}
       '7': {name: punctuation.definition.constant.markdown}
@@ -423,9 +423,9 @@ repository:
     name: meta.link.inet.markdown
   link-inline:
     captures:
-      '1': {name: punctuation.definition.string.begin.markdown}
+      '1': {name: punctuation.definition.link.title.begin.markdown}
       '2': {name: string.other.link.title.markdown}
-      '4': {name: punctuation.definition.string.end.markdown}
+      '4': {name: punctuation.definition.link.title.end.markdown}
       '5': {name: punctuation.definition.metadata.markdown}
       '6': {name: punctuation.definition.link.markdown}
       '7': {name: markup.underline.link.markdown}
@@ -457,9 +457,9 @@ repository:
     name: meta.link.inline.markdown
   link-ref:
     captures:
-      '1': {name: punctuation.definition.string.begin.markdown}
+      '1': {name: punctuation.definition.link.title.begin.markdown}
       '2': {name: string.other.link.title.markdown}
-      '4': {name: punctuation.definition.string.end.markdown}
+      '4': {name: punctuation.definition.link.title.end.markdown}
       '5': {name: punctuation.definition.constant.begin.markdown}
       '6': {name: constant.other.reference.link.markdown}
       '7': {name: punctuation.definition.constant.end.markdown}
@@ -467,18 +467,18 @@ repository:
     name: meta.link.reference.markdown
   link-ref-literal:
     captures:
-      '1': {name: punctuation.definition.string.begin.markdown}
+      '1': {name: punctuation.definition.link.title.begin.markdown}
       '2': {name: string.other.link.title.markdown}
-      '4': {name: punctuation.definition.string.end.markdown}
+      '4': {name: punctuation.definition.link.title.end.markdown}
       '5': {name: punctuation.definition.constant.begin.markdown}
       '6': {name: punctuation.definition.constant.end.markdown}
     match: (\[)((?<square>[^\[\]\\]|\\.|\[\g<square>*+\])*+)(\])[ ]?(\[)(\])
     name: meta.link.reference.literal.markdown
   link-ref-shortcut:
     captures:
-      '1': {name: punctuation.definition.string.begin.markdown}
+      '1': {name: punctuation.definition.link.title.begin.markdown}
       '2': {name: string.other.link.title.markdown}
-      '3': {name: punctuation.definition.string.end.markdown}
+      '3': {name: punctuation.definition.link.title.end.markdown}
     match: (\[)(\S+?)(\])
     name: meta.link.reference.markdown
   raw:

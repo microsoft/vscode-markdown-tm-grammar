@@ -4046,7 +4046,7 @@
           <key>1</key>
           <dict>
             <key>name</key>
-            <string>punctuation.definition.string.begin.markdown</string>
+            <string>punctuation.definition.link.description.begin.markdown</string>
           </dict>
           <key>2</key>
           <dict>
@@ -4056,7 +4056,7 @@
           <key>4</key>
           <dict>
             <key>name</key>
-            <string>punctuation.definition.string.end.markdown</string>
+            <string>punctuation.definition.link.description.end.markdown</string>
           </dict>
           <key>5</key>
           <dict>
@@ -4154,7 +4154,7 @@
           <key>1</key>
           <dict>
             <key>name</key>
-            <string>punctuation.definition.string.begin.markdown</string>
+            <string>punctuation.definition.link.description.begin.markdown</string>
           </dict>
           <key>2</key>
           <dict>
@@ -4164,7 +4164,7 @@
           <key>4</key>
           <dict>
             <key>name</key>
-            <string>punctuation.definition.string.begin.markdown</string>
+            <string>punctuation.definition.link.description.end.markdown</string>
           </dict>
           <key>5</key>
           <dict>
@@ -4371,7 +4371,7 @@
           <key>1</key>
           <dict>
             <key>name</key>
-            <string>punctuation.definition.string.begin.markdown</string>
+            <string>punctuation.definition.link.title.begin.markdown</string>
           </dict>
           <key>2</key>
           <dict>
@@ -4381,7 +4381,7 @@
           <key>4</key>
           <dict>
             <key>name</key>
-            <string>punctuation.definition.string.end.markdown</string>
+            <string>punctuation.definition.link.title.end.markdown</string>
           </dict>
           <key>5</key>
           <dict>
@@ -4479,7 +4479,7 @@
           <key>1</key>
           <dict>
             <key>name</key>
-            <string>punctuation.definition.string.begin.markdown</string>
+            <string>punctuation.definition.link.title.begin.markdown</string>
           </dict>
           <key>2</key>
           <dict>
@@ -4489,7 +4489,7 @@
           <key>4</key>
           <dict>
             <key>name</key>
-            <string>punctuation.definition.string.end.markdown</string>
+            <string>punctuation.definition.link.title.end.markdown</string>
           </dict>
           <key>5</key>
           <dict>
@@ -4519,7 +4519,7 @@
           <key>1</key>
           <dict>
             <key>name</key>
-            <string>punctuation.definition.string.begin.markdown</string>
+            <string>punctuation.definition.link.title.begin.markdown</string>
           </dict>
           <key>2</key>
           <dict>
@@ -4529,7 +4529,7 @@
           <key>4</key>
           <dict>
             <key>name</key>
-            <string>punctuation.definition.string.end.markdown</string>
+            <string>punctuation.definition.link.title.end.markdown</string>
           </dict>
           <key>5</key>
           <dict>
@@ -4554,7 +4554,7 @@
           <key>1</key>
           <dict>
             <key>name</key>
-            <string>punctuation.definition.string.begin.markdown</string>
+            <string>punctuation.definition.link.title.begin.markdown</string>
           </dict>
           <key>2</key>
           <dict>
@@ -4564,7 +4564,7 @@
           <key>3</key>
           <dict>
             <key>name</key>
-            <string>punctuation.definition.string.end.markdown</string>
+            <string>punctuation.definition.link.title.end.markdown</string>
           </dict>
         </dict>
         <key>match</key>
