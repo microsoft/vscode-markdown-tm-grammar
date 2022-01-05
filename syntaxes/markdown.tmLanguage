@@ -3849,6 +3849,10 @@
           </dict>
           <dict>
             <key>include</key>
+            <string>#strikethrough</string>
+          </dict>
+          <dict>
+            <key>include</key>
             <string>#escape</string>
           </dict>
           <dict>
@@ -4020,6 +4024,10 @@
           <dict>
             <key>include</key>
             <string>#link-ref-shortcut</string>
+          </dict>
+          <dict>
+            <key>include</key>
+            <string>#strikethrough</string>
           </dict>
         </array>
       </dict>
@@ -4312,6 +4320,10 @@
             <key>include</key>
             <string>#link-ref-shortcut</string>
           </dict>
+          <dict>
+            <key>include</key>
+            <string>#strikethrough</string>
+          </dict>
         </array>
       </dict>
       <key>link-email</key>
@@ -4588,9 +4600,106 @@
           </dict>
         </dict>
         <key>match</key>
-        <string>(`+)([^`]|(?!(?&lt;!`)\1(?!`))`)*+(\1)</string>
+        <string>(`+)((?:[^`]|(?!(?&lt;!`)\1(?!`))`)*+)(\1)</string>
         <key>name</key>
         <string>markup.inline.raw.string.markdown</string>
+      </dict>
+      <key>strikethrough</key>
+      <dict>
+        <key>captures</key>
+        <dict>
+          <key>1</key>
+          <dict>
+            <key>name</key>
+            <string>punctuation.definition.strikethrough.markdown</string>
+          </dict>
+          <key>2</key>
+          <dict>
+            <key>patterns</key>
+            <array>
+              <dict>
+                <key>applyEndPatternLast</key>
+                <integer>1</integer>
+                <key>begin</key>
+                <string>(?=&lt;[^&gt;]*?&gt;)</string>
+                <key>end</key>
+                <string>(?&lt;=&gt;)</string>
+                <key>patterns</key>
+                <array>
+                  <dict>
+                    <key>include</key>
+                    <string>text.html.derivative</string>
+                  </dict>
+                </array>
+              </dict>
+              <dict>
+                <key>include</key>
+                <string>#escape</string>
+              </dict>
+              <dict>
+                <key>include</key>
+                <string>#ampersand</string>
+              </dict>
+              <dict>
+                <key>include</key>
+                <string>#bracket</string>
+              </dict>
+              <dict>
+                <key>include</key>
+                <string>#raw</string>
+              </dict>
+              <dict>
+                <key>include</key>
+                <string>#bold</string>
+              </dict>
+              <dict>
+                <key>include</key>
+                <string>#italic</string>
+              </dict>
+              <dict>
+                <key>include</key>
+                <string>#image-inline</string>
+              </dict>
+              <dict>
+                <key>include</key>
+                <string>#link-inline</string>
+              </dict>
+              <dict>
+                <key>include</key>
+                <string>#link-inet</string>
+              </dict>
+              <dict>
+                <key>include</key>
+                <string>#link-email</string>
+              </dict>
+              <dict>
+                <key>include</key>
+                <string>#image-ref</string>
+              </dict>
+              <dict>
+                <key>include</key>
+                <string>#link-ref-literal</string>
+              </dict>
+              <dict>
+                <key>include</key>
+                <string>#link-ref</string>
+              </dict>
+              <dict>
+                <key>include</key>
+                <string>#link-ref-shortcut</string>
+              </dict>
+            </array>
+          </dict>
+          <key>3</key>
+          <dict>
+            <key>name</key>
+            <string>punctuation.definition.strikethrough.markdown</string>
+          </dict>
+        </dict>
+        <key>match</key>
+        <string>(~+)((?:[^~]|(?!(?&lt;!~)\1(?!~))~)*+)(\1)</string>
+        <key>name</key>
+        <string>markup.strikethrough.markdown</string>
       </dict>
     </dict>
     <key>scopeName</key>
