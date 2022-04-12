@@ -1,5 +1,3 @@
-~test~
-
 ~~test~~
 
 ~~*test*~~

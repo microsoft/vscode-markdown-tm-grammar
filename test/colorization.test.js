@@ -34,7 +34,7 @@ function assertUnchangedTokens(testFixurePath, done) {
                                 throw e;
                             }
                         }
-                        // different but no tokenization ot color change: no failure
+                        // different but no tokenization or color change: no failure
                     } else {
                         throw e;
                     }
