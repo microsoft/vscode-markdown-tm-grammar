@@ -1530,7 +1530,7 @@
       <key>fenced_code_block_js</key>
       <dict>
         <key>begin</key>
-        <string>(^|\G)(\s*)(`{3,}|~{3,})\s*(?i:(js|jsx|javascript|es6|mjs|cjs|\{\.js.+?\})((\s+|:|,|\{|\?)[^`~]*)?$)</string>
+        <string>(^|\G)(\s*)(`{3,}|~{3,})\s*(?i:(js|jsx|javascript|es6|mjs|cjs|dataviewjs|\{\.js.+?\})((\s+|:|,|\{|\?)[^`~]*)?$)</string>
         <key>name</key>
         <string>markup.fenced_code.block.markdown</string>
         <key>end</key>
