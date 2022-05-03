@@ -35,8 +35,8 @@
   "homepage": "https://github.com/mjbvz/vscode-markdown-tm-grammar#readme",
   "devDependencies": {
     "js-yaml": "^3.13.1",
-    "mocha": "^8.3.0",
+    "mocha": "^10.0.0",
     "plist": "^3.0.4",
-    "vscode-test": "^1.5.1"
+    "vscode-test": "^1.6.1"
   }
 }
