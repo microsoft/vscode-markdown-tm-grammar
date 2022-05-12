@@ -4577,7 +4577,7 @@
           </dict>
         </dict>
         <key>match</key>
-        <string>(\[)((?&lt;square&gt;[^\[\]\\]|\\.|\[\g&lt;square&gt;*+\])*+)(\])(\[)([^\]]*+)(\])</string>
+        <string>(?&lt;![\]\\])(\[)((?&lt;square&gt;[^\[\]\\]|\\.|\[\g&lt;square&gt;*+\])*+)(\])(\[)([^\]]*+)(\])</string>
         <key>name</key>
         <string>meta.link.reference.markdown</string>
       </dict>
@@ -4612,7 +4612,7 @@
           </dict>
         </dict>
         <key>match</key>
-        <string>(\[)((?&lt;square&gt;[^\[\]\\]|\\.|\[\g&lt;square&gt;*+\])*+)(\])[ ]?(\[)(\])</string>
+        <string>(?&lt;![\]\\])(\[)((?&lt;square&gt;[^\[\]\\]|\\.|\[\g&lt;square&gt;*+\])*+)(\])[ ]?(\[)(\])</string>
         <key>name</key>
         <string>meta.link.reference.literal.markdown</string>
       </dict>
@@ -4637,7 +4637,7 @@
           </dict>
         </dict>
         <key>match</key>
-        <string>(\[)(\S+?)(\])</string>
+        <string>(?&lt;![\]\\])(\[)(\S+?)(\])</string>
         <key>name</key>
         <string>meta.link.reference.markdown</string>
       </dict>

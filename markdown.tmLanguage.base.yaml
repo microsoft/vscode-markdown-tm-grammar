@@ -466,7 +466,7 @@ repository:
       '5': {name: punctuation.definition.constant.begin.markdown}
       '6': {name: constant.other.reference.link.markdown}
       '7': {name: punctuation.definition.constant.end.markdown}
-    match: (\[)((?<square>[^\[\]\\]|\\.|\[\g<square>*+\])*+)(\])(\[)([^\]]*+)(\])
+    match: (?<![\]\\])(\[)((?<square>[^\[\]\\]|\\.|\[\g<square>*+\])*+)(\])(\[)([^\]]*+)(\])
     name: meta.link.reference.markdown
   link-ref-literal:
     captures:
@@ -475,14 +475,14 @@ repository:
       '4': {name: punctuation.definition.link.title.end.markdown}
       '5': {name: punctuation.definition.constant.begin.markdown}
       '6': {name: punctuation.definition.constant.end.markdown}
-    match: (\[)((?<square>[^\[\]\\]|\\.|\[\g<square>*+\])*+)(\])[ ]?(\[)(\])
+    match: (?<![\]\\])(\[)((?<square>[^\[\]\\]|\\.|\[\g<square>*+\])*+)(\])[ ]?(\[)(\])
     name: meta.link.reference.literal.markdown
   link-ref-shortcut:
     captures:
       '1': {name: punctuation.definition.link.title.begin.markdown}
       '2': {name: string.other.link.title.markdown}
       '3': {name: punctuation.definition.link.title.end.markdown}
-    match: (\[)(\S+?)(\])
+    match: (?<![\]\\])(\[)(\S+?)(\])
     name: meta.link.reference.markdown
   raw:
     captures:
