@@ -116,7 +116,7 @@
 			"dark_vs": "markup.inline.raw: #CE9178",
 			"light_vs": "markup.inline.raw: #800000",
 			"hc_black": "default: #FFFFFF",
-			"hc_light": "markup.inline.raw: #800000"
+			"hc_light": "markup.inline.raw: #0F4A85"
 		}
 	},
 	{
@@ -128,7 +128,7 @@
 			"dark_vs": "markup.inline.raw: #CE9178",
 			"light_vs": "markup.inline.raw: #800000",
 			"hc_black": "default: #FFFFFF",
-			"hc_light": "markup.inline.raw: #800000"
+			"hc_light": "markup.inline.raw: #0F4A85"
 		}
 	},
 	{
@@ -140,7 +140,7 @@
 			"dark_vs": "markup.inline.raw: #CE9178",
 			"light_vs": "markup.inline.raw: #800000",
 			"hc_black": "default: #FFFFFF",
-			"hc_light": "markup.inline.raw: #800000"
+			"hc_light": "markup.inline.raw: #0F4A85"
 		}
 	},
 	{
