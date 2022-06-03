@@ -430,26 +430,39 @@ repository:
       '2': {name: string.other.link.title.markdown}
       '4': {name: punctuation.definition.link.title.end.markdown}
       '5': {name: punctuation.definition.metadata.markdown}
-      '6': {name: punctuation.definition.link.markdown}
-      '7': {name: markup.underline.link.markdown}
+
+      # Angle bracket link destination
+      '7': {name: punctuation.definition.link.markdown}
+      '8': {name: markup.underline.link.markdown}
       '9': {name: punctuation.definition.link.markdown}
-      '10': {name: string.other.link.description.title.markdown}
-      '11': {name: punctuation.definition.string.begin.markdown}
-      '12': {name: punctuation.definition.string.end.markdown}
-      '13': {name: string.other.link.description.title.markdown}
-      '14': {name: punctuation.definition.string.begin.markdown}
-      '15': {name: punctuation.definition.string.end.markdown}
-      '16': {name: string.other.link.description.title.markdown}
-      '17': {name: punctuation.definition.string.begin.markdown}
-      '18': {name: punctuation.definition.string.end.markdown}
-      '19': {name: punctuation.definition.metadata.markdown}
+
+      # Normal link destination
+      '10': {name: markup.underline.link.markdown}
+
+      # Title 
+      '12': {name: string.other.link.description.title.markdown}
+      '13': {name: punctuation.definition.string.begin.markdown}
+      '14': {name: punctuation.definition.string.end.markdown}
+      '15': {name: string.other.link.description.title.markdown}
+      '16': {name: punctuation.definition.string.begin.markdown}
+      '17': {name: punctuation.definition.string.end.markdown}
+      '18': {name: string.other.link.description.title.markdown}
+      '19': {name: punctuation.definition.string.begin.markdown}
+      '20': {name: punctuation.definition.string.end.markdown}
+      '21': {name: punctuation.definition.metadata.markdown}
     match: >
       (?x)
         (\[)((?<square>[^\[\]\\]|\\.|\[\g<square>*+\])*+)(\])
                       # Match the link text.
         (\()            # Opening paren for url
-          (<?)((?<url>(?>[^\s()]+)|\(\g<url>*\))*)(>?)      # The url
-          [ \t]*          # Optional whitespace
+          # The url
+            [ \t]*
+            (
+               (<)([^<>\n]*)(>)
+               | ((?<url>(?>[^\s()]+)|\(\g<url>*\))*)
+            )
+            [ \t]*
+          # The title  
           (?:
               ((\().+?(\)))    # Match title in parens…
             | ((").+?("))    # or in double quotes…
