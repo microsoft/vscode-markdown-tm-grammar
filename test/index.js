@@ -5,7 +5,8 @@ const glob = require('glob');
 module.exports.run = function (testsRoot, cb) {
     // Create the mocha test
     const mocha = new Mocha({
-        ui: 'tdd'
+        ui: 'tdd',
+        timeout: 30_000
     });
 
     glob('**/**.test.js', { cwd: testsRoot }, (err, files) => {
