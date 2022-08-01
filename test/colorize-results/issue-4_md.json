@@ -144,8 +144,68 @@
 		}
 	},
 	{
-		"c": "![img](path)",
-		"t": "text.html.markdown meta.paragraph.markdown meta.link.reference.markdown string.other.link.title.markdown",
+		"c": "![",
+		"t": "text.html.markdown meta.paragraph.markdown meta.link.reference.markdown string.other.link.title.markdown meta.image.inline.markdown punctuation.definition.link.description.begin.markdown",
+		"r": {
+			"dark_plus": "string: #CE9178",
+			"light_plus": "string: #A31515",
+			"dark_vs": "string: #CE9178",
+			"light_vs": "string: #A31515",
+			"hc_black": "string: #CE9178",
+			"hc_light": "string: #0F4A85"
+		}
+	},
+	{
+		"c": "img",
+		"t": "text.html.markdown meta.paragraph.markdown meta.link.reference.markdown string.other.link.title.markdown meta.image.inline.markdown string.other.link.description.markdown",
+		"r": {
+			"dark_plus": "string: #CE9178",
+			"light_plus": "string: #A31515",
+			"dark_vs": "string: #CE9178",
+			"light_vs": "string: #A31515",
+			"hc_black": "string: #CE9178",
+			"hc_light": "string: #0F4A85"
+		}
+	},
+	{
+		"c": "]",
+		"t": "text.html.markdown meta.paragraph.markdown meta.link.reference.markdown string.other.link.title.markdown meta.image.inline.markdown punctuation.definition.link.description.end.markdown",
+		"r": {
+			"dark_plus": "string: #CE9178",
+			"light_plus": "string: #A31515",
+			"dark_vs": "string: #CE9178",
+			"light_vs": "string: #A31515",
+			"hc_black": "string: #CE9178",
+			"hc_light": "string: #0F4A85"
+		}
+	},
+	{
+		"c": "(",
+		"t": "text.html.markdown meta.paragraph.markdown meta.link.reference.markdown string.other.link.title.markdown meta.image.inline.markdown punctuation.definition.metadata.markdown",
+		"r": {
+			"dark_plus": "string: #CE9178",
+			"light_plus": "string: #A31515",
+			"dark_vs": "string: #CE9178",
+			"light_vs": "string: #A31515",
+			"hc_black": "string: #CE9178",
+			"hc_light": "string: #0F4A85"
+		}
+	},
+	{
+		"c": "path",
+		"t": "text.html.markdown meta.paragraph.markdown meta.link.reference.markdown string.other.link.title.markdown meta.image.inline.markdown markup.underline.link.image.markdown",
+		"r": {
+			"dark_plus": "string: #CE9178",
+			"light_plus": "string: #A31515",
+			"dark_vs": "string: #CE9178",
+			"light_vs": "string: #A31515",
+			"hc_black": "string: #CE9178",
+			"hc_light": "string: #0F4A85"
+		}
+	},
+	{
+		"c": ")",
+		"t": "text.html.markdown meta.paragraph.markdown meta.link.reference.markdown string.other.link.title.markdown meta.image.inline.markdown punctuation.definition.metadata.markdown",
 		"r": {
 			"dark_plus": "string: #CE9178",
 			"light_plus": "string: #A31515",

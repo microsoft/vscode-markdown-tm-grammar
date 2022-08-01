@@ -204,15 +204,39 @@
 		}
 	},
 	{
-		"c": "**AbcDeviceCreate**",
-		"t": "text.html.markdown meta.paragraph.markdown meta.link.inline.markdown string.other.link.title.markdown",
+		"c": "**",
+		"t": "text.html.markdown meta.paragraph.markdown meta.link.inline.markdown string.other.link.title.markdown markup.bold.markdown punctuation.definition.bold.markdown",
 		"r": {
-			"dark_plus": "string: #CE9178",
-			"light_plus": "string: #A31515",
-			"dark_vs": "string: #CE9178",
-			"light_vs": "string: #A31515",
+			"dark_plus": "markup.bold: #569CD6",
+			"light_plus": "markup.bold: #000080",
+			"dark_vs": "markup.bold: #569CD6",
+			"light_vs": "markup.bold: #000080",
 			"hc_black": "string: #CE9178",
-			"hc_light": "string: #0F4A85"
+			"hc_light": "markup.bold: #000080"
+		}
+	},
+	{
+		"c": "AbcDeviceCreate",
+		"t": "text.html.markdown meta.paragraph.markdown meta.link.inline.markdown string.other.link.title.markdown markup.bold.markdown",
+		"r": {
+			"dark_plus": "markup.bold: #569CD6",
+			"light_plus": "markup.bold: #000080",
+			"dark_vs": "markup.bold: #569CD6",
+			"light_vs": "markup.bold: #000080",
+			"hc_black": "string: #CE9178",
+			"hc_light": "markup.bold: #000080"
+		}
+	},
+	{
+		"c": "**",
+		"t": "text.html.markdown meta.paragraph.markdown meta.link.inline.markdown string.other.link.title.markdown markup.bold.markdown punctuation.definition.bold.markdown",
+		"r": {
+			"dark_plus": "markup.bold: #569CD6",
+			"light_plus": "markup.bold: #000080",
+			"dark_vs": "markup.bold: #569CD6",
+			"light_vs": "markup.bold: #000080",
+			"hc_black": "string: #CE9178",
+			"hc_light": "markup.bold: #000080"
 		}
 	},
 	{
