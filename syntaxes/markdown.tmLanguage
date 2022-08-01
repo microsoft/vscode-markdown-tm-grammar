@@ -4446,6 +4446,13 @@
           <dict>
             <key>name</key>
             <string>string.other.link.title.markdown</string>
+            <key>patterns</key>
+            <array>
+              <dict>
+                <key>include</key>
+                <string>#image-inline</string>
+              </dict>
+            </array>
           </dict>
           <key>4</key>
           <dict>

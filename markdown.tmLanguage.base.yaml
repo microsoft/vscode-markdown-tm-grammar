@@ -427,7 +427,10 @@ repository:
   link-inline:
     captures:
       '1': {name: punctuation.definition.link.title.begin.markdown}
-      '2': {name: string.other.link.title.markdown}
+      '2':
+        name: string.other.link.title.markdown
+        patterns:
+        - {include: '#image-inline'}
       '4': {name: punctuation.definition.link.title.end.markdown}
       '5': {name: punctuation.definition.metadata.markdown}
 
