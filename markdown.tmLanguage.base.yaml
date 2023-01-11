@@ -30,7 +30,7 @@ repository:
     {{languageIncludes}}
     - {include: '#fenced_code_block_unknown'}
   fenced_code_block_unknown:
-    begin: (^|\G)(\s*)(`{3,}|~{3,})\s*(?=([^`~]*)?$)
+    begin: (^|\G)(\s*)(`{3,}|~{3,})\s*(?=([^`]*)?$)
     beginCaptures:
       '3': {name: punctuation.definition.markdown}
       '4': {name: fenced_code.block.language}
