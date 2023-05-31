@@ -8,7 +8,9 @@
 			"dark_vs": "default: #D4D4D4",
 			"light_vs": "default: #000000",
 			"hc_black": "default: #FFFFFF",
-			"hc_light": "default: #292929"
+			"dark_plus_experimental": "default: #CCCCCC",
+			"hc_light": "default: #292929",
+			"light_plus_experimental": "default: #3B3B3B"
 		}
 	},
 	{
@@ -20,79 +22,79 @@
 			"dark_vs": "default: #D4D4D4",
 			"light_vs": "default: #000000",
 			"hc_black": "default: #FFFFFF",
-			"hc_light": "default: #292929"
+			"dark_plus_experimental": "default: #CCCCCC",
+			"hc_light": "default: #292929",
+			"light_plus_experimental": "default: #3B3B3B"
 		}
 	},
 	{
 		"c": "cd",
-		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.shellscript support.function.builtin.shell",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.shellscript meta.statement.shell meta.statement.command.shell meta.statement.command.name.shell entity.name.function.call.shell entity.name.command.shell support.function.builtin.shell",
 		"r": {
 			"dark_plus": "support.function: #DCDCAA",
 			"light_plus": "support.function: #795E26",
 			"dark_vs": "meta.embedded: #D4D4D4",
 			"light_vs": "meta.embedded: #000000",
 			"hc_black": "support.function: #DCDCAA",
-			"hc_light": "support.function: #5E2CBC"
+			"dark_plus_experimental": "support.function: #DCDCAA",
+			"hc_light": "support.function: #5E2CBC",
+			"light_plus_experimental": "support.function: #795E26"
 		}
 	},
 	{
 		"c": " ",
-		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.shellscript",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.shellscript meta.statement.shell meta.statement.command.shell meta.argument.shell",
 		"r": {
 			"dark_plus": "meta.embedded: #D4D4D4",
 			"light_plus": "meta.embedded: #000000",
 			"dark_vs": "meta.embedded: #D4D4D4",
 			"light_vs": "meta.embedded: #000000",
 			"hc_black": "meta.embedded: #FFFFFF",
-			"hc_light": "meta.embedded: #292929"
+			"dark_plus_experimental": "meta.embedded: #D4D4D4",
+			"hc_light": "meta.embedded: #292929",
+			"light_plus_experimental": "meta.embedded: #000000"
 		}
 	},
 	{
-		"c": "~",
-		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.shellscript keyword.operator.tilde.shell",
+		"c": "~/",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.shellscript meta.statement.shell meta.statement.command.shell meta.argument.shell string.unquoted.argument.shell",
 		"r": {
-			"dark_plus": "keyword.operator: #D4D4D4",
-			"light_plus": "keyword.operator: #000000",
-			"dark_vs": "keyword.operator: #D4D4D4",
-			"light_vs": "keyword.operator: #000000",
-			"hc_black": "keyword.operator: #D4D4D4",
-			"hc_light": "keyword.operator: #000000"
-		}
-	},
-	{
-		"c": "/",
-		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.shellscript",
-		"r": {
-			"dark_plus": "meta.embedded: #D4D4D4",
-			"light_plus": "meta.embedded: #000000",
-			"dark_vs": "meta.embedded: #D4D4D4",
-			"light_vs": "meta.embedded: #000000",
-			"hc_black": "meta.embedded: #FFFFFF",
-			"hc_light": "meta.embedded: #292929"
+			"dark_plus": "string: #CE9178",
+			"light_plus": "string: #A31515",
+			"dark_vs": "string: #CE9178",
+			"light_vs": "string: #A31515",
+			"hc_black": "string: #CE9178",
+			"dark_plus_experimental": "string: #CE9178",
+			"hc_light": "string: #0F4A85",
+			"light_plus_experimental": "string: #A31515"
 		}
 	},
 	{
 		"c": "$",
-		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.shellscript variable.other.normal.shell punctuation.definition.variable.shell",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.shellscript meta.statement.shell meta.statement.command.shell meta.argument.shell punctuation.definition.variable.shell variable.other.normal.shell",
 		"r": {
 			"dark_plus": "variable: #9CDCFE",
 			"light_plus": "variable: #001080",
 			"dark_vs": "meta.embedded: #D4D4D4",
 			"light_vs": "meta.embedded: #000000",
 			"hc_black": "variable: #9CDCFE",
-			"hc_light": "variable: #001080"
+			"dark_plus_experimental": "variable: #9CDCFE",
+			"hc_light": "variable: #001080",
+			"light_plus_experimental": "variable: #001080"
 		}
 	},
 	{
 		"c": "foo",
-		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.shellscript variable.other.normal.shell",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.shellscript meta.statement.shell meta.statement.command.shell meta.argument.shell variable.other.normal.shell",
 		"r": {
 			"dark_plus": "variable: #9CDCFE",
 			"light_plus": "variable: #001080",
 			"dark_vs": "meta.embedded: #D4D4D4",
 			"light_vs": "meta.embedded: #000000",
 			"hc_black": "variable: #9CDCFE",
-			"hc_light": "variable: #001080"
+			"dark_plus_experimental": "variable: #9CDCFE",
+			"hc_light": "variable: #001080",
+			"light_plus_experimental": "variable: #001080"
 		}
 	},
 	{
@@ -104,7 +106,9 @@
 			"dark_vs": "default: #D4D4D4",
 			"light_vs": "default: #000000",
 			"hc_black": "default: #FFFFFF",
-			"hc_light": "default: #292929"
+			"dark_plus_experimental": "default: #CCCCCC",
+			"hc_light": "default: #292929",
+			"light_plus_experimental": "default: #3B3B3B"
 		}
 	},
 	{
@@ -116,7 +120,9 @@
 			"dark_vs": "default: #D4D4D4",
 			"light_vs": "default: #000000",
 			"hc_black": "default: #FFFFFF",
-			"hc_light": "default: #292929"
+			"dark_plus_experimental": "default: #CCCCCC",
+			"hc_light": "default: #292929",
+			"light_plus_experimental": "default: #3B3B3B"
 		}
 	},
 	{
@@ -128,7 +134,9 @@
 			"dark_vs": "default: #D4D4D4",
 			"light_vs": "default: #000000",
 			"hc_black": "default: #FFFFFF",
-			"hc_light": "default: #292929"
+			"dark_plus_experimental": "default: #CCCCCC",
+			"hc_light": "default: #292929",
+			"light_plus_experimental": "default: #3B3B3B"
 		}
 	},
 	{
@@ -140,79 +148,79 @@
 			"dark_vs": "default: #D4D4D4",
 			"light_vs": "default: #000000",
 			"hc_black": "default: #FFFFFF",
-			"hc_light": "default: #292929"
+			"dark_plus_experimental": "default: #CCCCCC",
+			"hc_light": "default: #292929",
+			"light_plus_experimental": "default: #3B3B3B"
 		}
 	},
 	{
 		"c": "cd",
-		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.shellscript support.function.builtin.shell",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.shellscript meta.statement.shell meta.statement.command.shell meta.statement.command.name.shell entity.name.function.call.shell entity.name.command.shell support.function.builtin.shell",
 		"r": {
 			"dark_plus": "support.function: #DCDCAA",
 			"light_plus": "support.function: #795E26",
 			"dark_vs": "meta.embedded: #D4D4D4",
 			"light_vs": "meta.embedded: #000000",
 			"hc_black": "support.function: #DCDCAA",
-			"hc_light": "support.function: #5E2CBC"
+			"dark_plus_experimental": "support.function: #DCDCAA",
+			"hc_light": "support.function: #5E2CBC",
+			"light_plus_experimental": "support.function: #795E26"
 		}
 	},
 	{
 		"c": " ",
-		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.shellscript",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.shellscript meta.statement.shell meta.statement.command.shell meta.argument.shell",
 		"r": {
 			"dark_plus": "meta.embedded: #D4D4D4",
 			"light_plus": "meta.embedded: #000000",
 			"dark_vs": "meta.embedded: #D4D4D4",
 			"light_vs": "meta.embedded: #000000",
 			"hc_black": "meta.embedded: #FFFFFF",
-			"hc_light": "meta.embedded: #292929"
+			"dark_plus_experimental": "meta.embedded: #D4D4D4",
+			"hc_light": "meta.embedded: #292929",
+			"light_plus_experimental": "meta.embedded: #000000"
 		}
 	},
 	{
-		"c": "~",
-		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.shellscript keyword.operator.tilde.shell",
+		"c": "~/",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.shellscript meta.statement.shell meta.statement.command.shell meta.argument.shell string.unquoted.argument.shell",
 		"r": {
-			"dark_plus": "keyword.operator: #D4D4D4",
-			"light_plus": "keyword.operator: #000000",
-			"dark_vs": "keyword.operator: #D4D4D4",
-			"light_vs": "keyword.operator: #000000",
-			"hc_black": "keyword.operator: #D4D4D4",
-			"hc_light": "keyword.operator: #000000"
-		}
-	},
-	{
-		"c": "/",
-		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.shellscript",
-		"r": {
-			"dark_plus": "meta.embedded: #D4D4D4",
-			"light_plus": "meta.embedded: #000000",
-			"dark_vs": "meta.embedded: #D4D4D4",
-			"light_vs": "meta.embedded: #000000",
-			"hc_black": "meta.embedded: #FFFFFF",
-			"hc_light": "meta.embedded: #292929"
+			"dark_plus": "string: #CE9178",
+			"light_plus": "string: #A31515",
+			"dark_vs": "string: #CE9178",
+			"light_vs": "string: #A31515",
+			"hc_black": "string: #CE9178",
+			"dark_plus_experimental": "string: #CE9178",
+			"hc_light": "string: #0F4A85",
+			"light_plus_experimental": "string: #A31515"
 		}
 	},
 	{
 		"c": "$",
-		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.shellscript variable.other.normal.shell punctuation.definition.variable.shell",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.shellscript meta.statement.shell meta.statement.command.shell meta.argument.shell punctuation.definition.variable.shell variable.other.normal.shell",
 		"r": {
 			"dark_plus": "variable: #9CDCFE",
 			"light_plus": "variable: #001080",
 			"dark_vs": "meta.embedded: #D4D4D4",
 			"light_vs": "meta.embedded: #000000",
 			"hc_black": "variable: #9CDCFE",
-			"hc_light": "variable: #001080"
+			"dark_plus_experimental": "variable: #9CDCFE",
+			"hc_light": "variable: #001080",
+			"light_plus_experimental": "variable: #001080"
 		}
 	},
 	{
 		"c": "foo",
-		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.shellscript variable.other.normal.shell",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.shellscript meta.statement.shell meta.statement.command.shell meta.argument.shell variable.other.normal.shell",
 		"r": {
 			"dark_plus": "variable: #9CDCFE",
 			"light_plus": "variable: #001080",
 			"dark_vs": "meta.embedded: #D4D4D4",
 			"light_vs": "meta.embedded: #000000",
 			"hc_black": "variable: #9CDCFE",
-			"hc_light": "variable: #001080"
+			"dark_plus_experimental": "variable: #9CDCFE",
+			"hc_light": "variable: #001080",
+			"light_plus_experimental": "variable: #001080"
 		}
 	},
 	{
@@ -224,7 +232,9 @@
 			"dark_vs": "default: #D4D4D4",
 			"light_vs": "default: #000000",
 			"hc_black": "default: #FFFFFF",
-			"hc_light": "default: #292929"
+			"dark_plus_experimental": "default: #CCCCCC",
+			"hc_light": "default: #292929",
+			"light_plus_experimental": "default: #3B3B3B"
 		}
 	},
 	{
@@ -236,7 +246,9 @@
 			"dark_vs": "markup.inline.raw: #CE9178",
 			"light_vs": "markup.inline.raw: #800000",
 			"hc_black": "default: #FFFFFF",
-			"hc_light": "markup.inline.raw: #0F4A85"
+			"dark_plus_experimental": "markup.inline.raw: #CE9178",
+			"hc_light": "markup.inline.raw: #0F4A85",
+			"light_plus_experimental": "markup.inline.raw: #800000"
 		}
 	},
 	{
@@ -248,7 +260,9 @@
 			"dark_vs": "markup.inline.raw: #CE9178",
 			"light_vs": "markup.inline.raw: #800000",
 			"hc_black": "default: #FFFFFF",
-			"hc_light": "markup.inline.raw: #0F4A85"
+			"dark_plus_experimental": "markup.inline.raw: #CE9178",
+			"hc_light": "markup.inline.raw: #0F4A85",
+			"light_plus_experimental": "markup.inline.raw: #800000"
 		}
 	},
 	{
@@ -260,7 +274,9 @@
 			"dark_vs": "markup.inline.raw: #CE9178",
 			"light_vs": "markup.inline.raw: #800000",
 			"hc_black": "default: #FFFFFF",
-			"hc_light": "markup.inline.raw: #0F4A85"
+			"dark_plus_experimental": "markup.inline.raw: #CE9178",
+			"hc_light": "markup.inline.raw: #0F4A85",
+			"light_plus_experimental": "markup.inline.raw: #800000"
 		}
 	}
 ]
