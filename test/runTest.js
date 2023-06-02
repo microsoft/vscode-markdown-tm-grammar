@@ -10,6 +10,7 @@ async function go() {
         await runTests({
             extensionDevelopmentPath,
             extensionTestsPath,
+            version: 'insiders',
             launchArgs: [
                 '--disable-extensions'
             ]
