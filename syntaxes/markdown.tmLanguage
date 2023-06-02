@@ -3782,7 +3782,7 @@
   \s*            # Leading whitespace
   (\[)([^]]+?)(\])(:)    # Reference name
   [ \t]*          # Optional whitespace
-  (?:(&lt;)([^\&gt;]+?)(&gt;)|(\S+?))      # The url
+  (?:(&lt;)((?:\\[&lt;&gt;]|[^&lt;&gt;\n])*)(&gt;)|(\S+?))      # The url
   [ \t]*          # Optional whitespace
   (?:
       ((\().+?(\)))    # Match title in parens…
@@ -4264,7 +4264,7 @@
     # The url
       [ \t]*
       (
-         (&lt;)([^&lt;&gt;\n]*)(&gt;)
+         (&lt;)((?:\\[&lt;&gt;]|[^&lt;&gt;\n])*)(&gt;)
          | ((?&lt;url&gt;(?&gt;[^\s()]+)|\(\g&lt;url&gt;*\))*)
       )
       [ \t]*
@@ -4626,7 +4626,7 @@
     # The url
       [ \t]*
       (
-         (&lt;)([^&lt;&gt;\n]*)(&gt;)
+         (&lt;)((?:\\[&lt;&gt;]|[^&lt;&gt;\n])*)(&gt;)
          | ((?&lt;url&gt;(?&gt;[^\s()]+)|\(\g&lt;url&gt;*\))*)
       )
       [ \t]*
