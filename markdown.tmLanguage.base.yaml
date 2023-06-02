@@ -151,7 +151,7 @@ repository:
         \s*            # Leading whitespace
         (\[)([^]]+?)(\])(:)    # Reference name
         [ \t]*          # Optional whitespace
-        (?:(<)([^\>]+?)(>)|(\S+?))      # The url
+        (?:(<)((?:\\[<>]|[^<>\n])*)(>)|(\S+?))      # The url
         [ \t]*          # Optional whitespace
         (?:
             ((\().+?(\)))    # Match title in parens…
@@ -338,7 +338,7 @@ repository:
           # The url
             [ \t]*
             (
-               (<)([^<>\n]*)(>)
+               (<)((?:\\[<>]|[^<>\n])*)(>)
                | ((?<url>(?>[^\s()]+)|\(\g<url>*\))*)
             )
             [ \t]*
@@ -482,7 +482,7 @@ repository:
           # The url
             [ \t]*
             (
-               (<)([^<>\n]*)(>)
+               (<)((?:\\[<>]|[^<>\n])*)(>)
                | ((?<url>(?>[^\s()]+)|\(\g<url>*\))*)
             )
             [ \t]*
