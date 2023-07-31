@@ -3854,7 +3854,7 @@
           </dict>
           <dict>
             <key>begin</key>
-            <string>(^|\G)([ ]{0,3})([0-9]+\.)([ \t])</string>
+            <string>(^|\G)([ ]{0,3})([0-9]+[\.\)])([ \t])</string>
             <key>beginCaptures</key>
             <dict>
               <key>3</key>
