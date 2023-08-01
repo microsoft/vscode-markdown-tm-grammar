@@ -64,6 +64,10 @@
           </dict>
           <dict>
             <key>include</key>
+            <string>#table</string>
+          </dict>
+          <dict>
+            <key>include</key>
             <string>#paragraph</string>
           </dict>
         </array>
@@ -3903,7 +3907,7 @@
           </dict>
         </array>
         <key>while</key>
-        <string>(^|\G)((?=\s*[-=]{3,}\s*$)|[ ]{4,}(?=\S))</string>
+        <string>(^|\G)((?=\s*[-=]{3,}\s*$)|[ ]{4,}(?=[^ \t\n]))</string>
       </dict>
       <key>raw_block</key>
       <dict>
@@ -3936,6 +3940,61 @@
         </array>
         <key>end</key>
         <string>(^|\G)-{3}|\.{3}\s*$</string>
+      </dict>
+      <key>table</key>
+      <dict>
+        <key>name</key>
+        <string>markup.table.markdown</string>
+        <key>begin</key>
+        <string>(^|\G)(\|)(?=[^|].+\|\s*$)</string>
+        <key>beginCaptures</key>
+        <dict>
+          <key>2</key>
+          <dict>
+            <key>name</key>
+            <string>punctuation.definition.table.markdown</string>
+          </dict>
+        </dict>
+        <key>while</key>
+        <string>(^|\G)(?=\|)</string>
+        <key>patterns</key>
+        <array>
+          <dict>
+            <key>match</key>
+            <string>\|</string>
+            <key>name</key>
+            <string>punctuation.definition.table.markdown</string>
+          </dict>
+          <dict>
+            <key>match</key>
+            <string>(?&lt;=\|)\s*(:?-+:?)\s*(?=\|)</string>
+            <key>captures</key>
+            <dict>
+              <key>1</key>
+              <dict>
+                <key>name</key>
+                <string>punctuation.separator.table.markdown</string>
+              </dict>
+            </dict>
+          </dict>
+          <dict>
+            <key>match</key>
+            <string>(?&lt;=\|)\s*(?=\S)((\\\||[^|])+)(?&lt;=\S)\s*(?=\|)</string>
+            <key>captures</key>
+            <dict>
+              <key>1</key>
+              <dict>
+                <key>patterns</key>
+                <array>
+                  <dict>
+                    <key>include</key>
+                    <string>#inline</string>
+                  </dict>
+                </array>
+              </dict>
+            </dict>
+          </dict>
+        </array>
       </dict>
       <key>inline</key>
       <dict>
