@@ -15,6 +15,7 @@ repository:
     - {include: '#raw_block'}
     - {include: '#link-def'}
     - {include: '#html'}
+    - {include: '#table'}
     - {include: '#paragraph'}
   blockquote:
     begin: (^|\G)[ ]{0,3}(>) ?
@@ -206,6 +207,23 @@ repository:
     patterns:
     - {include: source.yaml}
     end: (^|\G)-{3}|\.{3}\s*$
+  table:
+    name: markup.table.markdown
+    begin: (^|\G)(\|)(?=[^|].+\|\s*$)
+    beginCaptures:
+      '2': {name: punctuation.definition.table.markdown}
+    while: (^|\G)(?=\|)
+    patterns:
+    - match: \|
+      name: punctuation.definition.table.markdown
+    - match: (?<=\|)\s*(:?-+:?)\s*(?=\|)
+      captures:
+        '1': {name: punctuation.separator.table.markdown}
+    - match: (?<=\|)\s*(?=\S)((\\\||[^|])+)(?<=\S)\s*(?=\|)
+      captures:
+        '1':
+          patterns:
+          - {include: '#inline'}
   inline:
     patterns:
     - {include: '#ampersand'}
