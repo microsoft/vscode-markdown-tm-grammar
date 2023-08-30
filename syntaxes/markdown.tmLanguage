@@ -3903,7 +3903,7 @@
           </dict>
         </array>
         <key>while</key>
-        <string>(^|\G)((?=\s*[-=]{3,}\s*$)|[ ]{4,}(?=\S))</string>
+        <string>(^|\G)((?=\s*[-=]{3,}\s*$)|[ ]{4,}(?=[^ \t\n]))</string>
       </dict>
       <key>raw_block</key>
       <dict>
@@ -4761,7 +4761,7 @@
           </dict>
         </dict>
         <key>match</key>
-        <string>(?&lt;![\]\\])(\[)(\S+?)(\])</string>
+        <string>(?&lt;![\]\\])(\[)((?:[^\s\[\]\\]|\\[\[\]])+?)((?&lt;!\\)\])</string>
         <key>name</key>
         <string>meta.link.reference.markdown</string>
       </dict>
