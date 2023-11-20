@@ -3557,13 +3557,6 @@
         </dict>
         <key>name</key>
         <string>markup.heading.markdown</string>
-        <key>patterns</key>
-        <array>
-          <dict>
-            <key>include</key>
-            <string>#inline</string>
-          </dict>
-        </array>
       </dict>
       <key>heading-setext</key>
       <dict>
