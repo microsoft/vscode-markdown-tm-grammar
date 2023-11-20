@@ -93,8 +93,6 @@ repository:
               patterns: [ {include: '#inline'}, {include: text.html.derivative} ]
             '3': {name: punctuation.definition.heading.markdown}
     name: markup.heading.markdown
-    patterns:
-    - {include: '#inline'}
   heading-setext:
     patterns:
     - {match: '^(={3,})(?=[ \t]*$\n?)', name: markup.heading.setext.1.markdown}
