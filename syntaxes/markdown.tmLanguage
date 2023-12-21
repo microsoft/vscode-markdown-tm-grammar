@@ -99,7 +99,7 @@
       <key>fenced_code_block_css</key>
       <dict>
         <key>begin</key>
-        <string>(^|\G)(\s*)(`{3,}|~{3,})\s*(?i:(css|css.erb)((\s+|:|,|\{|\?)[^`]*)?$)</string>
+        <string>(^|\G)(\s*)([`~]{3,})\s*(?i:(?:\{\s*\.?(css|css.erb)(?:\}|\s+([^`\r\n]*?)?\s*\}))|(?:\.?(\g&lt;4&gt;)((?:\s+|:|,|\{|\?)[^`\r\n]*?)?))$</string>
         <key>name</key>
         <string>markup.fenced_code.block.markdown</string>
         <key>end</key>
@@ -117,6 +117,11 @@
             <string>fenced_code.block.language.markdown</string>
           </dict>
           <key>5</key>
+          <dict>
+            <key>name</key>
+            <string>fenced_code.block.language.attributes.markdown</string>
+          </dict>
+          <key>7</key>
           <dict>
             <key>name</key>
             <string>fenced_code.block.language.attributes.markdown</string>
@@ -152,7 +157,7 @@
       <key>fenced_code_block_basic</key>
       <dict>
         <key>begin</key>
-        <string>(^|\G)(\s*)(`{3,}|~{3,})\s*(?i:(html|htm|shtml|xhtml|inc|tmpl|tpl)((\s+|:|,|\{|\?)[^`]*)?$)</string>
+        <string>(^|\G)(\s*)([`~]{3,})\s*(?i:(?:\{\s*\.?(html|htm|shtml|xhtml|inc|tmpl|tpl)(?:\}|\s+([^`\r\n]*?)?\s*\}))|(?:\.?(\g&lt;4&gt;)((?:\s+|:|,|\{|\?)[^`\r\n]*?)?))$</string>
         <key>name</key>
         <string>markup.fenced_code.block.markdown</string>
         <key>end</key>
@@ -170,6 +175,11 @@
             <string>fenced_code.block.language.markdown</string>
           </dict>
           <key>5</key>
+          <dict>
+            <key>name</key>
+            <string>fenced_code.block.language.attributes.markdown</string>
+          </dict>
+          <key>7</key>
           <dict>
             <key>name</key>
             <string>fenced_code.block.language.attributes.markdown</string>
@@ -205,7 +215,7 @@
       <key>fenced_code_block_ini</key>
       <dict>
         <key>begin</key>
-        <string>(^|\G)(\s*)(`{3,}|~{3,})\s*(?i:(ini|conf)((\s+|:|,|\{|\?)[^`]*)?$)</string>
+        <string>(^|\G)(\s*)([`~]{3,})\s*(?i:(?:\{\s*\.?(ini|conf)(?:\}|\s+([^`\r\n]*?)?\s*\}))|(?:\.?(\g&lt;4&gt;)((?:\s+|:|,|\{|\?)[^`\r\n]*?)?))$</string>
         <key>name</key>
         <string>markup.fenced_code.block.markdown</string>
         <key>end</key>
@@ -223,6 +233,11 @@
             <string>fenced_code.block.language.markdown</string>
           </dict>
           <key>5</key>
+          <dict>
+            <key>name</key>
+            <string>fenced_code.block.language.attributes.markdown</string>
+          </dict>
+          <key>7</key>
           <dict>
             <key>name</key>
             <string>fenced_code.block.language.attributes.markdown</string>
@@ -258,7 +273,7 @@
       <key>fenced_code_block_java</key>
       <dict>
         <key>begin</key>
-        <string>(^|\G)(\s*)(`{3,}|~{3,})\s*(?i:(java|bsh)((\s+|:|,|\{|\?)[^`]*)?$)</string>
+        <string>(^|\G)(\s*)([`~]{3,})\s*(?i:(?:\{\s*\.?(java|bsh)(?:\}|\s+([^`\r\n]*?)?\s*\}))|(?:\.?(\g&lt;4&gt;)((?:\s+|:|,|\{|\?)[^`\r\n]*?)?))$</string>
         <key>name</key>
         <string>markup.fenced_code.block.markdown</string>
         <key>end</key>
@@ -276,6 +291,11 @@
             <string>fenced_code.block.language.markdown</string>
           </dict>
           <key>5</key>
+          <dict>
+            <key>name</key>
+            <string>fenced_code.block.language.attributes.markdown</string>
+          </dict>
+          <key>7</key>
           <dict>
             <key>name</key>
             <string>fenced_code.block.language.attributes.markdown</string>
@@ -311,7 +331,7 @@
       <key>fenced_code_block_lua</key>
       <dict>
         <key>begin</key>
-        <string>(^|\G)(\s*)(`{3,}|~{3,})\s*(?i:(lua)((\s+|:|,|\{|\?)[^`]*)?$)</string>
+        <string>(^|\G)(\s*)([`~]{3,})\s*(?i:(?:\{\s*\.?(lua)(?:\}|\s+([^`\r\n]*?)?\s*\}))|(?:\.?(\g&lt;4&gt;)((?:\s+|:|,|\{|\?)[^`\r\n]*?)?))$</string>
         <key>name</key>
         <string>markup.fenced_code.block.markdown</string>
         <key>end</key>
@@ -329,6 +349,11 @@
             <string>fenced_code.block.language.markdown</string>
           </dict>
           <key>5</key>
+          <dict>
+            <key>name</key>
+            <string>fenced_code.block.language.attributes.markdown</string>
+          </dict>
+          <key>7</key>
           <dict>
             <key>name</key>
             <string>fenced_code.block.language.attributes.markdown</string>
@@ -364,7 +389,7 @@
       <key>fenced_code_block_makefile</key>
       <dict>
         <key>begin</key>
-        <string>(^|\G)(\s*)(`{3,}|~{3,})\s*(?i:(Makefile|makefile|GNUmakefile|OCamlMakefile)((\s+|:|,|\{|\?)[^`]*)?$)</string>
+        <string>(^|\G)(\s*)([`~]{3,})\s*(?i:(?:\{\s*\.?(Makefile|makefile|GNUmakefile|OCamlMakefile)(?:\}|\s+([^`\r\n]*?)?\s*\}))|(?:\.?(\g&lt;4&gt;)((?:\s+|:|,|\{|\?)[^`\r\n]*?)?))$</string>
         <key>name</key>
         <string>markup.fenced_code.block.markdown</string>
         <key>end</key>
@@ -382,6 +407,11 @@
             <string>fenced_code.block.language.markdown</string>
           </dict>
           <key>5</key>
+          <dict>
+            <key>name</key>
+            <string>fenced_code.block.language.attributes.markdown</string>
+          </dict>
+          <key>7</key>
           <dict>
             <key>name</key>
             <string>fenced_code.block.language.attributes.markdown</string>
@@ -417,7 +447,7 @@
       <key>fenced_code_block_perl</key>
       <dict>
         <key>begin</key>
-        <string>(^|\G)(\s*)(`{3,}|~{3,})\s*(?i:(perl|pl|pm|pod|t|PL|psgi|vcl)((\s+|:|,|\{|\?)[^`]*)?$)</string>
+        <string>(^|\G)(\s*)([`~]{3,})\s*(?i:(?:\{\s*\.?(perl|pl|pm|pod|t|PL|psgi|vcl)(?:\}|\s+([^`\r\n]*?)?\s*\}))|(?:\.?(\g&lt;4&gt;)((?:\s+|:|,|\{|\?)[^`\r\n]*?)?))$</string>
         <key>name</key>
         <string>markup.fenced_code.block.markdown</string>
         <key>end</key>
@@ -435,6 +465,11 @@
             <string>fenced_code.block.language.markdown</string>
           </dict>
           <key>5</key>
+          <dict>
+            <key>name</key>
+            <string>fenced_code.block.language.attributes.markdown</string>
+          </dict>
+          <key>7</key>
           <dict>
             <key>name</key>
             <string>fenced_code.block.language.attributes.markdown</string>
@@ -470,7 +505,7 @@
       <key>fenced_code_block_r</key>
       <dict>
         <key>begin</key>
-        <string>(^|\G)(\s*)(`{3,}|~{3,})\s*(?i:(R|r|s|S|Rprofile|\{\.r.+?\})((\s+|:|,|\{|\?)[^`]*)?$)</string>
+        <string>(^|\G)(\s*)([`~]{3,})\s*(?i:(?:\{\s*\.?(R|r|s|S|Rprofile)(?:\}|\s+([^`\r\n]*?)?\s*\}))|(?:\.?(\g&lt;4&gt;)((?:\s+|:|,|\{|\?)[^`\r\n]*?)?))$</string>
         <key>name</key>
         <string>markup.fenced_code.block.markdown</string>
         <key>end</key>
@@ -488,6 +523,11 @@
             <string>fenced_code.block.language.markdown</string>
           </dict>
           <key>5</key>
+          <dict>
+            <key>name</key>
+            <string>fenced_code.block.language.attributes.markdown</string>
+          </dict>
+          <key>7</key>
           <dict>
             <key>name</key>
             <string>fenced_code.block.language.attributes.markdown</string>
@@ -523,7 +563,7 @@
       <key>fenced_code_block_ruby</key>
       <dict>
         <key>begin</key>
-        <string>(^|\G)(\s*)(`{3,}|~{3,})\s*(?i:(ruby|rb|rbx|rjs|Rakefile|rake|cgi|fcgi|gemspec|irbrc|Capfile|ru|prawn|Cheffile|Gemfile|Guardfile|Hobofile|Vagrantfile|Appraisals|Rantfile|Berksfile|Berksfile.lock|Thorfile|Puppetfile)((\s+|:|,|\{|\?)[^`]*)?$)</string>
+        <string>(^|\G)(\s*)([`~]{3,})\s*(?i:(?:\{\s*\.?(ruby|rb|rbx|rjs|Rakefile|rake|cgi|fcgi|gemspec|irbrc|Capfile|ru|prawn|Cheffile|Gemfile|Guardfile|Hobofile|Vagrantfile|Appraisals|Rantfile|Berksfile|Berksfile.lock|Thorfile|Puppetfile)(?:\}|\s+([^`\r\n]*?)?\s*\}))|(?:\.?(\g&lt;4&gt;)((?:\s+|:|,|\{|\?)[^`\r\n]*?)?))$</string>
         <key>name</key>
         <string>markup.fenced_code.block.markdown</string>
         <key>end</key>
@@ -541,6 +581,11 @@
             <string>fenced_code.block.language.markdown</string>
           </dict>
           <key>5</key>
+          <dict>
+            <key>name</key>
+            <string>fenced_code.block.language.attributes.markdown</string>
+          </dict>
+          <key>7</key>
           <dict>
             <key>name</key>
             <string>fenced_code.block.language.attributes.markdown</string>
@@ -576,7 +621,7 @@
       <key>fenced_code_block_php</key>
       <dict>
         <key>begin</key>
-        <string>(^|\G)(\s*)(`{3,}|~{3,})\s*(?i:(php|php3|php4|php5|phpt|phtml|aw|ctp)((\s+|:|,|\{|\?)[^`]*)?$)</string>
+        <string>(^|\G)(\s*)([`~]{3,})\s*(?i:(?:\{\s*\.?(php|php3|php4|php5|phpt|phtml|aw|ctp)(?:\}|\s+([^`\r\n]*?)?\s*\}))|(?:\.?(\g&lt;4&gt;)((?:\s+|:|,|\{|\?)[^`\r\n]*?)?))$</string>
         <key>name</key>
         <string>markup.fenced_code.block.markdown</string>
         <key>end</key>
@@ -594,6 +639,11 @@
             <string>fenced_code.block.language.markdown</string>
           </dict>
           <key>5</key>
+          <dict>
+            <key>name</key>
+            <string>fenced_code.block.language.attributes.markdown</string>
+          </dict>
+          <key>7</key>
           <dict>
             <key>name</key>
             <string>fenced_code.block.language.attributes.markdown</string>
@@ -633,7 +683,7 @@
       <key>fenced_code_block_sql</key>
       <dict>
         <key>begin</key>
-        <string>(^|\G)(\s*)(`{3,}|~{3,})\s*(?i:(sql|ddl|dml)((\s+|:|,|\{|\?)[^`]*)?$)</string>
+        <string>(^|\G)(\s*)([`~]{3,})\s*(?i:(?:\{\s*\.?(sql|ddl|dml)(?:\}|\s+([^`\r\n]*?)?\s*\}))|(?:\.?(\g&lt;4&gt;)((?:\s+|:|,|\{|\?)[^`\r\n]*?)?))$</string>
         <key>name</key>
         <string>markup.fenced_code.block.markdown</string>
         <key>end</key>
@@ -651,6 +701,11 @@
             <string>fenced_code.block.language.markdown</string>
           </dict>
           <key>5</key>
+          <dict>
+            <key>name</key>
+            <string>fenced_code.block.language.attributes.markdown</string>
+          </dict>
+          <key>7</key>
           <dict>
             <key>name</key>
             <string>fenced_code.block.language.attributes.markdown</string>
@@ -686,7 +741,7 @@
       <key>fenced_code_block_vs_net</key>
       <dict>
         <key>begin</key>
-        <string>(^|\G)(\s*)(`{3,}|~{3,})\s*(?i:(vb)((\s+|:|,|\{|\?)[^`]*)?$)</string>
+        <string>(^|\G)(\s*)([`~]{3,})\s*(?i:(?:\{\s*\.?(vb)(?:\}|\s+([^`\r\n]*?)?\s*\}))|(?:\.?(\g&lt;4&gt;)((?:\s+|:|,|\{|\?)[^`\r\n]*?)?))$</string>
         <key>name</key>
         <string>markup.fenced_code.block.markdown</string>
         <key>end</key>
@@ -704,6 +759,11 @@
             <string>fenced_code.block.language.markdown</string>
           </dict>
           <key>5</key>
+          <dict>
+            <key>name</key>
+            <string>fenced_code.block.language.attributes.markdown</string>
+          </dict>
+          <key>7</key>
           <dict>
             <key>name</key>
             <string>fenced_code.block.language.attributes.markdown</string>
@@ -739,7 +799,7 @@
       <key>fenced_code_block_xml</key>
       <dict>
         <key>begin</key>
-        <string>(^|\G)(\s*)(`{3,}|~{3,})\s*(?i:(xml|xsd|tld|jsp|pt|cpt|dtml|rss|opml)((\s+|:|,|\{|\?)[^`]*)?$)</string>
+        <string>(^|\G)(\s*)([`~]{3,})\s*(?i:(?:\{\s*\.?(xml|xsd|tld|jsp|pt|cpt|dtml|rss|opml)(?:\}|\s+([^`\r\n]*?)?\s*\}))|(?:\.?(\g&lt;4&gt;)((?:\s+|:|,|\{|\?)[^`\r\n]*?)?))$</string>
         <key>name</key>
         <string>markup.fenced_code.block.markdown</string>
         <key>end</key>
@@ -757,6 +817,11 @@
             <string>fenced_code.block.language.markdown</string>
           </dict>
           <key>5</key>
+          <dict>
+            <key>name</key>
+            <string>fenced_code.block.language.attributes.markdown</string>
+          </dict>
+          <key>7</key>
           <dict>
             <key>name</key>
             <string>fenced_code.block.language.attributes.markdown</string>
@@ -792,7 +857,7 @@
       <key>fenced_code_block_xsl</key>
       <dict>
         <key>begin</key>
-        <string>(^|\G)(\s*)(`{3,}|~{3,})\s*(?i:(xsl|xslt)((\s+|:|,|\{|\?)[^`]*)?$)</string>
+        <string>(^|\G)(\s*)([`~]{3,})\s*(?i:(?:\{\s*\.?(xsl|xslt)(?:\}|\s+([^`\r\n]*?)?\s*\}))|(?:\.?(\g&lt;4&gt;)((?:\s+|:|,|\{|\?)[^`\r\n]*?)?))$</string>
         <key>name</key>
         <string>markup.fenced_code.block.markdown</string>
         <key>end</key>
@@ -810,6 +875,11 @@
             <string>fenced_code.block.language.markdown</string>
           </dict>
           <key>5</key>
+          <dict>
+            <key>name</key>
+            <string>fenced_code.block.language.attributes.markdown</string>
+          </dict>
+          <key>7</key>
           <dict>
             <key>name</key>
             <string>fenced_code.block.language.attributes.markdown</string>
@@ -845,7 +915,7 @@
       <key>fenced_code_block_yaml</key>
       <dict>
         <key>begin</key>
-        <string>(^|\G)(\s*)(`{3,}|~{3,})\s*(?i:(yaml|yml)((\s+|:|,|\{|\?)[^`]*)?$)</string>
+        <string>(^|\G)(\s*)([`~]{3,})\s*(?i:(?:\{\s*\.?(yaml|yml)(?:\}|\s+([^`\r\n]*?)?\s*\}))|(?:\.?(\g&lt;4&gt;)((?:\s+|:|,|\{|\?)[^`\r\n]*?)?))$</string>
         <key>name</key>
         <string>markup.fenced_code.block.markdown</string>
         <key>end</key>
@@ -863,6 +933,11 @@
             <string>fenced_code.block.language.markdown</string>
           </dict>
           <key>5</key>
+          <dict>
+            <key>name</key>
+            <string>fenced_code.block.language.attributes.markdown</string>
+          </dict>
+          <key>7</key>
           <dict>
             <key>name</key>
             <string>fenced_code.block.language.attributes.markdown</string>
@@ -898,7 +973,7 @@
       <key>fenced_code_block_dosbatch</key>
       <dict>
         <key>begin</key>
-        <string>(^|\G)(\s*)(`{3,}|~{3,})\s*(?i:(bat|batch)((\s+|:|,|\{|\?)[^`]*)?$)</string>
+        <string>(^|\G)(\s*)([`~]{3,})\s*(?i:(?:\{\s*\.?(bat|batch)(?:\}|\s+([^`\r\n]*?)?\s*\}))|(?:\.?(\g&lt;4&gt;)((?:\s+|:|,|\{|\?)[^`\r\n]*?)?))$</string>
         <key>name</key>
         <string>markup.fenced_code.block.markdown</string>
         <key>end</key>
@@ -916,6 +991,11 @@
             <string>fenced_code.block.language.markdown</string>
           </dict>
           <key>5</key>
+          <dict>
+            <key>name</key>
+            <string>fenced_code.block.language.attributes.markdown</string>
+          </dict>
+          <key>7</key>
           <dict>
             <key>name</key>
             <string>fenced_code.block.language.attributes.markdown</string>
@@ -951,7 +1031,7 @@
       <key>fenced_code_block_clojure</key>
       <dict>
         <key>begin</key>
-        <string>(^|\G)(\s*)(`{3,}|~{3,})\s*(?i:(clj|cljs|clojure)((\s+|:|,|\{|\?)[^`]*)?$)</string>
+        <string>(^|\G)(\s*)([`~]{3,})\s*(?i:(?:\{\s*\.?(clj|cljs|clojure)(?:\}|\s+([^`\r\n]*?)?\s*\}))|(?:\.?(\g&lt;4&gt;)((?:\s+|:|,|\{|\?)[^`\r\n]*?)?))$</string>
         <key>name</key>
         <string>markup.fenced_code.block.markdown</string>
         <key>end</key>
@@ -969,6 +1049,11 @@
             <string>fenced_code.block.language.markdown</string>
           </dict>
           <key>5</key>
+          <dict>
+            <key>name</key>
+            <string>fenced_code.block.language.attributes.markdown</string>
+          </dict>
+          <key>7</key>
           <dict>
             <key>name</key>
             <string>fenced_code.block.language.attributes.markdown</string>
@@ -1004,7 +1089,7 @@
       <key>fenced_code_block_coffee</key>
       <dict>
         <key>begin</key>
-        <string>(^|\G)(\s*)(`{3,}|~{3,})\s*(?i:(coffee|Cakefile|coffee.erb)((\s+|:|,|\{|\?)[^`]*)?$)</string>
+        <string>(^|\G)(\s*)([`~]{3,})\s*(?i:(?:\{\s*\.?(coffee|Cakefile|coffee.erb)(?:\}|\s+([^`\r\n]*?)?\s*\}))|(?:\.?(\g&lt;4&gt;)((?:\s+|:|,|\{|\?)[^`\r\n]*?)?))$</string>
         <key>name</key>
         <string>markup.fenced_code.block.markdown</string>
         <key>end</key>
@@ -1022,6 +1107,11 @@
             <string>fenced_code.block.language.markdown</string>
           </dict>
           <key>5</key>
+          <dict>
+            <key>name</key>
+            <string>fenced_code.block.language.attributes.markdown</string>
+          </dict>
+          <key>7</key>
           <dict>
             <key>name</key>
             <string>fenced_code.block.language.attributes.markdown</string>
@@ -1057,7 +1147,7 @@
       <key>fenced_code_block_c</key>
       <dict>
         <key>begin</key>
-        <string>(^|\G)(\s*)(`{3,}|~{3,})\s*(?i:(c|h)((\s+|:|,|\{|\?)[^`]*)?$)</string>
+        <string>(^|\G)(\s*)([`~]{3,})\s*(?i:(?:\{\s*\.?(c|h)(?:\}|\s+([^`\r\n]*?)?\s*\}))|(?:\.?(\g&lt;4&gt;)((?:\s+|:|,|\{|\?)[^`\r\n]*?)?))$</string>
         <key>name</key>
         <string>markup.fenced_code.block.markdown</string>
         <key>end</key>
@@ -1075,6 +1165,11 @@
             <string>fenced_code.block.language.markdown</string>
           </dict>
           <key>5</key>
+          <dict>
+            <key>name</key>
+            <string>fenced_code.block.language.attributes.markdown</string>
+          </dict>
+          <key>7</key>
           <dict>
             <key>name</key>
             <string>fenced_code.block.language.attributes.markdown</string>
@@ -1110,7 +1205,7 @@
       <key>fenced_code_block_cpp</key>
       <dict>
         <key>begin</key>
-        <string>(^|\G)(\s*)(`{3,}|~{3,})\s*(?i:(cpp|c\+\+|cxx)((\s+|:|,|\{|\?)[^`]*)?$)</string>
+        <string>(^|\G)(\s*)([`~]{3,})\s*(?i:(?:\{\s*\.?(cpp|c\+\+|cxx)(?:\}|\s+([^`\r\n]*?)?\s*\}))|(?:\.?(\g&lt;4&gt;)((?:\s+|:|,|\{|\?)[^`\r\n]*?)?))$</string>
         <key>name</key>
         <string>markup.fenced_code.block.markdown</string>
         <key>end</key>
@@ -1128,6 +1223,11 @@
             <string>fenced_code.block.language.markdown</string>
           </dict>
           <key>5</key>
+          <dict>
+            <key>name</key>
+            <string>fenced_code.block.language.attributes.markdown</string>
+          </dict>
+          <key>7</key>
           <dict>
             <key>name</key>
             <string>fenced_code.block.language.attributes.markdown</string>
@@ -1163,7 +1263,7 @@
       <key>fenced_code_block_diff</key>
       <dict>
         <key>begin</key>
-        <string>(^|\G)(\s*)(`{3,}|~{3,})\s*(?i:(patch|diff|rej)((\s+|:|,|\{|\?)[^`]*)?$)</string>
+        <string>(^|\G)(\s*)([`~]{3,})\s*(?i:(?:\{\s*\.?(patch|diff|rej)(?:\}|\s+([^`\r\n]*?)?\s*\}))|(?:\.?(\g&lt;4&gt;)((?:\s+|:|,|\{|\?)[^`\r\n]*?)?))$</string>
         <key>name</key>
         <string>markup.fenced_code.block.markdown</string>
         <key>end</key>
@@ -1181,6 +1281,11 @@
             <string>fenced_code.block.language.markdown</string>
           </dict>
           <key>5</key>
+          <dict>
+            <key>name</key>
+            <string>fenced_code.block.language.attributes.markdown</string>
+          </dict>
+          <key>7</key>
           <dict>
             <key>name</key>
             <string>fenced_code.block.language.attributes.markdown</string>
@@ -1216,7 +1321,7 @@
       <key>fenced_code_block_dockerfile</key>
       <dict>
         <key>begin</key>
-        <string>(^|\G)(\s*)(`{3,}|~{3,})\s*(?i:(dockerfile|Dockerfile)((\s+|:|,|\{|\?)[^`]*)?$)</string>
+        <string>(^|\G)(\s*)([`~]{3,})\s*(?i:(?:\{\s*\.?(dockerfile|Dockerfile)(?:\}|\s+([^`\r\n]*?)?\s*\}))|(?:\.?(\g&lt;4&gt;)((?:\s+|:|,|\{|\?)[^`\r\n]*?)?))$</string>
         <key>name</key>
         <string>markup.fenced_code.block.markdown</string>
         <key>end</key>
@@ -1234,6 +1339,11 @@
             <string>fenced_code.block.language.markdown</string>
           </dict>
           <key>5</key>
+          <dict>
+            <key>name</key>
+            <string>fenced_code.block.language.attributes.markdown</string>
+          </dict>
+          <key>7</key>
           <dict>
             <key>name</key>
             <string>fenced_code.block.language.attributes.markdown</string>
@@ -1269,7 +1379,7 @@
       <key>fenced_code_block_git_commit</key>
       <dict>
         <key>begin</key>
-        <string>(^|\G)(\s*)(`{3,}|~{3,})\s*(?i:(COMMIT_EDITMSG|MERGE_MSG)((\s+|:|,|\{|\?)[^`]*)?$)</string>
+        <string>(^|\G)(\s*)([`~]{3,})\s*(?i:(?:\{\s*\.?(COMMIT_EDITMSG|MERGE_MSG)(?:\}|\s+([^`\r\n]*?)?\s*\}))|(?:\.?(\g&lt;4&gt;)((?:\s+|:|,|\{|\?)[^`\r\n]*?)?))$</string>
         <key>name</key>
         <string>markup.fenced_code.block.markdown</string>
         <key>end</key>
@@ -1287,6 +1397,11 @@
             <string>fenced_code.block.language.markdown</string>
           </dict>
           <key>5</key>
+          <dict>
+            <key>name</key>
+            <string>fenced_code.block.language.attributes.markdown</string>
+          </dict>
+          <key>7</key>
           <dict>
             <key>name</key>
             <string>fenced_code.block.language.attributes.markdown</string>
@@ -1322,7 +1437,7 @@
       <key>fenced_code_block_git_rebase</key>
       <dict>
         <key>begin</key>
-        <string>(^|\G)(\s*)(`{3,}|~{3,})\s*(?i:(git-rebase-todo)((\s+|:|,|\{|\?)[^`]*)?$)</string>
+        <string>(^|\G)(\s*)([`~]{3,})\s*(?i:(?:\{\s*\.?(git-rebase-todo)(?:\}|\s+([^`\r\n]*?)?\s*\}))|(?:\.?(\g&lt;4&gt;)((?:\s+|:|,|\{|\?)[^`\r\n]*?)?))$</string>
         <key>name</key>
         <string>markup.fenced_code.block.markdown</string>
         <key>end</key>
@@ -1340,6 +1455,11 @@
             <string>fenced_code.block.language.markdown</string>
           </dict>
           <key>5</key>
+          <dict>
+            <key>name</key>
+            <string>fenced_code.block.language.attributes.markdown</string>
+          </dict>
+          <key>7</key>
           <dict>
             <key>name</key>
             <string>fenced_code.block.language.attributes.markdown</string>
@@ -1375,7 +1495,7 @@
       <key>fenced_code_block_go</key>
       <dict>
         <key>begin</key>
-        <string>(^|\G)(\s*)(`{3,}|~{3,})\s*(?i:(go|golang)((\s+|:|,|\{|\?)[^`]*)?$)</string>
+        <string>(^|\G)(\s*)([`~]{3,})\s*(?i:(?:\{\s*\.?(go|golang)(?:\}|\s+([^`\r\n]*?)?\s*\}))|(?:\.?(\g&lt;4&gt;)((?:\s+|:|,|\{|\?)[^`\r\n]*?)?))$</string>
         <key>name</key>
         <string>markup.fenced_code.block.markdown</string>
         <key>end</key>
@@ -1393,6 +1513,11 @@
             <string>fenced_code.block.language.markdown</string>
           </dict>
           <key>5</key>
+          <dict>
+            <key>name</key>
+            <string>fenced_code.block.language.attributes.markdown</string>
+          </dict>
+          <key>7</key>
           <dict>
             <key>name</key>
             <string>fenced_code.block.language.attributes.markdown</string>
@@ -1428,7 +1553,7 @@
       <key>fenced_code_block_groovy</key>
       <dict>
         <key>begin</key>
-        <string>(^|\G)(\s*)(`{3,}|~{3,})\s*(?i:(groovy|gvy)((\s+|:|,|\{|\?)[^`]*)?$)</string>
+        <string>(^|\G)(\s*)([`~]{3,})\s*(?i:(?:\{\s*\.?(groovy|gvy)(?:\}|\s+([^`\r\n]*?)?\s*\}))|(?:\.?(\g&lt;4&gt;)((?:\s+|:|,|\{|\?)[^`\r\n]*?)?))$</string>
         <key>name</key>
         <string>markup.fenced_code.block.markdown</string>
         <key>end</key>
@@ -1446,6 +1571,11 @@
             <string>fenced_code.block.language.markdown</string>
           </dict>
           <key>5</key>
+          <dict>
+            <key>name</key>
+            <string>fenced_code.block.language.attributes.markdown</string>
+          </dict>
+          <key>7</key>
           <dict>
             <key>name</key>
             <string>fenced_code.block.language.attributes.markdown</string>
@@ -1481,7 +1611,7 @@
       <key>fenced_code_block_pug</key>
       <dict>
         <key>begin</key>
-        <string>(^|\G)(\s*)(`{3,}|~{3,})\s*(?i:(jade|pug)((\s+|:|,|\{|\?)[^`]*)?$)</string>
+        <string>(^|\G)(\s*)([`~]{3,})\s*(?i:(?:\{\s*\.?(jade|pug)(?:\}|\s+([^`\r\n]*?)?\s*\}))|(?:\.?(\g&lt;4&gt;)((?:\s+|:|,|\{|\?)[^`\r\n]*?)?))$</string>
         <key>name</key>
         <string>markup.fenced_code.block.markdown</string>
         <key>end</key>
@@ -1499,6 +1629,11 @@
             <string>fenced_code.block.language.markdown</string>
           </dict>
           <key>5</key>
+          <dict>
+            <key>name</key>
+            <string>fenced_code.block.language.attributes.markdown</string>
+          </dict>
+          <key>7</key>
           <dict>
             <key>name</key>
             <string>fenced_code.block.language.attributes.markdown</string>
@@ -1534,7 +1669,7 @@
       <key>fenced_code_block_js</key>
       <dict>
         <key>begin</key>
-        <string>(^|\G)(\s*)(`{3,}|~{3,})\s*(?i:(js|jsx|javascript|es6|mjs|cjs|dataviewjs|\{\.js.+?\})((\s+|:|,|\{|\?)[^`]*)?$)</string>
+        <string>(^|\G)(\s*)([`~]{3,})\s*(?i:(?:\{\s*\.?(js|jsx|javascript|es6|mjs|cjs|dataviewjs)(?:\}|\s+([^`\r\n]*?)?\s*\}))|(?:\.?(\g&lt;4&gt;)((?:\s+|:|,|\{|\?)[^`\r\n]*?)?))$</string>
         <key>name</key>
         <string>markup.fenced_code.block.markdown</string>
         <key>end</key>
@@ -1552,6 +1687,11 @@
             <string>fenced_code.block.language.markdown</string>
           </dict>
           <key>5</key>
+          <dict>
+            <key>name</key>
+            <string>fenced_code.block.language.attributes.markdown</string>
+          </dict>
+          <key>7</key>
           <dict>
             <key>name</key>
             <string>fenced_code.block.language.attributes.markdown</string>
@@ -1587,7 +1727,7 @@
       <key>fenced_code_block_js_regexp</key>
       <dict>
         <key>begin</key>
-        <string>(^|\G)(\s*)(`{3,}|~{3,})\s*(?i:(regexp)((\s+|:|,|\{|\?)[^`]*)?$)</string>
+        <string>(^|\G)(\s*)([`~]{3,})\s*(?i:(?:\{\s*\.?(regexp)(?:\}|\s+([^`\r\n]*?)?\s*\}))|(?:\.?(\g&lt;4&gt;)((?:\s+|:|,|\{|\?)[^`\r\n]*?)?))$</string>
         <key>name</key>
         <string>markup.fenced_code.block.markdown</string>
         <key>end</key>
@@ -1605,6 +1745,11 @@
             <string>fenced_code.block.language.markdown</string>
           </dict>
           <key>5</key>
+          <dict>
+            <key>name</key>
+            <string>fenced_code.block.language.attributes.markdown</string>
+          </dict>
+          <key>7</key>
           <dict>
             <key>name</key>
             <string>fenced_code.block.language.attributes.markdown</string>
@@ -1640,7 +1785,7 @@
       <key>fenced_code_block_json</key>
       <dict>
         <key>begin</key>
-        <string>(^|\G)(\s*)(`{3,}|~{3,})\s*(?i:(json|json5|sublime-settings|sublime-menu|sublime-keymap|sublime-mousemap|sublime-theme|sublime-build|sublime-project|sublime-completions)((\s+|:|,|\{|\?)[^`]*)?$)</string>
+        <string>(^|\G)(\s*)([`~]{3,})\s*(?i:(?:\{\s*\.?(json|json5|sublime-settings|sublime-menu|sublime-keymap|sublime-mousemap|sublime-theme|sublime-build|sublime-project|sublime-completions)(?:\}|\s+([^`\r\n]*?)?\s*\}))|(?:\.?(\g&lt;4&gt;)((?:\s+|:|,|\{|\?)[^`\r\n]*?)?))$</string>
         <key>name</key>
         <string>markup.fenced_code.block.markdown</string>
         <key>end</key>
@@ -1658,6 +1803,11 @@
             <string>fenced_code.block.language.markdown</string>
           </dict>
           <key>5</key>
+          <dict>
+            <key>name</key>
+            <string>fenced_code.block.language.attributes.markdown</string>
+          </dict>
+          <key>7</key>
           <dict>
             <key>name</key>
             <string>fenced_code.block.language.attributes.markdown</string>
@@ -1693,7 +1843,7 @@
       <key>fenced_code_block_jsonc</key>
       <dict>
         <key>begin</key>
-        <string>(^|\G)(\s*)(`{3,}|~{3,})\s*(?i:(jsonc)((\s+|:|,|\{|\?)[^`]*)?$)</string>
+        <string>(^|\G)(\s*)([`~]{3,})\s*(?i:(?:\{\s*\.?(jsonc)(?:\}|\s+([^`\r\n]*?)?\s*\}))|(?:\.?(\g&lt;4&gt;)((?:\s+|:|,|\{|\?)[^`\r\n]*?)?))$</string>
         <key>name</key>
         <string>markup.fenced_code.block.markdown</string>
         <key>end</key>
@@ -1711,6 +1861,11 @@
             <string>fenced_code.block.language.markdown</string>
           </dict>
           <key>5</key>
+          <dict>
+            <key>name</key>
+            <string>fenced_code.block.language.attributes.markdown</string>
+          </dict>
+          <key>7</key>
           <dict>
             <key>name</key>
             <string>fenced_code.block.language.attributes.markdown</string>
@@ -1746,7 +1901,7 @@
       <key>fenced_code_block_less</key>
       <dict>
         <key>begin</key>
-        <string>(^|\G)(\s*)(`{3,}|~{3,})\s*(?i:(less)((\s+|:|,|\{|\?)[^`]*)?$)</string>
+        <string>(^|\G)(\s*)([`~]{3,})\s*(?i:(?:\{\s*\.?(less)(?:\}|\s+([^`\r\n]*?)?\s*\}))|(?:\.?(\g&lt;4&gt;)((?:\s+|:|,|\{|\?)[^`\r\n]*?)?))$</string>
         <key>name</key>
         <string>markup.fenced_code.block.markdown</string>
         <key>end</key>
@@ -1764,6 +1919,11 @@
             <string>fenced_code.block.language.markdown</string>
           </dict>
           <key>5</key>
+          <dict>
+            <key>name</key>
+            <string>fenced_code.block.language.attributes.markdown</string>
+          </dict>
+          <key>7</key>
           <dict>
             <key>name</key>
             <string>fenced_code.block.language.attributes.markdown</string>
@@ -1799,7 +1959,7 @@
       <key>fenced_code_block_objc</key>
       <dict>
         <key>begin</key>
-        <string>(^|\G)(\s*)(`{3,}|~{3,})\s*(?i:(objectivec|objective-c|mm|objc|obj-c|m|h)((\s+|:|,|\{|\?)[^`]*)?$)</string>
+        <string>(^|\G)(\s*)([`~]{3,})\s*(?i:(?:\{\s*\.?(objectivec|objective-c|mm|objc|obj-c|m|h)(?:\}|\s+([^`\r\n]*?)?\s*\}))|(?:\.?(\g&lt;4&gt;)((?:\s+|:|,|\{|\?)[^`\r\n]*?)?))$</string>
         <key>name</key>
         <string>markup.fenced_code.block.markdown</string>
         <key>end</key>
@@ -1817,6 +1977,11 @@
             <string>fenced_code.block.language.markdown</string>
           </dict>
           <key>5</key>
+          <dict>
+            <key>name</key>
+            <string>fenced_code.block.language.attributes.markdown</string>
+          </dict>
+          <key>7</key>
           <dict>
             <key>name</key>
             <string>fenced_code.block.language.attributes.markdown</string>
@@ -1852,7 +2017,7 @@
       <key>fenced_code_block_swift</key>
       <dict>
         <key>begin</key>
-        <string>(^|\G)(\s*)(`{3,}|~{3,})\s*(?i:(swift)((\s+|:|,|\{|\?)[^`]*)?$)</string>
+        <string>(^|\G)(\s*)([`~]{3,})\s*(?i:(?:\{\s*\.?(swift)(?:\}|\s+([^`\r\n]*?)?\s*\}))|(?:\.?(\g&lt;4&gt;)((?:\s+|:|,|\{|\?)[^`\r\n]*?)?))$</string>
         <key>name</key>
         <string>markup.fenced_code.block.markdown</string>
         <key>end</key>
@@ -1870,6 +2035,11 @@
             <string>fenced_code.block.language.markdown</string>
           </dict>
           <key>5</key>
+          <dict>
+            <key>name</key>
+            <string>fenced_code.block.language.attributes.markdown</string>
+          </dict>
+          <key>7</key>
           <dict>
             <key>name</key>
             <string>fenced_code.block.language.attributes.markdown</string>
@@ -1905,7 +2075,7 @@
       <key>fenced_code_block_scss</key>
       <dict>
         <key>begin</key>
-        <string>(^|\G)(\s*)(`{3,}|~{3,})\s*(?i:(scss)((\s+|:|,|\{|\?)[^`]*)?$)</string>
+        <string>(^|\G)(\s*)([`~]{3,})\s*(?i:(?:\{\s*\.?(scss)(?:\}|\s+([^`\r\n]*?)?\s*\}))|(?:\.?(\g&lt;4&gt;)((?:\s+|:|,|\{|\?)[^`\r\n]*?)?))$</string>
         <key>name</key>
         <string>markup.fenced_code.block.markdown</string>
         <key>end</key>
@@ -1923,6 +2093,11 @@
             <string>fenced_code.block.language.markdown</string>
           </dict>
           <key>5</key>
+          <dict>
+            <key>name</key>
+            <string>fenced_code.block.language.attributes.markdown</string>
+          </dict>
+          <key>7</key>
           <dict>
             <key>name</key>
             <string>fenced_code.block.language.attributes.markdown</string>
@@ -1958,7 +2133,7 @@
       <key>fenced_code_block_perl6</key>
       <dict>
         <key>begin</key>
-        <string>(^|\G)(\s*)(`{3,}|~{3,})\s*(?i:(perl6|p6|pl6|pm6|nqp)((\s+|:|,|\{|\?)[^`]*)?$)</string>
+        <string>(^|\G)(\s*)([`~]{3,})\s*(?i:(?:\{\s*\.?(perl6|p6|pl6|pm6|nqp)(?:\}|\s+([^`\r\n]*?)?\s*\}))|(?:\.?(\g&lt;4&gt;)((?:\s+|:|,|\{|\?)[^`\r\n]*?)?))$</string>
         <key>name</key>
         <string>markup.fenced_code.block.markdown</string>
         <key>end</key>
@@ -1976,6 +2151,11 @@
             <string>fenced_code.block.language.markdown</string>
           </dict>
           <key>5</key>
+          <dict>
+            <key>name</key>
+            <string>fenced_code.block.language.attributes.markdown</string>
+          </dict>
+          <key>7</key>
           <dict>
             <key>name</key>
             <string>fenced_code.block.language.attributes.markdown</string>
@@ -2011,7 +2191,7 @@
       <key>fenced_code_block_powershell</key>
       <dict>
         <key>begin</key>
-        <string>(^|\G)(\s*)(`{3,}|~{3,})\s*(?i:(powershell|ps1|psm1|psd1)((\s+|:|,|\{|\?)[^`]*)?$)</string>
+        <string>(^|\G)(\s*)([`~]{3,})\s*(?i:(?:\{\s*\.?(powershell|ps1|psm1|psd1)(?:\}|\s+([^`\r\n]*?)?\s*\}))|(?:\.?(\g&lt;4&gt;)((?:\s+|:|,|\{|\?)[^`\r\n]*?)?))$</string>
         <key>name</key>
         <string>markup.fenced_code.block.markdown</string>
         <key>end</key>
@@ -2029,6 +2209,11 @@
             <string>fenced_code.block.language.markdown</string>
           </dict>
           <key>5</key>
+          <dict>
+            <key>name</key>
+            <string>fenced_code.block.language.attributes.markdown</string>
+          </dict>
+          <key>7</key>
           <dict>
             <key>name</key>
             <string>fenced_code.block.language.attributes.markdown</string>
@@ -2064,7 +2249,7 @@
       <key>fenced_code_block_python</key>
       <dict>
         <key>begin</key>
-        <string>(^|\G)(\s*)(`{3,}|~{3,})\s*(?i:(python|py|py3|rpy|pyw|cpy|SConstruct|Sconstruct|sconstruct|SConscript|gyp|gypi|\{\.python.+?\})((\s+|:|,|\{|\?)[^`]*)?$)</string>
+        <string>(^|\G)(\s*)([`~]{3,})\s*(?i:(?:\{\s*\.?(python|py|py3|rpy|pyw|cpy|SConstruct|Sconstruct|sconstruct|SConscript|gyp|gypi)(?:\}|\s+([^`\r\n]*?)?\s*\}))|(?:\.?(\g&lt;4&gt;)((?:\s+|:|,|\{|\?)[^`\r\n]*?)?))$</string>
         <key>name</key>
         <string>markup.fenced_code.block.markdown</string>
         <key>end</key>
@@ -2082,6 +2267,11 @@
             <string>fenced_code.block.language.markdown</string>
           </dict>
           <key>5</key>
+          <dict>
+            <key>name</key>
+            <string>fenced_code.block.language.attributes.markdown</string>
+          </dict>
+          <key>7</key>
           <dict>
             <key>name</key>
             <string>fenced_code.block.language.attributes.markdown</string>
@@ -2117,7 +2307,7 @@
       <key>fenced_code_block_julia</key>
       <dict>
         <key>begin</key>
-        <string>(^|\G)(\s*)(`{3,}|~{3,})\s*(?i:(julia|\{\.julia.+?\})((\s+|:|,|\{|\?)[^`]*)?$)</string>
+        <string>(^|\G)(\s*)([`~]{3,})\s*(?i:(?:\{\s*\.?(julia)(?:\}|\s+([^`\r\n]*?)?\s*\}))|(?:\.?(\g&lt;4&gt;)((?:\s+|:|,|\{|\?)[^`\r\n]*?)?))$</string>
         <key>name</key>
         <string>markup.fenced_code.block.markdown</string>
         <key>end</key>
@@ -2135,6 +2325,11 @@
             <string>fenced_code.block.language.markdown</string>
           </dict>
           <key>5</key>
+          <dict>
+            <key>name</key>
+            <string>fenced_code.block.language.attributes.markdown</string>
+          </dict>
+          <key>7</key>
           <dict>
             <key>name</key>
             <string>fenced_code.block.language.attributes.markdown</string>
@@ -2170,7 +2365,7 @@
       <key>fenced_code_block_regexp_python</key>
       <dict>
         <key>begin</key>
-        <string>(^|\G)(\s*)(`{3,}|~{3,})\s*(?i:(re)((\s+|:|,|\{|\?)[^`]*)?$)</string>
+        <string>(^|\G)(\s*)([`~]{3,})\s*(?i:(?:\{\s*\.?(re)(?:\}|\s+([^`\r\n]*?)?\s*\}))|(?:\.?(\g&lt;4&gt;)((?:\s+|:|,|\{|\?)[^`\r\n]*?)?))$</string>
         <key>name</key>
         <string>markup.fenced_code.block.markdown</string>
         <key>end</key>
@@ -2188,6 +2383,11 @@
             <string>fenced_code.block.language.markdown</string>
           </dict>
           <key>5</key>
+          <dict>
+            <key>name</key>
+            <string>fenced_code.block.language.attributes.markdown</string>
+          </dict>
+          <key>7</key>
           <dict>
             <key>name</key>
             <string>fenced_code.block.language.attributes.markdown</string>
@@ -2223,7 +2423,7 @@
       <key>fenced_code_block_rust</key>
       <dict>
         <key>begin</key>
-        <string>(^|\G)(\s*)(`{3,}|~{3,})\s*(?i:(rust|rs|\{\.rust.+?\})((\s+|:|,|\{|\?)[^`]*)?$)</string>
+        <string>(^|\G)(\s*)([`~]{3,})\s*(?i:(?:\{\s*\.?(rust|rs)(?:\}|\s+([^`\r\n]*?)?\s*\}))|(?:\.?(\g&lt;4&gt;)((?:\s+|:|,|\{|\?)[^`\r\n]*?)?))$</string>
         <key>name</key>
         <string>markup.fenced_code.block.markdown</string>
         <key>end</key>
@@ -2241,6 +2441,11 @@
             <string>fenced_code.block.language.markdown</string>
           </dict>
           <key>5</key>
+          <dict>
+            <key>name</key>
+            <string>fenced_code.block.language.attributes.markdown</string>
+          </dict>
+          <key>7</key>
           <dict>
             <key>name</key>
             <string>fenced_code.block.language.attributes.markdown</string>
@@ -2276,7 +2481,7 @@
       <key>fenced_code_block_scala</key>
       <dict>
         <key>begin</key>
-        <string>(^|\G)(\s*)(`{3,}|~{3,})\s*(?i:(scala|sbt)((\s+|:|,|\{|\?)[^`]*)?$)</string>
+        <string>(^|\G)(\s*)([`~]{3,})\s*(?i:(?:\{\s*\.?(scala|sbt)(?:\}|\s+([^`\r\n]*?)?\s*\}))|(?:\.?(\g&lt;4&gt;)((?:\s+|:|,|\{|\?)[^`\r\n]*?)?))$</string>
         <key>name</key>
         <string>markup.fenced_code.block.markdown</string>
         <key>end</key>
@@ -2294,6 +2499,11 @@
             <string>fenced_code.block.language.markdown</string>
           </dict>
           <key>5</key>
+          <dict>
+            <key>name</key>
+            <string>fenced_code.block.language.attributes.markdown</string>
+          </dict>
+          <key>7</key>
           <dict>
             <key>name</key>
             <string>fenced_code.block.language.attributes.markdown</string>
@@ -2329,7 +2539,7 @@
       <key>fenced_code_block_shell</key>
       <dict>
         <key>begin</key>
-        <string>(^|\G)(\s*)(`{3,}|~{3,})\s*(?i:(shell|sh|bash|zsh|bashrc|bash_profile|bash_login|profile|bash_logout|.textmate_init|\{\.bash.+?\})((\s+|:|,|\{|\?)[^`]*)?$)</string>
+        <string>(^|\G)(\s*)([`~]{3,})\s*(?i:(?:\{\s*\.?(shell|sh|bash|zsh|bashrc|bash_profile|bash_login|profile|bash_logout|.textmate_init)(?:\}|\s+([^`\r\n]*?)?\s*\}))|(?:\.?(\g&lt;4&gt;)((?:\s+|:|,|\{|\?)[^`\r\n]*?)?))$</string>
         <key>name</key>
         <string>markup.fenced_code.block.markdown</string>
         <key>end</key>
@@ -2347,6 +2557,11 @@
             <string>fenced_code.block.language.markdown</string>
           </dict>
           <key>5</key>
+          <dict>
+            <key>name</key>
+            <string>fenced_code.block.language.attributes.markdown</string>
+          </dict>
+          <key>7</key>
           <dict>
             <key>name</key>
             <string>fenced_code.block.language.attributes.markdown</string>
@@ -2382,7 +2597,7 @@
       <key>fenced_code_block_ts</key>
       <dict>
         <key>begin</key>
-        <string>(^|\G)(\s*)(`{3,}|~{3,})\s*(?i:(typescript|ts)((\s+|:|,|\{|\?)[^`]*)?$)</string>
+        <string>(^|\G)(\s*)([`~]{3,})\s*(?i:(?:\{\s*\.?(typescript|ts)(?:\}|\s+([^`\r\n]*?)?\s*\}))|(?:\.?(\g&lt;4&gt;)((?:\s+|:|,|\{|\?)[^`\r\n]*?)?))$</string>
         <key>name</key>
         <string>markup.fenced_code.block.markdown</string>
         <key>end</key>
@@ -2400,6 +2615,11 @@
             <string>fenced_code.block.language.markdown</string>
           </dict>
           <key>5</key>
+          <dict>
+            <key>name</key>
+            <string>fenced_code.block.language.attributes.markdown</string>
+          </dict>
+          <key>7</key>
           <dict>
             <key>name</key>
             <string>fenced_code.block.language.attributes.markdown</string>
@@ -2435,7 +2655,7 @@
       <key>fenced_code_block_tsx</key>
       <dict>
         <key>begin</key>
-        <string>(^|\G)(\s*)(`{3,}|~{3,})\s*(?i:(tsx)((\s+|:|,|\{|\?)[^`]*)?$)</string>
+        <string>(^|\G)(\s*)([`~]{3,})\s*(?i:(?:\{\s*\.?(tsx)(?:\}|\s+([^`\r\n]*?)?\s*\}))|(?:\.?(\g&lt;4&gt;)((?:\s+|:|,|\{|\?)[^`\r\n]*?)?))$</string>
         <key>name</key>
         <string>markup.fenced_code.block.markdown</string>
         <key>end</key>
@@ -2453,6 +2673,11 @@
             <string>fenced_code.block.language.markdown</string>
           </dict>
           <key>5</key>
+          <dict>
+            <key>name</key>
+            <string>fenced_code.block.language.attributes.markdown</string>
+          </dict>
+          <key>7</key>
           <dict>
             <key>name</key>
             <string>fenced_code.block.language.attributes.markdown</string>
@@ -2488,7 +2713,7 @@
       <key>fenced_code_block_csharp</key>
       <dict>
         <key>begin</key>
-        <string>(^|\G)(\s*)(`{3,}|~{3,})\s*(?i:(cs|csharp|c#)((\s+|:|,|\{|\?)[^`]*)?$)</string>
+        <string>(^|\G)(\s*)([`~]{3,})\s*(?i:(?:\{\s*\.?(cs|csharp|c#)(?:\}|\s+([^`\r\n]*?)?\s*\}))|(?:\.?(\g&lt;4&gt;)((?:\s+|:|,|\{|\?)[^`\r\n]*?)?))$</string>
         <key>name</key>
         <string>markup.fenced_code.block.markdown</string>
         <key>end</key>
@@ -2506,6 +2731,11 @@
             <string>fenced_code.block.language.markdown</string>
           </dict>
           <key>5</key>
+          <dict>
+            <key>name</key>
+            <string>fenced_code.block.language.attributes.markdown</string>
+          </dict>
+          <key>7</key>
           <dict>
             <key>name</key>
             <string>fenced_code.block.language.attributes.markdown</string>
@@ -2541,7 +2771,7 @@
       <key>fenced_code_block_fsharp</key>
       <dict>
         <key>begin</key>
-        <string>(^|\G)(\s*)(`{3,}|~{3,})\s*(?i:(fs|fsharp|f#)((\s+|:|,|\{|\?)[^`]*)?$)</string>
+        <string>(^|\G)(\s*)([`~]{3,})\s*(?i:(?:\{\s*\.?(fs|fsharp|f#)(?:\}|\s+([^`\r\n]*?)?\s*\}))|(?:\.?(\g&lt;4&gt;)((?:\s+|:|,|\{|\?)[^`\r\n]*?)?))$</string>
         <key>name</key>
         <string>markup.fenced_code.block.markdown</string>
         <key>end</key>
@@ -2559,6 +2789,11 @@
             <string>fenced_code.block.language.markdown</string>
           </dict>
           <key>5</key>
+          <dict>
+            <key>name</key>
+            <string>fenced_code.block.language.attributes.markdown</string>
+          </dict>
+          <key>7</key>
           <dict>
             <key>name</key>
             <string>fenced_code.block.language.attributes.markdown</string>
@@ -2594,7 +2829,7 @@
       <key>fenced_code_block_dart</key>
       <dict>
         <key>begin</key>
-        <string>(^|\G)(\s*)(`{3,}|~{3,})\s*(?i:(dart)((\s+|:|,|\{|\?)[^`]*)?$)</string>
+        <string>(^|\G)(\s*)([`~]{3,})\s*(?i:(?:\{\s*\.?(dart)(?:\}|\s+([^`\r\n]*?)?\s*\}))|(?:\.?(\g&lt;4&gt;)((?:\s+|:|,|\{|\?)[^`\r\n]*?)?))$</string>
         <key>name</key>
         <string>markup.fenced_code.block.markdown</string>
         <key>end</key>
@@ -2612,6 +2847,11 @@
             <string>fenced_code.block.language.markdown</string>
           </dict>
           <key>5</key>
+          <dict>
+            <key>name</key>
+            <string>fenced_code.block.language.attributes.markdown</string>
+          </dict>
+          <key>7</key>
           <dict>
             <key>name</key>
             <string>fenced_code.block.language.attributes.markdown</string>
@@ -2647,7 +2887,7 @@
       <key>fenced_code_block_handlebars</key>
       <dict>
         <key>begin</key>
-        <string>(^|\G)(\s*)(`{3,}|~{3,})\s*(?i:(handlebars|hbs)((\s+|:|,|\{|\?)[^`]*)?$)</string>
+        <string>(^|\G)(\s*)([`~]{3,})\s*(?i:(?:\{\s*\.?(handlebars|hbs)(?:\}|\s+([^`\r\n]*?)?\s*\}))|(?:\.?(\g&lt;4&gt;)((?:\s+|:|,|\{|\?)[^`\r\n]*?)?))$</string>
         <key>name</key>
         <string>markup.fenced_code.block.markdown</string>
         <key>end</key>
@@ -2665,6 +2905,11 @@
             <string>fenced_code.block.language.markdown</string>
           </dict>
           <key>5</key>
+          <dict>
+            <key>name</key>
+            <string>fenced_code.block.language.attributes.markdown</string>
+          </dict>
+          <key>7</key>
           <dict>
             <key>name</key>
             <string>fenced_code.block.language.attributes.markdown</string>
@@ -2700,7 +2945,7 @@
       <key>fenced_code_block_markdown</key>
       <dict>
         <key>begin</key>
-        <string>(^|\G)(\s*)(`{3,}|~{3,})\s*(?i:(markdown|md)((\s+|:|,|\{|\?)[^`]*)?$)</string>
+        <string>(^|\G)(\s*)([`~]{3,})\s*(?i:(?:\{\s*\.?(markdown|md)(?:\}|\s+([^`\r\n]*?)?\s*\}))|(?:\.?(\g&lt;4&gt;)((?:\s+|:|,|\{|\?)[^`\r\n]*?)?))$</string>
         <key>name</key>
         <string>markup.fenced_code.block.markdown</string>
         <key>end</key>
@@ -2718,6 +2963,11 @@
             <string>fenced_code.block.language.markdown</string>
           </dict>
           <key>5</key>
+          <dict>
+            <key>name</key>
+            <string>fenced_code.block.language.attributes.markdown</string>
+          </dict>
+          <key>7</key>
           <dict>
             <key>name</key>
             <string>fenced_code.block.language.attributes.markdown</string>
@@ -2753,7 +3003,7 @@
       <key>fenced_code_block_log</key>
       <dict>
         <key>begin</key>
-        <string>(^|\G)(\s*)(`{3,}|~{3,})\s*(?i:(log)((\s+|:|,|\{|\?)[^`]*)?$)</string>
+        <string>(^|\G)(\s*)([`~]{3,})\s*(?i:(?:\{\s*\.?(log)(?:\}|\s+([^`\r\n]*?)?\s*\}))|(?:\.?(\g&lt;4&gt;)((?:\s+|:|,|\{|\?)[^`\r\n]*?)?))$</string>
         <key>name</key>
         <string>markup.fenced_code.block.markdown</string>
         <key>end</key>
@@ -2771,6 +3021,11 @@
             <string>fenced_code.block.language.markdown</string>
           </dict>
           <key>5</key>
+          <dict>
+            <key>name</key>
+            <string>fenced_code.block.language.attributes.markdown</string>
+          </dict>
+          <key>7</key>
           <dict>
             <key>name</key>
             <string>fenced_code.block.language.attributes.markdown</string>
@@ -2806,7 +3061,7 @@
       <key>fenced_code_block_erlang</key>
       <dict>
         <key>begin</key>
-        <string>(^|\G)(\s*)(`{3,}|~{3,})\s*(?i:(erlang)((\s+|:|,|\{|\?)[^`]*)?$)</string>
+        <string>(^|\G)(\s*)([`~]{3,})\s*(?i:(?:\{\s*\.?(erlang)(?:\}|\s+([^`\r\n]*?)?\s*\}))|(?:\.?(\g&lt;4&gt;)((?:\s+|:|,|\{|\?)[^`\r\n]*?)?))$</string>
         <key>name</key>
         <string>markup.fenced_code.block.markdown</string>
         <key>end</key>
@@ -2824,6 +3079,11 @@
             <string>fenced_code.block.language.markdown</string>
           </dict>
           <key>5</key>
+          <dict>
+            <key>name</key>
+            <string>fenced_code.block.language.attributes.markdown</string>
+          </dict>
+          <key>7</key>
           <dict>
             <key>name</key>
             <string>fenced_code.block.language.attributes.markdown</string>
@@ -2859,7 +3119,7 @@
       <key>fenced_code_block_elixir</key>
       <dict>
         <key>begin</key>
-        <string>(^|\G)(\s*)(`{3,}|~{3,})\s*(?i:(elixir)((\s+|:|,|\{|\?)[^`]*)?$)</string>
+        <string>(^|\G)(\s*)([`~]{3,})\s*(?i:(?:\{\s*\.?(elixir)(?:\}|\s+([^`\r\n]*?)?\s*\}))|(?:\.?(\g&lt;4&gt;)((?:\s+|:|,|\{|\?)[^`\r\n]*?)?))$</string>
         <key>name</key>
         <string>markup.fenced_code.block.markdown</string>
         <key>end</key>
@@ -2877,6 +3137,11 @@
             <string>fenced_code.block.language.markdown</string>
           </dict>
           <key>5</key>
+          <dict>
+            <key>name</key>
+            <string>fenced_code.block.language.attributes.markdown</string>
+          </dict>
+          <key>7</key>
           <dict>
             <key>name</key>
             <string>fenced_code.block.language.attributes.markdown</string>
@@ -2912,7 +3177,7 @@
       <key>fenced_code_block_latex</key>
       <dict>
         <key>begin</key>
-        <string>(^|\G)(\s*)(`{3,}|~{3,})\s*(?i:(latex|tex)((\s+|:|,|\{|\?)[^`]*)?$)</string>
+        <string>(^|\G)(\s*)([`~]{3,})\s*(?i:(?:\{\s*\.?(latex|tex)(?:\}|\s+([^`\r\n]*?)?\s*\}))|(?:\.?(\g&lt;4&gt;)((?:\s+|:|,|\{|\?)[^`\r\n]*?)?))$</string>
         <key>name</key>
         <string>markup.fenced_code.block.markdown</string>
         <key>end</key>
@@ -2930,6 +3195,11 @@
             <string>fenced_code.block.language.markdown</string>
           </dict>
           <key>5</key>
+          <dict>
+            <key>name</key>
+            <string>fenced_code.block.language.attributes.markdown</string>
+          </dict>
+          <key>7</key>
           <dict>
             <key>name</key>
             <string>fenced_code.block.language.attributes.markdown</string>
@@ -2965,7 +3235,7 @@
       <key>fenced_code_block_bibtex</key>
       <dict>
         <key>begin</key>
-        <string>(^|\G)(\s*)(`{3,}|~{3,})\s*(?i:(bibtex)((\s+|:|,|\{|\?)[^`]*)?$)</string>
+        <string>(^|\G)(\s*)([`~]{3,})\s*(?i:(?:\{\s*\.?(bibtex)(?:\}|\s+([^`\r\n]*?)?\s*\}))|(?:\.?(\g&lt;4&gt;)((?:\s+|:|,|\{|\?)[^`\r\n]*?)?))$</string>
         <key>name</key>
         <string>markup.fenced_code.block.markdown</string>
         <key>end</key>
@@ -2983,6 +3253,11 @@
             <string>fenced_code.block.language.markdown</string>
           </dict>
           <key>5</key>
+          <dict>
+            <key>name</key>
+            <string>fenced_code.block.language.attributes.markdown</string>
+          </dict>
+          <key>7</key>
           <dict>
             <key>name</key>
             <string>fenced_code.block.language.attributes.markdown</string>
@@ -3018,7 +3293,7 @@
       <key>fenced_code_block_twig</key>
       <dict>
         <key>begin</key>
-        <string>(^|\G)(\s*)(`{3,}|~{3,})\s*(?i:(twig)((\s+|:|,|\{|\?)[^`]*)?$)</string>
+        <string>(^|\G)(\s*)([`~]{3,})\s*(?i:(?:\{\s*\.?(twig)(?:\}|\s+([^`\r\n]*?)?\s*\}))|(?:\.?(\g&lt;4&gt;)((?:\s+|:|,|\{|\?)[^`\r\n]*?)?))$</string>
         <key>name</key>
         <string>markup.fenced_code.block.markdown</string>
         <key>end</key>
@@ -3036,6 +3311,11 @@
             <string>fenced_code.block.language.markdown</string>
           </dict>
           <key>5</key>
+          <dict>
+            <key>name</key>
+            <string>fenced_code.block.language.attributes.markdown</string>
+          </dict>
+          <key>7</key>
           <dict>
             <key>name</key>
             <string>fenced_code.block.language.attributes.markdown</string>
