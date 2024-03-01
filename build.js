@@ -47,7 +47,7 @@ const languages = [
 	{ name: 'scss', language: 'scss', identifiers: ['scss'], source: 'source.css.scss' },
 
 	{ name: 'perl6', language: 'perl6', identifiers: ['perl6', 'p6', 'pl6', 'pm6', 'nqp'], source: 'source.perl.6' },
-	{ name: 'powershell', language: 'powershell', identifiers: ['powershell', 'ps1', 'psm1', 'psd1'], source: 'source.powershell' },
+	{ name: 'powershell', language: 'powershell', identifiers: ['powershell', 'ps1', 'psm1', 'psd1', 'pwsh'], source: 'source.powershell' },
 	{ name: 'python', language: 'python', identifiers: ['python', 'py', 'py3', 'rpy', 'pyw', 'cpy', 'SConstruct', 'Sconstruct', 'sconstruct', 'SConscript', 'gyp', 'gypi', '\\{\\.python.+?\\}'], source: 'source.python' },
 	{ name: 'julia', language: 'julia', identifiers: ['julia', '\\{\\.julia.+?\\}'], source: 'source.julia' },
 	{ name: 'regexp_python', identifiers: ['re'], source: 'source.regexp.python' },
