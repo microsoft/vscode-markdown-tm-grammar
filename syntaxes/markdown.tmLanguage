@@ -2011,7 +2011,7 @@
       <key>fenced_code_block_powershell</key>
       <dict>
         <key>begin</key>
-        <string>(^|\G)(\s*)(`{3,}|~{3,})\s*(?i:(powershell|ps1|psm1|psd1)((\s+|:|,|\{|\?)[^`]*)?$)</string>
+        <string>(^|\G)(\s*)(`{3,}|~{3,})\s*(?i:(powershell|ps1|psm1|psd1|pwsh)((\s+|:|,|\{|\?)[^`]*)?$)</string>
         <key>name</key>
         <string>markup.fenced_code.block.markdown</string>
         <key>end</key>
