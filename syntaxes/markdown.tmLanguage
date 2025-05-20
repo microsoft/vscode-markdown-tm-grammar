@@ -4962,7 +4962,8 @@
           </dict>
         </dict>
         <key>match</key>
-        <string>(?&lt;!\\)(~{2,})((?:[^~]|(?!(?&lt;![~\\])\1(?!~))~)*+)(\1)</string>
+        <string>(?&lt;!\\)(~{2,})(?!(?&lt;=\w~~)_)((?:[^~]|(?!(?&lt;![~\\])\1(?!~))~)*+)(\1)(?!(?&lt;=_\1)\w)</string>
+                
         <key>name</key>
         <string>markup.strikethrough.markdown</string>
       </dict>
