@@ -3068,10 +3068,10 @@
           </dict>
         </array>
       </dict>
-      <key>fenced_code_block_restructuredtext</key>
+      <key>fenced_code_block_abap</key>
       <dict>
         <key>begin</key>
-        <string>(^|\G)(\s*)(`{3,}|~{3,})\s*(?i:(restructuredtext|rst)((\s+|:|,|\{|\?)[^`]*)?$)</string>
+        <string>(^|\G)(\s*)(`{3,}|~{3,})\s*(?i:(abap)((\s+|:|,|\{|\?)[^`]*)?$)</string>
         <key>name</key>
         <string>markup.fenced_code.block.markdown</string>
         <key>end</key>
@@ -3110,12 +3110,12 @@
             <key>while</key>
             <string>(^|\G)(?!\s*([`~]{3,})\s*$)</string>
             <key>contentName</key>
-            <string>meta.embedded.block.restructuredtext</string>
+            <string>meta.embedded.block.abap</string>
             <key>patterns</key>
             <array>
               <dict>
                 <key>include</key>
-                <string>source.rst</string>
+                <string>source.abap</string>
               </dict>
             </array>
           </dict>
@@ -3351,7 +3351,7 @@
           </dict>
           <dict>
             <key>include</key>
-            <string>#fenced_code_block_restructuredtext</string>
+            <string>#fenced_code_block_abap</string>
           </dict>
           <dict>
             <key>include</key>

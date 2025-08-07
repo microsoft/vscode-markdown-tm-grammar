@@ -67,6 +67,8 @@ const languages = [
 	{ name: 'latex', language: 'latex', identifiers: ['latex', 'tex'], source: 'text.tex.latex' },
 	{ name: 'bibtex', language: 'bibtex', identifiers: ['bibtex'], source: 'text.bibtex' },
 	{ name: 'twig', language: 'twig', identifiers: ['twig'], source: 'source.twig' },
+	{ name: 'yang', language: 'yang', identifiers: ['yang'], source: 'source.yang' },
+	{ name: 'abap', language: 'abap', identifiers: ['abap'], source: 'source.abap' },
 	{ name: 'restructuredtext', language: 'restructuredtext', identifiers: ['restructuredtext', 'rst'], source: 'source.rst' },
 ];
 
