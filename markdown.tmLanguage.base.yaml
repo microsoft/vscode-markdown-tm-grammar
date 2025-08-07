@@ -584,7 +584,7 @@ repository:
         - {include: '#link-ref'}
         - {include: '#link-ref-shortcut'}
       '3': {name: punctuation.definition.strikethrough.markdown}
-    match: (?<!\\)(~{2,})((?:[^~]|(?!(?<![~\\])\1(?!~))~)*+)(\1)
+    match: (?<!\\)(~{2,})(?!(?<=\w~~)_)((?:[^~]|(?!(?<![~\\])\1(?!~))~)*+)(\1)(?!(?<=_\1)\w)
     name: markup.strikethrough.markdown
 scopeName: text.html.markdown
 uuid: 0A1D9874-B448-11D9-BD50-000D93B6E43C
