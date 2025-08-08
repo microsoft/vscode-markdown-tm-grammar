@@ -69,6 +69,7 @@ const languages = [
 	{ name: 'twig', language: 'twig', identifiers: ['twig'], source: 'source.twig' },
 	{ name: 'yang', language: 'yang', identifiers: ['yang'], source: 'source.yang' },
 	{ name: 'abap', language: 'abap', identifiers: ['abap'], source: 'source.abap' },
+	{ name: 'restructuredtext', language: 'restructuredtext', identifiers: ['restructuredtext', 'rst'], source: 'source.rst' },
 ];
 
 const fencedCodeBlockDefinition = (name, identifiers, sourceScope, language, additionalContentName) => {
