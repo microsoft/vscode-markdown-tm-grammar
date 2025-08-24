@@ -41,6 +41,7 @@ const languages = [
 	{ name: 'js_regexp', identifiers: ['regexp'], source: 'source.js.regexp' },
 	{ name: 'json', language: 'json', identifiers: ['json', 'json5', 'sublime-settings', 'sublime-menu', 'sublime-keymap', 'sublime-mousemap', 'sublime-theme', 'sublime-build', 'sublime-project', 'sublime-completions'], source: 'source.json' },
 	{ name: 'jsonc', language: 'jsonc', identifiers: ['jsonc'], source: 'source.json.comments' },
+	{ name: 'jsonl', language: 'jsonl', identifiers: ['jsonl', 'jsonlines'], source: 'source.json.lines' },
 	{ name: 'less', language: 'less', identifiers: ['less'], source: 'source.css.less' },
 	{ name: 'objc', language: 'objc', identifiers: ['objectivec', 'objective-c', 'mm', 'objc', 'obj-c', 'm', 'h'], source: 'source.objc' },
 	{ name: 'swift', language: 'swift', identifiers: ['swift'], source: 'source.swift' },
