@@ -37,6 +37,7 @@ const languages = [
 	{ name: 'groovy', language: 'groovy', identifiers: ['groovy', 'gvy'], source: 'source.groovy' },
 	{ name: 'pug', language: 'pug', identifiers: ['jade', 'pug'], source: 'text.pug' },
 
+	{ name: 'ignore', language: 'ignore', identifiers: ['gitignore', 'ignore'], source: 'source.ignore' },
 	{ name: 'js', language: 'javascript', identifiers: ['js', 'jsx', 'javascript', 'es6', 'mjs', 'cjs', 'dataviewjs', '\\{\\.js.+?\\}'], source: 'source.js' },
 	{ name: 'js_regexp', identifiers: ['regexp'], source: 'source.js.regexp' },
 	{ name: 'json', language: 'json', identifiers: ['json', 'json5', 'sublime-settings', 'sublime-menu', 'sublime-keymap', 'sublime-mousemap', 'sublime-theme', 'sublime-build', 'sublime-project', 'sublime-completions'], source: 'source.json' },
