@@ -1531,6 +1531,59 @@
           </dict>
         </array>
       </dict>
+      <key>fenced_code_block_ignore</key>
+      <dict>
+        <key>begin</key>
+        <string>(^|\G)(\s*)(`{3,}|~{3,})\s*(?i:(gitignore|ignore)((\s+|:|,|\{|\?)[^`]*)?$)</string>
+        <key>name</key>
+        <string>markup.fenced_code.block.markdown</string>
+        <key>end</key>
+        <string>(^|\G)(\2|\s{0,3})(\3)\s*$</string>
+        <key>beginCaptures</key>
+        <dict>
+          <key>3</key>
+          <dict>
+            <key>name</key>
+            <string>punctuation.definition.markdown</string>
+          </dict>
+          <key>4</key>
+          <dict>
+            <key>name</key>
+            <string>fenced_code.block.language.markdown</string>
+          </dict>
+          <key>5</key>
+          <dict>
+            <key>name</key>
+            <string>fenced_code.block.language.attributes.markdown</string>
+          </dict>
+        </dict>
+        <key>endCaptures</key>
+        <dict>
+          <key>3</key>
+          <dict>
+            <key>name</key>
+            <string>punctuation.definition.markdown</string>
+          </dict>
+        </dict>
+        <key>patterns</key>
+        <array>
+          <dict>
+            <key>begin</key>
+            <string>(^|\G)(\s*)(.*)</string>
+            <key>while</key>
+            <string>(^|\G)(?!\s*([`~]{3,})\s*$)</string>
+            <key>contentName</key>
+            <string>meta.embedded.block.ignore</string>
+            <key>patterns</key>
+            <array>
+              <dict>
+                <key>include</key>
+                <string>source.ignore</string>
+              </dict>
+            </array>
+          </dict>
+        </array>
+      </dict>
       <key>fenced_code_block_js</key>
       <dict>
         <key>begin</key>
@@ -1738,6 +1791,59 @@
               <dict>
                 <key>include</key>
                 <string>source.json.comments</string>
+              </dict>
+            </array>
+          </dict>
+        </array>
+      </dict>
+      <key>fenced_code_block_jsonl</key>
+      <dict>
+        <key>begin</key>
+        <string>(^|\G)(\s*)(`{3,}|~{3,})\s*(?i:(jsonl|jsonlines)((\s+|:|,|\{|\?)[^`]*)?$)</string>
+        <key>name</key>
+        <string>markup.fenced_code.block.markdown</string>
+        <key>end</key>
+        <string>(^|\G)(\2|\s{0,3})(\3)\s*$</string>
+        <key>beginCaptures</key>
+        <dict>
+          <key>3</key>
+          <dict>
+            <key>name</key>
+            <string>punctuation.definition.markdown</string>
+          </dict>
+          <key>4</key>
+          <dict>
+            <key>name</key>
+            <string>fenced_code.block.language.markdown</string>
+          </dict>
+          <key>5</key>
+          <dict>
+            <key>name</key>
+            <string>fenced_code.block.language.attributes.markdown</string>
+          </dict>
+        </dict>
+        <key>endCaptures</key>
+        <dict>
+          <key>3</key>
+          <dict>
+            <key>name</key>
+            <string>punctuation.definition.markdown</string>
+          </dict>
+        </dict>
+        <key>patterns</key>
+        <array>
+          <dict>
+            <key>begin</key>
+            <string>(^|\G)(\s*)(.*)</string>
+            <key>while</key>
+            <string>(^|\G)(?!\s*([`~]{3,})\s*$)</string>
+            <key>contentName</key>
+            <string>meta.embedded.block.jsonl</string>
+            <key>patterns</key>
+            <array>
+              <dict>
+                <key>include</key>
+                <string>source.json.lines</string>
               </dict>
             </array>
           </dict>
@@ -3341,6 +3447,10 @@
           </dict>
           <dict>
             <key>include</key>
+            <string>#fenced_code_block_ignore</string>
+          </dict>
+          <dict>
+            <key>include</key>
             <string>#fenced_code_block_js</string>
           </dict>
           <dict>
@@ -3354,6 +3464,10 @@
           <dict>
             <key>include</key>
             <string>#fenced_code_block_jsonc</string>
+          </dict>
+          <dict>
+            <key>include</key>
+            <string>#fenced_code_block_jsonl</string>
           </dict>
           <dict>
             <key>include</key>
