@@ -1,11 +1,10 @@
-//@ts-check
-const path = require('path');
-const { runTests } = require('vscode-test');
+import path from 'node:path';
+import { runTests } from 'vscode-test';
 
 async function go() {
     try {
-        const extensionDevelopmentPath = path.resolve(__dirname, '..');
-        const extensionTestsPath = path.resolve(__dirname);
+        const extensionDevelopmentPath = path.resolve(import.meta.dirname, '..');
+        const extensionTestsPath = path.resolve(import.meta.dirname);
 
         await runTests({
             extensionDevelopmentPath,
