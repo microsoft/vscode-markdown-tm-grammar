@@ -1,14 +1,12 @@
 {
   "name": "vscode-markdown-tm-grammar",
   "private": true,
+  "description": "Grammar used by VS Code's build-in Markdown support",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
   "scripts": {
-    "build": "node build",
-    "test": "node ./test/runTest.js"
+    "build": "node build.ts",
+    "test": "node ./test/runTest.ts"
   },
-  "activationEvents": [],
   "engines": {
     "vscode": "^1.55.0"
   },
@@ -34,9 +32,12 @@
   },
   "homepage": "https://github.com/mjbvz/vscode-markdown-tm-grammar#readme",
   "devDependencies": {
+    "@types/js-yaml": "^3.12.7",
+    "@types/node": "^20.0.0",
+    "@types/plist": "^3.0.5",
     "js-yaml": "^4.1.1",
-    "mocha": "^10.8.2",
-    "plist": "^3.0.4",
+    "mocha": "^11.7.5",
+    "plist": "^3.1.0",
     "vscode-test": "^1.6.1"
   }
 }
