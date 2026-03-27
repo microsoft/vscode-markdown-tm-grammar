@@ -140,7 +140,7 @@ const buildGrammar = (): void => {
     text = text.replace(/\s*\{\{languageIncludes\}\}/, '\n' + indent(2, fencedCodeBlockIncludes()));
     text = text.replace(/\s*\{\{languageDefinitions\}\}/, '\n' + indent(1, fencedCodeBlockDefinitions()));
 
-    const grammar = yaml.safeLoad(text);
+    const grammar = yaml.load(text);
     const out = plist.build(grammar as plist.PlistObject);
     fs.writeFileSync(path.join(import.meta.dirname, 'syntaxes', 'markdown.tmLanguage'), out);
 };
