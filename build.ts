@@ -42,6 +42,7 @@ const languages: Language[] = [
     { name: 'go', language: 'go', identifiers: ['go', 'golang'], source: 'source.go' },
     { name: 'groovy', language: 'groovy', identifiers: ['groovy', 'gvy'], source: 'source.groovy' },
     { name: 'pug', language: 'pug', identifiers: ['jade', 'pug'], source: 'text.pug' },
+    { name: 'hsml', language: 'hsml', identifiers: ['hsml'], source: 'text.hsml' },
 
     { name: 'ignore', language: 'ignore', identifiers: ['gitignore', 'ignore'], source: 'source.ignore' },
     { name: 'js', language: 'javascript', identifiers: ['js', 'jsx', 'javascript', 'es6', 'mjs', 'cjs', 'dataviewjs', '\\{\\.js.+?\\}'], source: 'source.js' },
