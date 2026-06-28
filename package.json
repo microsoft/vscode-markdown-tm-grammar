@@ -36,7 +36,7 @@
     "@types/node": "^20.0.0",
     "@types/plist": "^3.0.5",
     "@vscode/test-electron": "^2.5.2",
-    "js-yaml": "^4.1.1",
+    "js-yaml": "^4.3.0",
     "mocha": "^11.7.5",
     "plist": "^3.1.0"
   }
