@@ -1,140 +1,160 @@
 [
 	{
 		"c": "---",
-		"t": "text.html.markdown",
+		"t": "text.html.markdown punctuation.definition.begin.frontmatter",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
 			"dark_vs": "default: #D4D4D4",
 			"light_vs": "default: #000000",
 			"hc_black": "default: #FFFFFF",
+			"2026-dark": "default: #BBBEBF",
 			"dark_modern": "default: #CCCCCC",
+			"2026-light": "default: #202020",
 			"hc_light": "default: #292929",
 			"light_modern": "default: #3B3B3B"
 		}
 	},
 	{
 		"c": "title",
-		"t": "text.html.markdown meta.embedded.block.frontmatter string.unquoted.plain.out.yaml entity.name.tag.yaml",
+		"t": "text.html.markdown meta.embedded.block.frontmatter meta.stream.yaml meta.document.yaml meta.mapping.yaml meta.map.key.yaml string.unquoted.plain.yaml entity.name.tag.yaml",
 		"r": {
 			"dark_plus": "entity.name.tag: #569CD6",
 			"light_plus": "entity.name.tag: #800000",
 			"dark_vs": "entity.name.tag: #569CD6",
 			"light_vs": "entity.name.tag: #800000",
 			"hc_black": "entity.name.tag: #569CD6",
+			"2026-dark": "entity.name.tag: #7EE787",
 			"dark_modern": "entity.name.tag: #569CD6",
+			"2026-light": "entity.name.tag: #116329",
 			"hc_light": "entity.name.tag: #0F4A85",
 			"light_modern": "entity.name.tag: #800000"
 		}
 	},
 	{
 		"c": ":",
-		"t": "text.html.markdown meta.embedded.block.frontmatter punctuation.separator.key-value.mapping.yaml",
+		"t": "text.html.markdown meta.embedded.block.frontmatter meta.stream.yaml meta.document.yaml meta.mapping.yaml meta.map.value.yaml punctuation.separator.map.value.yaml",
 		"r": {
 			"dark_plus": "meta.embedded: #D4D4D4",
 			"light_plus": "meta.embedded: #000000",
 			"dark_vs": "meta.embedded: #D4D4D4",
 			"light_vs": "meta.embedded: #000000",
 			"hc_black": "meta.embedded: #FFFFFF",
+			"2026-dark": "meta.embedded: #D4D4D4",
 			"dark_modern": "meta.embedded: #D4D4D4",
+			"2026-light": "meta.embedded: #000000",
 			"hc_light": "meta.embedded: #292929",
 			"light_modern": "meta.embedded: #000000"
 		}
 	},
 	{
 		"c": " ",
-		"t": "text.html.markdown meta.embedded.block.frontmatter",
+		"t": "text.html.markdown meta.embedded.block.frontmatter meta.stream.yaml meta.document.yaml meta.mapping.yaml meta.map.value.yaml punctuation.whitespace.separator.yaml",
 		"r": {
 			"dark_plus": "meta.embedded: #D4D4D4",
 			"light_plus": "meta.embedded: #000000",
 			"dark_vs": "meta.embedded: #D4D4D4",
 			"light_vs": "meta.embedded: #000000",
 			"hc_black": "meta.embedded: #FFFFFF",
+			"2026-dark": "meta.embedded: #D4D4D4",
 			"dark_modern": "meta.embedded: #D4D4D4",
+			"2026-light": "meta.embedded: #000000",
 			"hc_light": "meta.embedded: #292929",
 			"light_modern": "meta.embedded: #000000"
 		}
 	},
 	{
 		"c": "Best Article Ever",
-		"t": "text.html.markdown meta.embedded.block.frontmatter string.unquoted.plain.out.yaml",
+		"t": "text.html.markdown meta.embedded.block.frontmatter meta.stream.yaml meta.document.yaml meta.mapping.yaml meta.map.value.yaml string.unquoted.plain.out.yaml",
 		"r": {
 			"dark_plus": "string: #CE9178",
 			"light_plus": "string.unquoted.plain.out.yaml: #0000FF",
 			"dark_vs": "string: #CE9178",
 			"light_vs": "string.unquoted.plain.out.yaml: #0000FF",
 			"hc_black": "string: #CE9178",
+			"2026-dark": "string: #A5D6FF",
 			"dark_modern": "string: #CE9178",
+			"2026-light": "string.unquoted.plain.out.yaml: #0000FF",
 			"hc_light": "string.unquoted.plain.out.yaml: #0F4A85",
 			"light_modern": "string.unquoted.plain.out.yaml: #0000FF"
 		}
 	},
 	{
 		"c": "author",
-		"t": "text.html.markdown meta.embedded.block.frontmatter string.unquoted.plain.out.yaml entity.name.tag.yaml",
+		"t": "text.html.markdown meta.embedded.block.frontmatter meta.stream.yaml meta.document.yaml meta.mapping.yaml meta.map.key.yaml string.unquoted.plain.yaml entity.name.tag.yaml",
 		"r": {
 			"dark_plus": "entity.name.tag: #569CD6",
 			"light_plus": "entity.name.tag: #800000",
 			"dark_vs": "entity.name.tag: #569CD6",
 			"light_vs": "entity.name.tag: #800000",
 			"hc_black": "entity.name.tag: #569CD6",
+			"2026-dark": "entity.name.tag: #7EE787",
 			"dark_modern": "entity.name.tag: #569CD6",
+			"2026-light": "entity.name.tag: #116329",
 			"hc_light": "entity.name.tag: #0F4A85",
 			"light_modern": "entity.name.tag: #800000"
 		}
 	},
 	{
 		"c": ":",
-		"t": "text.html.markdown meta.embedded.block.frontmatter punctuation.separator.key-value.mapping.yaml",
+		"t": "text.html.markdown meta.embedded.block.frontmatter meta.stream.yaml meta.document.yaml meta.mapping.yaml meta.map.value.yaml punctuation.separator.map.value.yaml",
 		"r": {
 			"dark_plus": "meta.embedded: #D4D4D4",
 			"light_plus": "meta.embedded: #000000",
 			"dark_vs": "meta.embedded: #D4D4D4",
 			"light_vs": "meta.embedded: #000000",
 			"hc_black": "meta.embedded: #FFFFFF",
+			"2026-dark": "meta.embedded: #D4D4D4",
 			"dark_modern": "meta.embedded: #D4D4D4",
+			"2026-light": "meta.embedded: #000000",
 			"hc_light": "meta.embedded: #292929",
 			"light_modern": "meta.embedded: #000000"
 		}
 	},
 	{
 		"c": " ",
-		"t": "text.html.markdown meta.embedded.block.frontmatter",
+		"t": "text.html.markdown meta.embedded.block.frontmatter meta.stream.yaml meta.document.yaml meta.mapping.yaml meta.map.value.yaml punctuation.whitespace.separator.yaml",
 		"r": {
 			"dark_plus": "meta.embedded: #D4D4D4",
 			"light_plus": "meta.embedded: #000000",
 			"dark_vs": "meta.embedded: #D4D4D4",
 			"light_vs": "meta.embedded: #000000",
 			"hc_black": "meta.embedded: #FFFFFF",
+			"2026-dark": "meta.embedded: #D4D4D4",
 			"dark_modern": "meta.embedded: #D4D4D4",
+			"2026-light": "meta.embedded: #000000",
 			"hc_light": "meta.embedded: #292929",
 			"light_modern": "meta.embedded: #000000"
 		}
 	},
 	{
 		"c": "Great Writer",
-		"t": "text.html.markdown meta.embedded.block.frontmatter string.unquoted.plain.out.yaml",
+		"t": "text.html.markdown meta.embedded.block.frontmatter meta.stream.yaml meta.document.yaml meta.mapping.yaml meta.map.value.yaml string.unquoted.plain.out.yaml",
 		"r": {
 			"dark_plus": "string: #CE9178",
 			"light_plus": "string.unquoted.plain.out.yaml: #0000FF",
 			"dark_vs": "string: #CE9178",
 			"light_vs": "string.unquoted.plain.out.yaml: #0000FF",
 			"hc_black": "string: #CE9178",
+			"2026-dark": "string: #A5D6FF",
 			"dark_modern": "string: #CE9178",
+			"2026-light": "string.unquoted.plain.out.yaml: #0000FF",
 			"hc_light": "string.unquoted.plain.out.yaml: #0F4A85",
 			"light_modern": "string.unquoted.plain.out.yaml: #0000FF"
 		}
 	},
 	{
 		"c": "...",
-		"t": "text.html.markdown",
+		"t": "text.html.markdown punctuation.definition.end.frontmatter",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
 			"dark_vs": "default: #D4D4D4",
 			"light_vs": "default: #000000",
 			"hc_black": "default: #FFFFFF",
+			"2026-dark": "default: #BBBEBF",
 			"dark_modern": "default: #CCCCCC",
+			"2026-light": "default: #202020",
 			"hc_light": "default: #292929",
 			"light_modern": "default: #3B3B3B"
 		}
@@ -148,7 +168,9 @@
 			"dark_vs": "markup.heading: #569CD6",
 			"light_vs": "markup.heading: #800000",
 			"hc_black": "markup.heading: #6796E6",
+			"2026-dark": "markup.heading: #79C0FF",
 			"dark_modern": "markup.heading: #569CD6",
+			"2026-light": "markup.heading: #0550AE",
 			"hc_light": "markup.heading: #0F4A85",
 			"light_modern": "markup.heading: #800000"
 		}
@@ -162,7 +184,9 @@
 			"dark_vs": "markup.heading: #569CD6",
 			"light_vs": "markup.heading: #800000",
 			"hc_black": "markup.heading: #6796E6",
+			"2026-dark": "markup.heading: #79C0FF",
 			"dark_modern": "markup.heading: #569CD6",
+			"2026-light": "markup.heading: #0550AE",
 			"hc_light": "markup.heading: #0F4A85",
 			"light_modern": "markup.heading: #800000"
 		}
@@ -176,7 +200,9 @@
 			"dark_vs": "markup.heading: #569CD6",
 			"light_vs": "markup.heading: #800000",
 			"hc_black": "markup.heading: #6796E6",
+			"2026-dark": "markup.heading entity.name: #79C0FF",
 			"dark_modern": "markup.heading: #569CD6",
+			"2026-light": "markup.heading entity.name: #0550AE",
 			"hc_light": "markup.heading: #0F4A85",
 			"light_modern": "markup.heading: #800000"
 		}
