@@ -27,6 +27,10 @@
         "language": "markdown",
         "scopeName": "text.html.markdown",
         "path": "./syntaxes/markdown.tmLanguage"
+      },
+      {
+        "scopeName": "source.qsharp",
+        "path": "./test/grammars/qsharp.tmLanguage.json"
       }
     ]
   },

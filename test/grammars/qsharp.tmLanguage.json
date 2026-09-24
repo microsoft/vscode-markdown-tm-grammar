@@ -1,0 +1,15 @@
+{
+  "information_for_contributors": [
+    "Minimal test-only stand-in for the Q# grammar contributed by the Quantum Development Kit (QDK) extension.",
+    "It lets the colorization fixtures verify that fenced Q# code blocks embed source.qsharp.",
+    "Because development extensions load last, this stub also replaces the QDK grammar when using the Launch Extension configuration."
+  ],
+  "name": "Q# (test stub)",
+  "scopeName": "source.qsharp",
+  "patterns": [
+    {
+      "name": "keyword.other.qsharp",
+      "match": "\\b(operation|function|use|let|return)\\b"
+    }
+  ]
+}
