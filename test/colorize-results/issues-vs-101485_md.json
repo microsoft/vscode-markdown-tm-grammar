@@ -8,7 +8,9 @@
 			"dark_vs": "markup.heading: #569CD6",
 			"light_vs": "markup.heading: #800000",
 			"hc_black": "markup.heading: #6796E6",
+			"2026-dark": "markup.heading: #79C0FF",
 			"dark_modern": "markup.heading: #569CD6",
+			"2026-light": "markup.heading: #0550AE",
 			"hc_light": "markup.heading: #0F4A85",
 			"light_modern": "markup.heading: #800000"
 		}
@@ -22,7 +24,9 @@
 			"dark_vs": "markup.heading: #569CD6",
 			"light_vs": "markup.heading: #800000",
 			"hc_black": "markup.heading: #6796E6",
+			"2026-dark": "markup.heading: #79C0FF",
 			"dark_modern": "markup.heading: #569CD6",
+			"2026-light": "markup.heading: #0550AE",
 			"hc_light": "markup.heading: #0F4A85",
 			"light_modern": "markup.heading: #800000"
 		}
@@ -36,7 +40,9 @@
 			"dark_vs": "markup.heading: #569CD6",
 			"light_vs": "markup.heading: #800000",
 			"hc_black": "markup.heading: #6796E6",
+			"2026-dark": "markup.heading entity.name: #79C0FF",
 			"dark_modern": "markup.heading: #569CD6",
+			"2026-light": "markup.heading entity.name: #0550AE",
 			"hc_light": "markup.heading: #0F4A85",
 			"light_modern": "markup.heading: #800000"
 		}

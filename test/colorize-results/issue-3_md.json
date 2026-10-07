@@ -8,7 +8,9 @@
 			"dark_vs": "default: #D4D4D4",
 			"light_vs": "default: #000000",
 			"hc_black": "default: #FFFFFF",
+			"2026-dark": "default: #BBBEBF",
 			"dark_modern": "default: #CCCCCC",
+			"2026-light": "default: #202020",
 			"hc_light": "default: #292929",
 			"light_modern": "default: #3B3B3B"
 		}
@@ -22,7 +24,9 @@
 			"dark_vs": "string: #CE9178",
 			"light_vs": "string: #A31515",
 			"hc_black": "string: #CE9178",
+			"2026-dark": "string.other.link: #A5D6FF",
 			"dark_modern": "string: #CE9178",
+			"2026-light": "string.other.link: #0A3069",
 			"hc_light": "string: #0F4A85",
 			"light_modern": "string: #A31515"
 		}
@@ -36,7 +40,9 @@
 			"dark_vs": "default: #D4D4D4",
 			"light_vs": "default: #000000",
 			"hc_black": "default: #FFFFFF",
+			"2026-dark": "default: #BBBEBF",
 			"dark_modern": "default: #CCCCCC",
+			"2026-light": "default: #202020",
 			"hc_light": "default: #292929",
 			"light_modern": "default: #3B3B3B"
 		}
@@ -50,7 +56,9 @@
 			"dark_vs": "default: #D4D4D4",
 			"light_vs": "default: #000000",
 			"hc_black": "default: #FFFFFF",
+			"2026-dark": "default: #BBBEBF",
 			"dark_modern": "default: #CCCCCC",
+			"2026-light": "default: #202020",
 			"hc_light": "default: #292929",
 			"light_modern": "default: #3B3B3B"
 		}
@@ -64,7 +72,9 @@
 			"dark_vs": "default: #D4D4D4",
 			"light_vs": "default: #000000",
 			"hc_black": "default: #FFFFFF",
+			"2026-dark": "default: #BBBEBF",
 			"dark_modern": "default: #CCCCCC",
+			"2026-light": "default: #202020",
 			"hc_light": "default: #292929",
 			"light_modern": "default: #3B3B3B"
 		}
@@ -78,7 +88,9 @@
 			"dark_vs": "default: #D4D4D4",
 			"light_vs": "default: #000000",
 			"hc_black": "default: #FFFFFF",
+			"2026-dark": "default: #BBBEBF",
 			"dark_modern": "default: #CCCCCC",
+			"2026-light": "default: #202020",
 			"hc_light": "default: #292929",
 			"light_modern": "default: #3B3B3B"
 		}
@@ -87,28 +99,32 @@
 		"c": "*",
 		"t": "text.html.markdown meta.paragraph.markdown markup.italic.markdown punctuation.definition.italic.markdown",
 		"r": {
-			"dark_plus": "default: #D4D4D4",
-			"light_plus": "default: #000000",
-			"dark_vs": "default: #D4D4D4",
-			"light_vs": "default: #000000",
+			"dark_plus": "markup.italic: #C586C0",
+			"light_plus": "markup.italic: #800080",
+			"dark_vs": "markup.italic: #C586C0",
+			"light_vs": "markup.italic: #800080",
 			"hc_black": "default: #FFFFFF",
-			"dark_modern": "default: #CCCCCC",
-			"hc_light": "default: #292929",
-			"light_modern": "default: #3B3B3B"
+			"2026-dark": "markup.italic: #C9D1D9",
+			"dark_modern": "markup.italic: #C586C0",
+			"2026-light": "markup.italic: #1F2328",
+			"hc_light": "markup.italic: #800080",
+			"light_modern": "markup.italic: #800080"
 		}
 	},
 	{
 		"c": "[",
 		"t": "text.html.markdown meta.paragraph.markdown markup.italic.markdown meta.link.inline.markdown punctuation.definition.link.title.begin.markdown",
 		"r": {
-			"dark_plus": "default: #D4D4D4",
-			"light_plus": "default: #000000",
-			"dark_vs": "default: #D4D4D4",
-			"light_vs": "default: #000000",
+			"dark_plus": "markup.italic: #C586C0",
+			"light_plus": "markup.italic: #800080",
+			"dark_vs": "markup.italic: #C586C0",
+			"light_vs": "markup.italic: #800080",
 			"hc_black": "default: #FFFFFF",
-			"dark_modern": "default: #CCCCCC",
-			"hc_light": "default: #292929",
-			"light_modern": "default: #3B3B3B"
+			"2026-dark": "markup.italic: #C9D1D9",
+			"dark_modern": "markup.italic: #C586C0",
+			"2026-light": "markup.italic: #1F2328",
+			"hc_light": "markup.italic: #800080",
+			"light_modern": "markup.italic: #800080"
 		}
 	},
 	{
@@ -120,7 +136,9 @@
 			"dark_vs": "string: #CE9178",
 			"light_vs": "string: #A31515",
 			"hc_black": "string: #CE9178",
+			"2026-dark": "string.other.link: #A5D6FF",
 			"dark_modern": "string: #CE9178",
+			"2026-light": "string.other.link: #0A3069",
 			"hc_light": "string: #0F4A85",
 			"light_modern": "string: #A31515"
 		}
@@ -129,70 +147,80 @@
 		"c": "]",
 		"t": "text.html.markdown meta.paragraph.markdown markup.italic.markdown meta.link.inline.markdown punctuation.definition.link.title.end.markdown",
 		"r": {
-			"dark_plus": "default: #D4D4D4",
-			"light_plus": "default: #000000",
-			"dark_vs": "default: #D4D4D4",
-			"light_vs": "default: #000000",
+			"dark_plus": "markup.italic: #C586C0",
+			"light_plus": "markup.italic: #800080",
+			"dark_vs": "markup.italic: #C586C0",
+			"light_vs": "markup.italic: #800080",
 			"hc_black": "default: #FFFFFF",
-			"dark_modern": "default: #CCCCCC",
-			"hc_light": "default: #292929",
-			"light_modern": "default: #3B3B3B"
+			"2026-dark": "markup.italic: #C9D1D9",
+			"dark_modern": "markup.italic: #C586C0",
+			"2026-light": "markup.italic: #1F2328",
+			"hc_light": "markup.italic: #800080",
+			"light_modern": "markup.italic: #800080"
 		}
 	},
 	{
 		"c": "(",
 		"t": "text.html.markdown meta.paragraph.markdown markup.italic.markdown meta.link.inline.markdown punctuation.definition.metadata.markdown",
 		"r": {
-			"dark_plus": "default: #D4D4D4",
-			"light_plus": "default: #000000",
-			"dark_vs": "default: #D4D4D4",
-			"light_vs": "default: #000000",
+			"dark_plus": "markup.italic: #C586C0",
+			"light_plus": "markup.italic: #800080",
+			"dark_vs": "markup.italic: #C586C0",
+			"light_vs": "markup.italic: #800080",
 			"hc_black": "default: #FFFFFF",
-			"dark_modern": "default: #CCCCCC",
-			"hc_light": "default: #292929",
-			"light_modern": "default: #3B3B3B"
+			"2026-dark": "markup.italic: #C9D1D9",
+			"dark_modern": "markup.italic: #C586C0",
+			"2026-light": "markup.italic: #1F2328",
+			"hc_light": "markup.italic: #800080",
+			"light_modern": "markup.italic: #800080"
 		}
 	},
 	{
 		"c": "http://example.com",
 		"t": "text.html.markdown meta.paragraph.markdown markup.italic.markdown meta.link.inline.markdown markup.underline.link.markdown",
 		"r": {
-			"dark_plus": "default: #D4D4D4",
-			"light_plus": "default: #000000",
-			"dark_vs": "default: #D4D4D4",
-			"light_vs": "default: #000000",
+			"dark_plus": "markup.italic: #C586C0",
+			"light_plus": "markup.italic: #800080",
+			"dark_vs": "markup.italic: #C586C0",
+			"light_vs": "markup.italic: #800080",
 			"hc_black": "default: #FFFFFF",
-			"dark_modern": "default: #CCCCCC",
-			"hc_light": "default: #292929",
-			"light_modern": "default: #3B3B3B"
+			"2026-dark": "markup.italic: #C9D1D9",
+			"dark_modern": "markup.italic: #C586C0",
+			"2026-light": "markup.italic: #1F2328",
+			"hc_light": "markup.italic: #800080",
+			"light_modern": "markup.italic: #800080"
 		}
 	},
 	{
 		"c": ")",
 		"t": "text.html.markdown meta.paragraph.markdown markup.italic.markdown meta.link.inline.markdown punctuation.definition.metadata.markdown",
 		"r": {
-			"dark_plus": "default: #D4D4D4",
-			"light_plus": "default: #000000",
-			"dark_vs": "default: #D4D4D4",
-			"light_vs": "default: #000000",
+			"dark_plus": "markup.italic: #C586C0",
+			"light_plus": "markup.italic: #800080",
+			"dark_vs": "markup.italic: #C586C0",
+			"light_vs": "markup.italic: #800080",
 			"hc_black": "default: #FFFFFF",
-			"dark_modern": "default: #CCCCCC",
-			"hc_light": "default: #292929",
-			"light_modern": "default: #3B3B3B"
+			"2026-dark": "markup.italic: #C9D1D9",
+			"dark_modern": "markup.italic: #C586C0",
+			"2026-light": "markup.italic: #1F2328",
+			"hc_light": "markup.italic: #800080",
+			"light_modern": "markup.italic: #800080"
 		}
 	},
 	{
 		"c": "*",
 		"t": "text.html.markdown meta.paragraph.markdown markup.italic.markdown punctuation.definition.italic.markdown",
 		"r": {
-			"dark_plus": "default: #D4D4D4",
-			"light_plus": "default: #000000",
-			"dark_vs": "default: #D4D4D4",
-			"light_vs": "default: #000000",
+			"dark_plus": "markup.italic: #C586C0",
+			"light_plus": "markup.italic: #800080",
+			"dark_vs": "markup.italic: #C586C0",
+			"light_vs": "markup.italic: #800080",
 			"hc_black": "default: #FFFFFF",
-			"dark_modern": "default: #CCCCCC",
-			"hc_light": "default: #292929",
-			"light_modern": "default: #3B3B3B"
+			"2026-dark": "markup.italic: #C9D1D9",
+			"dark_modern": "markup.italic: #C586C0",
+			"2026-light": "markup.italic: #1F2328",
+			"hc_light": "markup.italic: #800080",
+			"light_modern": "markup.italic: #800080"
 		}
 	},
 	{
@@ -204,7 +232,9 @@
 			"dark_vs": "markup.bold: #569CD6",
 			"light_vs": "markup.bold: #000080",
 			"hc_black": "default: #FFFFFF",
+			"2026-dark": "markup.bold: #C9D1D9",
 			"dark_modern": "markup.bold: #569CD6",
+			"2026-light": "markup.bold: #1F2328",
 			"hc_light": "markup.bold: #000080",
 			"light_modern": "markup.bold: #000080"
 		}
@@ -218,7 +248,9 @@
 			"dark_vs": "markup.bold: #569CD6",
 			"light_vs": "markup.bold: #000080",
 			"hc_black": "default: #FFFFFF",
+			"2026-dark": "markup.bold: #C9D1D9",
 			"dark_modern": "markup.bold: #569CD6",
+			"2026-light": "markup.bold: #1F2328",
 			"hc_light": "markup.bold: #000080",
 			"light_modern": "markup.bold: #000080"
 		}
@@ -232,7 +264,9 @@
 			"dark_vs": "string: #CE9178",
 			"light_vs": "string: #A31515",
 			"hc_black": "string: #CE9178",
+			"2026-dark": "string.other.link: #A5D6FF",
 			"dark_modern": "string: #CE9178",
+			"2026-light": "string.other.link: #0A3069",
 			"hc_light": "string: #0F4A85",
 			"light_modern": "string: #A31515"
 		}
@@ -246,7 +280,9 @@
 			"dark_vs": "markup.bold: #569CD6",
 			"light_vs": "markup.bold: #000080",
 			"hc_black": "default: #FFFFFF",
+			"2026-dark": "markup.bold: #C9D1D9",
 			"dark_modern": "markup.bold: #569CD6",
+			"2026-light": "markup.bold: #1F2328",
 			"hc_light": "markup.bold: #000080",
 			"light_modern": "markup.bold: #000080"
 		}
@@ -260,7 +296,9 @@
 			"dark_vs": "markup.bold: #569CD6",
 			"light_vs": "markup.bold: #000080",
 			"hc_black": "default: #FFFFFF",
+			"2026-dark": "markup.bold: #C9D1D9",
 			"dark_modern": "markup.bold: #569CD6",
+			"2026-light": "markup.bold: #1F2328",
 			"hc_light": "markup.bold: #000080",
 			"light_modern": "markup.bold: #000080"
 		}
@@ -274,7 +312,9 @@
 			"dark_vs": "markup.bold: #569CD6",
 			"light_vs": "markup.bold: #000080",
 			"hc_black": "default: #FFFFFF",
+			"2026-dark": "markup.bold: #C9D1D9",
 			"dark_modern": "markup.bold: #569CD6",
+			"2026-light": "markup.bold: #1F2328",
 			"hc_light": "markup.bold: #000080",
 			"light_modern": "markup.bold: #000080"
 		}
@@ -288,7 +328,9 @@
 			"dark_vs": "markup.bold: #569CD6",
 			"light_vs": "markup.bold: #000080",
 			"hc_black": "default: #FFFFFF",
+			"2026-dark": "markup.bold: #C9D1D9",
 			"dark_modern": "markup.bold: #569CD6",
+			"2026-light": "markup.bold: #1F2328",
 			"hc_light": "markup.bold: #000080",
 			"light_modern": "markup.bold: #000080"
 		}
@@ -302,7 +344,9 @@
 			"dark_vs": "markup.bold: #569CD6",
 			"light_vs": "markup.bold: #000080",
 			"hc_black": "default: #FFFFFF",
+			"2026-dark": "markup.bold: #C9D1D9",
 			"dark_modern": "markup.bold: #569CD6",
+			"2026-light": "markup.bold: #1F2328",
 			"hc_light": "markup.bold: #000080",
 			"light_modern": "markup.bold: #000080"
 		}
@@ -316,7 +360,9 @@
 			"dark_vs": "markup.bold: #569CD6",
 			"light_vs": "markup.bold: #000080",
 			"hc_black": "default: #FFFFFF",
+			"2026-dark": "markup.bold: #C9D1D9",
 			"dark_modern": "markup.bold: #569CD6",
+			"2026-light": "markup.bold: #1F2328",
 			"hc_light": "markup.bold: #000080",
 			"light_modern": "markup.bold: #000080"
 		}
@@ -325,28 +371,32 @@
 		"c": "*",
 		"t": "text.html.markdown meta.paragraph.markdown markup.bold.markdown markup.italic.markdown punctuation.definition.italic.markdown",
 		"r": {
-			"dark_plus": "markup.bold: #569CD6",
-			"light_plus": "markup.bold: #000080",
-			"dark_vs": "markup.bold: #569CD6",
-			"light_vs": "markup.bold: #000080",
+			"dark_plus": "markup.italic: #C586C0",
+			"light_plus": "markup.italic: #800080",
+			"dark_vs": "markup.italic: #C586C0",
+			"light_vs": "markup.italic: #800080",
 			"hc_black": "default: #FFFFFF",
-			"dark_modern": "markup.bold: #569CD6",
-			"hc_light": "markup.bold: #000080",
-			"light_modern": "markup.bold: #000080"
+			"2026-dark": "markup.italic: #C9D1D9",
+			"dark_modern": "markup.italic: #C586C0",
+			"2026-light": "markup.italic: #1F2328",
+			"hc_light": "markup.italic: #800080",
+			"light_modern": "markup.italic: #800080"
 		}
 	},
 	{
 		"c": "[",
 		"t": "text.html.markdown meta.paragraph.markdown markup.bold.markdown markup.italic.markdown meta.link.inline.markdown punctuation.definition.link.title.begin.markdown",
 		"r": {
-			"dark_plus": "markup.bold: #569CD6",
-			"light_plus": "markup.bold: #000080",
-			"dark_vs": "markup.bold: #569CD6",
-			"light_vs": "markup.bold: #000080",
+			"dark_plus": "markup.italic: #C586C0",
+			"light_plus": "markup.italic: #800080",
+			"dark_vs": "markup.italic: #C586C0",
+			"light_vs": "markup.italic: #800080",
 			"hc_black": "default: #FFFFFF",
-			"dark_modern": "markup.bold: #569CD6",
-			"hc_light": "markup.bold: #000080",
-			"light_modern": "markup.bold: #000080"
+			"2026-dark": "markup.italic: #C9D1D9",
+			"dark_modern": "markup.italic: #C586C0",
+			"2026-light": "markup.italic: #1F2328",
+			"hc_light": "markup.italic: #800080",
+			"light_modern": "markup.italic: #800080"
 		}
 	},
 	{
@@ -358,7 +408,9 @@
 			"dark_vs": "string: #CE9178",
 			"light_vs": "string: #A31515",
 			"hc_black": "string: #CE9178",
+			"2026-dark": "string.other.link: #A5D6FF",
 			"dark_modern": "string: #CE9178",
+			"2026-light": "string.other.link: #0A3069",
 			"hc_light": "string: #0F4A85",
 			"light_modern": "string: #A31515"
 		}
@@ -367,70 +419,80 @@
 		"c": "]",
 		"t": "text.html.markdown meta.paragraph.markdown markup.bold.markdown markup.italic.markdown meta.link.inline.markdown punctuation.definition.link.title.end.markdown",
 		"r": {
-			"dark_plus": "markup.bold: #569CD6",
-			"light_plus": "markup.bold: #000080",
-			"dark_vs": "markup.bold: #569CD6",
-			"light_vs": "markup.bold: #000080",
+			"dark_plus": "markup.italic: #C586C0",
+			"light_plus": "markup.italic: #800080",
+			"dark_vs": "markup.italic: #C586C0",
+			"light_vs": "markup.italic: #800080",
 			"hc_black": "default: #FFFFFF",
-			"dark_modern": "markup.bold: #569CD6",
-			"hc_light": "markup.bold: #000080",
-			"light_modern": "markup.bold: #000080"
+			"2026-dark": "markup.italic: #C9D1D9",
+			"dark_modern": "markup.italic: #C586C0",
+			"2026-light": "markup.italic: #1F2328",
+			"hc_light": "markup.italic: #800080",
+			"light_modern": "markup.italic: #800080"
 		}
 	},
 	{
 		"c": "(",
 		"t": "text.html.markdown meta.paragraph.markdown markup.bold.markdown markup.italic.markdown meta.link.inline.markdown punctuation.definition.metadata.markdown",
 		"r": {
-			"dark_plus": "markup.bold: #569CD6",
-			"light_plus": "markup.bold: #000080",
-			"dark_vs": "markup.bold: #569CD6",
-			"light_vs": "markup.bold: #000080",
+			"dark_plus": "markup.italic: #C586C0",
+			"light_plus": "markup.italic: #800080",
+			"dark_vs": "markup.italic: #C586C0",
+			"light_vs": "markup.italic: #800080",
 			"hc_black": "default: #FFFFFF",
-			"dark_modern": "markup.bold: #569CD6",
-			"hc_light": "markup.bold: #000080",
-			"light_modern": "markup.bold: #000080"
+			"2026-dark": "markup.italic: #C9D1D9",
+			"dark_modern": "markup.italic: #C586C0",
+			"2026-light": "markup.italic: #1F2328",
+			"hc_light": "markup.italic: #800080",
+			"light_modern": "markup.italic: #800080"
 		}
 	},
 	{
 		"c": "http://example.com",
 		"t": "text.html.markdown meta.paragraph.markdown markup.bold.markdown markup.italic.markdown meta.link.inline.markdown markup.underline.link.markdown",
 		"r": {
-			"dark_plus": "markup.bold: #569CD6",
-			"light_plus": "markup.bold: #000080",
-			"dark_vs": "markup.bold: #569CD6",
-			"light_vs": "markup.bold: #000080",
+			"dark_plus": "markup.italic: #C586C0",
+			"light_plus": "markup.italic: #800080",
+			"dark_vs": "markup.italic: #C586C0",
+			"light_vs": "markup.italic: #800080",
 			"hc_black": "default: #FFFFFF",
-			"dark_modern": "markup.bold: #569CD6",
-			"hc_light": "markup.bold: #000080",
-			"light_modern": "markup.bold: #000080"
+			"2026-dark": "markup.italic: #C9D1D9",
+			"dark_modern": "markup.italic: #C586C0",
+			"2026-light": "markup.italic: #1F2328",
+			"hc_light": "markup.italic: #800080",
+			"light_modern": "markup.italic: #800080"
 		}
 	},
 	{
 		"c": ")",
 		"t": "text.html.markdown meta.paragraph.markdown markup.bold.markdown markup.italic.markdown meta.link.inline.markdown punctuation.definition.metadata.markdown",
 		"r": {
-			"dark_plus": "markup.bold: #569CD6",
-			"light_plus": "markup.bold: #000080",
-			"dark_vs": "markup.bold: #569CD6",
-			"light_vs": "markup.bold: #000080",
+			"dark_plus": "markup.italic: #C586C0",
+			"light_plus": "markup.italic: #800080",
+			"dark_vs": "markup.italic: #C586C0",
+			"light_vs": "markup.italic: #800080",
 			"hc_black": "default: #FFFFFF",
-			"dark_modern": "markup.bold: #569CD6",
-			"hc_light": "markup.bold: #000080",
-			"light_modern": "markup.bold: #000080"
+			"2026-dark": "markup.italic: #C9D1D9",
+			"dark_modern": "markup.italic: #C586C0",
+			"2026-light": "markup.italic: #1F2328",
+			"hc_light": "markup.italic: #800080",
+			"light_modern": "markup.italic: #800080"
 		}
 	},
 	{
 		"c": "*",
 		"t": "text.html.markdown meta.paragraph.markdown markup.bold.markdown markup.italic.markdown punctuation.definition.italic.markdown",
 		"r": {
-			"dark_plus": "markup.bold: #569CD6",
-			"light_plus": "markup.bold: #000080",
-			"dark_vs": "markup.bold: #569CD6",
-			"light_vs": "markup.bold: #000080",
+			"dark_plus": "markup.italic: #C586C0",
+			"light_plus": "markup.italic: #800080",
+			"dark_vs": "markup.italic: #C586C0",
+			"light_vs": "markup.italic: #800080",
 			"hc_black": "default: #FFFFFF",
-			"dark_modern": "markup.bold: #569CD6",
-			"hc_light": "markup.bold: #000080",
-			"light_modern": "markup.bold: #000080"
+			"2026-dark": "markup.italic: #C9D1D9",
+			"dark_modern": "markup.italic: #C586C0",
+			"2026-light": "markup.italic: #1F2328",
+			"hc_light": "markup.italic: #800080",
+			"light_modern": "markup.italic: #800080"
 		}
 	},
 	{
@@ -442,7 +504,9 @@
 			"dark_vs": "markup.bold: #569CD6",
 			"light_vs": "markup.bold: #000080",
 			"hc_black": "default: #FFFFFF",
+			"2026-dark": "markup.bold: #C9D1D9",
 			"dark_modern": "markup.bold: #569CD6",
+			"2026-light": "markup.bold: #1F2328",
 			"hc_light": "markup.bold: #000080",
 			"light_modern": "markup.bold: #000080"
 		}
