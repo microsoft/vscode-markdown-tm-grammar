@@ -66,6 +66,8 @@ const languages: Language[] = [
     { name: 'tsx', language: 'typescriptreact', identifiers: ['tsx'], source: 'source.tsx' },
     { name: 'csharp', language: 'csharp', identifiers: ['cs', 'csharp', 'c#'], source: 'source.cs' },
     { name: 'fsharp', language: 'fsharp', identifiers: ['fs', 'fsharp', 'f#'], source: 'source.fsharp' },
+    { name: 'qsharp', language: 'qsharp', identifiers: ['qsharp', 'q#', 'qs'], source: 'source.qsharp' },
+    { name: 'openqasm', language: 'openqasm', identifiers: ['openqasm', 'qasm'], source: 'source.openqasm' },
     { name: 'dart', language: 'dart', identifiers: ['dart'], source: 'source.dart' },
     { name: 'handlebars', language: 'handlebars', identifiers: ['handlebars', 'hbs'], source: 'text.html.handlebars' },
     { name: 'markdown', language: 'markdown', identifiers: ['markdown', 'md'], source: 'text.html.markdown' },

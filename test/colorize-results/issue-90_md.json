@@ -8,7 +8,9 @@
 			"dark_vs": "default: #D4D4D4",
 			"light_vs": "default: #000000",
 			"hc_black": "default: #FFFFFF",
+			"2026-dark": "default: #BBBEBF",
 			"dark_modern": "default: #CCCCCC",
+			"2026-light": "default: #202020",
 			"hc_light": "default: #292929",
 			"light_modern": "default: #3B3B3B"
 		}
@@ -22,7 +24,9 @@
 			"dark_vs": "default: #D4D4D4",
 			"light_vs": "default: #000000",
 			"hc_black": "default: #FFFFFF",
+			"2026-dark": "default: #BBBEBF",
 			"dark_modern": "default: #CCCCCC",
+			"2026-light": "default: #202020",
 			"hc_light": "default: #292929",
 			"light_modern": "default: #3B3B3B"
 		}
@@ -36,7 +40,9 @@
 			"dark_vs": "keyword: #569CD6",
 			"light_vs": "keyword: #0000FF",
 			"hc_black": "keyword: #569CD6",
+			"2026-dark": "keyword: #FF7B72",
 			"dark_modern": "keyword: #569CD6",
+			"2026-light": "keyword: #CF222E",
 			"hc_light": "keyword: #0F4A85",
 			"light_modern": "keyword: #0000FF"
 		}
@@ -50,7 +56,9 @@
 			"dark_vs": "meta.embedded: #D4D4D4",
 			"light_vs": "meta.embedded: #000000",
 			"hc_black": "meta.embedded: #FFFFFF",
+			"2026-dark": "meta.embedded: #D4D4D4",
 			"dark_modern": "meta.embedded: #D4D4D4",
+			"2026-light": "meta.embedded: #000000",
 			"hc_light": "meta.embedded: #292929",
 			"light_modern": "meta.embedded: #000000"
 		}
@@ -64,7 +72,9 @@
 			"dark_vs": "meta.embedded: #D4D4D4",
 			"light_vs": "meta.embedded: #000000",
 			"hc_black": "entity.name.function: #DCDCAA",
+			"2026-dark": "entity.name.function: #D2A8FF",
 			"dark_modern": "entity.name.function: #DCDCAA",
+			"2026-light": "entity.name.function: #8250DF",
 			"hc_light": "entity.name.function: #5E2CBC",
 			"light_modern": "entity.name.function: #795E26"
 		}
@@ -78,7 +88,9 @@
 			"dark_vs": "meta.embedded: #D4D4D4",
 			"light_vs": "meta.embedded: #000000",
 			"hc_black": "meta.embedded: #FFFFFF",
+			"2026-dark": "meta.embedded: #D4D4D4",
 			"dark_modern": "meta.embedded: #D4D4D4",
+			"2026-light": "meta.embedded: #000000",
 			"hc_light": "meta.embedded: #292929",
 			"light_modern": "meta.embedded: #000000"
 		}
@@ -92,7 +104,9 @@
 			"dark_vs": "meta.embedded: #D4D4D4",
 			"light_vs": "meta.embedded: #000000",
 			"hc_black": "variable: #9CDCFE",
+			"2026-dark": "variable.other: #C9D1D9",
 			"dark_modern": "variable: #9CDCFE",
+			"2026-light": "variable.other: #1F2328",
 			"hc_light": "variable: #001080",
 			"light_modern": "variable: #001080"
 		}
@@ -106,7 +120,9 @@
 			"dark_vs": "keyword.operator: #D4D4D4",
 			"light_vs": "keyword.operator: #000000",
 			"hc_black": "keyword.operator: #D4D4D4",
+			"2026-dark": "keyword.operator: #D4D4D4",
 			"dark_modern": "keyword.operator: #D4D4D4",
+			"2026-light": "keyword.operator: #000000",
 			"hc_light": "keyword.operator: #000000",
 			"light_modern": "keyword.operator: #000000"
 		}
@@ -120,7 +136,9 @@
 			"dark_vs": "meta.embedded: #D4D4D4",
 			"light_vs": "meta.embedded: #000000",
 			"hc_black": "meta.embedded: #FFFFFF",
+			"2026-dark": "meta.embedded: #D4D4D4",
 			"dark_modern": "meta.embedded: #D4D4D4",
+			"2026-light": "meta.embedded: #000000",
 			"hc_light": "meta.embedded: #292929",
 			"light_modern": "meta.embedded: #000000"
 		}
@@ -134,7 +152,9 @@
 			"dark_vs": "keyword.operator: #D4D4D4",
 			"light_vs": "keyword.operator: #000000",
 			"hc_black": "keyword.operator: #D4D4D4",
+			"2026-dark": "keyword.operator: #D4D4D4",
 			"dark_modern": "keyword.operator: #D4D4D4",
+			"2026-light": "keyword.operator: #000000",
 			"hc_light": "keyword.operator: #000000",
 			"light_modern": "keyword.operator: #000000"
 		}
@@ -148,7 +168,9 @@
 			"dark_vs": "meta.embedded: #D4D4D4",
 			"light_vs": "meta.embedded: #000000",
 			"hc_black": "entity.name.type: #4EC9B0",
+			"2026-dark": "entity.name.type: #4EC9B0",
 			"dark_modern": "entity.name.type: #4EC9B0",
+			"2026-light": "entity.name.type: #267F99",
 			"hc_light": "entity.name.type: #185E73",
 			"light_modern": "entity.name.type: #267F99"
 		}
@@ -162,7 +184,9 @@
 			"dark_vs": "meta.embedded: #D4D4D4",
 			"light_vs": "meta.embedded: #000000",
 			"hc_black": "meta.embedded: #FFFFFF",
+			"2026-dark": "meta.embedded: #D4D4D4",
 			"dark_modern": "meta.embedded: #D4D4D4",
+			"2026-light": "meta.embedded: #000000",
 			"hc_light": "meta.embedded: #292929",
 			"light_modern": "meta.embedded: #000000"
 		}
@@ -176,7 +200,9 @@
 			"dark_vs": "meta.embedded: #D4D4D4",
 			"light_vs": "meta.embedded: #000000",
 			"hc_black": "meta.embedded: #FFFFFF",
+			"2026-dark": "meta.embedded: #D4D4D4",
 			"dark_modern": "meta.embedded: #D4D4D4",
+			"2026-light": "meta.embedded: #000000",
 			"hc_light": "meta.embedded: #292929",
 			"light_modern": "meta.embedded: #000000"
 		}
@@ -190,13 +216,31 @@
 			"dark_vs": "meta.embedded: #D4D4D4",
 			"light_vs": "meta.embedded: #000000",
 			"hc_black": "meta.embedded: #FFFFFF",
+			"2026-dark": "meta.embedded: #D4D4D4",
 			"dark_modern": "meta.embedded: #D4D4D4",
+			"2026-light": "meta.embedded: #000000",
 			"hc_light": "meta.embedded: #292929",
 			"light_modern": "meta.embedded: #000000"
 		}
 	},
 	{
-		"c": "// ...",
+		"c": "//",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.rust comment.line.double-slash.rust punctuation.definition.comment.rust",
+		"r": {
+			"dark_plus": "comment: #6A9955",
+			"light_plus": "comment: #008000",
+			"dark_vs": "comment: #6A9955",
+			"light_vs": "comment: #008000",
+			"hc_black": "comment: #7CA668",
+			"2026-dark": "punctuation.definition.comment: #8B949E",
+			"dark_modern": "comment: #6A9955",
+			"2026-light": "punctuation.definition.comment: #6E7781",
+			"hc_light": "comment: #515151",
+			"light_modern": "comment: #008000"
+		}
+	},
+	{
+		"c": " ...",
 		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.rust comment.line.double-slash.rust",
 		"r": {
 			"dark_plus": "comment: #6A9955",
@@ -204,7 +248,9 @@
 			"dark_vs": "comment: #6A9955",
 			"light_vs": "comment: #008000",
 			"hc_black": "comment: #7CA668",
+			"2026-dark": "comment: #8B949E",
 			"dark_modern": "comment: #6A9955",
+			"2026-light": "comment: #6E7781",
 			"hc_light": "comment: #515151",
 			"light_modern": "comment: #008000"
 		}
@@ -218,7 +264,9 @@
 			"dark_vs": "meta.embedded: #D4D4D4",
 			"light_vs": "meta.embedded: #000000",
 			"hc_black": "meta.embedded: #FFFFFF",
+			"2026-dark": "meta.embedded: #D4D4D4",
 			"dark_modern": "meta.embedded: #D4D4D4",
+			"2026-light": "meta.embedded: #000000",
 			"hc_light": "meta.embedded: #292929",
 			"light_modern": "meta.embedded: #000000"
 		}
@@ -232,7 +280,9 @@
 			"dark_vs": "default: #D4D4D4",
 			"light_vs": "default: #000000",
 			"hc_black": "default: #FFFFFF",
+			"2026-dark": "default: #BBBEBF",
 			"dark_modern": "default: #CCCCCC",
+			"2026-light": "default: #202020",
 			"hc_light": "default: #292929",
 			"light_modern": "default: #3B3B3B"
 		}
@@ -246,7 +296,9 @@
 			"dark_vs": "default: #D4D4D4",
 			"light_vs": "default: #000000",
 			"hc_black": "default: #FFFFFF",
+			"2026-dark": "default: #BBBEBF",
 			"dark_modern": "default: #CCCCCC",
+			"2026-light": "default: #202020",
 			"hc_light": "default: #292929",
 			"light_modern": "default: #3B3B3B"
 		}
@@ -260,7 +312,9 @@
 			"dark_vs": "default: #D4D4D4",
 			"light_vs": "default: #000000",
 			"hc_black": "default: #FFFFFF",
+			"2026-dark": "default: #BBBEBF",
 			"dark_modern": "default: #CCCCCC",
+			"2026-light": "default: #202020",
 			"hc_light": "default: #292929",
 			"light_modern": "default: #3B3B3B"
 		}
@@ -274,7 +328,9 @@
 			"dark_vs": "default: #D4D4D4",
 			"light_vs": "default: #000000",
 			"hc_black": "default: #FFFFFF",
+			"2026-dark": "default: #BBBEBF",
 			"dark_modern": "default: #CCCCCC",
+			"2026-light": "default: #202020",
 			"hc_light": "default: #292929",
 			"light_modern": "default: #3B3B3B"
 		}
@@ -288,7 +344,9 @@
 			"dark_vs": "keyword: #569CD6",
 			"light_vs": "keyword: #0000FF",
 			"hc_black": "keyword: #569CD6",
+			"2026-dark": "keyword: #FF7B72",
 			"dark_modern": "keyword: #569CD6",
+			"2026-light": "keyword: #CF222E",
 			"hc_light": "keyword: #0F4A85",
 			"light_modern": "keyword: #0000FF"
 		}
@@ -302,7 +360,9 @@
 			"dark_vs": "meta.embedded: #D4D4D4",
 			"light_vs": "meta.embedded: #000000",
 			"hc_black": "meta.embedded: #FFFFFF",
+			"2026-dark": "meta.embedded: #D4D4D4",
 			"dark_modern": "meta.embedded: #D4D4D4",
+			"2026-light": "meta.embedded: #000000",
 			"hc_light": "meta.embedded: #292929",
 			"light_modern": "meta.embedded: #000000"
 		}
@@ -316,7 +376,9 @@
 			"dark_vs": "meta.embedded: #D4D4D4",
 			"light_vs": "meta.embedded: #000000",
 			"hc_black": "entity.name.function: #DCDCAA",
+			"2026-dark": "entity.name.function: #D2A8FF",
 			"dark_modern": "entity.name.function: #DCDCAA",
+			"2026-light": "entity.name.function: #8250DF",
 			"hc_light": "entity.name.function: #5E2CBC",
 			"light_modern": "entity.name.function: #795E26"
 		}
@@ -330,7 +392,9 @@
 			"dark_vs": "meta.embedded: #D4D4D4",
 			"light_vs": "meta.embedded: #000000",
 			"hc_black": "meta.embedded: #FFFFFF",
+			"2026-dark": "meta.embedded: #D4D4D4",
 			"dark_modern": "meta.embedded: #D4D4D4",
+			"2026-light": "meta.embedded: #000000",
 			"hc_light": "meta.embedded: #292929",
 			"light_modern": "meta.embedded: #000000"
 		}
@@ -344,7 +408,9 @@
 			"dark_vs": "meta.embedded: #D4D4D4",
 			"light_vs": "meta.embedded: #000000",
 			"hc_black": "variable: #9CDCFE",
+			"2026-dark": "variable.other: #C9D1D9",
 			"dark_modern": "variable: #9CDCFE",
+			"2026-light": "variable.other: #1F2328",
 			"hc_light": "variable: #001080",
 			"light_modern": "variable: #001080"
 		}
@@ -358,7 +424,9 @@
 			"dark_vs": "keyword.operator: #D4D4D4",
 			"light_vs": "keyword.operator: #000000",
 			"hc_black": "keyword.operator: #D4D4D4",
+			"2026-dark": "keyword.operator: #D4D4D4",
 			"dark_modern": "keyword.operator: #D4D4D4",
+			"2026-light": "keyword.operator: #000000",
 			"hc_light": "keyword.operator: #000000",
 			"light_modern": "keyword.operator: #000000"
 		}
@@ -372,7 +440,9 @@
 			"dark_vs": "meta.embedded: #D4D4D4",
 			"light_vs": "meta.embedded: #000000",
 			"hc_black": "meta.embedded: #FFFFFF",
+			"2026-dark": "meta.embedded: #D4D4D4",
 			"dark_modern": "meta.embedded: #D4D4D4",
+			"2026-light": "meta.embedded: #000000",
 			"hc_light": "meta.embedded: #292929",
 			"light_modern": "meta.embedded: #000000"
 		}
@@ -386,7 +456,9 @@
 			"dark_vs": "keyword.operator: #D4D4D4",
 			"light_vs": "keyword.operator: #000000",
 			"hc_black": "keyword.operator: #D4D4D4",
+			"2026-dark": "keyword.operator: #D4D4D4",
 			"dark_modern": "keyword.operator: #D4D4D4",
+			"2026-light": "keyword.operator: #000000",
 			"hc_light": "keyword.operator: #000000",
 			"light_modern": "keyword.operator: #000000"
 		}
@@ -400,7 +472,9 @@
 			"dark_vs": "meta.embedded: #D4D4D4",
 			"light_vs": "meta.embedded: #000000",
 			"hc_black": "entity.name.type: #4EC9B0",
+			"2026-dark": "entity.name.type: #4EC9B0",
 			"dark_modern": "entity.name.type: #4EC9B0",
+			"2026-light": "entity.name.type: #267F99",
 			"hc_light": "entity.name.type: #185E73",
 			"light_modern": "entity.name.type: #267F99"
 		}
@@ -414,7 +488,9 @@
 			"dark_vs": "meta.embedded: #D4D4D4",
 			"light_vs": "meta.embedded: #000000",
 			"hc_black": "meta.embedded: #FFFFFF",
+			"2026-dark": "meta.embedded: #D4D4D4",
 			"dark_modern": "meta.embedded: #D4D4D4",
+			"2026-light": "meta.embedded: #000000",
 			"hc_light": "meta.embedded: #292929",
 			"light_modern": "meta.embedded: #000000"
 		}
@@ -428,7 +504,9 @@
 			"dark_vs": "meta.embedded: #D4D4D4",
 			"light_vs": "meta.embedded: #000000",
 			"hc_black": "meta.embedded: #FFFFFF",
+			"2026-dark": "meta.embedded: #D4D4D4",
 			"dark_modern": "meta.embedded: #D4D4D4",
+			"2026-light": "meta.embedded: #000000",
 			"hc_light": "meta.embedded: #292929",
 			"light_modern": "meta.embedded: #000000"
 		}
@@ -442,13 +520,31 @@
 			"dark_vs": "meta.embedded: #D4D4D4",
 			"light_vs": "meta.embedded: #000000",
 			"hc_black": "meta.embedded: #FFFFFF",
+			"2026-dark": "meta.embedded: #D4D4D4",
 			"dark_modern": "meta.embedded: #D4D4D4",
+			"2026-light": "meta.embedded: #000000",
 			"hc_light": "meta.embedded: #292929",
 			"light_modern": "meta.embedded: #000000"
 		}
 	},
 	{
-		"c": "// ...",
+		"c": "//",
+		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.rust comment.line.double-slash.rust punctuation.definition.comment.rust",
+		"r": {
+			"dark_plus": "comment: #6A9955",
+			"light_plus": "comment: #008000",
+			"dark_vs": "comment: #6A9955",
+			"light_vs": "comment: #008000",
+			"hc_black": "comment: #7CA668",
+			"2026-dark": "punctuation.definition.comment: #8B949E",
+			"dark_modern": "comment: #6A9955",
+			"2026-light": "punctuation.definition.comment: #6E7781",
+			"hc_light": "comment: #515151",
+			"light_modern": "comment: #008000"
+		}
+	},
+	{
+		"c": " ...",
 		"t": "text.html.markdown markup.fenced_code.block.markdown meta.embedded.block.rust comment.line.double-slash.rust",
 		"r": {
 			"dark_plus": "comment: #6A9955",
@@ -456,7 +552,9 @@
 			"dark_vs": "comment: #6A9955",
 			"light_vs": "comment: #008000",
 			"hc_black": "comment: #7CA668",
+			"2026-dark": "comment: #8B949E",
 			"dark_modern": "comment: #6A9955",
+			"2026-light": "comment: #6E7781",
 			"hc_light": "comment: #515151",
 			"light_modern": "comment: #008000"
 		}
@@ -470,7 +568,9 @@
 			"dark_vs": "meta.embedded: #D4D4D4",
 			"light_vs": "meta.embedded: #000000",
 			"hc_black": "meta.embedded: #FFFFFF",
+			"2026-dark": "meta.embedded: #D4D4D4",
 			"dark_modern": "meta.embedded: #D4D4D4",
+			"2026-light": "meta.embedded: #000000",
 			"hc_light": "meta.embedded: #292929",
 			"light_modern": "meta.embedded: #000000"
 		}
@@ -484,7 +584,9 @@
 			"dark_vs": "default: #D4D4D4",
 			"light_vs": "default: #000000",
 			"hc_black": "default: #FFFFFF",
+			"2026-dark": "default: #BBBEBF",
 			"dark_modern": "default: #CCCCCC",
+			"2026-light": "default: #202020",
 			"hc_light": "default: #292929",
 			"light_modern": "default: #3B3B3B"
 		}
