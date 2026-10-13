@@ -17,10 +17,10 @@ module.exports.run = function (testsRoot, cb) {
             // Run the mocha test
             mocha.run(failures => {
                 cb(null, failures);
-            }, cb);
+            });
         } catch (err) {
             console.error(err);
             cb(err);
         }
-    });
+    }, cb);
 }
