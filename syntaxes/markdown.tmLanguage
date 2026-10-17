@@ -5130,7 +5130,7 @@
           </dict>
         </dict>
         <key>match</key>
-        <string>(?&lt;![\]\\])(\[)((?:[^\s\[\]\\]|\\[\[\]])+?)((?&lt;!\\)\])</string>
+        <string>(?&lt;![\]\\])(\[)((?:[^\[\]\\]|\\[\[\]])+?)((?&lt;!\\)\])</string>
         <key>name</key>
         <string>meta.link.reference.markdown</string>
       </dict>
