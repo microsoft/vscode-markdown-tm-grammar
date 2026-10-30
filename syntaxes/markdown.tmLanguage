@@ -2488,7 +2488,7 @@
       <key>fenced_code_block_ts</key>
       <dict>
         <key>begin</key>
-        <string>(^|\G)(\s*)(`{3,}|~{3,})\s*(?i:(typescript|ts)((\s+|:|,|\{|\?)[^`]*)?$)</string>
+        <string>(^|\G)(\s*)(`{3,}|~{3,})\s*(?i:(cts|mts|typescript|ts)((\s+|:|,|\{|\?)[^`]*)?$)</string>
         <key>name</key>
         <string>markup.fenced_code.block.markdown</string>
         <key>end</key>
