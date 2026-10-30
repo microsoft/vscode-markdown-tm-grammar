@@ -62,7 +62,7 @@ const languages: Language[] = [
     { name: 'rust', language: 'rust', identifiers: ['rust', 'rs', '\\{\\.rust.+?\\}'], source: 'source.rust' },
     { name: 'scala', language: 'scala', identifiers: ['scala', 'sbt'], source: 'source.scala' },
     { name: 'shell', language: 'shellscript', identifiers: ['shell', 'sh', 'bash', 'zsh', 'bashrc', 'bash_profile', 'bash_login', 'profile', 'bash_logout', '.textmate_init', '\\{\\.bash.+?\\}'], source: 'source.shell' },
-    { name: 'ts', language: 'typescript', identifiers: ['typescript', 'ts'], source: 'source.ts' },
+    { name: 'ts', language: 'typescript', identifiers: ['cts', 'mts', 'typescript', 'ts'], source: 'source.ts' },
     { name: 'tsx', language: 'typescriptreact', identifiers: ['tsx'], source: 'source.tsx' },
     { name: 'csharp', language: 'csharp', identifiers: ['cs', 'csharp', 'c#'], source: 'source.cs' },
     { name: 'fsharp', language: 'fsharp', identifiers: ['fs', 'fsharp', 'f#'], source: 'source.fsharp' },
